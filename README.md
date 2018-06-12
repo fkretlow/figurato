@@ -1,5 +1,6 @@
 # figurato
-A figured bass font for Dorico
+A figured bass font for Dorico  
+(Tested only on Windows)
 
 Use the font in text objects or with the lyrics popover.  
 n = natural  
