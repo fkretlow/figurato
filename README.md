@@ -34,7 +34,7 @@ If you need a slashed number, type "/" (slash) or "+" (plus) after the number: "
 If you need a dash type "-" (hyphen, doesn't work in Dorico's lyrics popover) or "d".
 
 #### Parentheses and Brackets
-Rudimentary support for parentheses and brackets has been added. You can put a whole stack or an accidental in parentheses or brackets. Currently this works only with accidentals to the right of the numbers: "(4)" or "[6b]" or "24(b)"
+Rudimentary support for parentheses and brackets has been added. You can put a whole layer or an accidental in parentheses or brackets. Currently this works only with accidentals to the right of the numbers: "(4)" or "[6b]" or "24(b)"
 
 #### Italic numbers
 Numbers preceded by "i" are printed in italic: "2i4i6"
