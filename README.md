@@ -14,7 +14,7 @@ Use the font in text objects, in playing techniques or with the lyrics popover.
 `x` = double sharp  
 `/` = combining slash  
 `+` = plus  
-`-` = d = dash
+`-` = d = dash  
 `,` = separator
 
 #### Layers
