@@ -11,7 +11,7 @@ n = natural
 b = flat  
 \# = s = sharp  
 bb = double flat  
-x = double sharp 
+x = double sharp  
 / = combining slash  
 \+ = plus  
 \- = d = dash
