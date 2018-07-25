@@ -28,8 +28,8 @@ In figures with only two characters the accidental is automatically placed to th
 
 If you need a single accidental in the bottommost layer, separate it with "," (comma): "b,5"
 
-#### Slashed figures and dashes
-If you need a slashed figure, type "/" (slash) or "+" (plus) after the figure: "6/" or "6+"
+#### Slashed numbers and dashes
+If you need a slashed number, type "/" (slash) or "+" (plus) after the number: "6/" or "6+"
 
 If you need a dash type "-" (hyphen, doesn't work in Dorico's lyrics popover) or "d".
 
