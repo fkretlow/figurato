@@ -4,12 +4,12 @@ FullName: Figurato
 FamilyName: Figurato
 Weight: Standard
 Copyright: Copyright 2018 Florian Kretlow
-Version: 0.2
+Version: 0.2.1
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
-Ascent: 800
-Descent: 200
+Ascent: 350
+Descent: 150
 InvalidEm: 0
 sfntRevision: 0x00010000
 LayerCount: 4
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1324930714
-ModificationTime: 1532540266
+ModificationTime: 1532700715
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -413,7 +413,7 @@ ChainSub2: class "'calt' R acc collision avoidance-1" 9 9 9 13
   BClsList: 6 2
   FClsList:
  1
-  SeqLookup: 0 "acc.A substitution"
+  SeqLookup: 0 "acc.B substitution"
  1 2 0
   ClsList: 2
   BClsList: 6 2
@@ -478,7 +478,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57440 10 7
+WinInfo: 40 10 6
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 262144 131072 87381 190841 1048576 87381 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -523,7 +523,7 @@ SplineSet
  152 150 l 2
  152 211 139 263 103 263 c 3
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "L substitution-1" zero.L
 EndChar
 
@@ -573,7 +573,7 @@ SplineSet
  123 281 l 9
  123 56 l 2
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "L substitution-1" one.L
 EndChar
 
@@ -630,7 +630,7 @@ SplineSet
  169 45 181 57 188 82 c 1
  206 79 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Layer: 2
 SplineSet
 206 75 m 5
@@ -718,7 +718,7 @@ SplineSet
  40 -4 -1 34 -1 67 c 0
  -1 89 11 102 29 102 c 0
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "L substitution-1" three.L
 EndChar
 
@@ -778,7 +778,7 @@ SplineSet
  218 83 l 5
  172 83 l 5
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "L substitution-1" four.L
 EndChar
 
@@ -836,7 +836,7 @@ SplineSet
  149 180 200 150 200 92 c 4
  200 34 154 -4 95 -4 c 4
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "L substitution-1" five.L
 EndChar
 
@@ -888,7 +888,7 @@ SplineSet
  134 18 152 47 152 85 c 0
  152 121 137 145 106 145 c 0
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "L substitution-1" six.L
 EndChar
 
@@ -937,7 +937,7 @@ SplineSet
  4 281 l 5
  24 281 l 5
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "L substitution-1" seven.L
 EndChar
 
@@ -993,7 +993,7 @@ SplineSet
  41 -4 0 28 0 70 c 0
  0 101 23 127 51 141 c 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "L substitution-1" eight.L
 EndChar
 
@@ -1043,7 +1043,7 @@ SplineSet
  61 263 46 234 46 201 c 0
  46 160 61 136 92 136 c 0
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "L substitution-1" nine.L
 EndChar
 
@@ -1085,7 +1085,7 @@ SplineSet
  24 274 l 1
  24 -2 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: bracketright
@@ -1098,7 +1098,7 @@ AnchorPoint: "chain" 0 365 mark 0
 LayerCount: 4
 Fore
 Refer: 10 91 N -1 0 0 -1 110 272 2
-Validated: 1
+Validated: 1048577
 Substitution2: "space_parens substitution-1" space_bracketright
 EndChar
 
@@ -1142,7 +1142,7 @@ SplineSet
  40 150 23 131 23 131 c 1
  22 13 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "S substitution-1" b.S
 Substitution2: "L substitution-1" b.L
 Substitution2: "accidental.B substitution-1" b.B
@@ -1174,7 +1174,7 @@ SplineSet
  108 182 l 1
  20 162 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "S substitution-1" n.S
 Substitution2: "L substitution-1" n.L
 Substitution2: "accidental.B substitution-1" n.B
@@ -1229,7 +1229,7 @@ SplineSet
  125 4 l 1
  125 39 107 69 88 69 c 0
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "S substitution-1" x.S
 Substitution2: "L substitution-1" x.L
 Substitution2: "accidental.B substitution-1" x.B
@@ -1380,7 +1380,7 @@ SplineSet
  113 96 l 5
  113 191 l 5
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "S substitution-1" numbersign.S
 Substitution2: "L substitution-1" numbersign.L
 Substitution2: "accidental.B substitution-1" numbersign.B
@@ -1390,6 +1390,7 @@ EndChar
 StartChar: hyphen
 Encoding: 45 45 18
 Width: 0
+VWidth: 1000
 Flags: HMW
 AnchorPoint: "chain" 240 365 basemark 0
 AnchorPoint: "chain" 240 0 mark 0
@@ -1402,12 +1403,14 @@ SplineSet
  250 123 l 1
  0 123 l 1
 EndSplineSet
+Validated: 1048577
 Substitution2: "L substitution-1" hyphen.L
 EndChar
 
 StartChar: uni001A
 Encoding: 26 26 19
 Width: 0
+VWidth: 1000
 LayerCount: 4
 Back
 SplineSet
@@ -1468,7 +1471,7 @@ SplineSet
  89 288 l 1
  58 256 28 198 28 130 c 0
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: parenright
@@ -1481,7 +1484,7 @@ AnchorPoint: "chain" 0 365 mark 0
 LayerCount: 4
 Fore
 Refer: 20 40 S -1 0 0 -1 125 260 2
-Validated: 1
+Validated: 1048577
 Substitution2: "space_parens substitution-1" space_parenright
 EndChar
 
@@ -1667,7 +1670,7 @@ SplineSet
  108 139 l 1
  108 237 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "L substitution-1" plus.L
 EndChar
 
@@ -1711,7 +1714,7 @@ SplineSet
  308 59 l 1
  308 -35 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Layer: 2
 SplineSet
 206 79 m 5
@@ -1814,7 +1817,7 @@ SplineSet
  302 83 l 1
  302 -7 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Layer: 2
 SplineSet
 172 83 m 5
@@ -1891,7 +1894,7 @@ SplineSet
  54 29 63 18 87 18 c 0
  123 18 147 43 147 93 c 0
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Layer: 2
 SplineSet
 147 93 m 0
@@ -1963,7 +1966,7 @@ SplineSet
  91 232 l 1
  69 211 56 179 56 128 c 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Layer: 2
 SplineSet
 -13 310 m 5
@@ -2025,7 +2028,7 @@ SplineSet
  4 281 l 1
  24 281 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Layer: 2
 SplineSet
 44 129 m 5
@@ -2087,7 +2090,7 @@ SplineSet
  107 51 l 1
  137 76 150 112 150 150 c 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Layer: 2
 SplineSet
 5 85 m 5
@@ -2181,7 +2184,7 @@ SplineSet
  154 145 138 115 138 115 c 1
  137 13 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Layer: 2
 SplineSet
 137 328 m 5
@@ -2240,7 +2243,7 @@ LayerCount: 4
 Fore
 Refer: 1 49 N 1 0 0 1 0 0 2
 Refer: 0 48 N 1 0 0 1 200 0 2
-Validated: 1
+Validated: 1048577
 Ligature2: "BaseLigatures-1" one zero
 LCarets2: 1 0
 EndChar
@@ -2255,7 +2258,7 @@ AnchorPoint: "chain" 215 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 17 35 N 1 0 0 1 0 -50 2
-Validated: 1
+Validated: 1048577
 LCarets2: 1 0
 LCarets2: 1 0
 Substitution2: "L substitution-1" numbersign.S.L
@@ -2272,7 +2275,7 @@ AnchorPoint: "chain" 195 0 mark 0
 LayerCount: 4
 Fore
 Refer: 12 98 S 1 0 0 1 0 -60 2
-Validated: 1
+Validated: 1048577
 Ligature2: "BaseLigatures-1" b period
 Substitution2: "L substitution-1" b.S.L
 EndChar
@@ -2287,7 +2290,7 @@ AnchorPoint: "chain" 190 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 13 110 S 1 0 0 1 0 -40 2
-Validated: 1
+Validated: 1048577
 Ligature2: "BaseLigatures-1" n period
 Substitution2: "L substitution-1" n.S.L
 EndChar
@@ -2312,7 +2315,7 @@ AnchorPoint: "chain" 220 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 33 57350 S 1 0 0 1 0 -60 2
-Validated: 1
+Validated: 1048577
 Ligature2: "BaseLigatures-1" b b period
 Substitution2: "L substitution-1" b_b.S.L
 EndChar
@@ -2327,7 +2330,7 @@ AnchorPoint: "chain" 210 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 14 120 S 1 0 0 1 0 60 2
-Validated: 1
+Validated: 1048577
 Ligature2: "BaseLigatures-1" x period
 Substitution2: "L substitution-1" x.S.L
 EndChar
@@ -2354,7 +2357,6 @@ SplineSet
  24 659 l 1
  24 -22 l 1xd0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: parenleft_s_parenright
@@ -2384,7 +2386,7 @@ SplineSet
  53 242 27 193 27 135 c 0
 EndSplineSet
 Refer: 17 35 S 1 0 0 1 113 0 2
-Validated: 1
+Validated: 1048577
 LCarets2: 2 0 0
 Ligature2: "BaseLigatures-1" parenleft numbersign parenright
 Ligature2: "BaseLigatures-1" parenleft s parenright
@@ -2417,7 +2419,7 @@ SplineSet
  53 237 27 188 27 130 c 0
 EndSplineSet
 Refer: 12 98 S 1 0 0 1 125 0 2
-Validated: 1
+Validated: 1048577
 LCarets2: 2 0 0
 Ligature2: "BaseLigatures-1" parenleft b parenright
 EndChar
@@ -2449,7 +2451,7 @@ SplineSet
  53 227 27 178 27 120 c 0
 EndSplineSet
 Refer: 13 110 N 1 0 0 1 120 0 2
-Validated: 1
+Validated: 1048577
 LCarets2: 2 0 0
 Ligature2: "BaseLigatures-1" parenleft n parenright
 EndChar
@@ -2482,7 +2484,7 @@ SplineSet
  51 203 25 161 25 110 c 0
 EndSplineSet
 Refer: 14 120 N 1 0 0 1 103 20 2
-Validated: 1
+Validated: 1048577
 LCarets2: 2 0 0
 Ligature2: "BaseLigatures-1" parenleft x parenright
 EndChar
@@ -2514,7 +2516,7 @@ SplineSet
  53 237 27 188 27 130 c 0
 EndSplineSet
 Refer: 33 57350 S 1 0 0 1 120 0 2
-Validated: 1
+Validated: 1048577
 LCarets2: 3 0 0 0
 Ligature2: "BaseLigatures-1" parenleft b b parenright
 EndChar
@@ -2551,7 +2553,7 @@ SplineSet
  24 3 l 1xd0
 EndSplineSet
 Refer: 17 35 N 1 0 0 1 111 0 2
-Validated: 1
+Validated: 1048577
 LCarets2: 2 0 0
 Ligature2: "BaseLigatures-1" bracketleft s bracketright
 Ligature2: "BaseLigatures-1" bracketleft numbersign bracketright
@@ -2589,7 +2591,7 @@ SplineSet
  24 8 l 1xd0
 EndSplineSet
 Refer: 12 98 N 1 0 0 1 120 0 2
-Validated: 1
+Validated: 1048577
 LCarets2: 2 0 0
 Ligature2: "BaseLigatures-1" bracketleft b bracketright
 EndChar
@@ -2626,7 +2628,7 @@ SplineSet
  23 -2 l 1xd0
 EndSplineSet
 Refer: 13 110 N 1 0 0 1 115 0 2
-Validated: 1
+Validated: 1048577
 LCarets2: 2 0 0
 Ligature2: "BaseLigatures-1" bracketleft n bracketright
 EndChar
@@ -2663,7 +2665,7 @@ SplineSet
  24 13 l 1xd0
 EndSplineSet
 Refer: 14 120 N 1 0 0 1 103 10 2
-Validated: 1
+Validated: 1048577
 LCarets2: 2 0 0
 Ligature2: "BaseLigatures-1" bracketleft x bracketright
 EndChar
@@ -2700,7 +2702,7 @@ SplineSet
  24 8 l 1xd0
 EndSplineSet
 Refer: 33 57350 N 1 0 0 1 115 0 2
-Validated: 1
+Validated: 1048577
 LCarets2: 3 0 0 0
 Ligature2: "BaseLigatures-1" bracketleft b b bracketright
 EndChar
@@ -2715,7 +2717,7 @@ AnchorPoint: "chain" 0 365 mark 0
 LayerCount: 4
 Fore
 Refer: 20 40 S -1 0 0 -1 325 260 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: space_bracketright
@@ -2728,7 +2730,7 @@ AnchorPoint: "chain" 0 365 mark 0
 LayerCount: 4
 Fore
 Refer: 10 91 S -1 0 0 -1 320 272 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: numbersign.A
@@ -2736,12 +2738,12 @@ Encoding: 57400 57400 55
 Width: 0
 VWidth: 0
 Flags: W
-AnchorPoint: "chain" -113 365 basemark 0
-AnchorPoint: "chain" -113 365 mark 0
+AnchorPoint: "chain" -123 365 basemark 0
+AnchorPoint: "chain" -123 365 mark 0
 LayerCount: 4
 Fore
-Refer: 17 35 S 1 0 0 1 0 0 2
-Validated: 1
+Refer: 17 35 N 1 0 0 1 0 30 2
+Validated: 1048577
 EndChar
 
 StartChar: numbersign.B
@@ -2749,12 +2751,12 @@ Encoding: 57401 57401 56
 Width: 0
 VWidth: 0
 Flags: W
-AnchorPoint: "chain" -73 365 basemark 0
-AnchorPoint: "chain" -73 365 mark 0
+AnchorPoint: "chain" -183 365 basemark 0
+AnchorPoint: "chain" -183 365 mark 0
 LayerCount: 4
 Fore
-Refer: 17 35 N 1 0 0 1 0 0 2
-Validated: 1
+Refer: 17 35 N 1 0 0 1 0 40 2
+Validated: 1048577
 EndChar
 
 StartChar: b.A
@@ -2767,7 +2769,7 @@ AnchorPoint: "chain" -130 365 mark 0
 LayerCount: 4
 Fore
 Refer: 12 98 S 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: b.B
@@ -2780,7 +2782,7 @@ AnchorPoint: "chain" -170 365 mark 0
 LayerCount: 4
 Fore
 Refer: 12 98 N 1 0 0 1 -50 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: n.A
@@ -2792,8 +2794,8 @@ AnchorPoint: "chain" -130 365 basemark 0
 AnchorPoint: "chain" -130 365 mark 0
 LayerCount: 4
 Fore
-Refer: 13 110 S 1 0 0 1 0 0 2
-Validated: 1
+Refer: 13 110 N 1 0 0 1 0 0 2
+Validated: 1048577
 EndChar
 
 StartChar: n.B
@@ -2801,12 +2803,12 @@ Encoding: 57405 57405 60
 Width: 0
 VWidth: 0
 Flags: W
-AnchorPoint: "chain" -170 365 basemark 0
-AnchorPoint: "chain" -170 365 mark 0
+AnchorPoint: "chain" -140 365 basemark 0
+AnchorPoint: "chain" -140 365 mark 0
 LayerCount: 4
 Fore
-Refer: 13 110 S 1 0 0 1 0 0 2
-Validated: 1
+Refer: 13 110 N 1 0 0 1 0 40 2
+Validated: 1048577
 EndChar
 
 StartChar: b_b.A
@@ -2819,7 +2821,7 @@ AnchorPoint: "chain" -130 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 33 57350 S 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: b_b.B
@@ -2832,7 +2834,7 @@ AnchorPoint: "chain" -170 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 33 57350 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: x.A
@@ -2845,7 +2847,7 @@ AnchorPoint: "chain" -120 365 mark 0
 LayerCount: 4
 Fore
 Refer: 14 120 S 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: x.B
@@ -2858,7 +2860,7 @@ AnchorPoint: "chain" -160 365 mark 0
 LayerCount: 4
 Fore
 Refer: 14 120 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: zero.L
@@ -2871,7 +2873,7 @@ AnchorPoint: "chainleft" -30 0 mark 0
 LayerCount: 4
 Fore
 Refer: 0 48 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: one.L
@@ -2884,7 +2886,7 @@ AnchorPoint: "chainleft" -30 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 1 49 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: two.L
@@ -2896,8 +2898,8 @@ AnchorPoint: "chainleft" -30 0 mark 0
 AnchorPoint: "chainleft" -30 365 basemark 0
 LayerCount: 4
 Fore
-Refer: 2 50 S 1 0 0 1 0 0 2
-Validated: 1
+Refer: 2 50 N 1 0 0 1 0 0 2
+Validated: 1048577
 EndChar
 
 StartChar: three.L
@@ -2910,7 +2912,7 @@ AnchorPoint: "chainleft" -30 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 3 51 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: four.L
@@ -2923,7 +2925,7 @@ AnchorPoint: "chainleft" -30 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 4 52 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: five.L
@@ -2936,7 +2938,7 @@ AnchorPoint: "chainleft" -30 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 5 53 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: six.L
@@ -2949,7 +2951,7 @@ AnchorPoint: "chainleft" -30 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 6 54 S 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: seven.L
@@ -2962,7 +2964,7 @@ AnchorPoint: "chainleft" -30 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 7 55 S 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: eight.L
@@ -2975,7 +2977,7 @@ AnchorPoint: "chainleft" -30 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 8 56 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: nine.L
@@ -2988,7 +2990,7 @@ AnchorPoint: "chainleft" -30 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 9 57 S 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: comma
@@ -3000,7 +3002,7 @@ AnchorPoint: "chain" 0 365 basemark 0
 AnchorPoint: "chain" 0 0 mark 0
 LayerCount: 4
 Fore
-Validated: 1
+Validated: 1048577
 Substitution2: "sep substitution-1" comma.sep
 Substitution2: "Lsep substitution-1" comma.Lsep
 Substitution2: "L substitution-1" comma.L
@@ -3009,6 +3011,7 @@ EndChar
 StartChar: d
 Encoding: 100 100 76
 Width: 0
+VWidth: 1000
 Flags: W
 HStem: 123 28<0 250>
 VStem: 0 250<123 151>
@@ -3023,6 +3026,7 @@ SplineSet
  250 123 l 1
  0 123 l 1
 EndSplineSet
+Validated: 1048577
 Substitution2: "L substitution-1" hyphen.L
 EndChar
 
@@ -3036,7 +3040,7 @@ AnchorPoint: "chain" -33 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 17 35 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 Substitution2: "L substitution-1" numbersign.L
 Substitution2: "accidental.B substitution-1" numbersign.B
 Substitution2: "accidental.A substitiution-1" numbersign.A
@@ -3054,7 +3058,6 @@ AnchorPoint: "chain" 0 365 mark 0
 LayerCount: 4
 Fore
 Refer: 42 81 N -1 0 0 -1 110 272 2
-Validated: 1
 EndChar
 
 StartChar: numbersign.L
@@ -3067,7 +3070,7 @@ AnchorPoint: "chainleft" 207 0 mark 0
 LayerCount: 4
 Fore
 Refer: 17 35 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 Substitution2: "accidental.B substitution-1" numbersign.L.B
 Substitution2: "accidental.A substitiution-1" numbersign.L.A
 EndChar
@@ -3082,7 +3085,7 @@ AnchorPoint: "chainleft" 190 0 basemark 0
 LayerCount: 4
 Fore
 Refer: 12 98 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 Substitution2: "accidental.A substitiution-1" b.L.A
 EndChar
 
@@ -3096,7 +3099,7 @@ AnchorPoint: "chainleft" 180 0 basemark 0
 LayerCount: 4
 Fore
 Refer: 13 110 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 Substitution2: "accidental.A substitiution-1" n.L.A
 EndChar
 
@@ -3110,7 +3113,7 @@ AnchorPoint: "chainleft" 210 0 basemark 0
 LayerCount: 4
 Fore
 Refer: 14 120 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 Substitution2: "accidental.A substitiution-1" x.L.A
 EndChar
 
@@ -3124,7 +3127,7 @@ AnchorPoint: "chainleft" -30 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 35 57351 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: b_b.L
@@ -3137,7 +3140,7 @@ AnchorPoint: "chainleft" 280 0 basemark 0
 LayerCount: 4
 Fore
 Refer: 33 57350 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 Substitution2: "accidental.A substitiution-1" b_b.L.A
 EndChar
 
@@ -3150,7 +3153,7 @@ AnchorPoint: "chainleft" 0 365 basemark 0
 AnchorPoint: "chainleft" 0 0 mark 0
 LayerCount: 4
 Fore
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: comma.Lsep
@@ -3162,7 +3165,7 @@ AnchorPoint: "chainleft" 0 0 basemark 0
 AnchorPoint: "chainleft" 0 0 mark 0
 LayerCount: 4
 Fore
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: two_slash.L
@@ -3175,7 +3178,7 @@ AnchorPoint: "chainleft" -30 0 mark 0
 LayerCount: 4
 Fore
 Refer: 27 57344 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: four_slash.L
@@ -3188,7 +3191,7 @@ AnchorPoint: "chainleft" -30 0 mark 0
 LayerCount: 4
 Fore
 Refer: 28 57345 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: five_slash.L
@@ -3201,7 +3204,7 @@ AnchorPoint: "chainleft" -30 0 mark 0
 LayerCount: 4
 Fore
 Refer: 29 57346 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: six_slash.L
@@ -3214,7 +3217,7 @@ AnchorPoint: "chainleft" -21 0 mark 0
 LayerCount: 4
 Fore
 Refer: 30 57347 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: seven_slash.L
@@ -3227,7 +3230,7 @@ AnchorPoint: "chainleft" -30 0 mark 0
 LayerCount: 4
 Fore
 Refer: 31 57348 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: nine_slash.L
@@ -3240,7 +3243,7 @@ AnchorPoint: "chainleft" -30 0 mark 0
 LayerCount: 4
 Fore
 Refer: 32 57349 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: plus.L
@@ -3253,18 +3256,20 @@ AnchorPoint: "chainleft" 240 0 basemark 0
 LayerCount: 4
 Fore
 Refer: 26 43 N 1 0 0 1 -10 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: hyphen.L
 Encoding: 57475 57475 94
 Width: 0
+VWidth: 1000
 Flags: W
 AnchorPoint: "chainleft" -10 0 mark 0
 AnchorPoint: "chainleft" -10 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 18 45 N 1 0 0 1 0 0 2
+Validated: 1048577
 EndChar
 
 StartChar: numbersign.S.L
@@ -3277,7 +3282,7 @@ AnchorPoint: "chainleft" -50 0 mark 0
 LayerCount: 4
 Fore
 Refer: 17 35 S 1 0 0 1 0 -50 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: b.S.L
@@ -3290,7 +3295,7 @@ AnchorPoint: "chainleft" -70 0 mark 0
 LayerCount: 4
 Fore
 Refer: 12 98 S 1 0 0 1 0 -60 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: n.S.L
@@ -3303,7 +3308,7 @@ AnchorPoint: "chainleft" -60 0 mark 0
 LayerCount: 4
 Fore
 Refer: 13 110 S 1 0 0 1 0 -40 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: b_b.S.L
@@ -3316,7 +3321,7 @@ AnchorPoint: "chainleft" -30 0 mark 0
 LayerCount: 4
 Fore
 Refer: 33 57350 S 1 0 0 1 0 -60 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: x.S.L
@@ -3329,7 +3334,7 @@ AnchorPoint: "chainleft" -45 0 mark 0
 LayerCount: 4
 Fore
 Refer: 14 120 S 1 0 0 1 0 60 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: comma.sep
@@ -3341,7 +3346,7 @@ AnchorPoint: "chain" 0 0 basemark 0
 AnchorPoint: "chain" 0 0 mark 0
 LayerCount: 4
 Fore
-Validated: 1
+Validated: 1048577
 Substitution2: "L substitution-1" comma.Lsep
 EndChar
 
@@ -3355,7 +3360,7 @@ AnchorPoint: "chainleft" 287 0 mark 0
 LayerCount: 4
 Fore
 Refer: 17 35 N 1 0 0 1 0 -30 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: b.L.A
@@ -3368,7 +3373,7 @@ AnchorPoint: "chainleft" 270 0 basemark 0
 LayerCount: 4
 Fore
 Refer: 12 98 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: n.L.A
@@ -3381,7 +3386,7 @@ AnchorPoint: "chainleft" 260 0 basemark 0
 LayerCount: 4
 Fore
 Refer: 13 110 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: x.L.A
@@ -3394,7 +3399,7 @@ AnchorPoint: "chainleft" 290 0 basemark 0
 LayerCount: 4
 Fore
 Refer: 14 120 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: b_b.L.A
@@ -3407,7 +3412,7 @@ AnchorPoint: "chainleft" 360 0 basemark 0
 LayerCount: 4
 Fore
 Refer: 33 57350 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: numbersign.L.B
@@ -3415,12 +3420,12 @@ Encoding: 57486 57486 106
 Width: 0
 VWidth: 0
 Flags: W
-AnchorPoint: "chainleft" 247 0 basemark 0
-AnchorPoint: "chainleft" 247 0 mark 0
+AnchorPoint: "chainleft" 367 0 basemark 0
+AnchorPoint: "chainleft" 367 0 mark 0
 LayerCount: 4
 Fore
-Refer: 17 35 N 1 0 0 1 0 -30 2
-Validated: 1
+Refer: 17 35 N 1 0 0 1 0 -40 2
+Validated: 1048577
 EndChar
 
 StartChar: b.nolig
@@ -3449,7 +3454,7 @@ SplineSet
  40 150 23 131 23 131 c 1
  22 13 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "S substitution-1" b.S
 Ligature2: "Nolig ligature-1" b comma
 EndChar
@@ -3477,7 +3482,7 @@ SplineSet
  109 17 132 63 148 121 c 0
  156 148 165 186 165 212 c 0
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "L substitution-1" i_zero.L
 LCarets2: 1 0
 Ligature2: "'liga' italic figures-1" i zero
@@ -3512,7 +3517,7 @@ SplineSet
  155 281 l 9
  103 56 l 2
 EndSplineSet
-Validated: 1
+Validated: 1048577
 LCarets2: 1 0
 Substitution2: "L substitution-1" i_one.L
 Ligature2: "'liga' italic figures-1" i one
@@ -3548,7 +3553,7 @@ SplineSet
  76 225 91 223 91 204 c 0
  91 188 79 171 59 171 c 0
 EndSplineSet
-Validated: 1
+Validated: 1048577
 LCarets2: 1 0
 Substitution2: "L substitution-1" i_two.L
 Ligature2: "'liga' italic figures-1" i two
@@ -3589,7 +3594,7 @@ SplineSet
  18 -3 -18 30 -18 62 c 0
  -18 88 1 105 17 105 c 0
 EndSplineSet
-Validated: 1
+Validated: 1048577
 LCarets2: 1 0
 Substitution2: "L substitution-1" i_three.L
 Ligature2: "'liga' italic figures-1" i three
@@ -3628,7 +3633,7 @@ SplineSet
  206 83 l 1
  158 83 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "L substitution-1" i_four.L
 LCarets2: 1 0
 Ligature2: "'liga' italic figures-1" i four
@@ -3665,7 +3670,7 @@ SplineSet
  149 180 188 151 188 103 c 0
  188 38 124 -3 67 -3 c 0
 EndSplineSet
-Validated: 1
+Validated: 1048577
 LCarets2: 1 0
 Substitution2: "L substitution-1" i_five.L
 Ligature2: "'liga' italic figures-1" i five
@@ -3701,6 +3706,7 @@ SplineSet
  41 74 40 68 40 63 c 0
  40 34 56 18 81 18 c 0
 EndSplineSet
+Validated: 1048577
 LCarets2: 1 0
 Substitution2: "L substitution-1" i_six.L
 Ligature2: "'liga' italic figures-1" i six
@@ -3734,7 +3740,7 @@ SplineSet
  21 25 22 27 22 30 c 0
  33 85 106 143 166 218 c 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "L substitution-1" i_seven.L
 Ligature2: "'liga' italic figures-1" i seven
 EndChar
@@ -3769,7 +3775,7 @@ SplineSet
  180 24 128 -7 82 -7 c 0
  22 -7 -20 29 -20 68 c 0
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "L substitution-1" i_eight.L
 Ligature2: "'liga' italic figures-1" i eight
 EndChar
@@ -3801,7 +3807,7 @@ SplineSet
  160 243 142 262 114 262 c 0
  75 262 56 220 56 178 c 0
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "L substitution-1" i_nine.L
 Ligature2: "'liga' italic figures-1" i nine
 EndChar
@@ -3817,7 +3823,7 @@ LayerCount: 4
 Fore
 Refer: 108 57380 N 1 0 0 1 110 0 2
 Refer: 109 57381 N 1 0 0 1 -80 0 2
-Validated: 1
+Validated: 1048577
 Substitution2: "L substitution-1" i_one_zero.L
 Ligature2: "'liga' italic figures-2" i one zero
 EndChar
@@ -3842,7 +3848,7 @@ AnchorPoint: "chainleft" -30 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 108 57380 S 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: i_one.L
@@ -3855,7 +3861,7 @@ AnchorPoint: "chainleft" -30 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 109 57381 S 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: i_two.L
@@ -3868,7 +3874,7 @@ AnchorPoint: "chainleft" -30 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 110 57382 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: i_three.L
@@ -3881,7 +3887,7 @@ AnchorPoint: "chainleft" -30 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 111 57383 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: i_four.L
@@ -3894,7 +3900,7 @@ AnchorPoint: "chainleft" -30 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 112 57384 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: i_five.L
@@ -3907,7 +3913,7 @@ AnchorPoint: "chainleft" -30 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 113 57385 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: i_six.L
@@ -3920,6 +3926,7 @@ AnchorPoint: "chainleft" -30 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 114 57386 N 1 0 0 1 0 0 2
+Validated: 1048577
 EndChar
 
 StartChar: i_seven.L
@@ -3932,7 +3939,7 @@ AnchorPoint: "chainleft" -30 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 115 57387 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: i_eight.L
@@ -3945,7 +3952,7 @@ AnchorPoint: "chainleft" -30 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 116 57388 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: i_nine.L
@@ -3958,7 +3965,7 @@ AnchorPoint: "chainleft" -30 365 basemark 0
 LayerCount: 4
 Fore
 Refer: 117 57389 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: i_one_zero.L
@@ -3972,7 +3979,7 @@ LayerCount: 4
 Fore
 Refer: 108 57380 S 1 0 0 1 110 0 2
 Refer: 109 57381 S 1 0 0 1 -80 0 2
-Validated: 1
+Validated: 1048577
 EndChar
 EndChars
 EndSplineFont
