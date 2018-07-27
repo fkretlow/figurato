@@ -4,7 +4,7 @@ FullName: Figurato
 FamilyName: Figurato
 Weight: Standard
 Copyright: Copyright 2018 Florian Kretlow
-Version: 0.2.1
+Version: 0.2.2
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1324930714
-ModificationTime: 1532700715
+ModificationTime: 1532720349
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -2357,6 +2357,7 @@ SplineSet
  24 659 l 1
  24 -22 l 1xd0
 EndSplineSet
+Validated: 1048577
 EndChar
 
 StartChar: parenleft_s_parenright
@@ -3041,6 +3042,7 @@ LayerCount: 4
 Fore
 Refer: 17 35 N 1 0 0 1 0 0 2
 Validated: 1048577
+Substitution2: "S substitution-1" numbersign.S
 Substitution2: "L substitution-1" numbersign.L
 Substitution2: "accidental.B substitution-1" numbersign.B
 Substitution2: "accidental.A substitiution-1" numbersign.A
@@ -3058,6 +3060,7 @@ AnchorPoint: "chain" 0 365 mark 0
 LayerCount: 4
 Fore
 Refer: 42 81 N -1 0 0 -1 110 272 2
+Validated: 1048577
 EndChar
 
 StartChar: numbersign.L
