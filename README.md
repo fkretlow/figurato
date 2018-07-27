@@ -2,7 +2,8 @@
 A figured bass font for Dorico  
 (Figurato works more or less as expected in Finale 25 as well.)  
 **Tested only on Windows!**  
-Version 0.2.1 (2018–07–27)
+Version 0.2.1 (2018–07–27)  
+**The line height has been reduced. Change the font size in documents that were created with a version prior to 0.2.1 to 50%. I recommend 9pt absolute.**
 
 Use the font in text objects, in playing techniques or with the lyrics popover.  
 
