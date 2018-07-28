@@ -4,7 +4,7 @@ FullName: Figurato
 FamilyName: Figurato
 Weight: Standard
 Copyright: Copyright 2018 Florian Kretlow
-Version: 0.2.2
+Version: 0.2.3
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1324930714
-ModificationTime: 1532720349
+ModificationTime: 1532814671
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -43,8 +43,8 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 4 0 0 "BaseLigatures" { "BaseLigatures-1"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 1 "'liga' italic figures" { "'liga' italic figures-2"  "'liga' italic figures-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 0 "BaseLigatures" { "BaseLigatures-1"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' nolig" { "'calt' nolig-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' L R S" { "'calt' L R S conditions"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' L cascade" { "'calt' L cascade-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -221,11 +221,11 @@ ChainSub2: class "'calt' L acc collision avoidance-1" 8 8 8 18
 EndFPST
 ChainSub2: class "'calt' L cascade-1" 3 3 3 4
   Class: 367 zero.L one.L two.L three.L four.L five.L six.L seven.L eight.L nine.L one_zero.L numbersign.L b.L n.L x.L b_b.L comma.L comma.Lsep two_slash.L four_slash.L five_slash.L six_slash.L seven_slash.L nine_slash.L plus.L hyphen.L n.S.L numbersign.S.L b.S.L x.S.L b_b.S.L i_zero.L i_one.L i_two.L i_three.L i_four.L i_five.L i_six.L i_seven.L i_eight.L i_nine.L i_one_zero.L
-  Class: 279 numbersign zero one two three four five six seven eight nine b n s x b_b comma two_slash four_slash five_slash six_slash seven_slash nine_slash plus hyphen d n.S numbersign.S b.S x.S b_b.S comma.sep i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
+  Class: 286 numbersign zero one two three four five six seven eight nine b n s x b_b comma two_slash four_slash five_slash six_slash seven_slash nine_slash plus hyphen d endash n.S numbersign.S b.S x.S b_b.S comma.sep i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   BClass: 367 zero.L one.L two.L three.L four.L five.L six.L seven.L eight.L nine.L one_zero.L numbersign.L b.L n.L x.L b_b.L comma.L comma.Lsep two_slash.L four_slash.L five_slash.L six_slash.L seven_slash.L nine_slash.L plus.L hyphen.L n.S.L numbersign.S.L b.S.L x.S.L b_b.S.L i_zero.L i_one.L i_two.L i_three.L i_four.L i_five.L i_six.L i_seven.L i_eight.L i_nine.L i_one_zero.L
-  BClass: 279 numbersign zero one two three four five six seven eight nine b n s x b_b comma two_slash four_slash five_slash six_slash seven_slash nine_slash plus hyphen d n.S numbersign.S b.S x.S b_b.S comma.sep i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
+  BClass: 286 numbersign zero one two three four five six seven eight nine b n s x b_b comma two_slash four_slash five_slash six_slash seven_slash nine_slash plus hyphen d endash n.S numbersign.S b.S x.S b_b.S comma.sep i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FClass: 367 zero.L one.L two.L three.L four.L five.L six.L seven.L eight.L nine.L one_zero.L numbersign.L b.L n.L x.L b_b.L comma.L comma.Lsep two_slash.L four_slash.L five_slash.L six_slash.L seven_slash.L nine_slash.L plus.L hyphen.L n.S.L numbersign.S.L b.S.L x.S.L b_b.S.L i_zero.L i_one.L i_two.L i_three.L i_four.L i_five.L i_six.L i_seven.L i_eight.L i_nine.L i_one_zero.L
-  FClass: 279 numbersign zero one two three four five six seven eight nine b n s x b_b comma two_slash four_slash five_slash six_slash seven_slash nine_slash plus hyphen d n.S numbersign.S b.S x.S b_b.S comma.sep i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
+  FClass: 286 numbersign zero one two three four five six seven eight nine b n s x b_b comma two_slash four_slash five_slash six_slash seven_slash nine_slash plus hyphen d endash n.S numbersign.S b.S x.S b_b.S comma.sep i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1 1 0
   ClsList: 2
   BClsList: 1
@@ -254,23 +254,31 @@ ChainSub2: class "'calt' L cascade-1" 3 3 3 4
   BClassNames: "All_Others" "L" "notL"
   FClassNames: "All_Others" "L" "notL"
 EndFPST
-ChainSub2: class "'calt' L R S conditions" 5 5 5 13
-  Class: 205 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash hyphen d i_zero i_one i_two i_three i_four i_five i_six i_seven i_nine i_one_zero
+ChainSub2: class "'calt' L R S conditions" 6 6 6 16
+  Class: 131 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_nine i_one_zero
   Class: 35 n numbersign s b x b_b plus b.nolig
   Class: 5 comma
   Class: 30 numbersign.S b.S n.S x.S b_b.S
-  BClass: 205 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash hyphen d i_zero i_one i_two i_three i_four i_five i_six i_seven i_nine i_one_zero
+  Class: 80 two_slash four_slash five_slash six_slash seven_slash nine_slash hyphen d endash
+  BClass: 131 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_nine i_one_zero
   BClass: 35 n numbersign s b x b_b plus b.nolig
   BClass: 5 comma
   BClass: 30 numbersign.S b.S n.S x.S b_b.S
-  FClass: 205 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash hyphen d i_zero i_one i_two i_three i_four i_five i_six i_seven i_nine i_one_zero
+  BClass: 80 two_slash four_slash five_slash six_slash seven_slash nine_slash hyphen d endash
+  FClass: 131 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_nine i_one_zero
   FClass: 35 n numbersign s b x b_b plus b.nolig
   FClass: 5 comma
   FClass: 30 numbersign.S b.S n.S x.S b_b.S
+  FClass: 80 two_slash four_slash five_slash six_slash seven_slash nine_slash hyphen d endash
  1 1 1
   ClsList: 2
   BClsList: 1
   FClsList: 1
+ 0
+ 1 1 1
+  ClsList: 2
+  BClsList: 1
+  FClsList: 5
  0
  1 1 2
   ClsList: 2
@@ -307,6 +315,12 @@ ChainSub2: class "'calt' L R S conditions" 5 5 5 13
   FClsList: 3 2 1
  1
   SeqLookup: 0 "S substitution"
+ 1 0 1
+  ClsList: 2
+  BClsList:
+  FClsList: 5
+ 1
+  SeqLookup: 0 "S substitution"
  1 1 2
   ClsList: 3
   BClsList: 1
@@ -338,14 +352,20 @@ ChainSub2: class "'calt' L R S conditions" 5 5 5 13
  1
   SeqLookup: 0 "L substitution"
  1 1 1
+  ClsList: 2
+  BClsList: 5
+  FClsList: 1
+ 1
+  SeqLookup: 0 "L substitution"
+ 1 1 1
   ClsList: 3
   BClsList: 4
   FClsList: 3
  1
   SeqLookup: 0 "sep substitution"
-  ClassNames: "All_Others" "fig" "acc" "comma" "S"
-  BClassNames: "All_Others" "fig" "acc" "comma" "S"
-  FClassNames: "All_Others" "fig" "acc" "comma" "S"
+  ClassNames: "All_Others" "fig" "acc" "comma" "S" "fignoacc"
+  BClassNames: "All_Others" "fig" "acc" "comma" "S" "fignoacc"
+  FClassNames: "All_Others" "fig" "acc" "comma" "S" "fignoacc"
 EndFPST
 ChainSub2: class "'calt' R acc collision avoidance-1" 9 9 9 13
   Class: 1 n
@@ -478,12 +498,12 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 40 10 6
+WinInfo: 8200 10 6
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 262144 131072 87381 190841 1048576 87381 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "chainleft" "'mkmk' Mark to Mark in Latin lookup 4-1" "chain" "'mkmk' Mark to Mark in Latin lookup 4-1" "acc""" 
-BeginChars: 1114112 131
+BeginChars: 1114112 132
 
 StartChar: zero
 Encoding: 48 48 0
@@ -736,30 +756,6 @@ SplineSet
  172 48 l 6
  172 29 192 20 206 20 c 5
  206 0 l 5
- 85 0 l 5
- 85 20 l 5
- 95 20 l 6
- 109 20 131 27 131 48 c 6
- 131 83 l 5
- 0 83 l 5
- 0 103 l 5
- 35 161 59 215 76 281 c 5
- 137 281 l 5
- 105 216 79 182 30 106 c 5
- 131 106 l 5
- 131 157 l 5
- 172 201 l 5
- 172 106 l 5
- 218 106 l 5
- 218 83 l 5
- 172 83 l 5
-EndSplineSet
-Fore
-SplineSet
-172 83 m 5
- 172 48 l 6
- 172 29 192 20 206 20 c 5
- 206 0 l 5
  80 0 l 5
  80 20 l 5
  90 20 l 6
@@ -777,6 +773,30 @@ SplineSet
  218 106 l 5
  218 83 l 5
  172 83 l 5
+EndSplineSet
+Fore
+SplineSet
+174 83 m 1
+ 174 48 l 2
+ 174 29 194 20 208 20 c 1
+ 208 0 l 1
+ 82 0 l 1
+ 82 20 l 1
+ 92 20 l 2
+ 106 20 128 27 128 48 c 2
+ 128 83 l 1
+ -3 83 l 1
+ -3 103 l 1
+ 32 161 50 215 67 281 c 1
+ 138 281 l 1
+ 106 216 78 182 27 106 c 1
+ 128 106 l 1
+ 128 162 l 1
+ 174 211 l 1
+ 174 106 l 1
+ 220 106 l 1
+ 220 83 l 1
+ 174 83 l 1
 EndSplineSet
 Validated: 1048577
 Substitution2: "L substitution-1" four.L
@@ -1761,91 +1781,67 @@ Flags: HMW
 AnchorPoint: "chain" 234 365 basemark 0
 AnchorPoint: "chain" 234 0 mark 0
 LayerCount: 4
-Back
-SplineSet
-172 83 m 5
- 172 48 l 6
- 172 29 192 20 206 20 c 5
- 206 0 l 5
- 80 0 l 5
- 80 20 l 5
- 90 20 l 6
- 104 20 126 27 126 48 c 6
- 126 83 l 5
- 0 83 l 5
- 0 103 l 5
- 35 161 57 215 74 281 c 5
- 145 281 l 5
- 113 216 81 182 30 106 c 5
- 126 106 l 5
- 126 162 l 5
- 172 211 l 5
- 172 106 l 5
- 218 106 l 5
- 218 83 l 5
- 172 83 l 5
-EndSplineSet
 Fore
 SplineSet
-302 -7 m 1
- 279 -7 l 1
- 279 83 l 1
- 172 83 l 1
- 172 48 l 2
- 172 29 192 20 206 20 c 1
- 206 0 l 1
- 80 0 l 1
- 80 20 l 1
- 90 20 l 2
- 104 20 126 27 126 48 c 2
- 126 83 l 1
- 0 83 l 1
- 0 103 l 1
- 35 161 57 215 74 281 c 1
- 145 281 l 1
- 113 216 81 182 30 106 c 1
- 126 106 l 1
- 126 162 l 1
- 172 211 l 1
- 172 106 l 1
- 279 106 l 1
- 279 203 l 1
- 302 203 l 1
- 302 106 l 1
- 388 106 l 1
- 388 83 l 1
- 302 83 l 1
- 302 -7 l 1
+174 83 m 1
+ 174 48 l 2
+ 174 29 194 20 208 20 c 1
+ 208 0 l 1
+ 82 0 l 1
+ 82 20 l 1
+ 92 20 l 2
+ 106 20 128 27 128 48 c 2
+ 128 83 l 1
+ -3 83 l 1
+ -3 103 l 1
+ 32 161 50 215 67 281 c 1
+ 138 281 l 1
+ 106 216 78 182 27 106 c 1
+ 128 106 l 1
+ 128 162 l 1
+ 174 211 l 1
+ 174 106 l 1
+ 276 106 l 1
+ 276 203 l 1
+ 299 203 l 1
+ 299 106 l 1
+ 385 106 l 1
+ 385 83 l 1
+ 299 83 l 1
+ 299 -7 l 1
+ 276 -7 l 1
+ 276 83 l 1
+ 174 83 l 1
 EndSplineSet
 Validated: 1048577
 Layer: 2
 SplineSet
-172 83 m 5
- 172 48 l 6
- 172 29 192 20 206 20 c 5
- 206 0 l 5
- 80 0 l 5
- 80 20 l 5
- 90 20 l 6
- 104 20 126 27 126 48 c 6
- 126 83 l 5
- 0 83 l 5
- 0 103 l 5
- 35 161 57 215 74 281 c 5
- 140 281 l 5
- 108 216 79 182 30 106 c 5
- 126 106 l 5
- 126 152 l 5
- 172 201 l 5
- 172 106 l 5
- 388 106 l 5
- 388 83 l 5
- 172 83 l 5
-302 -7 m 5xe4
- 279 -7 l 5
- 279 203 l 5
- 302 203 l 5
- 302 -7 l 5xe4
+299 -7 m 5xe4
+ 276 -7 l 5
+ 276 203 l 5
+ 299 203 l 5
+ 299 -7 l 5xe4
+174 83 m 5
+ 174 48 l 6
+ 174 29 194 20 208 20 c 5
+ 208 0 l 5
+ 82 0 l 5
+ 82 20 l 5
+ 92 20 l 6
+ 106 20 128 27 128 48 c 6
+ 128 83 l 5
+ -3 83 l 5
+ -3 103 l 5
+ 32 161 50 215 67 281 c 5
+ 138 281 l 5
+ 106 216 78 182 27 106 c 5
+ 128 106 l 5
+ 128 162 l 5
+ 174 211 l 5
+ 174 106 l 5
+ 385 106 l 5
+ 385 83 l 5
+ 174 83 l 5
 EndSplineSet
 Substitution2: "L substitution-1" four_slash.L
 LCarets2: 1 0
@@ -2237,8 +2233,8 @@ Encoding: 57351 57351 35
 Width: 0
 VWidth: 0
 Flags: HMW
-AnchorPoint: "chain" 316.25 365 basemark 0
-AnchorPoint: "chain" 316.25 0 mark 0
+AnchorPoint: "chain" 306.25 365 basemark 0
+AnchorPoint: "chain" 306.25 0 mark 0
 LayerCount: 4
 Fore
 Refer: 1 49 N 1 0 0 1 0 0 2
@@ -3014,19 +3010,11 @@ Encoding: 100 100 76
 Width: 0
 VWidth: 1000
 Flags: W
-HStem: 123 28<0 250>
-VStem: 0 250<123 151>
 AnchorPoint: "chain" 235 365 basemark 0
 AnchorPoint: "chain" 235 0 mark 0
 LayerCount: 4
 Fore
-SplineSet
-0 123 m 1
- 0 151 l 1
- 250 151 l 1
- 250 123 l 1
- 0 123 l 1
-EndSplineSet
+Refer: 18 45 S 1 0 0 1 0 0 2
 Validated: 1048577
 Substitution2: "L substitution-1" hyphen.L
 EndChar
@@ -3983,6 +3971,20 @@ Fore
 Refer: 108 57380 S 1 0 0 1 110 0 2
 Refer: 109 57381 S 1 0 0 1 -80 0 2
 Validated: 1048577
+EndChar
+
+StartChar: endash
+Encoding: 8211 8211 131
+Width: 0
+VWidth: 1000
+Flags: W
+AnchorPoint: "chain" 235 0 mark 0
+AnchorPoint: "chain" 235 365 basemark 0
+LayerCount: 4
+Fore
+Refer: 18 45 S 1 0 0 1 0 0 2
+Validated: 1048577
+Substitution2: "L substitution-1" hyphen.L
 EndChar
 EndChars
 EndSplineFont
