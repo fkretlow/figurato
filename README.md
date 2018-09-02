@@ -1,3 +1,13 @@
+#### MAC USERS, PLEASE READ THIS:
+**There is a bug in the underlying Qt framework that affects the automatic positioning in Dorico on Mac. Please be aware that if you export your score from Dorico on Mac as pdf, the positioning of the figures will be turned upside down in the pdf, and what's more, this will most likely cause collisions with pretty much every figure that consists of more than one layer.**
+
+The reason for this is that – unlike Mac-Dorico itself – the pdf layout engine interprets the positioning code correctly, but of course Dorico has previously positioned the figures according to how its own layout engine renders them. There is nothing I can do about this from inside the font.
+
+**Sadly, I must therefore discourage all Mac users from using the current version of Figurato.**
+
+(For what it's worth: you should be able to use the figures without automatic positioning in text objects with carriage returns.)
+
+
 # Figurato
 A figured bass font for Dorico  
 (Figurato works more or less as expected in Finale 25 as well.)  
