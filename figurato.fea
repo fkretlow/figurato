@@ -1,0 +1,6 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+include(figuratoCLASSES.fea);
+include(figuratoGSUB.fea);
+include(figuratoGPOS.fea);

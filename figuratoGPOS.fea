@@ -1,0 +1,296 @@
+
+
+# GPOS
+
+
+# =================================================================================
+# LOOKUP DEFINITIONS
+
+	# 1. vertical positioning -----------------------------------------------------
+
+		# 1.1 layers
+
+			lookup layer2 {
+			  	lookupflag 0;
+			    pos @sepContent <0 -730 0 0>;
+				} layer2;
+
+			lookup layer3 {
+			  	lookupflag 0;
+			  	pos @sepContent <0 -1460 0 0>;
+				} layer3;
+
+			lookup layer4 {
+			  	lookupflag 0;
+			  	pos @sepContent <0 -2190 0 0>;
+				} layer4;
+
+			lookup layer5 {
+			  	lookupflag 0;
+			  	pos @sepContent <0 -2920 0 0>;
+				} layer5;
+
+		# 1.2 single accidentals correction
+
+			lookup nudgeDown1 {
+				lookupflag 0;
+				pos @sepContent <0 -100 0 0>;
+				} nudgeDown1;
+
+			lookup up1 {
+				lookupflag 0;
+				pos @sepContent <0 200 0 0>;
+				} up1;
+
+
+	# 2. horizontal positioning ---------------------------------------------------
+
+		# 2.1 move to the left
+
+			lookup back1 {
+				lookupflag 0;
+				pos @sepContent <-500 0 0 0>;
+				} back1;
+
+			lookup back2 {
+				lookupflag 0;
+				pos @sepContent <-1000 0 0 0>;
+				} back2;
+
+			# lookup back3 {
+			# 	lookupflag 0;
+			# 	pos @sepContent <-1500 0 0 0>;
+			# 	} back3;
+
+			# lookup back4 {
+			# 	lookupflag 0;
+			# 	pos @sepContent <-2000 0 0 0>;
+			# 	} back4;
+
+			# lookup back5 {
+			# 	lookupflag 0;
+			# 	pos @sepContent <-2500 0 0 0>;
+			# 	} back5;
+
+
+		# 2.2 move to the right
+
+			lookup forward1 {
+				lookupflag 0;
+				pos @sepContent <500 0 0 0>;
+				} forward1;
+
+			lookup forward2 {
+				lookupflag 0;
+				pos @sepContent <1000 0 0 0>;
+				} forward2;
+
+			# lookup forward3 {
+			# 	lookupflag 0;
+			# 	pos @sepContent <1500 0 0 0>;
+			# 	} forward3;
+
+
+
+# =================================================================================
+# FEATURES
+
+
+	feature kern {
+
+	# 1. CONTEXTUAL RULES ---------------------------------------------------------
+
+		# 1.1 vertical position / layer
+
+			lookup KERN_verticalPositionLayer2 {
+				lookupflag 0;
+				pos @sep1 @sepContent' lookup layer2;
+				pos @sep1 @sepContent @sepContent' lookup layer2;
+				pos @sep1 @sepContent @sepContent @sepContent' lookup layer2;
+				pos @sep1 @sepContent @sepContent @sepContent @sepContent' lookup layer2;
+				} KERN_verticalPositionLayer2;
+
+			lookup KERN_verticalPositionLayer3 {
+				lookupflag 0;
+				pos @sep2 @sepContent' lookup layer3;
+				pos @sep2 @sepContent @sepContent' lookup layer3;
+				pos @sep2 @sepContent @sepContent @sepContent' lookup layer3;
+				pos @sep2 @sepContent @sepContent @sepContent @sepContent' lookup layer3;
+				} KERN_verticalPositionLayer3;
+
+			lookup KERN_verticalPositionLayer4 {
+				lookupflag 0;
+				pos @sep3 @sepContent' lookup layer4;
+				pos @sep3 @sepContent @sepContent' lookup layer4;
+				pos @sep3 @sepContent @sepContent @sepContent' lookup layer4;
+				pos @sep3 @sepContent @sepContent @sepContent @sepContent' lookup layer4;
+				} KERN_verticalPositionLayer4;
+
+			lookup KERN_verticalPositionLayer5 {
+				lookupflag 0;
+				pos @sep4 @sepContent' lookup layer5;
+				pos @sep4 @sepContent @sepContent' lookup layer5;
+				pos @sep4 @sepContent @sepContent @sepContent' lookup layer5;
+				pos @sep4 @sepContent @sepContent @sepContent @sepContent' lookup layer5;
+				} KERN_verticalPositionLayer5;
+
+
+		# 1.2 horizontal position / column
+
+			lookup KERN_horizontalPosition {
+				lookupflag 0;
+
+				pos  						@acc' 	     lookup back1	   @figComp		  ;
+				pos  @figComp 		   		@acc' 	     lookup forward1 	 			  ;
+
+				pos  						@parenLeft'  lookup back2      @acc @figComp  ;
+				pos  						@parenLeft'  lookup back1      @figAll		  ;
+
+				pos  @sepPB	@parenContent	@parenRight' lookup forward2				  ;
+				pos  @sepPB @acc @figComp	@parenRight' lookup forward2				  ;
+				
+				pos  @figAll 				@parenRight' lookup forward1 	 			  ;
+				pos  @figComp @acc 			@parenRight' lookup forward2  				  ;
+
+				} KERN_horizontalPosition;
+
+			# lookup KERN_horizontalPositionA {
+			# 	lookupflag 0;
+			# 	pos @sepA @parenAll' lookup back3 @acc;
+			# 	pos @sepA @acc' lookup back2 @figAll;
+			# 	pos @sepA [@figAll @acc]' lookup back1;
+			# 	pos @sepA @parenAll' lookup back2;
+			# 	} KERN_horizontalPositionA;
+
+			# lookup KERN_horizontalPositionB {
+			# 	lookupflag 0;
+			# 	pos @sepB @parenAll' lookup back4 @acc;
+			# 	pos @sepB @acc' lookup back3 @figAll;
+			# 	pos @sepB [@figAll @acc]' lookup back2;
+			# 	pos @sepB @parenAll' lookup back3;
+			# 	} KERN_horizontalPositionB;
+
+			# lookup KERN_horizontalPositionC {
+			# 	lookupflag 0;
+			# 	pos @sepC @parenAll' lookup back5 @acc;
+			# 	pos @sepC @acc' lookup back4 @figAll;
+			# 	pos @sepC [@figAll @acc]' lookup back3;
+			# 	pos @sepC @parenAll' lookup back4;
+			# 	} KERN_horizontalPositionC;
+
+		# 1.3 collision avoidance
+
+			# 1.3.1 single accidentals
+
+				lookup KERN_singleAccidentals {
+					lookupflag 0;
+					ignore  pos  			  @sep  @acc' 					 @sep 		  @sepContent	;
+					ignore  pos  			  @sep  @acc' 					 @sepContent				;
+							pos  			  @sep  @acc' lookup nudgeDown1  @sep						;
+							pos  @sepContent  @sep  @acc' lookup nudgeDown1								;
+					} KERN_singleAccidentals;
+
+			# 1.3.2 accidentals in adjacent layers
+
+				lookup KERN_accidentalsRight {
+					lookupflag 0;
+
+					# natural above...
+						# natural
+						pos  			  n' <130 30 0 0>  @sep @figComp               n  			     ;
+						pos 			  n                @sep @figComp               n' <-20   0 0 0>  ;
+						# bflat
+						pos  			  n' <130  0 0 0>  @sep @figComp               b  			     ;
+						pos  			  n                @sep @figComp               b' <-10 -20 0 0>  ;
+						# sharp
+						pos  			  n' <180 60 0 0>  @sep @figComp  [numbersign s]  	             ;
+						pos  			  n                @sep @figComp  [numbersign s]' <  0 -20 0 0>  ;
+
+					# bflat above...
+						# natural
+						pos  			  b' <180  0 0 0>  @sep @figComp  			   n                 ;
+						pos  			  b                @sep @figComp  			   n' <-20   0 0 0>  ;
+						# bflat
+						pos  			  b' <150  0 0 0>  @sep @figComp               b                 ;
+						pos  			  b                @sep @figComp  			   b' <-10   0 0 0>  ;
+						# sharp
+						pos  			  b' <  0 10 0 0>  @sep @figComp  [numbersign s]                 ;
+						pos  			  b                @sep @figComp  [numbersign s]' <120 -10 0 0>  ;
+
+					# sharp above...
+						# natural
+ 						pos  [numbersign s]' <180 50 0 0>  @sep @figComp               n 			     ;
+ 						pos  [numbersign s]                @sep @figComp               n' <-20   0 0 0>  ;
+ 						# bflat
+ 						pos  [numbersign s]' <170  0 0 0>  @sep @figComp  			   b 			     ;
+ 						pos  [numbersign s]                @sep @figComp               b' <-10   0 0 0>  ;
+ 						# sharp
+						pos  [numbersign s]' <  0  0 0 0>  @sep @figComp  [numbersign s]                 ;
+						pos  [numbersign s]                @sep @figComp  [numbersign s]' <310   0 0 0>  ;
+
+					} KERN_accidentalsRight;
+
+
+
+				lookup KERN_accidentalsLeft {
+					lookupflag 0;
+
+					# natural above...
+						# natural
+						pos  			  n' <  20 15 0 0>  @figComp @sep               n                  @figComp   ;
+						pos 			  n                 @figComp @sep               n' <-150 -15 0 0>  @figComp   ;
+						# bflat
+						pos  			  n' <  10  0 0 0>  @figComp @sep               b  			       @figComp   ;
+						pos  			  n                 @figComp @sep               b' <-130 -20 0 0>  @figComp   ;
+						# sharp
+						pos  			  n' <  10 40 0 0>  @figComp @sep  [numbersign s]  	               @figComp   ;
+						pos  			  n                 @figComp @sep  [numbersign s]' <-170 -40 0 0>  @figComp   ;
+
+					# bflat above...
+						# natural
+						pos  			  b' <  10  0 0 0>  @figComp @sep  			    n                  @figComp   ;
+						pos  			  b                 @figComp @sep  			    n' <-190   0 0 0>  @figComp   ;
+						# bflat
+						pos  			  b' <  10  0 0 0>  @figComp @sep               b                  @figComp   ;
+						pos  			  b                 @figComp @sep  			    b' <-150   0 0 0>  @figComp   ;
+						# sharp
+						pos  			  b' <-110 10 0 0>  @figComp @sep  [numbersign s]                  @figComp   ;
+						pos  			  b                 @figComp @sep  [numbersign s]' <  10 -10 0 0>  @figComp   ;
+
+					# sharp above...
+						# natural
+ 						pos  [numbersign s]' <   0 50 0 0>  @figComp @sep               n 			       @figComp   ;
+ 						pos  [numbersign s]                 @figComp @sep               n' <-200   0 0 0>  @figComp   ;
+ 						# bflat
+ 						pos  [numbersign s]' <   0  0 0 0>  @figComp @sep  			    b                  @figComp   ;
+ 						pos  [numbersign s]                 @figComp @sep               b' <-180   0 0 0>  @figComp   ;
+ 						# sharp
+						pos  [numbersign s]' <   0 15 0 0>  @figComp @sep  [numbersign s]                  @figComp   ;
+						pos  [numbersign s]                 @figComp @sep  [numbersign s]' <-330 -15 0 0>  @figComp   ;
+
+					} KERN_accidentalsLeft;
+
+
+	# 2. APPLY LOOKUPS ------------------------------------------------------------
+
+		# 2.1 vertical positioning
+	
+			lookup KERN_verticalPositionLayer2;
+			lookup KERN_verticalPositionLayer3;
+			lookup KERN_verticalPositionLayer4;
+			lookup KERN_verticalPositionLayer5;
+
+		# 2.2 horizontal positioning
+
+			lookup KERN_horizontalPosition;
+			# lookup KERN_horizontalPositionA;
+			# lookup KERN_horizontalPositionB;
+			# lookup KERN_horizontalPositionC;
+
+		# 2.3 collision avoidance
+
+			lookup KERN_singleAccidentals;
+			lookup KERN_accidentalsRight;
+			lookup KERN_accidentalsLeft;
+
+	} kern;

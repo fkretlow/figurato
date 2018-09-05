@@ -1,0 +1,591 @@
+
+
+# =================================================================================
+# CLASS DEFINITIONS
+
+	# 1. CONTENT ------------------------------------------------------------------
+
+		# 1.1 figures
+
+			@figAll = [
+				zero one two three four five six seven eight nine one_zero
+				two_slash four_slash five_slash six_slash seven_slash nine_slash
+			  	d endash
+				];
+
+			@figComp = [
+				zero one two three four five six seven eight nine one_zero
+				];
+
+			@figSingle = [
+				two_slash four_slash five_slash six_slash seven_slash nine_slash
+			  	d endash
+				];
+
+
+		# 1.2 accidentals
+
+		    @acc = [
+		        n b s numbersign b_b x plus hyphen
+		        parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright
+		        bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
+		        ];
+
+		    # bflat is treated separately while adding separators (GSUB: lookup CALTaddSeparators) because occasionally the ligature b_b needs to be prevented with comma
+		    @accNoBflat = [
+		        n s numbersign b_b x plus hyphen
+		        parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright
+		        bracketleft_n_bracketright bracketleft_b_bracketright  bracketleft_s_bracketright bracketleft_b_b_bracketright  bracketleft_x_bracketright
+		        ];
+		    @bflat = [b];
+
+
+		# 1.3 parentheses
+
+			@parenAll = [
+				parenleft
+				parenright
+				bracketleft
+				bracketright
+				
+				parenleft.p1
+				parenright.p1
+				bracketleft.p1
+				bracketright.p1
+				
+				parenleft.p2
+				parenright.p2
+				bracketleft.p2
+				bracketright.p2
+				
+				parenleft.p3
+				parenright.p3
+				bracketleft.p3
+				bracketright.p3
+				
+				parenleft.p4
+				parenright.p4
+				bracketleft.p4
+				bracketright.p4
+				];
+
+			@paren0 = [
+				parenleft
+				parenright
+				bracketleft
+				bracketright
+				];
+			
+			@parenP1 = [
+				parenleft.p1
+				parenright.p1
+				bracketleft.p1
+				bracketright.p1
+				];
+			@parenP2 = [
+				parenleft.p2
+				parenright.p2
+				bracketleft.p2
+				bracketright.p2
+				];
+			@parenP3 = [
+				parenleft.p3
+				parenright.p3
+				bracketleft.p3
+				bracketright.p3
+				];
+			@parenP4 = [
+				parenleft.p4
+				parenright.p4
+				bracketleft.p4
+				bracketright.p4
+				];
+
+			@parenLeft = [
+				parenleft
+				parenleft.p1
+				parenleft.p2
+				parenleft.p3
+				parenleft.p4
+				bracketleft
+				bracketleft.p1
+				bracketleft.p2
+				bracketleft.p3
+				bracketleft.p4
+				];      
+			@parenRight = [
+				parenright
+				parenright.p1
+				parenright.p2
+				parenright.p3
+				parenright.p4
+				bracketright
+				bracketright.p1
+				bracketright.p2
+				bracketright.p3
+				bracketright.p4
+				]; 
+
+
+		# 1.4 content subgroups		   
+
+		    @parenContent = [
+		    	zero one two three four five six seven eight nine one_zero
+		    	two_slash four_slash five_slash seven_slash nine_slash
+		    	d endash
+		    	n b s numbersign b_b x
+		    	parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright
+		    	bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
+		    	];
+
+		    @sepContent = [
+			  	zero one two three four five six seven eight nine one_zero
+			  	two_slash four_slash five_slash six_slash seven_slash nine_slash
+			  	d endash
+			  	n b s numbersign b_b x plus hyphen
+			  	parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright
+			  	bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
+			  	parenleft parenright bracketleft bracketright
+			  	parenleft.p1 parenright.p1 bracketleft.p1 bracketright.p1
+			  	parenleft.p2 parenright.p2 bracketleft.p2 bracketright.p2
+			  	parenleft.p3 parenright.p3 bracketleft.p3 bracketright.p3
+			  	parenleft.p4 parenright.p4 bracketleft.p4 bracketright.p4
+				];
+
+
+	# 2. SEPARATORS ---------------------------------------------------------------
+
+		# 2.1 all separators
+
+			@sep = [
+				comma
+				sep
+				# sep.1
+				sep.1
+				sep.1.A
+				sep.1.B
+				sep.1.C
+				sep.1.A.p1
+				sep.1.A.p2
+				sep.1.A.p3
+				sep.1.A.p4
+				sep.1.B.p1
+				sep.1.B.p2
+				sep.1.B.p3
+				sep.1.B.p4
+				sep.1.A.p1.A
+				sep.1.A.p1.B
+				sep.1.A.p2.A
+				sep.1.A.p2.B
+				sep.1.A.p3.A
+				sep.1.A.p3.B
+				sep.1.A.p4.A
+				sep.1.A.p4.B
+				sep.1.B.p1.B
+				sep.1.B.p2.B
+				sep.1.B.p3.B
+				sep.1.B.p4.B
+				# sep.2
+				sep.2
+				sep.2.A
+				sep.2.B
+				sep.2.C
+				sep.2.A.p1
+				sep.2.A.p2
+				sep.2.A.p3
+				sep.2.A.p4
+				sep.2.B.p1
+				sep.2.B.p2
+				sep.2.B.p3
+				sep.2.B.p4
+				sep.2.A.p1.A
+				sep.2.A.p1.B
+				sep.2.A.p2.A
+				sep.2.A.p2.B
+				sep.2.A.p3.A
+				sep.2.A.p3.B
+				sep.2.A.p4.A
+				sep.2.A.p4.B
+				sep.2.B.p1.B
+				sep.2.B.p2.B
+				sep.2.B.p3.B
+				sep.2.B.p4.B
+				# sep.3
+				sep.3
+				sep.3.A
+				sep.3.B
+				sep.3.C
+				sep.3.A.p1
+				sep.3.A.p2
+				sep.3.A.p3
+				sep.3.A.p4
+				sep.3.B.p1
+				sep.3.B.p2
+				sep.3.B.p3
+				sep.3.B.p4
+				sep.3.A.p1.A
+				sep.3.A.p1.B
+				sep.3.A.p2.A
+				sep.3.A.p2.B
+				sep.3.A.p3.A
+				sep.3.A.p3.B
+				sep.3.A.p4.A
+				sep.3.A.p4.B
+				sep.3.B.p1.B
+				sep.3.B.p2.B
+				sep.3.B.p3.B
+				sep.3.B.p4.B
+				# sep.4
+				sep.4	
+				sep.4.A
+				sep.4.B
+				sep.4.C
+				sep.4.A.p1
+				sep.4.A.p2
+				sep.4.A.p3
+				sep.4.A.p4
+				sep.4.B.p1
+				sep.4.B.p2
+				sep.4.B.p3
+				sep.4.B.p4
+				sep.4.A.p1.A
+				sep.4.A.p1.B
+				sep.4.A.p2.A
+				sep.4.A.p2.B
+				sep.4.A.p3.A
+				sep.4.A.p3.B
+				sep.4.A.p4.A
+				sep.4.A.p4.B
+				sep.4.B.p1.B
+				sep.4.B.p2.B
+				sep.4.B.p3.B
+				sep.4.B.p4.B
+				# sep.5
+				sep.5
+				sep.5.A
+				sep.5.B
+				sep.5.C
+				];
+
+			@comma = [comma];
+
+
+		# 2.2 separators by layer index
+
+			@sep0 = [comma sep];
+			
+			@sep1 = [
+				sep.1
+				sep.1.A
+				sep.1.B
+				sep.1.C
+				sep.1.A.p1
+				sep.1.A.p2
+				sep.1.A.p3
+				sep.1.A.p4
+				sep.1.B.p1
+				sep.1.B.p2
+				sep.1.B.p3
+				sep.1.B.p4
+				sep.1.A.p1.A
+				sep.1.A.p1.B
+				sep.1.A.p2.A
+				sep.1.A.p2.B
+				sep.1.A.p3.A
+				sep.1.A.p3.B
+				sep.1.A.p4.A
+				sep.1.A.p4.B
+				sep.1.B.p1.B
+				sep.1.B.p2.B
+				sep.1.B.p3.B
+				sep.1.B.p4.B
+				];
+
+			@sep2 = [
+				sep.2
+				sep.2.A
+				sep.2.B
+				sep.2.C
+				sep.2.A.p1
+				sep.2.A.p2
+				sep.2.A.p3
+				sep.2.A.p4
+				sep.2.B.p1
+				sep.2.B.p2
+				sep.2.B.p3
+				sep.2.B.p4
+				sep.2.A.p1.A
+				sep.2.A.p1.B
+				sep.2.A.p2.A
+				sep.2.A.p2.B
+				sep.2.A.p3.A
+				sep.2.A.p3.B
+				sep.2.A.p4.A
+				sep.2.A.p4.B
+				sep.2.B.p1.B
+				sep.2.B.p2.B
+				sep.2.B.p3.B
+				sep.2.B.p4.B
+				];
+
+			@sep3 = [
+				sep.3
+				sep.3.A
+				sep.3.B
+				sep.3.C
+				sep.3.A.p1
+				sep.3.A.p2
+				sep.3.A.p3
+				sep.3.A.p4
+				sep.3.B.p1
+				sep.3.B.p2
+				sep.3.B.p3
+				sep.3.B.p4
+				sep.3.A.p1.A
+				sep.3.A.p1.B
+				sep.3.A.p2.A
+				sep.3.A.p2.B
+				sep.3.A.p3.A
+				sep.3.A.p3.B
+				sep.3.A.p4.A
+				sep.3.A.p4.B
+				sep.3.B.p1.B
+				sep.3.B.p2.B
+				sep.3.B.p3.B
+				sep.3.B.p4.B
+				];
+
+			@sep4 = [
+				sep.4
+				sep.4.A
+				sep.4.B
+				sep.4.C
+				sep.4.A.p1
+				sep.4.A.p2
+				sep.4.A.p3
+				sep.4.A.p4
+				sep.4.B.p1
+				sep.4.B.p2
+				sep.4.B.p3
+				sep.4.B.p4
+				sep.4.A.p1.A
+				sep.4.A.p1.B
+				sep.4.A.p2.A
+				sep.4.A.p2.B
+				sep.4.A.p3.A
+				sep.4.A.p3.B
+				sep.4.A.p4.A
+				sep.4.A.p4.B
+				sep.4.B.p1.B
+				sep.4.B.p2.B
+				sep.4.B.p3.B
+				sep.4.B.p4.B
+				];
+
+			@sep5 = [
+				sep.5
+				sep.5.A
+				sep.5.B
+				sep.5.C
+				];
+
+
+		# 2.3 separators by columnn index
+
+		    @sepNoCol = [
+		         sep.1
+		         sep.2
+		         sep.3
+		         sep.4
+		         sep.5
+		         ];
+
+			@sepA = [
+			# sep.1.A
+				sep.1.A
+				sep.1.A.p1
+				sep.1.A.p2
+				sep.1.A.p3
+				sep.1.A.p4
+				sep.1.A.p1.A
+				sep.1.A.p1.B
+				sep.1.A.p2.A
+				sep.1.A.p2.B
+				sep.1.A.p3.A
+				sep.1.A.p3.B
+				sep.1.A.p4.A
+				sep.1.A.p4.B
+			# sep.2.A
+				sep.2.A
+				sep.2.A.p1
+				sep.2.A.p2
+				sep.2.A.p3
+				sep.2.A.p4
+				sep.2.A.p1.A
+				sep.2.A.p1.B
+				sep.2.A.p2.A
+				sep.2.A.p2.B
+				sep.2.A.p3.A
+				sep.2.A.p3.B
+				sep.2.A.p4.A
+				sep.2.A.p4.B
+			# sep.3.A
+				sep.3.A
+				sep.3.A.p1
+				sep.3.A.p2
+				sep.3.A.p3
+				sep.3.A.p4
+				sep.3.A.p1.A
+				sep.3.A.p1.B
+				sep.3.A.p2.A
+				sep.3.A.p2.B
+				sep.3.A.p3.A
+				sep.3.A.p3.B
+				sep.3.A.p4.A
+				sep.3.A.p4.B
+			# sep.4.A
+				sep.4.A
+				sep.4.A.p1
+				sep.4.A.p2
+				sep.4.A.p3
+				sep.4.A.p4
+				sep.4.A.p1.A
+				sep.4.A.p1.B
+				sep.4.A.p2.A
+				sep.4.A.p2.B
+				sep.4.A.p3.A
+				sep.4.A.p3.B
+				sep.4.A.p4.A
+				sep.4.A.p4.B
+			# sep.5.A
+				sep.5.A
+				];
+
+			@sepB = [
+			# sep.1.B
+				sep.1.B
+				sep.1.B.p1
+				sep.1.B.p2
+				sep.1.B.p3
+				sep.1.B.p4
+				sep.1.B.p1.B
+				sep.1.B.p2.B
+				sep.1.B.p3.B
+				sep.1.B.p4.B
+			# sep.2.B
+				sep.2.B
+				sep.2.B.p1
+				sep.2.B.p2
+				sep.2.B.p3
+				sep.2.B.p4
+				sep.2.B.p1.B
+				sep.2.B.p2.B
+				sep.2.B.p3.B
+				sep.2.B.p4.B
+			# sep.3.B
+				sep.3.B
+				sep.3.B.p1
+				sep.3.B.p2
+				sep.3.B.p3
+				sep.3.B.p4
+				sep.3.B.p1.B
+				sep.3.B.p2.B
+				sep.3.B.p3.B
+				sep.3.B.p4.B
+			# sep.4.B
+				sep.4.B
+				sep.4.B.p1
+				sep.4.B.p2
+				sep.4.B.p3
+				sep.4.B.p4
+				sep.4.B.p1.B
+				sep.4.B.p2.B
+				sep.4.B.p3.B
+				sep.4.B.p4.B
+			# sep.5.B
+				sep.5.B
+				];
+
+			@sepC = [
+				sep.1.C
+				sep.2.C
+				sep.3.C
+				sep.4.C
+				sep.5.C
+				];
+
+
+		# 2.4 separators by paren index
+
+		    @sepNoParen = [
+				sep.1.A  sep.1.B  sep.1.C
+		        sep.2.A  sep.2.B  sep.2.C
+		        sep.3.A  sep.3.B  sep.3.C
+		        sep.4.A  sep.4.B  sep.4.C
+		        sep.5.A  sep.5.B  sep.5.C
+		        ];
+
+		    @sepP1 = [
+		        sep.1.A.p1    sep.1.B.p1 
+		        sep.2.A.p1    sep.2.B.p1
+		        sep.3.A.p1    sep.3.B.p1
+		        sep.4.A.p1    sep.4.B.p1
+
+		        sep.1.A.p1.A  sep.1.A.p1.B  sep.1.B.p1.B
+		        sep.2.A.p1.A  sep.2.A.p1.B  sep.2.B.p1.B
+		        sep.3.A.p1.A  sep.3.A.p1.B  sep.3.B.p1.B 
+		        sep.4.A.p1.A  sep.4.A.p1.B  sep.4.B.p1.B
+		        ];
+
+		    @sepP2 = [
+		        sep.1.A.p2    sep.1.B.p2
+		        sep.2.A.p2    sep.2.B.p2
+		        sep.3.A.p2    sep.3.B.p2
+		        sep.4.A.p2    sep.4.B.p2
+
+		        sep.1.A.p2.A  sep.1.A.p2.B  sep.1.B.p2.B
+		        sep.2.A.p2.A  sep.2.A.p2.B  sep.2.B.p2.B
+		        sep.3.A.p2.A  sep.3.A.p2.B  sep.3.B.p2.B
+		        sep.4.A.p2.A  sep.4.A.p2.B  sep.4.B.p2.B
+		        ];
+
+		    @sepP3 = [
+		        sep.1.A.p3    sep.1.B.p3
+		        sep.2.A.p3    sep.2.B.p3
+		        sep.3.A.p3    sep.3.B.p3
+		        sep.4.A.p3    sep.4.B.p3
+
+		        sep.1.A.p3.A  sep.1.A.p3.B  sep.1.B.p3.B
+		        sep.2.A.p3.A  sep.2.A.p3.B  sep.2.B.p3.B
+		        sep.3.A.p3.A  sep.3.A.p3.B  sep.3.B.p3.B
+		        sep.4.A.p3.A  sep.4.A.p3.B  sep.4.B.p3.B
+		        ];
+
+		    @sepP4 = [
+		        sep.1.A.p4    sep.1.B.p4
+		        sep.2.A.p4    sep.2.B.p4
+		        sep.3.A.p4    sep.3.B.p4
+		        sep.4.A.p4    sep.4.B.p4
+
+		        sep.1.A.p4.A  sep.1.A.p4.B  sep.1.B.p4.B
+		        sep.2.A.p4.A  sep.2.A.p4.B  sep.2.B.p4.B
+		        sep.3.A.p4.A  sep.3.A.p4.B  sep.3.B.p4.B
+		        sep.4.A.p4.A  sep.4.A.p4.B  sep.4.B.p4.B
+		    	];
+
+
+		# 2.5 separators by paren column index
+
+		    @sepPA = [
+		        sep.1.A.p1.A
+		        sep.2.A.p1.A  sep.2.A.p2.A
+		        sep.3.A.p1.A  sep.3.A.p2.A  sep.3.A.p3.A
+		        sep.4.A.p1.A  sep.4.A.p2.A  sep.4.A.p3.A  sep.4.A.p4.A
+		        ];
+
+		    @sepPB = [
+		        sep.1.A.p1.B  sep.1.B.p1.B
+		        sep.2.A.p1.B  sep.2.B.p1.B  sep.2.A.p2.B  sep.2.B.p2.B
+		        sep.3.A.p1.B  sep.3.B.p1.B  sep.3.A.p2.B  sep.3.B.p2.B  sep.3.A.p3.B  sep.3.B.p3.B
+		        sep.4.A.p1.B  sep.4.B.p1.B  sep.4.A.p2.B  sep.4.B.p2.B  sep.4.A.p3.B  sep.4.B.p3.B  sep.4.A.p4.B  sep.4.B.p4.B
+		        ];
