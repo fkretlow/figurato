@@ -9,9 +9,9 @@ The reason for this is that – unlike Mac-Dorico itself – the pdf layout engi
 
 
 # Figurato
-A figured bass font for Dorico  
-(Figurato works more or less as expected in Finale 25 as well.)
-Version 0.3 (2018–09–06)  
+A figured bass font for Dorico  (Figurato works more or less as expected in Finale 25 as well.)
+
+Version 0.3.0.26 (2018–09–10)  
 
 ### Recent Changes
 
@@ -54,7 +54,7 @@ If you need a slashed number, type `/` (slash) or `+` (plus) after the number: `
 If you need a dash type `-` (hyphen, doesn't work in Dorico's lyrics popover) `–` (endash) or `d`.
 
 #### Parentheses and Brackets
-There's limited support for parentheses and brackets. You can put one or more layers in parentheses or brackets: `(4)` `[63]` `6(42)` This does not work with accidentals yet.
+There's limited support for parentheses and brackets. You can put one or more layers in parentheses or brackets: `(4)` `[63]` `6(42)` This does not reliably work with accidentals yet.
 
 #### Italic numbers
-Numbers preceded by `i` are printed in italic: `2i4i6`
+Numbers preceded by `i` are printed in italic: `6i4i2`

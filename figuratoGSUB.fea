@@ -63,6 +63,7 @@
             sub  parenleft   n           parenright    by  parenleft_n_parenright        ;
             sub  parenleft   x           parenright    by  parenleft_x_parenright        ;
             sub  parenleft   b b         parenright    by  parenleft_b_b_parenright      ;
+            sub  parenleft   b_b         parenright    by  parenleft_b_b_parenright      ;
 
             sub  bracketleft s           bracketright  by  bracketleft_s_bracketright    ;
             sub  bracketleft numbersign  bracketright  by  bracketleft_s_bracketright    ;
@@ -70,6 +71,7 @@
             sub  bracketleft n           bracketright  by  bracketleft_n_bracketright    ;
             sub  bracketleft x           bracketright  by  bracketleft_x_bracketright    ;
             sub  bracketleft b b         bracketright  by  bracketleft_b_b_bracketright  ;
+            sub  bracketleft b_b         bracketright  by  bracketleft_b_b_bracketright  ;
         
             } LIGA_parenthesizedAccidentals;
 
