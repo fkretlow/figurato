@@ -95,6 +95,18 @@
                 sub nine                          by  nine                          sep  ;
                 sub one_zero                      by  one_zero                      sep  ;
 
+                sub i_zero                        by  i_zero                        sep  ;
+                sub i_one                         by  i_one                         sep  ;
+                sub i_two                         by  i_two                         sep  ;
+                sub i_three                       by  i_three                       sep  ;
+                sub i_four                        by  i_four                        sep  ;
+                sub i_five                        by  i_five                        sep  ;
+                sub i_six                         by  i_six                         sep  ;
+                sub i_seven                       by  i_seven                       sep  ;
+                sub i_eight                       by  i_eight                       sep  ;
+                sub i_nine                        by  i_nine                        sep  ;
+                sub i_one_zero                    by  i_one_zero                    sep  ;
+
                 sub b                             by  b                             sep  ;
                 sub n                             by  n                             sep  ;
                 sub x                             by  x                             sep  ;

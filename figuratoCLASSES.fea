@@ -15,6 +15,7 @@
 
 			@figComp = [
 				zero one two three four five six seven eight nine one_zero
+				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
 				];
 
 			@figSingle = [
@@ -140,6 +141,7 @@
 
 		    @sepContent = [
 			  	zero one two three four five six seven eight nine one_zero
+			  	i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
 			  	two_slash four_slash five_slash six_slash seven_slash nine_slash
 			  	d endash
 			  	n b s numbersign b_b x plus hyphen
