@@ -151,33 +151,35 @@
 
                 # bflat is treated separately because occasionally the liga_ture b_b needs to be separated with comma: 2b,b4
 
-                ignore sub                 @figSingle'                       @parenRight         ;
-                ignore sub                 @figSingle'                       @comma              ;
-                ignore sub   @figComp      @accNoBflat'                      @parenRight         ;
-                ignore sub   @figComp      @bflat'                           @parenRight         ;
-                ignore sub   @accNoBflat   @figComp'                         @parenRight         ;
-                ignore sub   @bflat        @figComp'                         @parenRight         ;
-                       sub                 @figComp'    lookup addSepRight   @figComp            ;
-                       sub   @accNoBflat   @figComp'    lookup addSepRight                       ;
-                       sub   @bflat        @figComp'    lookup addSepRight                       ;
-                       sub   @figComp      @accNoBflat' lookup addSepRight                       ;
-                       sub   @figComp      @bflat'      lookup addSepRight   @figComp            ;
-                       sub                 @bflat'      lookup addSepRight   @comma @accNoBflat  ;
-                       sub                 @bflat'      lookup addSepRight   @accNoBflat         ;
-                       sub                 @accNoBflat' lookup addSepRight   @bflat              ;
-                       sub                 @accNoBflat' lookup addSepRight   @comma @bflat       ;
-                       sub                 @figSingle'  lookup addSepRight                       ;
-                       sub                 @accNoBflat' lookup addSepRight   @figSingle          ;
-                       sub                 @bflat'      lookup addSepRight   @figSingle          ;
-                       sub                 @figComp'    lookup addSepRight   @figSingle          ;
-                       sub                 @accNoBflat' lookup addSepRight   @parenLeft          ;
-                       sub                 @bflat'      lookup addSepRight   @parenLeft          ;
-                       sub                 @figComp'    lookup addSepRight   @parenLeft          ;
-                       sub                 @parenRight' lookup addSepRight                       ;
-                       sub   @figSingle    @comma'      lookup addSepRight   @figSingle          ;
-                       sub   @figSingle    @comma'      lookup addSepRight   @figComp            ;
-                       sub   @figComp      @comma'      lookup addSepRight   @figComp            ;
-                       sub   @figComp      @comma'      lookup addSepRight   @figSingle          ;
+                ignore sub                 @figSingle'                       @parenRight             ;
+                ignore sub                 @figSingle'                       @comma                  ;
+                ignore sub   @figComp      @accNoBflat'                      @parenRight             ;
+                ignore sub   @figComp      @bflat'                           @parenRight             ;
+                ignore sub   @accNoBflat   @figComp'                         @parenRight             ;
+                ignore sub   @bflat        @figComp'                         @parenRight             ;
+                ignore sub                 @bflat'                           @comma @bflat @figComp  ;
+                       sub                 @figComp'    lookup addSepRight   @figComp                ;
+                       sub   @accNoBflat   @figComp'    lookup addSepRight                           ;
+                       sub   @bflat        @figComp'    lookup addSepRight                           ;
+                       sub   @figComp      @accNoBflat' lookup addSepRight                           ;
+                       sub   @figComp      @bflat'      lookup addSepRight   @figComp                ;
+                       sub                 @bflat'      lookup addSepRight   @comma @accNoBflat      ;
+                       sub                 @bflat'      lookup addSepRight   @accNoBflat             ;
+                       sub                 @bflat'      lookup addSepRight   @comma @bflat           ;
+                       sub                 @accNoBflat' lookup addSepRight   @bflat                  ;
+                       sub                 @accNoBflat' lookup addSepRight   @comma @bflat           ;
+                       sub                 @figSingle'  lookup addSepRight                           ;
+                       sub                 @accNoBflat' lookup addSepRight   @figSingle              ;
+                       sub                 @bflat'      lookup addSepRight   @figSingle              ;
+                       sub                 @figComp'    lookup addSepRight   @figSingle              ;
+                       sub                 @accNoBflat' lookup addSepRight   @parenLeft              ;
+                       sub                 @bflat'      lookup addSepRight   @parenLeft              ;
+                       sub                 @figComp'    lookup addSepRight   @parenLeft              ;
+                       sub                 @parenRight' lookup addSepRight                           ;
+                       sub   @figSingle    @comma'      lookup addSepRight   @figSingle              ;
+                       sub   @figSingle    @comma'      lookup addSepRight   @figComp                ;
+                       sub   @figComp      @comma'      lookup addSepRight   @figComp                ;
+                       sub   @figComp      @comma'      lookup addSepRight   @figSingle              ;
             
                 } CALT_addSeparators;
 

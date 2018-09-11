@@ -4,7 +4,7 @@ FullName: Figurato
 FamilyName: Figurato
 Weight: Standard
 Copyright: Copyright 2018 Florian Kretlow
-Version: 0.3.0.38
+Version: 0.3.0.48
 ItalicAngle: 0
 UnderlinePosition: -200
 UnderlineWidth: 100
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1324930714
-ModificationTime: 1536499817
+ModificationTime: 1536693930
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -48,7 +48,7 @@ Lookup: 4 0 1 "LIGA_slashedFigures" { "LIGA_slashedFigures subtable"  } ['liga' 
 Lookup: 4 0 1 "LIGA_accidentals" { "LIGA_accidentals subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 4 0 1 "LIGA_parenthesizedAccidentals" { "LIGA_parenthesizedAccidentals subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 2 0 0 "addSepRight" { "addSepRight subtable"  } []
-Lookup: 6 0 0 "CALT_addSeparators" { "CALT_addSeparators contextual 0"  "CALT_addSeparators contextual 1"  "CALT_addSeparators contextual 2"  "CALT_addSeparators contextual 3"  "CALT_addSeparators contextual 4"  "CALT_addSeparators contextual 5"  "CALT_addSeparators contextual 6"  "CALT_addSeparators contextual 7"  "CALT_addSeparators contextual 8"  "CALT_addSeparators contextual 9"  "CALT_addSeparators contextual 10"  "CALT_addSeparators contextual 11"  "CALT_addSeparators contextual 12"  "CALT_addSeparators contextual 13"  "CALT_addSeparators contextual 14"  "CALT_addSeparators contextual 15"  "CALT_addSeparators contextual 16"  "CALT_addSeparators contextual 17"  "CALT_addSeparators contextual 18"  "CALT_addSeparators contextual 19"  "CALT_addSeparators contextual 20"  "CALT_addSeparators contextual 21"  "CALT_addSeparators contextual 22"  "CALT_addSeparators contextual 23"  "CALT_addSeparators contextual 24"  "CALT_addSeparators contextual 25"  "CALT_addSeparators contextual 26"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "CALT_addSeparators" { "CALT_addSeparators contextual 0"  "CALT_addSeparators contextual 1"  "CALT_addSeparators contextual 2"  "CALT_addSeparators contextual 3"  "CALT_addSeparators contextual 4"  "CALT_addSeparators contextual 5"  "CALT_addSeparators contextual 6"  "CALT_addSeparators contextual 7"  "CALT_addSeparators contextual 8"  "CALT_addSeparators contextual 9"  "CALT_addSeparators contextual 10"  "CALT_addSeparators contextual 11"  "CALT_addSeparators contextual 12"  "CALT_addSeparators contextual 13"  "CALT_addSeparators contextual 14"  "CALT_addSeparators contextual 15"  "CALT_addSeparators contextual 16"  "CALT_addSeparators contextual 17"  "CALT_addSeparators contextual 18"  "CALT_addSeparators contextual 19"  "CALT_addSeparators contextual 20"  "CALT_addSeparators contextual 21"  "CALT_addSeparators contextual 22"  "CALT_addSeparators contextual 23"  "CALT_addSeparators contextual 24"  "CALT_addSeparators contextual 25"  "CALT_addSeparators contextual 26"  "CALT_addSeparators contextual 27"  "CALT_addSeparators contextual 28"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "sep1" { "sep1 subtable"  } []
 Lookup: 1 0 0 "sep2" { "sep2 subtable"  } []
 Lookup: 1 0 0 "sep3" { "sep3 subtable"  } []
@@ -92,17 +92,17 @@ Lookup: 264 0 0 "KERN_verticalPositionLayer3" { "KERN_verticalPositionLayer3 con
 Lookup: 264 0 0 "KERN_verticalPositionLayer4" { "KERN_verticalPositionLayer4 contextual 0"  "KERN_verticalPositionLayer4 contextual 1"  "KERN_verticalPositionLayer4 contextual 2"  "KERN_verticalPositionLayer4 contextual 3"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 264 0 0 "KERN_verticalPositionLayer5" { "KERN_verticalPositionLayer5 contextual 0"  "KERN_verticalPositionLayer5 contextual 1"  "KERN_verticalPositionLayer5 contextual 2"  "KERN_verticalPositionLayer5 contextual 3"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 264 0 0 "KERN_horizontalPosition" { "KERN_horizontalPosition contextual 0"  "KERN_horizontalPosition contextual 1"  "KERN_horizontalPosition contextual 2"  "KERN_horizontalPosition contextual 3"  "KERN_horizontalPosition contextual 4"  "KERN_horizontalPosition contextual 5"  "KERN_horizontalPosition contextual 6"  "KERN_horizontalPosition contextual 7"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 264 0 0 "KERN_singleAccidentals" { "KERN_singleAccidentals contextual 0"  "KERN_singleAccidentals contextual 1"  "KERN_singleAccidentals contextual 2"  "KERN_singleAccidentals contextual 3"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 264 0 0 "KERN_accidentalsRight" { "KERN_accidentalsRight contextual 0"  "KERN_accidentalsRight contextual 1"  "KERN_accidentalsRight contextual 2"  "KERN_accidentalsRight contextual 3"  "KERN_accidentalsRight contextual 4"  "KERN_accidentalsRight contextual 5"  "KERN_accidentalsRight contextual 6"  "KERN_accidentalsRight contextual 7"  "KERN_accidentalsRight contextual 8"  "KERN_accidentalsRight contextual 9"  "KERN_accidentalsRight contextual 10"  "KERN_accidentalsRight contextual 11"  "KERN_accidentalsRight contextual 12"  "KERN_accidentalsRight contextual 13"  "KERN_accidentalsRight contextual 14"  "KERN_accidentalsRight contextual 15"  "KERN_accidentalsRight contextual 16"  "KERN_accidentalsRight contextual 17"  "KERN_accidentalsRight contextual 18"  "KERN_accidentalsRight contextual 19"  "KERN_accidentalsRight contextual 20"  "KERN_accidentalsRight contextual 21"  "KERN_accidentalsRight contextual 22"  "KERN_accidentalsRight contextual 23"  "KERN_accidentalsRight contextual 24"  "KERN_accidentalsRight contextual 25"  "KERN_accidentalsRight contextual 26"  "KERN_accidentalsRight contextual 27"  "KERN_accidentalsRight contextual 28"  "KERN_accidentalsRight contextual 29"  "KERN_accidentalsRight contextual 30"  "KERN_accidentalsRight contextual 31"  "KERN_accidentalsRight contextual 32"  "KERN_accidentalsRight contextual 33"  "KERN_accidentalsRight contextual 34"  "KERN_accidentalsRight contextual 35"  "KERN_accidentalsRight contextual 36"  "KERN_accidentalsRight contextual 37"  "KERN_accidentalsRight contextual 38"  "KERN_accidentalsRight contextual 39"  "KERN_accidentalsRight contextual 40"  "KERN_accidentalsRight contextual 41"  "KERN_accidentalsRight contextual 42"  "KERN_accidentalsRight contextual 43"  "KERN_accidentalsRight contextual 44"  "KERN_accidentalsRight contextual 45"  "KERN_accidentalsRight contextual 46"  "KERN_accidentalsRight contextual 47"  "KERN_accidentalsRight contextual 48"  "KERN_accidentalsRight contextual 49"  "KERN_accidentalsRight contextual 50"  "KERN_accidentalsRight contextual 51"  "KERN_accidentalsRight contextual 52"  "KERN_accidentalsRight contextual 53"  "KERN_accidentalsRight contextual 54"  "KERN_accidentalsRight contextual 55"  "KERN_accidentalsRight contextual 56"  "KERN_accidentalsRight contextual 57"  "KERN_accidentalsRight contextual 58"  "KERN_accidentalsRight contextual 59"  "KERN_accidentalsRight contextual 60"  "KERN_accidentalsRight contextual 61"  "KERN_accidentalsRight contextual 62"  "KERN_accidentalsRight contextual 63"  "KERN_accidentalsRight contextual 64"  "KERN_accidentalsRight contextual 65"  "KERN_accidentalsRight contextual 66"  "KERN_accidentalsRight contextual 67"  "KERN_accidentalsRight contextual 68"  "KERN_accidentalsRight contextual 69"  "KERN_accidentalsRight contextual 70"  "KERN_accidentalsRight contextual 71"  "KERN_accidentalsRight contextual 72"  "KERN_accidentalsRight contextual 73"  "KERN_accidentalsRight contextual 74"  "KERN_accidentalsRight contextual 75"  "KERN_accidentalsRight contextual 76"  "KERN_accidentalsRight contextual 77"  "KERN_accidentalsRight contextual 78"  "KERN_accidentalsRight contextual 79"  "KERN_accidentalsRight contextual 80"  "KERN_accidentalsRight contextual 81"  "KERN_accidentalsRight contextual 82"  "KERN_accidentalsRight contextual 83"  "KERN_accidentalsRight contextual 84"  "KERN_accidentalsRight contextual 85"  "KERN_accidentalsRight contextual 86"  "KERN_accidentalsRight contextual 87"  "KERN_accidentalsRight contextual 88"  "KERN_accidentalsRight contextual 89"  "KERN_accidentalsRight contextual 90"  "KERN_accidentalsRight contextual 91"  "KERN_accidentalsRight contextual 92"  "KERN_accidentalsRight contextual 93"  "KERN_accidentalsRight contextual 94"  "KERN_accidentalsRight contextual 95"  "KERN_accidentalsRight contextual 96"  "KERN_accidentalsRight contextual 97"  "KERN_accidentalsRight contextual 98"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 264 0 0 "KERN_modifyingAccidentalsTen" { "KERN_modifyingAccidentalsTen contextual 0"  "KERN_modifyingAccidentalsTen contextual 1"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 257 0 0 "Single Positioning lookup 16" { "Single Positioning lookup 16 subtable"  } []
 Lookup: 257 0 0 "Single Positioning lookup 17" { "Single Positioning lookup 17 subtable"  } []
-Lookup: 257 0 0 "Single Positioning lookup 18" { "Single Positioning lookup 18 subtable"  } []
+Lookup: 264 0 0 "KERN_modifyingAccidentalsRight" { "KERN_modifyingAccidentalsRight contextual 0"  "KERN_modifyingAccidentalsRight contextual 1"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 257 0 0 "Single Positioning lookup 19" { "Single Positioning lookup 19 subtable"  } []
 Lookup: 257 0 0 "Single Positioning lookup 20" { "Single Positioning lookup 20 subtable"  } []
-Lookup: 257 0 0 "Single Positioning lookup 21" { "Single Positioning lookup 21 subtable"  } []
+Lookup: 264 0 0 "KERN_modifyingAccidentalsLeft" { "KERN_modifyingAccidentalsLeft contextual 0"  "KERN_modifyingAccidentalsLeft contextual 1"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 257 0 0 "Single Positioning lookup 22" { "Single Positioning lookup 22 subtable"  } []
 Lookup: 257 0 0 "Single Positioning lookup 23" { "Single Positioning lookup 23 subtable"  } []
-Lookup: 257 0 0 "Single Positioning lookup 24" { "Single Positioning lookup 24 subtable"  } []
-Lookup: 257 0 0 "Single Positioning lookup 25" { "Single Positioning lookup 25 subtable"  } []
+Lookup: 264 0 0 "KERN_singleAccidentals" { "KERN_singleAccidentals contextual 0"  "KERN_singleAccidentals contextual 1"  "KERN_singleAccidentals contextual 2"  "KERN_singleAccidentals contextual 3"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 264 0 0 "KERN_accidentalsRight" { "KERN_accidentalsRight contextual 0"  "KERN_accidentalsRight contextual 1"  "KERN_accidentalsRight contextual 2"  "KERN_accidentalsRight contextual 3"  "KERN_accidentalsRight contextual 4"  "KERN_accidentalsRight contextual 5"  "KERN_accidentalsRight contextual 6"  "KERN_accidentalsRight contextual 7"  "KERN_accidentalsRight contextual 8"  "KERN_accidentalsRight contextual 9"  "KERN_accidentalsRight contextual 10"  "KERN_accidentalsRight contextual 11"  "KERN_accidentalsRight contextual 12"  "KERN_accidentalsRight contextual 13"  "KERN_accidentalsRight contextual 14"  "KERN_accidentalsRight contextual 15"  "KERN_accidentalsRight contextual 16"  "KERN_accidentalsRight contextual 17"  "KERN_accidentalsRight contextual 18"  "KERN_accidentalsRight contextual 19"  "KERN_accidentalsRight contextual 20"  "KERN_accidentalsRight contextual 21"  "KERN_accidentalsRight contextual 22"  "KERN_accidentalsRight contextual 23"  "KERN_accidentalsRight contextual 24"  "KERN_accidentalsRight contextual 25"  "KERN_accidentalsRight contextual 26"  "KERN_accidentalsRight contextual 27"  "KERN_accidentalsRight contextual 28"  "KERN_accidentalsRight contextual 29"  "KERN_accidentalsRight contextual 30"  "KERN_accidentalsRight contextual 31"  "KERN_accidentalsRight contextual 32"  "KERN_accidentalsRight contextual 33"  "KERN_accidentalsRight contextual 34"  "KERN_accidentalsRight contextual 35"  "KERN_accidentalsRight contextual 36"  "KERN_accidentalsRight contextual 37"  "KERN_accidentalsRight contextual 38"  "KERN_accidentalsRight contextual 39"  "KERN_accidentalsRight contextual 40"  "KERN_accidentalsRight contextual 41"  "KERN_accidentalsRight contextual 42"  "KERN_accidentalsRight contextual 43"  "KERN_accidentalsRight contextual 44"  "KERN_accidentalsRight contextual 45"  "KERN_accidentalsRight contextual 46"  "KERN_accidentalsRight contextual 47"  "KERN_accidentalsRight contextual 48"  "KERN_accidentalsRight contextual 49"  "KERN_accidentalsRight contextual 50"  "KERN_accidentalsRight contextual 51"  "KERN_accidentalsRight contextual 52"  "KERN_accidentalsRight contextual 53"  "KERN_accidentalsRight contextual 54"  "KERN_accidentalsRight contextual 55"  "KERN_accidentalsRight contextual 56"  "KERN_accidentalsRight contextual 57"  "KERN_accidentalsRight contextual 58"  "KERN_accidentalsRight contextual 59"  "KERN_accidentalsRight contextual 60"  "KERN_accidentalsRight contextual 61"  "KERN_accidentalsRight contextual 62"  "KERN_accidentalsRight contextual 63"  "KERN_accidentalsRight contextual 64"  "KERN_accidentalsRight contextual 65"  "KERN_accidentalsRight contextual 66"  "KERN_accidentalsRight contextual 67"  "KERN_accidentalsRight contextual 68"  "KERN_accidentalsRight contextual 69"  "KERN_accidentalsRight contextual 70"  "KERN_accidentalsRight contextual 71"  "KERN_accidentalsRight contextual 72"  "KERN_accidentalsRight contextual 73"  "KERN_accidentalsRight contextual 74"  "KERN_accidentalsRight contextual 75"  "KERN_accidentalsRight contextual 76"  "KERN_accidentalsRight contextual 77"  "KERN_accidentalsRight contextual 78"  "KERN_accidentalsRight contextual 79"  "KERN_accidentalsRight contextual 80"  "KERN_accidentalsRight contextual 81"  "KERN_accidentalsRight contextual 82"  "KERN_accidentalsRight contextual 83"  "KERN_accidentalsRight contextual 84"  "KERN_accidentalsRight contextual 85"  "KERN_accidentalsRight contextual 86"  "KERN_accidentalsRight contextual 87"  "KERN_accidentalsRight contextual 88"  "KERN_accidentalsRight contextual 89"  "KERN_accidentalsRight contextual 90"  "KERN_accidentalsRight contextual 91"  "KERN_accidentalsRight contextual 92"  "KERN_accidentalsRight contextual 93"  "KERN_accidentalsRight contextual 94"  "KERN_accidentalsRight contextual 95"  "KERN_accidentalsRight contextual 96"  "KERN_accidentalsRight contextual 97"  "KERN_accidentalsRight contextual 98"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 257 0 0 "Single Positioning lookup 26" { "Single Positioning lookup 26 subtable"  } []
 Lookup: 257 0 0 "Single Positioning lookup 27" { "Single Positioning lookup 27 subtable"  } []
 Lookup: 257 0 0 "Single Positioning lookup 28" { "Single Positioning lookup 28 subtable"  } []
@@ -193,7 +193,7 @@ Lookup: 257 0 0 "Single Positioning lookup 112" { "Single Positioning lookup 112
 Lookup: 257 0 0 "Single Positioning lookup 113" { "Single Positioning lookup 113 subtable"  } []
 Lookup: 257 0 0 "Single Positioning lookup 114" { "Single Positioning lookup 114 subtable"  } []
 Lookup: 257 0 0 "Single Positioning lookup 115" { "Single Positioning lookup 115 subtable"  } []
-Lookup: 264 0 0 "KERN_accidentalsLeft" { "KERN_accidentalsLeft contextual 0"  "KERN_accidentalsLeft contextual 1"  "KERN_accidentalsLeft contextual 2"  "KERN_accidentalsLeft contextual 3"  "KERN_accidentalsLeft contextual 4"  "KERN_accidentalsLeft contextual 5"  "KERN_accidentalsLeft contextual 6"  "KERN_accidentalsLeft contextual 7"  "KERN_accidentalsLeft contextual 8"  "KERN_accidentalsLeft contextual 9"  "KERN_accidentalsLeft contextual 10"  "KERN_accidentalsLeft contextual 11"  "KERN_accidentalsLeft contextual 12"  "KERN_accidentalsLeft contextual 13"  "KERN_accidentalsLeft contextual 14"  "KERN_accidentalsLeft contextual 15"  "KERN_accidentalsLeft contextual 16"  "KERN_accidentalsLeft contextual 17"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 257 0 0 "Single Positioning lookup 116" { "Single Positioning lookup 116 subtable"  } []
 Lookup: 257 0 0 "Single Positioning lookup 117" { "Single Positioning lookup 117 subtable"  } []
 Lookup: 257 0 0 "Single Positioning lookup 118" { "Single Positioning lookup 118 subtable"  } []
 Lookup: 257 0 0 "Single Positioning lookup 119" { "Single Positioning lookup 119 subtable"  } []
@@ -202,7 +202,7 @@ Lookup: 257 0 0 "Single Positioning lookup 121" { "Single Positioning lookup 121
 Lookup: 257 0 0 "Single Positioning lookup 122" { "Single Positioning lookup 122 subtable"  } []
 Lookup: 257 0 0 "Single Positioning lookup 123" { "Single Positioning lookup 123 subtable"  } []
 Lookup: 257 0 0 "Single Positioning lookup 124" { "Single Positioning lookup 124 subtable"  } []
-Lookup: 257 0 0 "Single Positioning lookup 125" { "Single Positioning lookup 125 subtable"  } []
+Lookup: 264 0 0 "KERN_accidentalsLeft" { "KERN_accidentalsLeft contextual 0"  "KERN_accidentalsLeft contextual 1"  "KERN_accidentalsLeft contextual 2"  "KERN_accidentalsLeft contextual 3"  "KERN_accidentalsLeft contextual 4"  "KERN_accidentalsLeft contextual 5"  "KERN_accidentalsLeft contextual 6"  "KERN_accidentalsLeft contextual 7"  "KERN_accidentalsLeft contextual 8"  "KERN_accidentalsLeft contextual 9"  "KERN_accidentalsLeft contextual 10"  "KERN_accidentalsLeft contextual 11"  "KERN_accidentalsLeft contextual 12"  "KERN_accidentalsLeft contextual 13"  "KERN_accidentalsLeft contextual 14"  "KERN_accidentalsLeft contextual 15"  "KERN_accidentalsLeft contextual 16"  "KERN_accidentalsLeft contextual 17"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 257 0 0 "Single Positioning lookup 126" { "Single Positioning lookup 126 subtable"  } []
 Lookup: 257 0 0 "Single Positioning lookup 127" { "Single Positioning lookup 127 subtable"  } []
 Lookup: 257 0 0 "Single Positioning lookup 128" { "Single Positioning lookup 128 subtable"  } []
@@ -212,6 +212,15 @@ Lookup: 257 0 0 "Single Positioning lookup 131" { "Single Positioning lookup 131
 Lookup: 257 0 0 "Single Positioning lookup 132" { "Single Positioning lookup 132 subtable"  } []
 Lookup: 257 0 0 "Single Positioning lookup 133" { "Single Positioning lookup 133 subtable"  } []
 Lookup: 257 0 0 "Single Positioning lookup 134" { "Single Positioning lookup 134 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 135" { "Single Positioning lookup 135 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 136" { "Single Positioning lookup 136 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 137" { "Single Positioning lookup 137 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 138" { "Single Positioning lookup 138 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 139" { "Single Positioning lookup 139 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 140" { "Single Positioning lookup 140 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 141" { "Single Positioning lookup 141 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 142" { "Single Positioning lookup 142 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 143" { "Single Positioning lookup 143 subtable"  } []
 MarkAttachClasses: 1
 DEI: 91125
 ChainPos2: coverage "KERN_accidentalsLeft contextual 17" 0 0 0 1
@@ -222,7 +231,7 @@ ChainPos2: coverage "KERN_accidentalsLeft contextual 17" 0 0 0 1
   BCoverage: 12 numbersign s
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 134"
+  SeqLookup: 0 "Single Positioning lookup 143"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsLeft contextual 16" 0 0 0 1
  1 0 4
@@ -232,7 +241,7 @@ ChainPos2: coverage "KERN_accidentalsLeft contextual 16" 0 0 0 1
   FCoverage: 12 numbersign s
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 133"
+  SeqLookup: 0 "Single Positioning lookup 142"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsLeft contextual 15" 0 0 0 1
  1 3 1
@@ -242,7 +251,7 @@ ChainPos2: coverage "KERN_accidentalsLeft contextual 15" 0 0 0 1
   BCoverage: 12 numbersign s
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 132"
+  SeqLookup: 0 "Single Positioning lookup 141"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsLeft contextual 14" 0 0 0 1
  1 0 4
@@ -252,7 +261,7 @@ ChainPos2: coverage "KERN_accidentalsLeft contextual 14" 0 0 0 1
   FCoverage: 1 b
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 131"
+  SeqLookup: 0 "Single Positioning lookup 140"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsLeft contextual 13" 0 0 0 1
  1 3 1
@@ -262,7 +271,7 @@ ChainPos2: coverage "KERN_accidentalsLeft contextual 13" 0 0 0 1
   BCoverage: 12 numbersign s
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 130"
+  SeqLookup: 0 "Single Positioning lookup 139"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsLeft contextual 12" 0 0 0 1
  1 0 4
@@ -272,7 +281,7 @@ ChainPos2: coverage "KERN_accidentalsLeft contextual 12" 0 0 0 1
   FCoverage: 1 n
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 129"
+  SeqLookup: 0 "Single Positioning lookup 138"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsLeft contextual 11" 0 0 0 1
  1 3 1
@@ -282,7 +291,7 @@ ChainPos2: coverage "KERN_accidentalsLeft contextual 11" 0 0 0 1
   BCoverage: 1 b
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 128"
+  SeqLookup: 0 "Single Positioning lookup 137"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsLeft contextual 10" 0 0 0 1
  1 0 4
@@ -292,7 +301,7 @@ ChainPos2: coverage "KERN_accidentalsLeft contextual 10" 0 0 0 1
   FCoverage: 12 numbersign s
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 127"
+  SeqLookup: 0 "Single Positioning lookup 136"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsLeft contextual 9" 0 0 0 1
  1 3 1
@@ -302,7 +311,7 @@ ChainPos2: coverage "KERN_accidentalsLeft contextual 9" 0 0 0 1
   BCoverage: 1 b
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 126"
+  SeqLookup: 0 "Single Positioning lookup 135"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsLeft contextual 8" 0 0 0 1
  1 0 4
@@ -312,7 +321,7 @@ ChainPos2: coverage "KERN_accidentalsLeft contextual 8" 0 0 0 1
   FCoverage: 1 b
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 125"
+  SeqLookup: 0 "Single Positioning lookup 134"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsLeft contextual 7" 0 0 0 1
  1 3 1
@@ -322,7 +331,7 @@ ChainPos2: coverage "KERN_accidentalsLeft contextual 7" 0 0 0 1
   BCoverage: 1 b
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 124"
+  SeqLookup: 0 "Single Positioning lookup 133"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsLeft contextual 6" 0 0 0 1
  1 0 4
@@ -332,7 +341,7 @@ ChainPos2: coverage "KERN_accidentalsLeft contextual 6" 0 0 0 1
   FCoverage: 1 n
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 123"
+  SeqLookup: 0 "Single Positioning lookup 132"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsLeft contextual 5" 0 0 0 1
  1 3 1
@@ -342,7 +351,7 @@ ChainPos2: coverage "KERN_accidentalsLeft contextual 5" 0 0 0 1
   BCoverage: 1 n
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 122"
+  SeqLookup: 0 "Single Positioning lookup 131"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsLeft contextual 4" 0 0 0 1
  1 0 4
@@ -352,7 +361,7 @@ ChainPos2: coverage "KERN_accidentalsLeft contextual 4" 0 0 0 1
   FCoverage: 12 numbersign s
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 121"
+  SeqLookup: 0 "Single Positioning lookup 130"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsLeft contextual 3" 0 0 0 1
  1 3 1
@@ -362,7 +371,7 @@ ChainPos2: coverage "KERN_accidentalsLeft contextual 3" 0 0 0 1
   BCoverage: 1 n
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 120"
+  SeqLookup: 0 "Single Positioning lookup 129"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsLeft contextual 2" 0 0 0 1
  1 0 4
@@ -372,7 +381,7 @@ ChainPos2: coverage "KERN_accidentalsLeft contextual 2" 0 0 0 1
   FCoverage: 1 b
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 119"
+  SeqLookup: 0 "Single Positioning lookup 128"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsLeft contextual 1" 0 0 0 1
  1 3 1
@@ -382,7 +391,7 @@ ChainPos2: coverage "KERN_accidentalsLeft contextual 1" 0 0 0 1
   BCoverage: 1 n
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 118"
+  SeqLookup: 0 "Single Positioning lookup 127"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsLeft contextual 0" 0 0 0 1
  1 0 4
@@ -392,7 +401,7 @@ ChainPos2: coverage "KERN_accidentalsLeft contextual 0" 0 0 0 1
   FCoverage: 1 n
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 117"
+  SeqLookup: 0 "Single Positioning lookup 126"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 98" 0 0 0 1
  1 4 0
@@ -402,7 +411,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 98" 0 0 0 1
   BCoverage: 12 numbersign s
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 115"
+  SeqLookup: 0 "Single Positioning lookup 124"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 97" 0 0 0 1
  1 1 3
@@ -412,7 +421,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 97" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 12 numbersign s
  1
-  SeqLookup: 0 "Single Positioning lookup 114"
+  SeqLookup: 0 "Single Positioning lookup 123"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 96" 0 0 0 1
  1 4 0
@@ -422,7 +431,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 96" 0 0 0 1
   BCoverage: 12 numbersign s
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 113"
+  SeqLookup: 0 "Single Positioning lookup 122"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 95" 0 0 0 1
  1 1 3
@@ -432,7 +441,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 95" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 b
  1
-  SeqLookup: 0 "Single Positioning lookup 112"
+  SeqLookup: 0 "Single Positioning lookup 121"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 94" 0 0 0 1
  1 4 0
@@ -442,7 +451,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 94" 0 0 0 1
   BCoverage: 12 numbersign s
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 111"
+  SeqLookup: 0 "Single Positioning lookup 120"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 93" 0 0 0 1
  1 1 3
@@ -452,7 +461,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 93" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 n
  1
-  SeqLookup: 0 "Single Positioning lookup 110"
+  SeqLookup: 0 "Single Positioning lookup 119"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 92" 0 0 0 1
  1 4 0
@@ -462,7 +471,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 92" 0 0 0 1
   BCoverage: 1 b
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 109"
+  SeqLookup: 0 "Single Positioning lookup 118"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 91" 0 0 0 1
  1 1 3
@@ -472,7 +481,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 91" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 12 numbersign s
  1
-  SeqLookup: 0 "Single Positioning lookup 108"
+  SeqLookup: 0 "Single Positioning lookup 117"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 90" 0 0 0 1
  1 4 0
@@ -482,7 +491,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 90" 0 0 0 1
   BCoverage: 1 b
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 107"
+  SeqLookup: 0 "Single Positioning lookup 116"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 89" 0 0 0 1
  1 1 3
@@ -492,7 +501,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 89" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 b
  1
-  SeqLookup: 0 "Single Positioning lookup 106"
+  SeqLookup: 0 "Single Positioning lookup 115"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 88" 0 0 0 1
  1 4 0
@@ -502,7 +511,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 88" 0 0 0 1
   BCoverage: 1 b
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 105"
+  SeqLookup: 0 "Single Positioning lookup 114"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 87" 0 0 0 1
  1 1 3
@@ -512,7 +521,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 87" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 n
  1
-  SeqLookup: 0 "Single Positioning lookup 104"
+  SeqLookup: 0 "Single Positioning lookup 113"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 86" 0 0 0 1
  1 4 0
@@ -522,7 +531,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 86" 0 0 0 1
   BCoverage: 1 n
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 103"
+  SeqLookup: 0 "Single Positioning lookup 112"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 85" 0 0 0 1
  1 1 3
@@ -532,7 +541,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 85" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 12 numbersign s
  1
-  SeqLookup: 0 "Single Positioning lookup 102"
+  SeqLookup: 0 "Single Positioning lookup 111"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 84" 0 0 0 1
  1 4 0
@@ -542,7 +551,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 84" 0 0 0 1
   BCoverage: 1 n
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 101"
+  SeqLookup: 0 "Single Positioning lookup 110"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 83" 0 0 0 1
  1 1 3
@@ -552,7 +561,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 83" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 b
  1
-  SeqLookup: 0 "Single Positioning lookup 100"
+  SeqLookup: 0 "Single Positioning lookup 109"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 82" 0 0 0 1
  1 4 0
@@ -562,7 +571,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 82" 0 0 0 1
   BCoverage: 1 n
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 99"
+  SeqLookup: 0 "Single Positioning lookup 108"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 81" 0 0 0 1
  1 1 3
@@ -572,7 +581,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 81" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 n
  1
-  SeqLookup: 0 "Single Positioning lookup 98"
+  SeqLookup: 0 "Single Positioning lookup 107"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 80" 0 0 0 1
  1 7 0
@@ -585,7 +594,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 80" 0 0 0 1
   BCoverage: 12 numbersign s
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 97"
+  SeqLookup: 0 "Single Positioning lookup 106"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 79" 0 0 0 1
  1 4 3
@@ -598,7 +607,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 79" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 12 numbersign s
  1
-  SeqLookup: 0 "Single Positioning lookup 96"
+  SeqLookup: 0 "Single Positioning lookup 105"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 78" 0 0 0 1
  1 1 6
@@ -611,7 +620,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 78" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 12 numbersign s
  1
-  SeqLookup: 0 "Single Positioning lookup 95"
+  SeqLookup: 0 "Single Positioning lookup 104"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 77" 0 0 0 1
  1 7 0
@@ -624,7 +633,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 77" 0 0 0 1
   BCoverage: 12 numbersign s
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 94"
+  SeqLookup: 0 "Single Positioning lookup 103"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 76" 0 0 0 1
  1 4 3
@@ -637,7 +646,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 76" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 b
  1
-  SeqLookup: 0 "Single Positioning lookup 93"
+  SeqLookup: 0 "Single Positioning lookup 102"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 75" 0 0 0 1
  1 1 6
@@ -650,7 +659,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 75" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 b
  1
-  SeqLookup: 0 "Single Positioning lookup 92"
+  SeqLookup: 0 "Single Positioning lookup 101"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 74" 0 0 0 1
  1 7 0
@@ -663,7 +672,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 74" 0 0 0 1
   BCoverage: 12 numbersign s
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 91"
+  SeqLookup: 0 "Single Positioning lookup 100"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 73" 0 0 0 1
  1 4 3
@@ -676,7 +685,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 73" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 n
  1
-  SeqLookup: 0 "Single Positioning lookup 90"
+  SeqLookup: 0 "Single Positioning lookup 99"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 72" 0 0 0 1
  1 1 6
@@ -689,7 +698,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 72" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 n
  1
-  SeqLookup: 0 "Single Positioning lookup 89"
+  SeqLookup: 0 "Single Positioning lookup 98"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 71" 0 0 0 1
  1 7 0
@@ -702,7 +711,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 71" 0 0 0 1
   BCoverage: 12 numbersign s
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 88"
+  SeqLookup: 0 "Single Positioning lookup 97"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 70" 0 0 0 1
  1 4 3
@@ -715,7 +724,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 70" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 12 numbersign s
  1
-  SeqLookup: 0 "Single Positioning lookup 87"
+  SeqLookup: 0 "Single Positioning lookup 96"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 69" 0 0 0 1
  1 1 6
@@ -728,7 +737,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 69" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 12 numbersign s
  1
-  SeqLookup: 0 "Single Positioning lookup 86"
+  SeqLookup: 0 "Single Positioning lookup 95"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 68" 0 0 0 1
  1 7 0
@@ -741,7 +750,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 68" 0 0 0 1
   BCoverage: 12 numbersign s
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 85"
+  SeqLookup: 0 "Single Positioning lookup 94"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 67" 0 0 0 1
  1 4 3
@@ -754,7 +763,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 67" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 b
  1
-  SeqLookup: 0 "Single Positioning lookup 84"
+  SeqLookup: 0 "Single Positioning lookup 93"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 66" 0 0 0 1
  1 1 6
@@ -767,7 +776,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 66" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 b
  1
-  SeqLookup: 0 "Single Positioning lookup 83"
+  SeqLookup: 0 "Single Positioning lookup 92"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 65" 0 0 0 1
  1 7 0
@@ -780,7 +789,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 65" 0 0 0 1
   BCoverage: 12 numbersign s
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 82"
+  SeqLookup: 0 "Single Positioning lookup 91"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 64" 0 0 0 1
  1 4 3
@@ -793,7 +802,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 64" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 n
  1
-  SeqLookup: 0 "Single Positioning lookup 81"
+  SeqLookup: 0 "Single Positioning lookup 90"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 63" 0 0 0 1
  1 1 6
@@ -806,7 +815,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 63" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 n
  1
-  SeqLookup: 0 "Single Positioning lookup 80"
+  SeqLookup: 0 "Single Positioning lookup 89"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 62" 0 0 0 1
  1 7 0
@@ -819,7 +828,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 62" 0 0 0 1
   BCoverage: 12 numbersign s
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 79"
+  SeqLookup: 0 "Single Positioning lookup 88"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 61" 0 0 0 1
  1 4 3
@@ -832,7 +841,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 61" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 12 numbersign s
  1
-  SeqLookup: 0 "Single Positioning lookup 78"
+  SeqLookup: 0 "Single Positioning lookup 87"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 60" 0 0 0 1
  1 1 6
@@ -845,7 +854,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 60" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 12 numbersign s
  1
-  SeqLookup: 0 "Single Positioning lookup 77"
+  SeqLookup: 0 "Single Positioning lookup 86"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 59" 0 0 0 1
  1 7 0
@@ -858,7 +867,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 59" 0 0 0 1
   BCoverage: 12 numbersign s
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 76"
+  SeqLookup: 0 "Single Positioning lookup 85"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 58" 0 0 0 1
  1 4 3
@@ -871,7 +880,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 58" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 b
  1
-  SeqLookup: 0 "Single Positioning lookup 75"
+  SeqLookup: 0 "Single Positioning lookup 84"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 57" 0 0 0 1
  1 1 6
@@ -884,7 +893,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 57" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 b
  1
-  SeqLookup: 0 "Single Positioning lookup 74"
+  SeqLookup: 0 "Single Positioning lookup 83"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 56" 0 0 0 1
  1 7 0
@@ -897,7 +906,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 56" 0 0 0 1
   BCoverage: 12 numbersign s
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 73"
+  SeqLookup: 0 "Single Positioning lookup 82"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 55" 0 0 0 1
  1 4 3
@@ -910,7 +919,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 55" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 n
  1
-  SeqLookup: 0 "Single Positioning lookup 72"
+  SeqLookup: 0 "Single Positioning lookup 81"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 54" 0 0 0 1
  1 1 6
@@ -923,7 +932,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 54" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 n
  1
-  SeqLookup: 0 "Single Positioning lookup 71"
+  SeqLookup: 0 "Single Positioning lookup 80"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 53" 0 0 0 1
  1 7 0
@@ -936,7 +945,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 53" 0 0 0 1
   BCoverage: 1 b
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 70"
+  SeqLookup: 0 "Single Positioning lookup 79"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 52" 0 0 0 1
  1 4 3
@@ -949,7 +958,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 52" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 12 numbersign s
  1
-  SeqLookup: 0 "Single Positioning lookup 69"
+  SeqLookup: 0 "Single Positioning lookup 78"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 51" 0 0 0 1
  1 1 6
@@ -962,7 +971,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 51" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 12 numbersign s
  1
-  SeqLookup: 0 "Single Positioning lookup 68"
+  SeqLookup: 0 "Single Positioning lookup 77"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 50" 0 0 0 1
  1 7 0
@@ -975,7 +984,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 50" 0 0 0 1
   BCoverage: 1 b
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 67"
+  SeqLookup: 0 "Single Positioning lookup 76"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 49" 0 0 0 1
  1 4 3
@@ -988,7 +997,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 49" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 b
  1
-  SeqLookup: 0 "Single Positioning lookup 66"
+  SeqLookup: 0 "Single Positioning lookup 75"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 48" 0 0 0 1
  1 1 6
@@ -1001,7 +1010,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 48" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 b
  1
-  SeqLookup: 0 "Single Positioning lookup 65"
+  SeqLookup: 0 "Single Positioning lookup 74"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 47" 0 0 0 1
  1 7 0
@@ -1014,7 +1023,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 47" 0 0 0 1
   BCoverage: 1 b
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 64"
+  SeqLookup: 0 "Single Positioning lookup 73"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 46" 0 0 0 1
  1 4 3
@@ -1027,7 +1036,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 46" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 n
  1
-  SeqLookup: 0 "Single Positioning lookup 63"
+  SeqLookup: 0 "Single Positioning lookup 72"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 45" 0 0 0 1
  1 1 6
@@ -1040,7 +1049,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 45" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 n
  1
-  SeqLookup: 0 "Single Positioning lookup 62"
+  SeqLookup: 0 "Single Positioning lookup 71"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 44" 0 0 0 1
  1 7 0
@@ -1053,7 +1062,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 44" 0 0 0 1
   BCoverage: 1 b
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 61"
+  SeqLookup: 0 "Single Positioning lookup 70"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 43" 0 0 0 1
  1 4 3
@@ -1066,7 +1075,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 43" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 12 numbersign s
  1
-  SeqLookup: 0 "Single Positioning lookup 60"
+  SeqLookup: 0 "Single Positioning lookup 69"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 42" 0 0 0 1
  1 1 6
@@ -1079,7 +1088,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 42" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 12 numbersign s
  1
-  SeqLookup: 0 "Single Positioning lookup 59"
+  SeqLookup: 0 "Single Positioning lookup 68"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 41" 0 0 0 1
  1 7 0
@@ -1092,7 +1101,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 41" 0 0 0 1
   BCoverage: 1 b
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 58"
+  SeqLookup: 0 "Single Positioning lookup 67"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 40" 0 0 0 1
  1 4 3
@@ -1105,7 +1114,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 40" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 b
  1
-  SeqLookup: 0 "Single Positioning lookup 57"
+  SeqLookup: 0 "Single Positioning lookup 66"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 39" 0 0 0 1
  1 1 6
@@ -1118,7 +1127,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 39" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 b
  1
-  SeqLookup: 0 "Single Positioning lookup 56"
+  SeqLookup: 0 "Single Positioning lookup 65"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 38" 0 0 0 1
  1 7 0
@@ -1131,7 +1140,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 38" 0 0 0 1
   BCoverage: 1 b
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 55"
+  SeqLookup: 0 "Single Positioning lookup 64"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 37" 0 0 0 1
  1 4 3
@@ -1144,7 +1153,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 37" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 n
  1
-  SeqLookup: 0 "Single Positioning lookup 54"
+  SeqLookup: 0 "Single Positioning lookup 63"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 36" 0 0 0 1
  1 1 6
@@ -1157,7 +1166,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 36" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 n
  1
-  SeqLookup: 0 "Single Positioning lookup 53"
+  SeqLookup: 0 "Single Positioning lookup 62"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 35" 0 0 0 1
  1 7 0
@@ -1170,7 +1179,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 35" 0 0 0 1
   BCoverage: 1 b
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 52"
+  SeqLookup: 0 "Single Positioning lookup 61"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 34" 0 0 0 1
  1 4 3
@@ -1183,7 +1192,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 34" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 12 numbersign s
  1
-  SeqLookup: 0 "Single Positioning lookup 51"
+  SeqLookup: 0 "Single Positioning lookup 60"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 33" 0 0 0 1
  1 1 6
@@ -1196,7 +1205,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 33" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 12 numbersign s
  1
-  SeqLookup: 0 "Single Positioning lookup 50"
+  SeqLookup: 0 "Single Positioning lookup 59"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 32" 0 0 0 1
  1 7 0
@@ -1209,7 +1218,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 32" 0 0 0 1
   BCoverage: 1 b
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 49"
+  SeqLookup: 0 "Single Positioning lookup 58"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 31" 0 0 0 1
  1 4 3
@@ -1222,7 +1231,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 31" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 b
  1
-  SeqLookup: 0 "Single Positioning lookup 48"
+  SeqLookup: 0 "Single Positioning lookup 57"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 30" 0 0 0 1
  1 1 6
@@ -1235,7 +1244,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 30" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 b
  1
-  SeqLookup: 0 "Single Positioning lookup 47"
+  SeqLookup: 0 "Single Positioning lookup 56"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 29" 0 0 0 1
  1 7 0
@@ -1248,7 +1257,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 29" 0 0 0 1
   BCoverage: 1 b
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 46"
+  SeqLookup: 0 "Single Positioning lookup 55"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 28" 0 0 0 1
  1 4 3
@@ -1261,7 +1270,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 28" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 n
  1
-  SeqLookup: 0 "Single Positioning lookup 45"
+  SeqLookup: 0 "Single Positioning lookup 54"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 27" 0 0 0 1
  1 1 6
@@ -1274,7 +1283,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 27" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 n
  1
-  SeqLookup: 0 "Single Positioning lookup 44"
+  SeqLookup: 0 "Single Positioning lookup 53"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 26" 0 0 0 1
  1 7 0
@@ -1287,7 +1296,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 26" 0 0 0 1
   BCoverage: 1 n
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 43"
+  SeqLookup: 0 "Single Positioning lookup 52"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 25" 0 0 0 1
  1 4 3
@@ -1300,7 +1309,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 25" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 12 numbersign s
  1
-  SeqLookup: 0 "Single Positioning lookup 42"
+  SeqLookup: 0 "Single Positioning lookup 51"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 24" 0 0 0 1
  1 1 6
@@ -1313,7 +1322,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 24" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 12 numbersign s
  1
-  SeqLookup: 0 "Single Positioning lookup 41"
+  SeqLookup: 0 "Single Positioning lookup 50"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 23" 0 0 0 1
  1 7 0
@@ -1326,7 +1335,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 23" 0 0 0 1
   BCoverage: 1 n
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 40"
+  SeqLookup: 0 "Single Positioning lookup 49"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 22" 0 0 0 1
  1 4 3
@@ -1339,7 +1348,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 22" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 b
  1
-  SeqLookup: 0 "Single Positioning lookup 39"
+  SeqLookup: 0 "Single Positioning lookup 48"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 21" 0 0 0 1
  1 1 6
@@ -1352,7 +1361,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 21" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 b
  1
-  SeqLookup: 0 "Single Positioning lookup 38"
+  SeqLookup: 0 "Single Positioning lookup 47"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 20" 0 0 0 1
  1 7 0
@@ -1365,7 +1374,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 20" 0 0 0 1
   BCoverage: 1 n
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 37"
+  SeqLookup: 0 "Single Positioning lookup 46"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 19" 0 0 0 1
  1 4 3
@@ -1378,7 +1387,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 19" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 n
  1
-  SeqLookup: 0 "Single Positioning lookup 36"
+  SeqLookup: 0 "Single Positioning lookup 45"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 18" 0 0 0 1
  1 1 6
@@ -1391,7 +1400,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 18" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 n
  1
-  SeqLookup: 0 "Single Positioning lookup 35"
+  SeqLookup: 0 "Single Positioning lookup 44"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 17" 0 0 0 1
  1 7 0
@@ -1404,7 +1413,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 17" 0 0 0 1
   BCoverage: 1 n
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 34"
+  SeqLookup: 0 "Single Positioning lookup 43"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 16" 0 0 0 1
  1 4 3
@@ -1417,7 +1426,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 16" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 12 numbersign s
  1
-  SeqLookup: 0 "Single Positioning lookup 33"
+  SeqLookup: 0 "Single Positioning lookup 42"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 15" 0 0 0 1
  1 1 6
@@ -1430,7 +1439,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 15" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 12 numbersign s
  1
-  SeqLookup: 0 "Single Positioning lookup 32"
+  SeqLookup: 0 "Single Positioning lookup 41"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 14" 0 0 0 1
  1 7 0
@@ -1443,7 +1452,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 14" 0 0 0 1
   BCoverage: 1 n
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 31"
+  SeqLookup: 0 "Single Positioning lookup 40"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 13" 0 0 0 1
  1 4 3
@@ -1456,7 +1465,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 13" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 b
  1
-  SeqLookup: 0 "Single Positioning lookup 30"
+  SeqLookup: 0 "Single Positioning lookup 39"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 12" 0 0 0 1
  1 1 6
@@ -1469,7 +1478,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 12" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 b
  1
-  SeqLookup: 0 "Single Positioning lookup 29"
+  SeqLookup: 0 "Single Positioning lookup 38"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 11" 0 0 0 1
  1 7 0
@@ -1482,7 +1491,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 11" 0 0 0 1
   BCoverage: 1 n
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 28"
+  SeqLookup: 0 "Single Positioning lookup 37"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 10" 0 0 0 1
  1 4 3
@@ -1495,7 +1504,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 10" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 n
  1
-  SeqLookup: 0 "Single Positioning lookup 27"
+  SeqLookup: 0 "Single Positioning lookup 36"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 9" 0 0 0 1
  1 1 6
@@ -1508,7 +1517,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 9" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 n
  1
-  SeqLookup: 0 "Single Positioning lookup 26"
+  SeqLookup: 0 "Single Positioning lookup 35"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 8" 0 0 0 1
  1 7 0
@@ -1521,7 +1530,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 8" 0 0 0 1
   BCoverage: 1 n
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 25"
+  SeqLookup: 0 "Single Positioning lookup 34"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 7" 0 0 0 1
  1 4 3
@@ -1534,7 +1543,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 7" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 12 numbersign s
  1
-  SeqLookup: 0 "Single Positioning lookup 24"
+  SeqLookup: 0 "Single Positioning lookup 33"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 6" 0 0 0 1
  1 1 6
@@ -1547,7 +1556,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 6" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 12 numbersign s
  1
-  SeqLookup: 0 "Single Positioning lookup 23"
+  SeqLookup: 0 "Single Positioning lookup 32"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 5" 0 0 0 1
  1 7 0
@@ -1560,7 +1569,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 5" 0 0 0 1
   BCoverage: 1 n
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 22"
+  SeqLookup: 0 "Single Positioning lookup 31"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 4" 0 0 0 1
  1 4 3
@@ -1573,7 +1582,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 4" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 b
  1
-  SeqLookup: 0 "Single Positioning lookup 21"
+  SeqLookup: 0 "Single Positioning lookup 30"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 3" 0 0 0 1
  1 1 6
@@ -1586,7 +1595,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 3" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 b
  1
-  SeqLookup: 0 "Single Positioning lookup 20"
+  SeqLookup: 0 "Single Positioning lookup 29"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 2" 0 0 0 1
  1 7 0
@@ -1599,7 +1608,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 2" 0 0 0 1
   BCoverage: 1 n
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
-  SeqLookup: 0 "Single Positioning lookup 19"
+  SeqLookup: 0 "Single Positioning lookup 28"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 1" 0 0 0 1
  1 4 3
@@ -1612,7 +1621,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 1" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 n
  1
-  SeqLookup: 0 "Single Positioning lookup 18"
+  SeqLookup: 0 "Single Positioning lookup 27"
 EndFPST
 ChainPos2: coverage "KERN_accidentalsRight contextual 0" 0 0 0 1
  1 1 6
@@ -1625,7 +1634,7 @@ ChainPos2: coverage "KERN_accidentalsRight contextual 0" 0 0 0 1
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 1 n
  1
-  SeqLookup: 0 "Single Positioning lookup 17"
+  SeqLookup: 0 "Single Positioning lookup 26"
 EndFPST
 ChainPos2: coverage "KERN_singleAccidentals contextual 3" 0 0 0 1
  1 2 0
@@ -1657,6 +1666,48 @@ ChainPos2: coverage "KERN_singleAccidentals contextual 0" 0 0 0 1
   FCoverage: 1135 comma sep sep.1 sep.1.A sep.1.B sep.1.C sep.1.A.p1 sep.1.A.p2 sep.1.A.p3 sep.1.A.p4 sep.1.B.p1 sep.1.B.p2 sep.1.B.p3 sep.1.B.p4 sep.1.A.p1.A sep.1.A.p1.B sep.1.A.p2.A sep.1.A.p2.B sep.1.A.p3.A sep.1.A.p3.B sep.1.A.p4.A sep.1.A.p4.B sep.1.B.p1.B sep.1.B.p2.B sep.1.B.p3.B sep.1.B.p4.B sep.2 sep.2.A sep.2.B sep.2.C sep.2.A.p1 sep.2.A.p2 sep.2.A.p3 sep.2.A.p4 sep.2.B.p1 sep.2.B.p2 sep.2.B.p3 sep.2.B.p4 sep.2.A.p1.A sep.2.A.p1.B sep.2.A.p2.A sep.2.A.p2.B sep.2.A.p3.A sep.2.A.p3.B sep.2.A.p4.A sep.2.A.p4.B sep.2.B.p1.B sep.2.B.p2.B sep.2.B.p3.B sep.2.B.p4.B sep.3 sep.3.A sep.3.B sep.3.C sep.3.A.p1 sep.3.A.p2 sep.3.A.p3 sep.3.A.p4 sep.3.B.p1 sep.3.B.p2 sep.3.B.p3 sep.3.B.p4 sep.3.A.p1.A sep.3.A.p1.B sep.3.A.p2.A sep.3.A.p2.B sep.3.A.p3.A sep.3.A.p3.B sep.3.A.p4.A sep.3.A.p4.B sep.3.B.p1.B sep.3.B.p2.B sep.3.B.p3.B sep.3.B.p4.B sep.4 sep.4.A sep.4.B sep.4.C sep.4.A.p1 sep.4.A.p2 sep.4.A.p3 sep.4.A.p4 sep.4.B.p1 sep.4.B.p2 sep.4.B.p3 sep.4.B.p4 sep.4.A.p1.A sep.4.A.p1.B sep.4.A.p2.A sep.4.A.p2.B sep.4.A.p3.A sep.4.A.p3.B sep.4.A.p4.A sep.4.A.p4.B sep.4.B.p1.B sep.4.B.p2.B sep.4.B.p3.B sep.4.B.p4.B sep.5 sep.5.A sep.5.B sep.5.C
   FCoverage: 780 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash d endash n b s numbersign b_b x plus hyphen parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright parenleft parenright bracketleft bracketright parenleft.p1 parenright.p1 bracketleft.p1 bracketright.p1 parenleft.p2 parenright.p2 bracketleft.p2 bracketright.p2 parenleft.p3 parenright.p3 bracketleft.p3 bracketright.p3 parenleft.p4 parenright.p4 bracketleft.p4 bracketright.p4
  0
+EndFPST
+ChainPos2: coverage "KERN_modifyingAccidentalsLeft contextual 1" 0 0 0 1
+ 1 0 1
+  Coverage: 3 b_b
+  FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
+ 1
+  SeqLookup: 0 "Single Positioning lookup 23"
+EndFPST
+ChainPos2: coverage "KERN_modifyingAccidentalsLeft contextual 0" 0 0 0 1
+ 1 0 1
+  Coverage: 1 n
+  FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
+ 1
+  SeqLookup: 0 "Single Positioning lookup 22"
+EndFPST
+ChainPos2: coverage "KERN_modifyingAccidentalsRight contextual 1" 0 0 0 1
+ 1 1 0
+  Coverage: 3 b_b
+  BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
+ 1
+  SeqLookup: 0 "Single Positioning lookup 20"
+EndFPST
+ChainPos2: coverage "KERN_modifyingAccidentalsRight contextual 0" 0 0 0 1
+ 1 1 0
+  Coverage: 1 n
+  BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
+ 1
+  SeqLookup: 0 "Single Positioning lookup 19"
+EndFPST
+ChainPos2: coverage "KERN_modifyingAccidentalsTen contextual 1" 0 0 0 1
+ 1 0 1
+  Coverage: 288 n b s numbersign b_b x plus hyphen parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
+  FCoverage: 19 one_zero i_one_zero
+ 1
+  SeqLookup: 0 "Single Positioning lookup 17"
+EndFPST
+ChainPos2: coverage "KERN_modifyingAccidentalsTen contextual 0" 0 0 0 1
+ 1 1 0
+  Coverage: 288 n b s numbersign b_b x plus hyphen parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
+  BCoverage: 19 one_zero i_one_zero
+ 1
+  SeqLookup: 0 "Single Positioning lookup 16"
 EndFPST
 ChainPos2: coverage "KERN_horizontalPosition contextual 7" 0 0 0 1
  1 2 0
@@ -2547,95 +2598,110 @@ ChainSub2: coverage "CALT_enumerateSeparators contextual 0" 0 0 0 1
  1
   SeqLookup: 0 "sep2"
 EndFPST
-ChainSub2: coverage "CALT_addSeparators contextual 26" 0 0 0 1
+ChainSub2: coverage "CALT_addSeparators contextual 28" 0 0 0 1
  1 1 1
   Coverage: 5 comma
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 73 two_slash four_slash five_slash six_slash seven_slash nine_slash d endash
+ 1
+  SeqLookup: 0 "addSepRight"
+EndFPST
+ChainSub2: coverage "CALT_addSeparators contextual 27" 0 0 0 1
+ 1 1 1
+  Coverage: 5 comma
+  BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
+  FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
+ 1
+  SeqLookup: 0 "addSepRight"
+EndFPST
+ChainSub2: coverage "CALT_addSeparators contextual 26" 0 0 0 1
+ 1 1 1
+  Coverage: 5 comma
+  BCoverage: 73 two_slash four_slash five_slash six_slash seven_slash nine_slash d endash
+  FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
   SeqLookup: 0 "addSepRight"
 EndFPST
 ChainSub2: coverage "CALT_addSeparators contextual 25" 0 0 0 1
  1 1 1
   Coverage: 5 comma
-  BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
-  FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
- 1
-  SeqLookup: 0 "addSepRight"
-EndFPST
-ChainSub2: coverage "CALT_addSeparators contextual 24" 0 0 0 1
- 1 1 1
-  Coverage: 5 comma
-  BCoverage: 73 two_slash four_slash five_slash six_slash seven_slash nine_slash d endash
-  FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
- 1
-  SeqLookup: 0 "addSepRight"
-EndFPST
-ChainSub2: coverage "CALT_addSeparators contextual 23" 0 0 0 1
- 1 1 1
-  Coverage: 5 comma
   BCoverage: 73 two_slash four_slash five_slash six_slash seven_slash nine_slash d endash
   FCoverage: 73 two_slash four_slash five_slash six_slash seven_slash nine_slash d endash
  1
   SeqLookup: 0 "addSepRight"
 EndFPST
-ChainSub2: coverage "CALT_addSeparators contextual 22" 0 0 0 1
+ChainSub2: coverage "CALT_addSeparators contextual 24" 0 0 0 1
  1 0 0
   Coverage: 143 parenright parenright.p1 parenright.p2 parenright.p3 parenright.p4 bracketright bracketright.p1 bracketright.p2 bracketright.p3 bracketright.p4
  1
   SeqLookup: 0 "addSepRight"
 EndFPST
-ChainSub2: coverage "CALT_addSeparators contextual 21" 0 0 0 1
+ChainSub2: coverage "CALT_addSeparators contextual 23" 0 0 0 1
  1 0 1
   Coverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
+  FCoverage: 133 parenleft parenleft.p1 parenleft.p2 parenleft.p3 parenleft.p4 bracketleft bracketleft.p1 bracketleft.p2 bracketleft.p3 bracketleft.p4
+ 1
+  SeqLookup: 0 "addSepRight"
+EndFPST
+ChainSub2: coverage "CALT_addSeparators contextual 22" 0 0 0 1
+ 1 0 1
+  Coverage: 1 b
+  FCoverage: 133 parenleft parenleft.p1 parenleft.p2 parenleft.p3 parenleft.p4 bracketleft bracketleft.p1 bracketleft.p2 bracketleft.p3 bracketleft.p4
+ 1
+  SeqLookup: 0 "addSepRight"
+EndFPST
+ChainSub2: coverage "CALT_addSeparators contextual 21" 0 0 0 1
+ 1 0 1
+  Coverage: 286 n s numbersign b_b x plus hyphen parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
   FCoverage: 133 parenleft parenleft.p1 parenleft.p2 parenleft.p3 parenleft.p4 bracketleft bracketleft.p1 bracketleft.p2 bracketleft.p3 bracketleft.p4
  1
   SeqLookup: 0 "addSepRight"
 EndFPST
 ChainSub2: coverage "CALT_addSeparators contextual 20" 0 0 0 1
  1 0 1
-  Coverage: 1 b
-  FCoverage: 133 parenleft parenleft.p1 parenleft.p2 parenleft.p3 parenleft.p4 bracketleft bracketleft.p1 bracketleft.p2 bracketleft.p3 bracketleft.p4
- 1
-  SeqLookup: 0 "addSepRight"
-EndFPST
-ChainSub2: coverage "CALT_addSeparators contextual 19" 0 0 0 1
- 1 0 1
-  Coverage: 286 n s numbersign b_b x plus hyphen parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
-  FCoverage: 133 parenleft parenleft.p1 parenleft.p2 parenleft.p3 parenleft.p4 bracketleft bracketleft.p1 bracketleft.p2 bracketleft.p3 bracketleft.p4
- 1
-  SeqLookup: 0 "addSepRight"
-EndFPST
-ChainSub2: coverage "CALT_addSeparators contextual 18" 0 0 0 1
- 1 0 1
   Coverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 73 two_slash four_slash five_slash six_slash seven_slash nine_slash d endash
  1
   SeqLookup: 0 "addSepRight"
 EndFPST
-ChainSub2: coverage "CALT_addSeparators contextual 17" 0 0 0 1
+ChainSub2: coverage "CALT_addSeparators contextual 19" 0 0 0 1
  1 0 1
   Coverage: 1 b
   FCoverage: 73 two_slash four_slash five_slash six_slash seven_slash nine_slash d endash
  1
   SeqLookup: 0 "addSepRight"
 EndFPST
-ChainSub2: coverage "CALT_addSeparators contextual 16" 0 0 0 1
+ChainSub2: coverage "CALT_addSeparators contextual 18" 0 0 0 1
  1 0 1
   Coverage: 286 n s numbersign b_b x plus hyphen parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
   FCoverage: 73 two_slash four_slash five_slash six_slash seven_slash nine_slash d endash
  1
   SeqLookup: 0 "addSepRight"
 EndFPST
-ChainSub2: coverage "CALT_addSeparators contextual 15" 0 0 0 1
+ChainSub2: coverage "CALT_addSeparators contextual 17" 0 0 0 1
  1 0 0
   Coverage: 73 two_slash four_slash five_slash six_slash seven_slash nine_slash d endash
  1
   SeqLookup: 0 "addSepRight"
 EndFPST
-ChainSub2: coverage "CALT_addSeparators contextual 14" 0 0 0 1
+ChainSub2: coverage "CALT_addSeparators contextual 16" 0 0 0 1
  1 0 2
   Coverage: 286 n s numbersign b_b x plus hyphen parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
+  FCoverage: 5 comma
+  FCoverage: 1 b
+ 1
+  SeqLookup: 0 "addSepRight"
+EndFPST
+ChainSub2: coverage "CALT_addSeparators contextual 15" 0 0 0 1
+ 1 0 1
+  Coverage: 286 n s numbersign b_b x plus hyphen parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
+  FCoverage: 1 b
+ 1
+  SeqLookup: 0 "addSepRight"
+EndFPST
+ChainSub2: coverage "CALT_addSeparators contextual 14" 0 0 0 1
+ 1 0 2
+  Coverage: 1 b
   FCoverage: 5 comma
   FCoverage: 1 b
  1
@@ -2643,19 +2709,12 @@ ChainSub2: coverage "CALT_addSeparators contextual 14" 0 0 0 1
 EndFPST
 ChainSub2: coverage "CALT_addSeparators contextual 13" 0 0 0 1
  1 0 1
-  Coverage: 286 n s numbersign b_b x plus hyphen parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
-  FCoverage: 1 b
- 1
-  SeqLookup: 0 "addSepRight"
-EndFPST
-ChainSub2: coverage "CALT_addSeparators contextual 12" 0 0 0 1
- 1 0 1
   Coverage: 1 b
   FCoverage: 286 n s numbersign b_b x plus hyphen parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
  1
   SeqLookup: 0 "addSepRight"
 EndFPST
-ChainSub2: coverage "CALT_addSeparators contextual 11" 0 0 0 1
+ChainSub2: coverage "CALT_addSeparators contextual 12" 0 0 0 1
  1 0 2
   Coverage: 1 b
   FCoverage: 5 comma
@@ -2663,7 +2722,7 @@ ChainSub2: coverage "CALT_addSeparators contextual 11" 0 0 0 1
  1
   SeqLookup: 0 "addSepRight"
 EndFPST
-ChainSub2: coverage "CALT_addSeparators contextual 10" 0 0 0 1
+ChainSub2: coverage "CALT_addSeparators contextual 11" 0 0 0 1
  1 1 1
   Coverage: 1 b
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
@@ -2671,33 +2730,41 @@ ChainSub2: coverage "CALT_addSeparators contextual 10" 0 0 0 1
  1
   SeqLookup: 0 "addSepRight"
 EndFPST
-ChainSub2: coverage "CALT_addSeparators contextual 9" 0 0 0 1
+ChainSub2: coverage "CALT_addSeparators contextual 10" 0 0 0 1
  1 1 0
   Coverage: 286 n s numbersign b_b x plus hyphen parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
   SeqLookup: 0 "addSepRight"
 EndFPST
-ChainSub2: coverage "CALT_addSeparators contextual 8" 0 0 0 1
+ChainSub2: coverage "CALT_addSeparators contextual 9" 0 0 0 1
  1 1 0
   Coverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   BCoverage: 1 b
  1
   SeqLookup: 0 "addSepRight"
 EndFPST
-ChainSub2: coverage "CALT_addSeparators contextual 7" 0 0 0 1
+ChainSub2: coverage "CALT_addSeparators contextual 8" 0 0 0 1
  1 1 0
   Coverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   BCoverage: 286 n s numbersign b_b x plus hyphen parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
  1
   SeqLookup: 0 "addSepRight"
 EndFPST
-ChainSub2: coverage "CALT_addSeparators contextual 6" 0 0 0 1
+ChainSub2: coverage "CALT_addSeparators contextual 7" 0 0 0 1
  1 0 1
   Coverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
  1
   SeqLookup: 0 "addSepRight"
+EndFPST
+ChainSub2: coverage "CALT_addSeparators contextual 6" 0 0 0 1
+ 1 0 3
+  Coverage: 1 b
+  FCoverage: 5 comma
+  FCoverage: 1 b
+  FCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
+ 0
 EndFPST
 ChainSub2: coverage "CALT_addSeparators contextual 5" 0 0 0 1
  1 1 1
@@ -2749,6 +2816,11 @@ FitToEm: 0
 WinInfo: 57330 10 7
 BeginPrivate: 0
 EndPrivate
+Grid
+500 1200 m 0
+ 500 -800 l 1024
+  Named: "500"
+EndSplineSet
 TeXData: 1 0 0 262144 131072 87381 190841 1048576 87381 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "chainleft"""  "chain"""  "acc""" 
 BeginChars: 1114112 203
@@ -2778,7 +2850,7 @@ Fore
 SplineSet
 44 280 m 0
  44 442 132 570 250 570 c 0
- 368 570 456 442 456 280 c 0
+ 368 570 456 442 456 280 c 4
  456 118 368 -8 250 -8 c 0
  132 -8 44 118 44 280 c 0
 250 526 m 3
@@ -2893,25 +2965,25 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-467 158 m 1
- 467 72 431 -8 351 -8 c 0
- 279 -8 223 56 163 56 c 0
- 125 56 109 36 95 0 c 1
- 55 0 l 1
- 63 84 149 182 219 230 c 0
- 320 306 348 358 348 418 c 0
- 348 492 310 526 254 526 c 0
- 198 526 163 497 163 470 c 0
- 163 447 192 439 192 396 c 0
- 192 367 171 344 136 344 c 0
- 97 344 72 370 72 413 c 0
- 72 477 142 570 266 570 c 0
- 374 570 462 506 462 414 c 0
- 462 318 385 280 311 235 c 0
- 291 222 207 180 161 110 c 1
- 251 110 269 90 343 90 c 0
- 393 90 417 114 431 164 c 1
- 467 158 l 1
+452 158 m 1
+ 452 72 416 -8 336 -8 c 0
+ 264 -8 208 56 148 56 c 0
+ 110 56 94 36 80 0 c 1
+ 40 0 l 1
+ 48 84 134 182 204 230 c 0
+ 305 306 333 358 333 418 c 0
+ 333 492 295 526 239 526 c 0
+ 183 526 148 497 148 470 c 0
+ 148 447 177 439 177 396 c 0
+ 177 367 156 344 121 344 c 0
+ 82 344 57 370 57 413 c 0
+ 57 477 127 570 251 570 c 0
+ 359 570 447 506 447 414 c 0
+ 447 318 370 280 296 235 c 0
+ 276 222 192 180 146 110 c 1
+ 236 110 254 90 328 90 c 0
+ 378 90 402 114 416 164 c 1
+ 452 158 l 1
 EndSplineSet
 Validated: 1
 Position2: "forward2 subtable" dx=1000 dy=0 dh=0 dv=0
@@ -3613,60 +3685,62 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-146 756 m 1
- 146 306 l 1
- 174 334 208 368 268 368 c 0
- 332 368 398 330 398 246 c 0
- 398 82 230 84 122 -46 c 1
- 102 -46 l 1
- 102 756 l 1
- 146 756 l 1
-146 26 m 1
- 220 96 298 130 298 220 c 0
- 298 278 264 300 228 300 c 0
- 182 300 148 262 148 262 c 1
- 146 26 l 1
+156 756 m 1
+ 156 306 l 1
+ 184 334 218 368 278 368 c 0
+ 342 368 408 330 408 246 c 0
+ 408 82 240 84 132 -46 c 1
+ 112 -46 l 1
+ 112 756 l 1
+ 156 756 l 1
+156 26 m 1
+ 230 96 308 130 308 220 c 0
+ 308 278 274 300 238 300 c 0
+ 192 300 158 262 158 262 c 1
+ 156 26 l 1
 EndSplineSet
 Validated: 1
-Position2: "Single Positioning lookup 132 subtable" dx=-180 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 127 subtable" dx=-110 dy=10 dh=0 dv=0
-Position2: "Single Positioning lookup 126 subtable" dx=-150 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 125 subtable" dx=10 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 123 subtable" dx=10 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 120 subtable" dx=-130 dy=-20 dh=0 dv=0
-Position2: "Single Positioning lookup 113 subtable" dx=-10 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 108 subtable" dx=0 dy=10 dh=0 dv=0
-Position2: "Single Positioning lookup 107 subtable" dx=-10 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 106 subtable" dx=150 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 104 subtable" dx=180 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 101 subtable" dx=-10 dy=-20 dh=0 dv=0
-Position2: "Single Positioning lookup 94 subtable" dx=30 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 87 subtable" dx=0 dy=10 dh=0 dv=0
-Position2: "Single Positioning lookup 85 subtable" dx=200 dy=-30 dh=0 dv=0
-Position2: "Single Positioning lookup 84 subtable" dx=-10 dy=20 dh=0 dv=0
-Position2: "Single Positioning lookup 81 subtable" dx=180 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 76 subtable" dx=0 dy=-40 dh=0 dv=0
-Position2: "Single Positioning lookup 68 subtable" dx=0 dy=10 dh=0 dv=0
-Position2: "Single Positioning lookup 67 subtable" dx=-10 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 65 subtable" dx=0 dy=10 dh=0 dv=0
-Position2: "Single Positioning lookup 62 subtable" dx=0 dy=10 dh=0 dv=0
-Position2: "Single Positioning lookup 60 subtable" dx=0 dy=10 dh=0 dv=0
-Position2: "Single Positioning lookup 59 subtable" dx=150 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 58 subtable" dx=0 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 57 subtable" dx=190 dy=-20 dh=0 dv=0
-Position2: "Single Positioning lookup 56 subtable" dx=0 dy=30 dh=0 dv=0
-Position2: "Single Positioning lookup 54 subtable" dx=230 dy=-20 dh=0 dv=0
-Position2: "Single Positioning lookup 53 subtable" dx=0 dy=30 dh=0 dv=0
-Position2: "Single Positioning lookup 50 subtable" dx=0 dy=30 dh=0 dv=0
-Position2: "Single Positioning lookup 49 subtable" dx=0 dy=-20 dh=0 dv=0
-Position2: "Single Positioning lookup 47 subtable" dx=0 dy=20 dh=0 dv=0
-Position2: "Single Positioning lookup 44 subtable" dx=0 dy=20 dh=0 dv=0
+Position2: "Single Positioning lookup 141 subtable" dx=-180 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 136 subtable" dx=-110 dy=10 dh=0 dv=0
+Position2: "Single Positioning lookup 135 subtable" dx=-150 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 134 subtable" dx=10 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 132 subtable" dx=10 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 129 subtable" dx=-130 dy=-20 dh=0 dv=0
+Position2: "Single Positioning lookup 122 subtable" dx=-10 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 117 subtable" dx=0 dy=10 dh=0 dv=0
+Position2: "Single Positioning lookup 116 subtable" dx=-10 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 115 subtable" dx=150 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 113 subtable" dx=180 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 110 subtable" dx=-10 dy=-20 dh=0 dv=0
+Position2: "Single Positioning lookup 103 subtable" dx=30 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 96 subtable" dx=0 dy=10 dh=0 dv=0
+Position2: "Single Positioning lookup 94 subtable" dx=200 dy=-30 dh=0 dv=0
+Position2: "Single Positioning lookup 93 subtable" dx=-10 dy=20 dh=0 dv=0
+Position2: "Single Positioning lookup 90 subtable" dx=180 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 85 subtable" dx=0 dy=-40 dh=0 dv=0
+Position2: "Single Positioning lookup 77 subtable" dx=0 dy=10 dh=0 dv=0
+Position2: "Single Positioning lookup 76 subtable" dx=-10 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 74 subtable" dx=0 dy=10 dh=0 dv=0
+Position2: "Single Positioning lookup 71 subtable" dx=0 dy=10 dh=0 dv=0
+Position2: "Single Positioning lookup 69 subtable" dx=0 dy=10 dh=0 dv=0
+Position2: "Single Positioning lookup 68 subtable" dx=150 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 67 subtable" dx=0 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 66 subtable" dx=190 dy=-20 dh=0 dv=0
+Position2: "Single Positioning lookup 65 subtable" dx=0 dy=30 dh=0 dv=0
+Position2: "Single Positioning lookup 63 subtable" dx=230 dy=-20 dh=0 dv=0
+Position2: "Single Positioning lookup 62 subtable" dx=0 dy=30 dh=0 dv=0
+Position2: "Single Positioning lookup 59 subtable" dx=0 dy=30 dh=0 dv=0
+Position2: "Single Positioning lookup 58 subtable" dx=0 dy=-20 dh=0 dv=0
+Position2: "Single Positioning lookup 56 subtable" dx=0 dy=20 dh=0 dv=0
+Position2: "Single Positioning lookup 53 subtable" dx=0 dy=20 dh=0 dv=0
+Position2: "Single Positioning lookup 49 subtable" dx=-10 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 42 subtable" dx=0 dy=10 dh=0 dv=0
 Position2: "Single Positioning lookup 40 subtable" dx=-10 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 33 subtable" dx=0 dy=10 dh=0 dv=0
-Position2: "Single Positioning lookup 31 subtable" dx=-10 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 30 subtable" dx=170 dy=-30 dh=0 dv=0
-Position2: "Single Positioning lookup 27 subtable" dx=180 dy=-50 dh=0 dv=0
-Position2: "Single Positioning lookup 22 subtable" dx=-10 dy=-20 dh=0 dv=0
+Position2: "Single Positioning lookup 39 subtable" dx=170 dy=-30 dh=0 dv=0
+Position2: "Single Positioning lookup 36 subtable" dx=180 dy=-50 dh=0 dv=0
+Position2: "Single Positioning lookup 31 subtable" dx=-10 dy=-20 dh=0 dv=0
+Position2: "Single Positioning lookup 17 subtable" dx=-175 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 16 subtable" dx=175 dy=0 dh=0 dv=0
 Position2: "forward2 subtable" dx=1000 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-1000 dy=0 dh=0 dv=0
@@ -3705,61 +3779,65 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-133 727 m 1
- 173 727 l 1
- 173 455 l 1
- 365 501 l 1
- 365 -219 l 1
- 321 -219 l 1
- 325 47 l 1
- 133 5 l 1
- 133 727 l 1
-173 327 m 1
- 173 145 l 1
- 325 181 l 1
- 325 361 l 1
- 173 327 l 1
+134 727 m 1
+ 174 727 l 1
+ 174 455 l 1
+ 366 501 l 1
+ 366 -219 l 1
+ 322 -219 l 1
+ 326 47 l 1
+ 134 5 l 1
+ 134 727 l 1
+174 327 m 1
+ 174 145 l 1
+ 326 181 l 1
+ 326 361 l 1
+ 174 327 l 1
 EndSplineSet
 Validated: 1
-Position2: "Single Positioning lookup 130 subtable" dx=-200 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 124 subtable" dx=-190 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 121 subtable" dx=10 dy=40 dh=0 dv=0
-Position2: "Single Positioning lookup 119 subtable" dx=10 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 118 subtable" dx=-150 dy=-15 dh=0 dv=0
-Position2: "Single Positioning lookup 117 subtable" dx=20 dy=15 dh=0 dv=0
-Position2: "Single Positioning lookup 111 subtable" dx=-20 dy=-10 dh=0 dv=0
-Position2: "Single Positioning lookup 105 subtable" dx=-20 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 102 subtable" dx=180 dy=60 dh=0 dv=0
-Position2: "Single Positioning lookup 100 subtable" dx=130 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 99 subtable" dx=-20 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 98 subtable" dx=130 dy=30 dh=0 dv=0
-Position2: "Single Positioning lookup 91 subtable" dx=30 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 82 subtable" dx=0 dy=-20 dh=0 dv=0
-Position2: "Single Positioning lookup 78 subtable" dx=370 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 75 subtable" dx=50 dy=40 dh=0 dv=0
-Position2: "Single Positioning lookup 73 subtable" dx=0 dy=-30 dh=0 dv=0
-Position2: "Single Positioning lookup 72 subtable" dx=120 dy=20 dh=0 dv=0
-Position2: "Single Positioning lookup 64 subtable" dx=-20 dy=-40 dh=0 dv=0
-Position2: "Single Positioning lookup 55 subtable" dx=0 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 51 subtable" dx=210 dy=60 dh=0 dv=0
-Position2: "Single Positioning lookup 48 subtable" dx=140 dy=-20 dh=0 dv=0
-Position2: "Single Positioning lookup 46 subtable" dx=0 dy=-15 dh=0 dv=0
-Position2: "Single Positioning lookup 45 subtable" dx=140 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 41 subtable" dx=180 dy=60 dh=0 dv=0
-Position2: "Single Positioning lookup 38 subtable" dx=370 dy=90 dh=0 dv=0
-Position2: "Single Positioning lookup 37 subtable" dx=-20 dy=-50 dh=0 dv=0
-Position2: "Single Positioning lookup 35 subtable" dx=350 dy=90 dh=0 dv=0
-Position2: "Single Positioning lookup 32 subtable" dx=130 dy=30 dh=0 dv=0
-Position2: "Single Positioning lookup 29 subtable" dx=130 dy=70 dh=0 dv=0
-Position2: "Single Positioning lookup 28 subtable" dx=-20 dy=-10 dh=0 dv=0
-Position2: "Single Positioning lookup 26 subtable" dx=140 dy=60 dh=0 dv=0
-Position2: "Single Positioning lookup 24 subtable" dx=180 dy=60 dh=0 dv=0
-Position2: "Single Positioning lookup 23 subtable" dx=330 dy=90 dh=0 dv=0
-Position2: "Single Positioning lookup 21 subtable" dx=130 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 20 subtable" dx=280 dy=30 dh=0 dv=0
-Position2: "Single Positioning lookup 19 subtable" dx=-20 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 18 subtable" dx=130 dy=30 dh=0 dv=0
-Position2: "Single Positioning lookup 17 subtable" dx=280 dy=60 dh=0 dv=0
+Position2: "Single Positioning lookup 139 subtable" dx=-210 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 133 subtable" dx=-200 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 130 subtable" dx=0 dy=40 dh=0 dv=0
+Position2: "Single Positioning lookup 128 subtable" dx=0 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 127 subtable" dx=-160 dy=-15 dh=0 dv=0
+Position2: "Single Positioning lookup 126 subtable" dx=10 dy=15 dh=0 dv=0
+Position2: "Single Positioning lookup 120 subtable" dx=-10 dy=-10 dh=0 dv=0
+Position2: "Single Positioning lookup 114 subtable" dx=-10 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 111 subtable" dx=190 dy=60 dh=0 dv=0
+Position2: "Single Positioning lookup 109 subtable" dx=140 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 108 subtable" dx=-10 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 107 subtable" dx=140 dy=30 dh=0 dv=0
+Position2: "Single Positioning lookup 100 subtable" dx=40 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 91 subtable" dx=10 dy=-20 dh=0 dv=0
+Position2: "Single Positioning lookup 87 subtable" dx=380 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 84 subtable" dx=60 dy=40 dh=0 dv=0
+Position2: "Single Positioning lookup 82 subtable" dx=10 dy=-30 dh=0 dv=0
+Position2: "Single Positioning lookup 81 subtable" dx=130 dy=20 dh=0 dv=0
+Position2: "Single Positioning lookup 73 subtable" dx=-10 dy=-40 dh=0 dv=0
+Position2: "Single Positioning lookup 64 subtable" dx=10 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 60 subtable" dx=220 dy=60 dh=0 dv=0
+Position2: "Single Positioning lookup 57 subtable" dx=150 dy=-20 dh=0 dv=0
+Position2: "Single Positioning lookup 55 subtable" dx=10 dy=-15 dh=0 dv=0
+Position2: "Single Positioning lookup 54 subtable" dx=150 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 50 subtable" dx=190 dy=60 dh=0 dv=0
+Position2: "Single Positioning lookup 47 subtable" dx=380 dy=90 dh=0 dv=0
+Position2: "Single Positioning lookup 46 subtable" dx=-10 dy=-50 dh=0 dv=0
+Position2: "Single Positioning lookup 44 subtable" dx=360 dy=90 dh=0 dv=0
+Position2: "Single Positioning lookup 41 subtable" dx=140 dy=30 dh=0 dv=0
+Position2: "Single Positioning lookup 38 subtable" dx=140 dy=70 dh=0 dv=0
+Position2: "Single Positioning lookup 37 subtable" dx=-10 dy=-10 dh=0 dv=0
+Position2: "Single Positioning lookup 35 subtable" dx=150 dy=60 dh=0 dv=0
+Position2: "Single Positioning lookup 33 subtable" dx=190 dy=60 dh=0 dv=0
+Position2: "Single Positioning lookup 32 subtable" dx=340 dy=90 dh=0 dv=0
+Position2: "Single Positioning lookup 30 subtable" dx=140 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 29 subtable" dx=290 dy=30 dh=0 dv=0
+Position2: "Single Positioning lookup 28 subtable" dx=-10 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 27 subtable" dx=140 dy=30 dh=0 dv=0
+Position2: "Single Positioning lookup 26 subtable" dx=290 dy=60 dh=0 dv=0
+Position2: "Single Positioning lookup 22 subtable" dx=10 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 19 subtable" dx=-10 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 17 subtable" dx=-175 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 16 subtable" dx=175 dy=0 dh=0 dv=0
 Position2: "forward2 subtable" dx=1000 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-1000 dy=0 dh=0 dv=0
@@ -3820,6 +3898,8 @@ SplineSet
  324 78 288 138 250 138 c 0
 EndSplineSet
 Validated: 1
+Position2: "Single Positioning lookup 17 subtable" dx=-175 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 16 subtable" dx=175 dy=0 dh=0 dv=0
 Position2: "forward2 subtable" dx=1000 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-1000 dy=0 dh=0 dv=0
@@ -3976,45 +4056,47 @@ SplineSet
  312 382 l 1
 EndSplineSet
 Validated: 1
-Position2: "Single Positioning lookup 134 subtable" dx=-330 dy=-15 dh=0 dv=0
-Position2: "Single Positioning lookup 133 subtable" dx=0 dy=15 dh=0 dv=0
-Position2: "Single Positioning lookup 131 subtable" dx=0 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 129 subtable" dx=0 dy=50 dh=0 dv=0
-Position2: "Single Positioning lookup 128 subtable" dx=10 dy=-10 dh=0 dv=0
-Position2: "Single Positioning lookup 122 subtable" dx=-170 dy=-40 dh=0 dv=0
-Position2: "Single Positioning lookup 115 subtable" dx=310 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 114 subtable" dx=0 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 112 subtable" dx=170 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 110 subtable" dx=160 dy=50 dh=0 dv=0
-Position2: "Single Positioning lookup 109 subtable" dx=120 dy=-10 dh=0 dv=0
-Position2: "Single Positioning lookup 103 subtable" dx=0 dy=-20 dh=0 dv=0
-Position2: "Single Positioning lookup 97 subtable" dx=0 dy=-30 dh=0 dv=0
-Position2: "Single Positioning lookup 96 subtable" dx=310 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 95 subtable" dx=0 dy=30 dh=0 dv=0
-Position2: "Single Positioning lookup 93 subtable" dx=310 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 92 subtable" dx=0 dy=20 dh=0 dv=0
-Position2: "Single Positioning lookup 90 subtable" dx=310 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 89 subtable" dx=0 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 88 subtable" dx=120 dy=-10 dh=0 dv=0
-Position2: "Single Positioning lookup 86 subtable" dx=180 dy=20 dh=0 dv=0
-Position2: "Single Positioning lookup 83 subtable" dx=170 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 80 subtable" dx=360 dy=100 dh=0 dv=0
-Position2: "Single Positioning lookup 79 subtable" dx=0 dy=-20 dh=0 dv=0
-Position2: "Single Positioning lookup 77 subtable" dx=0 dy=20 dh=0 dv=0
-Position2: "Single Positioning lookup 74 subtable" dx=230 dy=100 dh=0 dv=0
-Position2: "Single Positioning lookup 71 subtable" dx=310 dy=100 dh=0 dv=0
-Position2: "Single Positioning lookup 70 subtable" dx=430 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 69 subtable" dx=120 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 66 subtable" dx=170 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 63 subtable" dx=160 dy=20 dh=0 dv=0
-Position2: "Single Positioning lookup 61 subtable" dx=120 dy=-10 dh=0 dv=0
-Position2: "Single Positioning lookup 52 subtable" dx=20 dy=-20 dh=0 dv=0
-Position2: "Single Positioning lookup 43 subtable" dx=330 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 42 subtable" dx=0 dy=-20 dh=0 dv=0
-Position2: "Single Positioning lookup 39 subtable" dx=170 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 36 subtable" dx=160 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 34 subtable" dx=120 dy=-10 dh=0 dv=0
-Position2: "Single Positioning lookup 25 subtable" dx=0 dy=-20 dh=0 dv=0
+Position2: "Single Positioning lookup 143 subtable" dx=-330 dy=-15 dh=0 dv=0
+Position2: "Single Positioning lookup 142 subtable" dx=0 dy=15 dh=0 dv=0
+Position2: "Single Positioning lookup 140 subtable" dx=0 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 138 subtable" dx=0 dy=50 dh=0 dv=0
+Position2: "Single Positioning lookup 137 subtable" dx=10 dy=-10 dh=0 dv=0
+Position2: "Single Positioning lookup 131 subtable" dx=-170 dy=-40 dh=0 dv=0
+Position2: "Single Positioning lookup 124 subtable" dx=310 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 123 subtable" dx=0 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 121 subtable" dx=170 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 119 subtable" dx=160 dy=50 dh=0 dv=0
+Position2: "Single Positioning lookup 118 subtable" dx=120 dy=-10 dh=0 dv=0
+Position2: "Single Positioning lookup 112 subtable" dx=0 dy=-20 dh=0 dv=0
+Position2: "Single Positioning lookup 106 subtable" dx=0 dy=-30 dh=0 dv=0
+Position2: "Single Positioning lookup 105 subtable" dx=310 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 104 subtable" dx=0 dy=30 dh=0 dv=0
+Position2: "Single Positioning lookup 102 subtable" dx=310 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 101 subtable" dx=0 dy=20 dh=0 dv=0
+Position2: "Single Positioning lookup 99 subtable" dx=310 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 98 subtable" dx=0 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 97 subtable" dx=120 dy=-10 dh=0 dv=0
+Position2: "Single Positioning lookup 95 subtable" dx=180 dy=20 dh=0 dv=0
+Position2: "Single Positioning lookup 92 subtable" dx=170 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 89 subtable" dx=360 dy=100 dh=0 dv=0
+Position2: "Single Positioning lookup 88 subtable" dx=0 dy=-20 dh=0 dv=0
+Position2: "Single Positioning lookup 86 subtable" dx=0 dy=20 dh=0 dv=0
+Position2: "Single Positioning lookup 83 subtable" dx=230 dy=100 dh=0 dv=0
+Position2: "Single Positioning lookup 80 subtable" dx=310 dy=100 dh=0 dv=0
+Position2: "Single Positioning lookup 79 subtable" dx=430 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 78 subtable" dx=120 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 75 subtable" dx=170 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 72 subtable" dx=160 dy=20 dh=0 dv=0
+Position2: "Single Positioning lookup 70 subtable" dx=120 dy=-10 dh=0 dv=0
+Position2: "Single Positioning lookup 61 subtable" dx=20 dy=-20 dh=0 dv=0
+Position2: "Single Positioning lookup 52 subtable" dx=330 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 51 subtable" dx=0 dy=-20 dh=0 dv=0
+Position2: "Single Positioning lookup 48 subtable" dx=170 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 45 subtable" dx=160 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 43 subtable" dx=120 dy=-10 dh=0 dv=0
+Position2: "Single Positioning lookup 34 subtable" dx=0 dy=-20 dh=0 dv=0
+Position2: "Single Positioning lookup 17 subtable" dx=-175 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 16 subtable" dx=175 dy=0 dh=0 dv=0
 Position2: "forward2 subtable" dx=1000 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-1000 dy=0 dh=0 dv=0
@@ -4043,6 +4125,8 @@ SplineSet
  0 246 l 1
 EndSplineSet
 Validated: 1
+Position2: "Single Positioning lookup 17 subtable" dx=-175 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 16 subtable" dx=175 dy=0 dh=0 dv=0
 Position2: "forward2 subtable" dx=1000 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-1000 dy=0 dh=0 dv=0
@@ -4318,7 +4402,7 @@ SplineSet
 227 474 m 1
  273 474 l 1
  273 277 l 1
- 470 277 l 1
+ 470 277 l 5
  470 231 l 1
  273 231 l 1
  273 34 l 1
@@ -4330,6 +4414,8 @@ SplineSet
  227 474 l 1
 EndSplineSet
 Validated: 1
+Position2: "Single Positioning lookup 17 subtable" dx=-175 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 16 subtable" dx=175 dy=0 dh=0 dv=0
 Position2: "forward2 subtable" dx=1000 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-1000 dy=0 dh=0 dv=0
@@ -4351,7 +4437,7 @@ UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 4
 Fore
-Refer: 26 43 N 1 0 0 1 401 -113 2
+Refer: 26 43 N 1 0 0 1 386 -113 2
 Refer: 2 50 N 1 0 0 1 0 0 2
 Layer: 2
 SplineSet
@@ -4851,6 +4937,10 @@ SplineSet
  85 294 47 230 47 230 c 5
  45 26 l 5
 EndSplineSet
+Position2: "Single Positioning lookup 23 subtable" dx=-100 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 20 subtable" dx=110 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 17 subtable" dx=-175 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 16 subtable" dx=175 dy=0 dh=0 dv=0
 Position2: "forward2 subtable" dx=1000 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-1000 dy=0 dh=0 dv=0
@@ -4937,6 +5027,8 @@ SplineSet
 EndSplineSet
 Refer: 17 35 N 1 0 0 1 0 0 2
 Validated: 1
+Position2: "Single Positioning lookup 17 subtable" dx=-175 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 16 subtable" dx=175 dy=0 dh=0 dv=0
 Position2: "forward2 subtable" dx=1000 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-1000 dy=0 dh=0 dv=0
@@ -4979,6 +5071,8 @@ SplineSet
 EndSplineSet
 Refer: 12 98 S 1 0 0 1 32 0 2
 Validated: 1
+Position2: "Single Positioning lookup 17 subtable" dx=-175 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 16 subtable" dx=175 dy=0 dh=0 dv=0
 Position2: "forward2 subtable" dx=1000 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-1000 dy=0 dh=0 dv=0
@@ -5020,6 +5114,8 @@ SplineSet
 EndSplineSet
 Refer: 13 110 N 1 0 0 1 0 0 2
 Validated: 1
+Position2: "Single Positioning lookup 17 subtable" dx=-175 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 16 subtable" dx=175 dy=0 dh=0 dv=0
 Position2: "forward2 subtable" dx=1000 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-1000 dy=0 dh=0 dv=0
@@ -5061,6 +5157,8 @@ SplineSet
 EndSplineSet
 Refer: 14 120 N 1 0 0 1 0 40 2
 Validated: 1
+Position2: "Single Positioning lookup 17 subtable" dx=-175 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 16 subtable" dx=175 dy=0 dh=0 dv=0
 Position2: "forward2 subtable" dx=1000 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-1000 dy=0 dh=0 dv=0
@@ -5102,6 +5200,8 @@ SplineSet
 EndSplineSet
 Refer: 33 57350 N 1 0 0 1 28 0 2
 Validated: 1
+Position2: "Single Positioning lookup 17 subtable" dx=-175 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 16 subtable" dx=175 dy=0 dh=0 dv=0
 Position2: "forward2 subtable" dx=1000 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-1000 dy=0 dh=0 dv=0
@@ -5149,6 +5249,8 @@ SplineSet
 EndSplineSet
 Refer: 17 35 N 1 0 0 1 0 0 2
 Validated: 1
+Position2: "Single Positioning lookup 17 subtable" dx=-175 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 16 subtable" dx=175 dy=0 dh=0 dv=0
 Position2: "forward2 subtable" dx=1000 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-1000 dy=0 dh=0 dv=0
@@ -5196,6 +5298,8 @@ SplineSet
 EndSplineSet
 Refer: 12 98 N 1 0 0 1 28 0 2
 Validated: 1
+Position2: "Single Positioning lookup 17 subtable" dx=-175 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 16 subtable" dx=175 dy=0 dh=0 dv=0
 Position2: "forward2 subtable" dx=1000 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-1000 dy=0 dh=0 dv=0
@@ -5242,6 +5346,8 @@ SplineSet
 EndSplineSet
 Refer: 13 110 N 1 0 0 1 0 0 2
 Validated: 1
+Position2: "Single Positioning lookup 17 subtable" dx=-175 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 16 subtable" dx=175 dy=0 dh=0 dv=0
 Position2: "forward2 subtable" dx=1000 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-1000 dy=0 dh=0 dv=0
@@ -5288,6 +5394,8 @@ SplineSet
 EndSplineSet
 Refer: 14 120 N 1 0 0 1 1 20 2
 Validated: 1
+Position2: "Single Positioning lookup 17 subtable" dx=-175 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 16 subtable" dx=175 dy=0 dh=0 dv=0
 Position2: "forward2 subtable" dx=1000 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-1000 dy=0 dh=0 dv=0
@@ -5334,6 +5442,8 @@ SplineSet
 EndSplineSet
 Refer: 33 57350 N 1 0 0 1 25 0 2
 Validated: 1
+Position2: "Single Positioning lookup 17 subtable" dx=-175 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 16 subtable" dx=175 dy=0 dh=0 dv=0
 Position2: "forward2 subtable" dx=1000 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-1000 dy=0 dh=0 dv=0
@@ -5430,45 +5540,47 @@ LayerCount: 4
 Fore
 Refer: 17 35 N 1 0 0 1 0 0 2
 Validated: 1
-Position2: "Single Positioning lookup 134 subtable" dx=-330 dy=-15 dh=0 dv=0
-Position2: "Single Positioning lookup 133 subtable" dx=0 dy=15 dh=0 dv=0
-Position2: "Single Positioning lookup 131 subtable" dx=0 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 129 subtable" dx=0 dy=50 dh=0 dv=0
-Position2: "Single Positioning lookup 128 subtable" dx=10 dy=-10 dh=0 dv=0
-Position2: "Single Positioning lookup 122 subtable" dx=-170 dy=-40 dh=0 dv=0
-Position2: "Single Positioning lookup 115 subtable" dx=310 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 114 subtable" dx=0 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 112 subtable" dx=170 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 110 subtable" dx=160 dy=50 dh=0 dv=0
-Position2: "Single Positioning lookup 109 subtable" dx=120 dy=-10 dh=0 dv=0
-Position2: "Single Positioning lookup 103 subtable" dx=0 dy=-20 dh=0 dv=0
-Position2: "Single Positioning lookup 97 subtable" dx=0 dy=-30 dh=0 dv=0
-Position2: "Single Positioning lookup 96 subtable" dx=310 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 95 subtable" dx=0 dy=30 dh=0 dv=0
-Position2: "Single Positioning lookup 93 subtable" dx=310 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 92 subtable" dx=0 dy=20 dh=0 dv=0
-Position2: "Single Positioning lookup 90 subtable" dx=310 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 89 subtable" dx=0 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 88 subtable" dx=120 dy=-10 dh=0 dv=0
-Position2: "Single Positioning lookup 86 subtable" dx=180 dy=20 dh=0 dv=0
-Position2: "Single Positioning lookup 83 subtable" dx=170 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 80 subtable" dx=360 dy=100 dh=0 dv=0
-Position2: "Single Positioning lookup 79 subtable" dx=0 dy=-20 dh=0 dv=0
-Position2: "Single Positioning lookup 77 subtable" dx=0 dy=20 dh=0 dv=0
-Position2: "Single Positioning lookup 74 subtable" dx=230 dy=100 dh=0 dv=0
-Position2: "Single Positioning lookup 71 subtable" dx=310 dy=100 dh=0 dv=0
-Position2: "Single Positioning lookup 70 subtable" dx=430 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 69 subtable" dx=120 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 66 subtable" dx=170 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 63 subtable" dx=160 dy=20 dh=0 dv=0
-Position2: "Single Positioning lookup 61 subtable" dx=120 dy=-10 dh=0 dv=0
-Position2: "Single Positioning lookup 52 subtable" dx=20 dy=-20 dh=0 dv=0
-Position2: "Single Positioning lookup 43 subtable" dx=330 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 42 subtable" dx=0 dy=-20 dh=0 dv=0
-Position2: "Single Positioning lookup 39 subtable" dx=170 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 36 subtable" dx=160 dy=0 dh=0 dv=0
-Position2: "Single Positioning lookup 34 subtable" dx=120 dy=-10 dh=0 dv=0
-Position2: "Single Positioning lookup 25 subtable" dx=0 dy=-20 dh=0 dv=0
+Position2: "Single Positioning lookup 143 subtable" dx=-330 dy=-15 dh=0 dv=0
+Position2: "Single Positioning lookup 142 subtable" dx=0 dy=15 dh=0 dv=0
+Position2: "Single Positioning lookup 140 subtable" dx=0 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 138 subtable" dx=0 dy=50 dh=0 dv=0
+Position2: "Single Positioning lookup 137 subtable" dx=10 dy=-10 dh=0 dv=0
+Position2: "Single Positioning lookup 131 subtable" dx=-170 dy=-40 dh=0 dv=0
+Position2: "Single Positioning lookup 124 subtable" dx=310 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 123 subtable" dx=0 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 121 subtable" dx=170 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 119 subtable" dx=160 dy=50 dh=0 dv=0
+Position2: "Single Positioning lookup 118 subtable" dx=120 dy=-10 dh=0 dv=0
+Position2: "Single Positioning lookup 112 subtable" dx=0 dy=-20 dh=0 dv=0
+Position2: "Single Positioning lookup 106 subtable" dx=0 dy=-30 dh=0 dv=0
+Position2: "Single Positioning lookup 105 subtable" dx=310 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 104 subtable" dx=0 dy=30 dh=0 dv=0
+Position2: "Single Positioning lookup 102 subtable" dx=310 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 101 subtable" dx=0 dy=20 dh=0 dv=0
+Position2: "Single Positioning lookup 99 subtable" dx=310 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 98 subtable" dx=0 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 97 subtable" dx=120 dy=-10 dh=0 dv=0
+Position2: "Single Positioning lookup 95 subtable" dx=180 dy=20 dh=0 dv=0
+Position2: "Single Positioning lookup 92 subtable" dx=170 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 89 subtable" dx=360 dy=100 dh=0 dv=0
+Position2: "Single Positioning lookup 88 subtable" dx=0 dy=-20 dh=0 dv=0
+Position2: "Single Positioning lookup 86 subtable" dx=0 dy=20 dh=0 dv=0
+Position2: "Single Positioning lookup 83 subtable" dx=230 dy=100 dh=0 dv=0
+Position2: "Single Positioning lookup 80 subtable" dx=310 dy=100 dh=0 dv=0
+Position2: "Single Positioning lookup 79 subtable" dx=430 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 78 subtable" dx=120 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 75 subtable" dx=170 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 72 subtable" dx=160 dy=20 dh=0 dv=0
+Position2: "Single Positioning lookup 70 subtable" dx=120 dy=-10 dh=0 dv=0
+Position2: "Single Positioning lookup 61 subtable" dx=20 dy=-20 dh=0 dv=0
+Position2: "Single Positioning lookup 52 subtable" dx=330 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 51 subtable" dx=0 dy=-20 dh=0 dv=0
+Position2: "Single Positioning lookup 48 subtable" dx=170 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 45 subtable" dx=160 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 43 subtable" dx=120 dy=-10 dh=0 dv=0
+Position2: "Single Positioning lookup 34 subtable" dx=0 dy=-20 dh=0 dv=0
+Position2: "Single Positioning lookup 17 subtable" dx=-175 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 16 subtable" dx=175 dy=0 dh=0 dv=0
 Position2: "forward2 subtable" dx=1000 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-1000 dy=0 dh=0 dv=0
