@@ -29,29 +29,28 @@ x | double sharp
 i | modifier for italic numbers
 
 #### Layers
-<img src="docs/layers.svg" alt="layers" height="100"/>
-
-Figures are automatically stacked from top to bottom. If you need to skip a layer, type `,`.
+Figures are automatically stacked from top to bottom. If you need to skip a layer, type `,`.  
+<img src="docs/layers.svg" alt="layers" height="100">
 
 #### Accidentals
-<img src="docs/accidentals.svg" alt="accidentals" height="100">
+By default accidentals are placed *to the right of the preceding number.* If you want an accidental to be placed to the left of the following number, separate it from the preceding number with `,` unless the position is clear from the context.  
+<img src="docs/accidentalsLeftRight.svg" alt="accidentals" height="100">
 
-By default accidentals are placed *to the right of the preceding number.* If you want an accidental to be placed to the left of the following number, separate it from the preceding number with `,`.  
-You can place accidentals both to the left and to the right of numbers in one figure. Just type away. If something doesn’t look like you expect, your input is probably ambiguous: insert `,` to make things clear.  
-If you need a single accidental in the bottommost layer, separate it with `,`.
+As you can see accidentals can be placed both to the left and to the right of numbers in one figure. Just type away. If something doesn’t look like you expect your input is probably ambiguous: insert `,` to make things clear.  
+<img src="docs/accidentalsAmbiguity.svg" alt="accidentals" height="100">
+
+If you need a single accidental in the bottommost layer separate it with `,` unless – again – the position is clear from the context.  
+<img src="docs/accidentalsSingle.svg" alt="accidentals" height="100">
 
 #### Slashed numbers and dashes
+If you need a slashed number, type `/` or `+` after the number.  
+If you need a dash type `-` (hyphen), `–` (endash) or `d`.  Note that typing a hyphen will advance the position during lyric input in Dorico and Finale.  
 <img src="docs/slashed.svg" alt="slashed figures" height="100">
 
-If you need a slashed number, type `/` or `+` after the number.  
-If you need a dash type `-` (hyphen), `–` (endash) or `d`.  Note that typing a hyphen will advance the position during lyric input in Dorico and Finale.
-
 #### Parentheses and Brackets
+There’s limited support for parentheses and brackets. You can put one or more layers in parentheses or brackets. This does not reliably work with accidentals yet.  
 <img src="docs/parens.svg" alt="parentheses and brackets" height="100">
 
-There’s limited support for parentheses and brackets. You can put one or more layers in parentheses or brackets. This does not reliably work with accidentals yet.
-
 #### Italic numbers
+Numbers preceded by `i` are printed in italics.  
 <img src="docs/italics.svg" alt="italic numbers" height="100">
-
-Numbers preceded by `i` are printed in italics.
