@@ -23,17 +23,17 @@ b | flat
 \#, s | sharp  
 bb | double flat  
 x | double sharp  
-/, + | combining slash
 -, –, d | dash  
 , | separator
-i | modifier for italic numbers
+/, + | [combining slash](#slashed-numbers-and-dashes)
+i | modifier for [italic numbers](#italic-numbers)
 
 #### Layers
-Figures are automatically stacked from top to bottom. If you need to skip a layer, type `,`.  
+Figures are automatically stacked from top to bottom. If you need to skip a layer type `,`.  
 <img src="docs/layers.svg" alt="layers" height="100">
 
 #### Accidentals
-By default accidentals are placed *to the right of the preceding number.* If you want an accidental to be placed to the left of the following number, separate it from the preceding number with `,` unless the position is clear from the context.  
+By default accidentals are placed *to the right of the preceding number.* If you want an accidental to be placed to the left of the following number separate it from the preceding number with `,` unless the position is clear from the context.  
 <img src="docs/accidentalsLeftRight.svg" alt="accidentals" height="100">
 
 As you can see accidentals can be placed both to the left and to the right of numbers in one figure. Just type away. If something doesn’t look like you expect your input is probably ambiguous: insert `,` to make things clear.  
