@@ -6,649 +6,649 @@
 # =================================================================================
 # LOOKUP DEFINITIONS
 
-    # 1. LIGATURES ----------------------------------------------------------------
-
-        lookup LIGA_figures {
-            lookupflag 0;
-            sub  one zero  by  one_zero  ;
-            } LIGA_figures;
-
-
-        lookup LIGA_italicFigures {
-            lookupflag 0;
-            sub  i one zero  by  i_one_zero  ;
-            sub  i one_zero  by  i_one_zero  ;
-            sub  i zero      by  i_zero      ;
-            sub  i one       by  i_one       ;
-            sub  i two       by  i_two       ;
-            sub  i three     by  i_three     ;
-            sub  i four      by  i_four      ;
-            sub  i five      by  i_five      ;
-            sub  i six       by  i_six       ;
-            sub  i seven     by  i_seven     ;
-            sub  i eight     by  i_eight     ;
-            sub  i nine      by  i_nine      ;
-            } LIGA_italicFigures;
-
-
-        lookup LIGA_slashedFigures {
-            lookupflag 0;
-            sub  two   slash   by  two_slash    ;
-            sub  two   plus    by  two_slash    ;
-            sub  four  slash   by  four_slash   ;
-            sub  four  plus    by  four_slash   ;
-            sub  five  plus    by  five_slash   ;
-            sub  five  slash   by  five_slash   ;
-            sub  six   plus    by  six_slash    ;
-            sub  six   slash   by  six_slash    ;
-            sub  seven slash   by  seven_slash  ;
-            sub  seven plus    by  seven_slash  ;
-            sub  nine  slash   by  nine_slash   ;
-            sub  nine  plus    by  nine_slash   ;
-            } LIGA_slashedFigures;
-
-
-        lookup LIGA_accidentals {
-            lookupflag 0;
-            sub  b b  by  b_b  ;   
-            } LIGA_accidentals;
-
-
-        lookup LIGA_parenthesizedAccidentals {
-            lookupflag 0;
-
-            sub  parenleft   numbersign  parenright    by  parenleft_s_parenright        ;
-            sub  parenleft   s           parenright    by  parenleft_s_parenright        ;
-            sub  parenleft   b           parenright    by  parenleft_b_parenright        ;
-            sub  parenleft   n           parenright    by  parenleft_n_parenright        ;
-            sub  parenleft   x           parenright    by  parenleft_x_parenright        ;
-            sub  parenleft   b b         parenright    by  parenleft_b_b_parenright      ;
-            sub  parenleft   b_b         parenright    by  parenleft_b_b_parenright      ;
-
-            sub  bracketleft s           bracketright  by  bracketleft_s_bracketright    ;
-            sub  bracketleft numbersign  bracketright  by  bracketleft_s_bracketright    ;
-            sub  bracketleft b           bracketright  by  bracketleft_b_bracketright    ;
-            sub  bracketleft n           bracketright  by  bracketleft_n_bracketright    ;
-            sub  bracketleft x           bracketright  by  bracketleft_x_bracketright    ;
-            sub  bracketleft b b         bracketright  by  bracketleft_b_b_bracketright  ;
-            sub  bracketleft b_b         bracketright  by  bracketleft_b_b_bracketright  ;
-        
-            } LIGA_parenthesizedAccidentals;
-
-
-    # 2. SUBSTITUTIONS ------------------------------------------------------------
-
-        # 2.1 add separators
-
-            lookup addSepRight {
-                lookupflag 0;
-
-                sub zero                          by  zero                          sep  ;
-                sub one                           by  one                           sep  ;
-                sub two                           by  two                           sep  ;
-                sub three                         by  three                         sep  ;
-                sub four                          by  four                          sep  ;
-                sub five                          by  five                          sep  ;
-                sub six                           by  six                           sep  ;
-                sub seven                         by  seven                         sep  ;
-                sub eight                         by  eight                         sep  ;
-                sub nine                          by  nine                          sep  ;
-                sub one_zero                      by  one_zero                      sep  ;
-
-                sub i_zero                        by  i_zero                        sep  ;
-                sub i_one                         by  i_one                         sep  ;
-                sub i_two                         by  i_two                         sep  ;
-                sub i_three                       by  i_three                       sep  ;
-                sub i_four                        by  i_four                        sep  ;
-                sub i_five                        by  i_five                        sep  ;
-                sub i_six                         by  i_six                         sep  ;
-                sub i_seven                       by  i_seven                       sep  ;
-                sub i_eight                       by  i_eight                       sep  ;
-                sub i_nine                        by  i_nine                        sep  ;
-                sub i_one_zero                    by  i_one_zero                    sep  ;
-
-                sub b                             by  b                             sep  ;
-                sub n                             by  n                             sep  ;
-                sub x                             by  x                             sep  ;
-                sub s                             by  s                             sep  ;
-                sub numbersign                    by  numbersign                    sep  ;
-                sub hyphen                        by  hyphen                        sep  ;
-                sub plus                          by  plus                          sep  ;
-
-                sub b_b                           by  b_b                           sep  ;
-
-                sub two_slash                     by  two_slash                     sep  ;
-                sub four_slash                    by  four_slash                    sep  ;
-                sub five_slash                    by  five_slash                    sep  ;
-                sub six_slash                     by  six_slash                     sep  ;
-                sub seven_slash                   by  seven_slash                   sep  ;
-                sub nine_slash                    by  nine_slash                    sep  ;
-
-                sub d                             by  d                             sep  ;
-                sub endash                        by  endash                        sep  ;
-
-                sub parenright                    by  parenright                    sep  ;
-                sub bracketright                  by  bracketright                  sep  ;
-
-                sub parenleft_s_parenright        by  parenleft_s_parenright        sep  ;
-                sub parenleft_b_parenright        by  parenleft_b_parenright        sep  ;
-                sub parenleft_n_parenright        by  parenleft_n_parenright        sep  ;
-                sub parenleft_x_parenright        by  parenleft_x_parenright        sep  ;
-                sub parenleft_b_b_parenright      by  parenleft_b_b_parenright      sep  ;
-                sub bracketleft_s_bracketright    by  bracketleft_s_bracketright    sep  ;
-                sub bracketleft_b_bracketright    by  bracketleft_b_bracketright    sep  ;
-                sub bracketleft_n_bracketright    by  bracketleft_n_bracketright    sep  ;
-                sub bracketleft_x_bracketright    by  bracketleft_x_bracketright    sep  ;
-                sub bracketleft_b_b_bracketright  by  bracketleft_b_b_bracketright  sep  ;
-
-                sub comma                         by  comma                         sep  ;
-            
-                } addSepRight;
-
-
-            lookup CALT_addSeparators {
-                lookupflag 0;
-
-                # bflat is treated separately because occasionally the liga_ture b_b needs to be separated with comma: 2b,b4
-
-                ignore sub                 @figSingle'                       @parenRight             ;
-                ignore sub                 @figSingle'                       @comma                  ;
-                ignore sub   @figComp      @accNoBflat'                      @parenRight             ;
-                ignore sub   @figComp      @bflat'                           @parenRight             ;
-                ignore sub   @accNoBflat   @figComp'                         @parenRight             ;
-                ignore sub   @bflat        @figComp'                         @parenRight             ;
-                ignore sub                 @bflat'                           @comma @bflat @figComp  ;
-                       sub                 @figComp'    lookup addSepRight   @figComp                ;
-                       sub   @accNoBflat   @figComp'    lookup addSepRight                           ;
-                       sub   @bflat        @figComp'    lookup addSepRight                           ;
-                       sub   @figComp      @accNoBflat' lookup addSepRight                           ;
-                       sub   @figComp      @bflat'      lookup addSepRight   @figComp                ;
-                       sub                 @bflat'      lookup addSepRight   @comma @accNoBflat      ;
-                       sub                 @bflat'      lookup addSepRight   @accNoBflat             ;
-                       sub                 @bflat'      lookup addSepRight   @comma @bflat           ;
-                       sub                 @accNoBflat' lookup addSepRight   @bflat                  ;
-                       sub                 @accNoBflat' lookup addSepRight   @comma @bflat           ;
-                       sub                 @figSingle'  lookup addSepRight                           ;
-                       sub                 @accNoBflat' lookup addSepRight   @figSingle              ;
-                       sub                 @bflat'      lookup addSepRight   @figSingle              ;
-                       sub                 @figComp'    lookup addSepRight   @figSingle              ;
-                       sub                 @accNoBflat' lookup addSepRight   @parenLeft              ;
-                       sub                 @bflat'      lookup addSepRight   @parenLeft              ;
-                       sub                 @figComp'    lookup addSepRight   @parenLeft              ;
-                       sub                 @parenRight' lookup addSepRight                           ;
-                       sub   @figSingle    @comma'      lookup addSepRight   @figSingle              ;
-                       sub   @figSingle    @comma'      lookup addSepRight   @figComp                ;
-                       sub   @figComp      @comma'      lookup addSepRight   @figComp                ;
-                       sub   @figComp      @comma'      lookup addSepRight   @figSingle              ;
-            
-                } CALT_addSeparators;
-
-
-            # 2. enumerate separators
-
-                lookup sep1 {
-                    lookupflag 0;
-                    sub comma by sep.1;
-                    sub sep   by sep.1;
-                    } sep1;
-
-
-                lookup sep2 {
-                    lookupflag 0;
-                    sub comma by sep.2;
-                    sub sep   by sep.2;
-                    } sep2;
-
-
-                lookup sep3 {
-                    lookupflag 0;
-                    sub comma by sep.3;
-                    sub sep   by sep.3;
-                    } sep3;
-
-
-                lookup sep4 {
-                    lookupflag 0;
-                    sub comma by sep.4;
-                    sub sep   by sep.4;
-                    } sep4;
-
-
-                lookup sep5 {
-                    lookupflag 0;
-                    sub comma by sep.5;
-                    sub sep   by sep.5;
-                    } sep5;
-
-
-                lookup CALT_enumerateSeparators {
-                    lookupflag 0;
-                    
-                    sub  @sep1  @sepContent  @sepContent  @sepContent  @sepContent  @sep0' lookup sep2  ;
-                    sub  @sep2  @sepContent  @sepContent  @sepContent  @sepContent  @sep0' lookup sep3  ;
-                    sub  @sep3  @sepContent  @sepContent  @sepContent  @sepContent  @sep0' lookup sep4  ;
-                    sub  @sep4  @sepContent  @sepContent  @sepContent  @sepContent  @sep0' lookup sep5  ;
-
-                    sub  @sep1               @sepContent  @sepContent  @sepContent  @sep0' lookup sep2  ;
-                    sub  @sep2               @sepContent  @sepContent  @sepContent  @sep0' lookup sep3  ;
-                    sub  @sep3               @sepContent  @sepContent  @sepContent  @sep0' lookup sep4  ;
-                    sub  @sep4               @sepContent  @sepContent  @sepContent  @sep0' lookup sep5  ;
-
-                    sub  @sep1                            @sepContent  @sepContent  @sep0' lookup sep2  ;
-                    sub  @sep2                            @sepContent  @sepContent  @sep0' lookup sep3  ;
-                    sub  @sep3                            @sepContent  @sepContent  @sep0' lookup sep4  ;
-                    sub  @sep4                            @sepContent  @sepContent  @sep0' lookup sep5  ;
-
-                    sub  @sep1                                         @sepContent  @sep0' lookup sep2  ;
-                    sub  @sep2                                         @sepContent  @sep0' lookup sep3  ;
-                    sub  @sep3                                         @sepContent  @sep0' lookup sep4  ;
-                    sub  @sep4                                         @sepContent  @sep0' lookup sep5  ;
-
-                    sub  @sep1                                                      @sep0' lookup sep2  ;
-                    sub  @sep2                                                      @sep0' lookup sep3  ;
-                    sub  @sep3                                                      @sep0' lookup sep4  ;
-                    sub  @sep4                                                      @sep0' lookup sep5  ;
-                    
-                    sub                                                             @sep0' lookup sep1  ;
-                
-                    } CALT_enumerateSeparators;
-
-
-            # 3. register column state
-
-                lookup sepA {
-                    lookupflag 0;
-                    sub sep.1 by sep.1.A;
-                    sub sep.2 by sep.2.A;
-                    sub sep.3 by sep.3.A;
-                    sub sep.4 by sep.4.A;
-                    sub sep.5 by sep.5.A;
-                    } sepA;
-
-                
-                lookup sepB {
-                    lookupflag 0;
-                    sub sep.1 by sep.1.B;
-                    sub sep.2 by sep.2.B;
-                    sub sep.3 by sep.3.B;
-                    sub sep.4 by sep.4.B;
-                    sub sep.5 by sep.5.B;
-                    } sepB;
-
-                
-                lookup sepC {
-                    lookupflag 0;
-                    sub sep.1 by sep.1.C;
-                    sub sep.2 by sep.2.C;
-                    sub sep.3 by sep.3.C;
-                    sub sep.4 by sep.4.C;
-                    sub sep.5 by sep.5.C;
-                    } sepC;
-
-                
-                lookup CALT_registerColumnState {
-                    lookupflag 0;
-                    
-                    # register column state based on layer content
-                    sub  @figAll  @acc         @sepNoCol' lookup sepB  ;
-                    sub  @figAll  @parenRight  @sepNoCol' lookup sepB  ;
-                    sub           @parenRight  @sepNoCol' lookup sepC  ;
-                    sub           @figAll      @sepNoCol' lookup sepA  ;
-                    sub           @acc         @sepNoCol' lookup sepA  ;
-                    # propagate column state of previous separator when layer is empty
-                    sub           @sepA        @sepNoCol' lookup sepA  ;
-                    sub           @sepB        @sepNoCol' lookup sepB  ;
-                    sub           @sepC        @sepNoCol' lookup sepC  ;
-
-                    } CALT_registerColumnState;
-
-
-            # 4. register opening parenthesis
-
-                lookup sepP1A {
-                    lookupflag 0;
-                    sub sep.1.A by sep.1.A.p1.A ;
-                    sub sep.2.A by sep.2.A.p1.A ;
-                    sub sep.3.A by sep.3.A.p1.A ;
-                    sub sep.4.A by sep.4.A.p1.A ;
-                    } sepP1A;
-
-
-                lookup sepP1B {
-                    lookupflag 0;
-                    sub sep.1.B by sep.1.B.p1.B ;
-                    sub sep.2.B by sep.2.B.p1.B ;
-                    sub sep.3.B by sep.3.B.p1.B ;
-                    sub sep.4.B by sep.4.B.p1.B ;
-                    sub sep.1.A by sep.1.A.p1.B ;
-                    sub sep.2.A by sep.2.A.p1.B ;
-                    sub sep.3.A by sep.3.A.p1.B ;
-                    sub sep.4.A by sep.4.A.p1.B ;
-                    } sepP1B;
-
-
-
-                lookup CALT_registerOpeningParen {
-                    lookupflag 0;
-
-                    # register opening parenthesis with different layer contents
-                    sub  @parenLeft  @acc  @figComp        @sepNoParen' lookup sepP1A  ;
-                    sub  @parenLeft        @figComp  @acc  @sepNoParen' lookup sepP1B  ;
-                    sub  @parenLeft        @figComp        @sepNoParen' lookup sepP1A  ;
-                    sub  @parenLeft        @acc            @sepNoParen' lookup sepP1A  ;    
-                    sub  @parenLeft        @figSingle      @sepNoParen' lookup sepP1A  ;
-                
-                    } CALT_registerOpeningParen;
-
-
-            # 5. count parentheses
-
-                lookup sepP2 {
-                    lookupflag 0;
-
-                    sub  sep.1.A       by  sep.1.A.p2    ;
-                    sub  sep.1.B       by  sep.1.B.p2    ;
-                    sub  sep.1.A.p1    by  sep.1.A.p2    ;
-                    sub  sep.1.B.p1    by  sep.1.B.p2    ;
-                    sub  sep.1.A.p1.A  by  sep.1.A.p2.A  ;
-                    sub  sep.1.A.p1.B  by  sep.1.A.p2.B  ;
-                    sub  sep.1.B.p1.B  by  sep.1.B.p2.B  ;
-
-                    sub  sep.2.A       by  sep.2.A.p2    ;
-                    sub  sep.2.B       by  sep.2.B.p2    ;
-                    sub  sep.2.A.p1    by  sep.2.A.p2    ;
-                    sub  sep.2.B.p1    by  sep.2.B.p2    ;
-                    sub  sep.2.A.p1.A  by  sep.2.A.p2.A  ;
-                    sub  sep.2.A.p1.B  by  sep.2.A.p2.B  ;
-                    sub  sep.2.B.p1.B  by  sep.2.B.p2.B  ;
-
-                    sub  sep.3.A       by  sep.3.A.p2    ;
-                    sub  sep.3.B       by  sep.3.B.p2    ;
-                    sub  sep.3.A.p1    by  sep.3.A.p2    ;
-                    sub  sep.3.B.p1    by  sep.3.B.p2    ;
-                    sub  sep.3.A.p1.A  by  sep.3.A.p2.A  ;
-                    sub  sep.3.A.p1.B  by  sep.3.A.p2.B  ;
-                    sub  sep.3.B.p1.B  by  sep.3.B.p2.B  ;
-                    
-                    sub  sep.4.A       by  sep.4.A.p2    ;
-                    sub  sep.4.B       by  sep.4.B.p2    ;
-                    sub  sep.4.A.p1    by  sep.4.A.p2    ;
-                    sub  sep.4.B.p1    by  sep.4.B.p2    ;
-                    sub  sep.4.A.p1.A  by  sep.4.A.p2.A  ;
-                    sub  sep.4.A.p1.B  by  sep.4.A.p2.B  ;
-                    sub  sep.4.B.p1.B  by  sep.4.B.p2.B  ;
-
-                    } sepP2;
-
-
-                lookup sepP3 {
-                    lookupflag 0;
-
-                    sub  sep.1.A       by  sep.1.A.p3    ;
-                    sub  sep.1.B       by  sep.1.B.p3    ;
-                    sub  sep.1.A.p2    by  sep.1.A.p3    ;
-                    sub  sep.1.B.p2    by  sep.1.B.p3    ;
-                    sub  sep.1.A.p2.A  by  sep.1.A.p3.A  ;
-                    sub  sep.1.A.p2.B  by  sep.1.A.p3.B  ;
-                    sub  sep.1.B.p2.B  by  sep.1.B.p3.B  ;
-
-                    sub  sep.2.A       by  sep.2.A.p3    ;
-                    sub  sep.2.B       by  sep.2.B.p3    ;
-                    sub  sep.2.A.p2    by  sep.2.A.p3    ;
-                    sub  sep.2.B.p2    by  sep.2.B.p3    ;
-                    sub  sep.2.A.p2.A  by  sep.2.A.p3.A  ;
-                    sub  sep.2.A.p2.B  by  sep.2.A.p3.B  ;
-                    sub  sep.2.B.p2.B  by  sep.2.B.p3.B  ;
-
-                    sub  sep.3.A       by  sep.3.A.p3    ;
-                    sub  sep.3.B       by  sep.3.B.p3    ;
-                    sub  sep.3.A.p2    by  sep.3.A.p3    ;
-                    sub  sep.3.B.p2    by  sep.3.B.p3    ;
-                    sub  sep.3.A.p2.A  by  sep.3.A.p3.A  ;
-                    sub  sep.3.A.p2.B  by  sep.3.A.p3.B  ;
-                    sub  sep.3.B.p2.B  by  sep.3.B.p3.B  ;
-                    
-                    sub  sep.4.A       by  sep.4.A.p3    ;
-                    sub  sep.4.B       by  sep.4.B.p3    ;
-                    sub  sep.4.A.p2    by  sep.4.A.p3    ;
-                    sub  sep.4.B.p2    by  sep.4.B.p3    ;
-                    sub  sep.4.A.p2.A  by  sep.4.A.p3.A  ;
-                    sub  sep.4.A.p2.B  by  sep.4.A.p3.B  ;
-                    sub  sep.4.B.p2.B  by  sep.4.B.p3.B  ;
-
-                    } sepP3;
-
-
-                lookup sepP4 {
-                    lookupflag 0;
-
-                    sub  sep.1.A       by  sep.1.A.p4    ;
-                    sub  sep.1.B       by  sep.1.B.p4    ;
-                    sub  sep.1.A.p3    by  sep.1.A.p4    ;
-                    sub  sep.1.B.p3    by  sep.1.B.p4    ;
-                    sub  sep.1.A.p3.A  by  sep.1.A.p4.A  ;
-                    sub  sep.1.A.p3.B  by  sep.1.A.p4.B  ;
-                    sub  sep.1.B.p3.B  by  sep.1.B.p4.B  ;
-
-                    sub  sep.2.A       by  sep.2.A.p4    ;
-                    sub  sep.2.B       by  sep.2.B.p4    ;
-                    sub  sep.2.A.p3    by  sep.2.A.p4    ;
-                    sub  sep.2.B.p3    by  sep.2.B.p4    ;
-                    sub  sep.2.A.p3.A  by  sep.2.A.p4.A  ;
-                    sub  sep.2.A.p3.B  by  sep.2.A.p4.B  ;
-                    sub  sep.2.B.p3.B  by  sep.2.B.p4.B  ;
-
-                    sub  sep.3.A       by  sep.3.A.p4    ;
-                    sub  sep.3.B       by  sep.3.B.p4    ;
-                    sub  sep.3.A.p3    by  sep.3.A.p4    ;
-                    sub  sep.3.B.p3    by  sep.3.B.p4    ;
-                    sub  sep.3.A.p3.A  by  sep.3.A.p4.A  ;
-                    sub  sep.3.A.p3.B  by  sep.3.A.p4.B  ;
-                    sub  sep.3.B.p3.B  by  sep.3.B.p4.B  ;
-                    
-                    sub  sep.4.A       by  sep.4.A.p4    ;
-                    sub  sep.4.B       by  sep.4.B.p4    ;
-                    sub  sep.4.A.p3    by  sep.4.A.p4    ;
-                    sub  sep.4.B.p3    by  sep.4.B.p4    ;
-                    sub  sep.4.A.p3.A  by  sep.4.A.p4.A  ;
-                    sub  sep.4.A.p3.B  by  sep.4.A.p4.B  ;
-                    sub  sep.4.B.p3.B  by  sep.4.B.p4.B  ;
-
-                    } sepP4;
-
-
-                lookup CALT_countParens {
-                    lookupflag 0;
-
-                    sub  @sepP1  @parenContent  @parenContent  @sepNoParen' lookup sepP2  ;
-                    sub  @sepP2  @parenContent  @parenContent  @sepNoParen' lookup sepP3  ;
-                    sub  @sepP3  @parenContent  @parenContent  @sepNoParen' lookup sepP4  ;
-
-                    sub  @sepP1                 @parenContent  @sepNoParen' lookup sepP2  ;
-                    sub  @sepP2                 @parenContent  @sepNoParen' lookup sepP3  ;
-                    sub  @sepP3                 @parenContent  @sepNoParen' lookup sepP4  ;
-
-                    sub  @sepP1                                @sepNoParen' lookup sepP2  ;
-                    sub  @sepP2                                @sepNoParen' lookup sepP3  ;
-                    sub  @sepP3                                @sepNoParen' lookup sepP4  ;
-                    
-                    } CALT_countParens;
-
-
-            # 6. register column for closing parenthesis
-
-                lookup sepPA {
-                  lookupflag 0;
-                    sub sep.2.A.p1 by sep.2.A.p1.A ;
-                    sub sep.2.A.p2 by sep.2.A.p2.A ;
-                    sub sep.3.A.p1 by sep.3.A.p1.A ;
-                    sub sep.3.A.p2 by sep.3.A.p2.A ;
-                    sub sep.1.A.p1 by sep.1.A.p1.A ;
-                    sub sep.3.A.p3 by sep.3.A.p3.A ;
-                    sub sep.4.A.p1 by sep.4.A.p1.A ;
-                    sub sep.4.A.p2 by sep.4.A.p2.A ;
-                    sub sep.4.A.p3 by sep.4.A.p3.A ;
-                    sub sep.4.A.p4 by sep.4.A.p4.A ;
-                    } sepPA;
-
-                lookup sepPB {
-                  lookupflag 0;
-                    sub sep.1.B.p1 by sep.1.B.p1.B ;
-                    sub sep.2.A.p1 by sep.2.A.p1.B ;
-                    sub sep.2.B.p1 by sep.2.B.p1.B ;
-                    sub sep.2.A.p2 by sep.2.A.p2.B ;
-                    sub sep.2.B.p2 by sep.2.B.p2.B ;
-                    sub sep.3.A.p1 by sep.3.A.p1.B ;
-                    sub sep.3.B.p1 by sep.3.B.p1.B ;
-                    sub sep.3.A.p2 by sep.3.A.p2.B ;
-                    sub sep.1.A.p1 by sep.1.A.p1.B ;
-                    sub sep.3.B.p2 by sep.3.B.p2.B ;
-                    sub sep.3.A.p3 by sep.3.A.p3.B ;
-                    sub sep.3.B.p3 by sep.3.B.p3.B ;
-                    sub sep.4.A.p1 by sep.4.A.p1.B ;
-                    sub sep.4.B.p1 by sep.4.B.p1.B ;
-                    sub sep.4.A.p2 by sep.4.A.p2.B ;
-                    sub sep.4.B.p2 by sep.4.B.p2.B ;
-                    sub sep.4.A.p3 by sep.4.A.p3.B ;
-                    sub sep.4.B.p3 by sep.4.B.p3.B ;
-                    sub sep.4.A.p4 by sep.4.A.p4.B ;
-                    sub sep.4.B.p4 by sep.4.B.p4.B ;
-                    } sepPB;
-
-                lookup CALT_registerParenColumn {
-                    lookupflag 0;
-                    
-                    sub                                        @sepB' lookup sepPB  ;
-
-                    sub  @sepPA  @parenContent  @parenContent  @sepA' lookup sepPA  ;
-                    sub  @sepPB  @parenContent  @parenContent  @sepA' lookup sepPB  ;
-
-                    sub  @sepPA  @parenContent                 @sepA' lookup sepPA  ;
-                    sub  @sepPB  @parenContent                 @sepA' lookup sepPB  ;
-
-                    sub  @sepPA                                @sepA' lookup sepPA  ;
-                    sub  @sepPB                                @sepA' lookup sepPB  ;
-
-                    } CALT_registerParenColumn;
-
-
-            # 7. pass back paren height
-
-                lookup CALT_passBackParenHeight_1stRun {
-                    lookupflag 0;
-
-                    sub  @sepP1' lookup sepP2  @parenContent  @parenContent  @sepP2  ;
-                    sub  @sepP1' lookup sepP2  @parenContent                 @sepP2  ;
-                    sub  @sepP1' lookup sepP2                                @sepP2  ;
-
-                    sub  @sepP2' lookup sepP3  @parenContent  @parenContent  @sepP3  ;
-                    sub  @sepP2' lookup sepP3  @parenContent                 @sepP3  ;
-                    sub  @sepP2' lookup sepP3                                @sepP3  ;
-
-                    sub  @sepP3' lookup sepP4  @parenContent  @parenContent  @sepP4  ;
-                    sub  @sepP3' lookup sepP4  @parenContent                 @sepP4  ;
-                    sub  @sepP3' lookup sepP4                                @sepP4  ;
-
-                    } CALT_passBackParenHeight_1stRun;
-
-                
-                lookup CALT_passBackParenHeight_2ndRun {
-                    lookupflag 0;
-
-                    sub  @sepP2' lookup sepP3  @parenContent  @parenContent  @sepP3  ;
-                    sub  @sepP2' lookup sepP3  @parenContent                 @sepP3  ;
-                    sub  @sepP2' lookup sepP3                                @sepP3  ;
-
-                    sub  @sepP3' lookup sepP4  @parenContent  @parenContent  @sepP4  ;
-                    sub  @sepP3' lookup sepP4  @parenContent                 @sepP4  ;
-                    sub  @sepP3' lookup sepP4                                @sepP4  ;
-
-                    } CALT_passBackParenHeight_2ndRun;
-
-
-                lookup CALT_passBackParenHeight_3rdRun {
-                    lookupflag 0;
-
-                    sub  @sepP3' lookup sepP4  @parenContent  @parenContent  @sepP4  ;
-                    sub  @sepP3' lookup sepP4  @parenContent                 @sepP4  ;
-                    sub  @sepP3' lookup sepP4                                @sepP4  ;
-
-                    } CALT_passBackParenHeight_3rdRun;
-
-
-            # 8. substitute parens
-
-                lookup parenP1 {
-                    sub  @paren0  by  @parenP1  ;
-                    } parenP1;
-
-                lookup parenP2 {
-                    sub  @paren0  by  @parenP2  ;
-                    } parenP2;
-
-                lookup parenP3 {
-                    sub  @paren0  by  @parenP3  ;
-                    } parenP3;
-
-                lookup parenP4 {
-                    sub  @paren0  by  @parenP4  ;
-                    } parenP4;
-
-
-                lookup CALT_substituteParens {
-                    lookupflag 0;
-
-                    sub          @paren0' lookup parenP1  @parenContent  @parenContent                           @sepP1  ;
-                    sub          @paren0' lookup parenP1  @parenContent                                          @sepP1  ;
-                    sub  @sepP1                           @parenContent  @parenContent  @paren0' lookup parenP1          ;
-                    sub  @sepP1                                          @parenContent  @paren0' lookup parenP1          ;
-
-                    sub          @paren0' lookup parenP2  @parenContent  @parenContent                           @sepP2  ;
-                    sub          @paren0' lookup parenP2  @parenContent                                          @sepP2  ;
-                    sub  @sepP2                           @parenContent  @parenContent  @paren0' lookup parenP2          ;
-                    sub  @sepP2                                          @parenContent  @paren0' lookup parenP2          ;
-
-                    sub          @paren0' lookup parenP3  @parenContent  @parenContent                           @sepP3  ;
-                    sub          @paren0' lookup parenP3  @parenContent                                          @sepP3  ;
-                    sub  @sepP3                           @parenContent  @parenContent  @paren0' lookup parenP3          ;
-                    sub  @sepP3                                          @parenContent  @paren0' lookup parenP3          ;
-
-                    sub          @paren0' lookup parenP4  @parenContent  @parenContent                           @sepP4  ;
-                    sub          @paren0' lookup parenP4  @parenContent                                          @sepP4  ;
-                    sub  @sepP4                           @parenContent  @parenContent  @paren0' lookup parenP4          ;
-                    sub  @sepP4                                          @parenContent  @paren0' lookup parenP4          ;
-
-                    } CALT_substituteParens;
+	# 1. LIGATURES ----------------------------------------------------------------
+
+		lookup LIGA_figures {
+			lookupflag 0;
+			sub  one zero  by  one_zero  ;
+			} LIGA_figures;
+
+
+		lookup LIGA_italicFigures {
+			lookupflag 0;
+			sub  i one zero  by  i_one_zero  ;
+			sub  i one_zero  by  i_one_zero  ;
+			sub  i zero      by  i_zero      ;
+			sub  i one       by  i_one       ;
+			sub  i two       by  i_two       ;
+			sub  i three     by  i_three     ;
+			sub  i four      by  i_four      ;
+			sub  i five      by  i_five      ;
+			sub  i six       by  i_six       ;
+			sub  i seven     by  i_seven     ;
+			sub  i eight     by  i_eight     ;
+			sub  i nine      by  i_nine      ;
+			} LIGA_italicFigures;
+
+
+		lookup LIGA_slashedFigures {
+			lookupflag 0;
+			sub  two   slash   by  two_slash    ;
+			sub  two   plus    by  two_slash    ;
+			sub  four  slash   by  four_slash   ;
+			sub  four  plus    by  four_slash   ;
+			sub  five  plus    by  five_slash   ;
+			sub  five  slash   by  five_slash   ;
+			sub  six   plus    by  six_slash    ;
+			sub  six   slash   by  six_slash    ;
+			sub  seven slash   by  seven_slash  ;
+			sub  seven plus    by  seven_slash  ;
+			sub  nine  slash   by  nine_slash   ;
+			sub  nine  plus    by  nine_slash   ;
+			} LIGA_slashedFigures;
+
+
+		lookup LIGA_accidentals {
+			lookupflag 0;
+			sub  b b  by  b_b  ;   
+			} LIGA_accidentals;
+
+
+		lookup LIGA_parenthesizedAccidentals {
+			lookupflag 0;
+
+			sub  parenleft   numbersign  parenright    by  parenleft_s_parenright        ;
+			sub  parenleft   s           parenright    by  parenleft_s_parenright        ;
+			sub  parenleft   b           parenright    by  parenleft_b_parenright        ;
+			sub  parenleft   n           parenright    by  parenleft_n_parenright        ;
+			sub  parenleft   x           parenright    by  parenleft_x_parenright        ;
+			sub  parenleft   b b         parenright    by  parenleft_b_b_parenright      ;
+			sub  parenleft   b_b         parenright    by  parenleft_b_b_parenright      ;
+
+			sub  bracketleft s           bracketright  by  bracketleft_s_bracketright    ;
+			sub  bracketleft numbersign  bracketright  by  bracketleft_s_bracketright    ;
+			sub  bracketleft b           bracketright  by  bracketleft_b_bracketright    ;
+			sub  bracketleft n           bracketright  by  bracketleft_n_bracketright    ;
+			sub  bracketleft x           bracketright  by  bracketleft_x_bracketright    ;
+			sub  bracketleft b b         bracketright  by  bracketleft_b_b_bracketright  ;
+			sub  bracketleft b_b         bracketright  by  bracketleft_b_b_bracketright  ;
+		
+			} LIGA_parenthesizedAccidentals;
+
+
+	# 2. SUBSTITUTIONS ------------------------------------------------------------
+
+		# 2.1 add separators
+
+			lookup addSepRight {
+				lookupflag 0;
+
+				sub zero                          by  zero                          sep  ;
+				sub one                           by  one                           sep  ;
+				sub two                           by  two                           sep  ;
+				sub three                         by  three                         sep  ;
+				sub four                          by  four                          sep  ;
+				sub five                          by  five                          sep  ;
+				sub six                           by  six                           sep  ;
+				sub seven                         by  seven                         sep  ;
+				sub eight                         by  eight                         sep  ;
+				sub nine                          by  nine                          sep  ;
+				sub one_zero                      by  one_zero                      sep  ;
+
+				sub i_zero                        by  i_zero                        sep  ;
+				sub i_one                         by  i_one                         sep  ;
+				sub i_two                         by  i_two                         sep  ;
+				sub i_three                       by  i_three                       sep  ;
+				sub i_four                        by  i_four                        sep  ;
+				sub i_five                        by  i_five                        sep  ;
+				sub i_six                         by  i_six                         sep  ;
+				sub i_seven                       by  i_seven                       sep  ;
+				sub i_eight                       by  i_eight                       sep  ;
+				sub i_nine                        by  i_nine                        sep  ;
+				sub i_one_zero                    by  i_one_zero                    sep  ;
+
+				sub b                             by  b                             sep  ;
+				sub n                             by  n                             sep  ;
+				sub x                             by  x                             sep  ;
+				sub s                             by  s                             sep  ;
+				sub numbersign                    by  numbersign                    sep  ;
+				sub hyphen                        by  hyphen                        sep  ;
+				sub plus                          by  plus                          sep  ;
+
+				sub b_b                           by  b_b                           sep  ;
+
+				sub two_slash                     by  two_slash                     sep  ;
+				sub four_slash                    by  four_slash                    sep  ;
+				sub five_slash                    by  five_slash                    sep  ;
+				sub six_slash                     by  six_slash                     sep  ;
+				sub seven_slash                   by  seven_slash                   sep  ;
+				sub nine_slash                    by  nine_slash                    sep  ;
+
+				sub d                             by  d                             sep  ;
+				sub endash                        by  endash                        sep  ;
+
+				sub parenright                    by  parenright                    sep  ;
+				sub bracketright                  by  bracketright                  sep  ;
+
+				sub parenleft_s_parenright        by  parenleft_s_parenright        sep  ;
+				sub parenleft_b_parenright        by  parenleft_b_parenright        sep  ;
+				sub parenleft_n_parenright        by  parenleft_n_parenright        sep  ;
+				sub parenleft_x_parenright        by  parenleft_x_parenright        sep  ;
+				sub parenleft_b_b_parenright      by  parenleft_b_b_parenright      sep  ;
+				sub bracketleft_s_bracketright    by  bracketleft_s_bracketright    sep  ;
+				sub bracketleft_b_bracketright    by  bracketleft_b_bracketright    sep  ;
+				sub bracketleft_n_bracketright    by  bracketleft_n_bracketright    sep  ;
+				sub bracketleft_x_bracketright    by  bracketleft_x_bracketright    sep  ;
+				sub bracketleft_b_b_bracketright  by  bracketleft_b_b_bracketright  sep  ;
+
+				sub comma                         by  comma                         sep  ;
+			
+				} addSepRight;
+
+
+			lookup CALT_addSeparators {
+				lookupflag 0;
+
+				# flat is treated separately because occasionally the liga_ture b_b needs to be separated with comma: 2b,b4
+
+				ignore sub                 @figSingle'                       @parenRight             ;
+				ignore sub                 @figSingle'                       @comma                  ;
+				ignore sub   @figComp      @accNoFlat'                       @parenRight             ;
+				ignore sub   @figComp      @flat'                            @parenRight             ;
+				ignore sub   @accNoFlat    @figComp'                         @parenRight             ;
+				ignore sub   @flat         @figComp'                         @parenRight             ;
+				ignore sub                 @flat'                            @comma @flat @figComp  ;
+					   sub                 @figComp'    lookup addSepRight   @figComp                ;
+					   sub   @accNoFlat    @figComp'    lookup addSepRight                           ;
+					   sub   @flat         @figComp'    lookup addSepRight                           ;
+					   sub   @figComp      @accNoFlat'  lookup addSepRight                           ;
+					   sub   @figComp      @flat'       lookup addSepRight   @figComp                ;
+					   sub                 @flat'       lookup addSepRight   @comma @accNoFlat       ;
+					   sub                 @flat'       lookup addSepRight   @accNoFlat              ;
+					   sub                 @flat'       lookup addSepRight   @comma @flat            ;
+					   sub                 @accNoFlat'  lookup addSepRight   @flat                   ;
+					   sub                 @accNoFlat'  lookup addSepRight   @comma @flat            ;
+					   sub                 @figSingle'  lookup addSepRight                           ;
+					   sub                 @accNoFlat'  lookup addSepRight   @figSingle              ;
+					   sub                 @flat'       lookup addSepRight   @figSingle              ;
+					   sub                 @figComp'    lookup addSepRight   @figSingle              ;
+					   sub                 @accNoFlat'  lookup addSepRight   @parenLeft              ;
+					   sub                 @flat'       lookup addSepRight   @parenLeft              ;
+					   sub                 @figComp'    lookup addSepRight   @parenLeft              ;
+					   sub                 @parenRight' lookup addSepRight                           ;
+					   sub   @figSingle    @comma'      lookup addSepRight   @figSingle              ;
+					   sub   @figSingle    @comma'      lookup addSepRight   @figComp                ;
+					   sub   @figComp      @comma'      lookup addSepRight   @figComp                ;
+					   sub   @figComp      @comma'      lookup addSepRight   @figSingle              ;
+			
+				} CALT_addSeparators;
+
+
+			# 2. enumerate separators
+
+				lookup sep1 {
+					lookupflag 0;
+					sub comma by sep.1;
+					sub sep   by sep.1;
+					} sep1;
+
+
+				lookup sep2 {
+					lookupflag 0;
+					sub comma by sep.2;
+					sub sep   by sep.2;
+					} sep2;
+
+
+				lookup sep3 {
+					lookupflag 0;
+					sub comma by sep.3;
+					sub sep   by sep.3;
+					} sep3;
+
+
+				lookup sep4 {
+					lookupflag 0;
+					sub comma by sep.4;
+					sub sep   by sep.4;
+					} sep4;
+
+
+				lookup sep5 {
+					lookupflag 0;
+					sub comma by sep.5;
+					sub sep   by sep.5;
+					} sep5;
+
+
+				lookup CALT_enumerateSeparators {
+					lookupflag 0;
+					
+					sub  @sep1  @sepContent  @sepContent  @sepContent  @sepContent  @sep0' lookup sep2  ;
+					sub  @sep2  @sepContent  @sepContent  @sepContent  @sepContent  @sep0' lookup sep3  ;
+					sub  @sep3  @sepContent  @sepContent  @sepContent  @sepContent  @sep0' lookup sep4  ;
+					sub  @sep4  @sepContent  @sepContent  @sepContent  @sepContent  @sep0' lookup sep5  ;
+
+					sub  @sep1               @sepContent  @sepContent  @sepContent  @sep0' lookup sep2  ;
+					sub  @sep2               @sepContent  @sepContent  @sepContent  @sep0' lookup sep3  ;
+					sub  @sep3               @sepContent  @sepContent  @sepContent  @sep0' lookup sep4  ;
+					sub  @sep4               @sepContent  @sepContent  @sepContent  @sep0' lookup sep5  ;
+
+					sub  @sep1                            @sepContent  @sepContent  @sep0' lookup sep2  ;
+					sub  @sep2                            @sepContent  @sepContent  @sep0' lookup sep3  ;
+					sub  @sep3                            @sepContent  @sepContent  @sep0' lookup sep4  ;
+					sub  @sep4                            @sepContent  @sepContent  @sep0' lookup sep5  ;
+
+					sub  @sep1                                         @sepContent  @sep0' lookup sep2  ;
+					sub  @sep2                                         @sepContent  @sep0' lookup sep3  ;
+					sub  @sep3                                         @sepContent  @sep0' lookup sep4  ;
+					sub  @sep4                                         @sepContent  @sep0' lookup sep5  ;
+
+					sub  @sep1                                                      @sep0' lookup sep2  ;
+					sub  @sep2                                                      @sep0' lookup sep3  ;
+					sub  @sep3                                                      @sep0' lookup sep4  ;
+					sub  @sep4                                                      @sep0' lookup sep5  ;
+					
+					sub                                                             @sep0' lookup sep1  ;
+				
+					} CALT_enumerateSeparators;
+
+
+			# 3. register column state
+
+				lookup sepA {
+					lookupflag 0;
+					sub sep.1 by sep.1.A;
+					sub sep.2 by sep.2.A;
+					sub sep.3 by sep.3.A;
+					sub sep.4 by sep.4.A;
+					sub sep.5 by sep.5.A;
+					} sepA;
+
+				
+				lookup sepB {
+					lookupflag 0;
+					sub sep.1 by sep.1.B;
+					sub sep.2 by sep.2.B;
+					sub sep.3 by sep.3.B;
+					sub sep.4 by sep.4.B;
+					sub sep.5 by sep.5.B;
+					} sepB;
+
+				
+				lookup sepC {
+					lookupflag 0;
+					sub sep.1 by sep.1.C;
+					sub sep.2 by sep.2.C;
+					sub sep.3 by sep.3.C;
+					sub sep.4 by sep.4.C;
+					sub sep.5 by sep.5.C;
+					} sepC;
+
+				
+				lookup CALT_registerColumnState {
+					lookupflag 0;
+					
+					# register column state based on layer content
+					sub  @figAll  @acc         @sepNoCol' lookup sepB  ;
+					sub  @figAll  @parenRight  @sepNoCol' lookup sepB  ;
+					sub           @parenRight  @sepNoCol' lookup sepC  ;
+					sub           @figAll      @sepNoCol' lookup sepA  ;
+					sub           @acc         @sepNoCol' lookup sepA  ;
+					# propagate column state of previous separator when layer is empty
+					sub           @sepA        @sepNoCol' lookup sepA  ;
+					sub           @sepB        @sepNoCol' lookup sepB  ;
+					sub           @sepC        @sepNoCol' lookup sepC  ;
+
+					} CALT_registerColumnState;
+
+
+			# 4. register opening parenthesis
+
+				lookup sepP1A {
+					lookupflag 0;
+					sub sep.1.A by sep.1.A.p1.A ;
+					sub sep.2.A by sep.2.A.p1.A ;
+					sub sep.3.A by sep.3.A.p1.A ;
+					sub sep.4.A by sep.4.A.p1.A ;
+					} sepP1A;
+
+
+				lookup sepP1B {
+					lookupflag 0;
+					sub sep.1.B by sep.1.B.p1.B ;
+					sub sep.2.B by sep.2.B.p1.B ;
+					sub sep.3.B by sep.3.B.p1.B ;
+					sub sep.4.B by sep.4.B.p1.B ;
+					sub sep.1.A by sep.1.A.p1.B ;
+					sub sep.2.A by sep.2.A.p1.B ;
+					sub sep.3.A by sep.3.A.p1.B ;
+					sub sep.4.A by sep.4.A.p1.B ;
+					} sepP1B;
+
+
+
+				lookup CALT_registerOpeningParen {
+					lookupflag 0;
+
+					# register opening parenthesis with different layer contents
+					sub  @parenLeft  @acc  @figComp        @sepNoParen' lookup sepP1A  ;
+					sub  @parenLeft        @figComp  @acc  @sepNoParen' lookup sepP1B  ;
+					sub  @parenLeft        @figComp        @sepNoParen' lookup sepP1A  ;
+					sub  @parenLeft        @acc            @sepNoParen' lookup sepP1A  ;    
+					sub  @parenLeft        @figSingle      @sepNoParen' lookup sepP1A  ;
+				
+					} CALT_registerOpeningParen;
+
+
+			# 5. count parentheses
+
+				lookup sepP2 {
+					lookupflag 0;
+
+					sub  sep.1.A       by  sep.1.A.p2    ;
+					sub  sep.1.B       by  sep.1.B.p2    ;
+					sub  sep.1.A.p1    by  sep.1.A.p2    ;
+					sub  sep.1.B.p1    by  sep.1.B.p2    ;
+					sub  sep.1.A.p1.A  by  sep.1.A.p2.A  ;
+					sub  sep.1.A.p1.B  by  sep.1.A.p2.B  ;
+					sub  sep.1.B.p1.B  by  sep.1.B.p2.B  ;
+
+					sub  sep.2.A       by  sep.2.A.p2    ;
+					sub  sep.2.B       by  sep.2.B.p2    ;
+					sub  sep.2.A.p1    by  sep.2.A.p2    ;
+					sub  sep.2.B.p1    by  sep.2.B.p2    ;
+					sub  sep.2.A.p1.A  by  sep.2.A.p2.A  ;
+					sub  sep.2.A.p1.B  by  sep.2.A.p2.B  ;
+					sub  sep.2.B.p1.B  by  sep.2.B.p2.B  ;
+
+					sub  sep.3.A       by  sep.3.A.p2    ;
+					sub  sep.3.B       by  sep.3.B.p2    ;
+					sub  sep.3.A.p1    by  sep.3.A.p2    ;
+					sub  sep.3.B.p1    by  sep.3.B.p2    ;
+					sub  sep.3.A.p1.A  by  sep.3.A.p2.A  ;
+					sub  sep.3.A.p1.B  by  sep.3.A.p2.B  ;
+					sub  sep.3.B.p1.B  by  sep.3.B.p2.B  ;
+					
+					sub  sep.4.A       by  sep.4.A.p2    ;
+					sub  sep.4.B       by  sep.4.B.p2    ;
+					sub  sep.4.A.p1    by  sep.4.A.p2    ;
+					sub  sep.4.B.p1    by  sep.4.B.p2    ;
+					sub  sep.4.A.p1.A  by  sep.4.A.p2.A  ;
+					sub  sep.4.A.p1.B  by  sep.4.A.p2.B  ;
+					sub  sep.4.B.p1.B  by  sep.4.B.p2.B  ;
+
+					} sepP2;
+
+
+				lookup sepP3 {
+					lookupflag 0;
+
+					sub  sep.1.A       by  sep.1.A.p3    ;
+					sub  sep.1.B       by  sep.1.B.p3    ;
+					sub  sep.1.A.p2    by  sep.1.A.p3    ;
+					sub  sep.1.B.p2    by  sep.1.B.p3    ;
+					sub  sep.1.A.p2.A  by  sep.1.A.p3.A  ;
+					sub  sep.1.A.p2.B  by  sep.1.A.p3.B  ;
+					sub  sep.1.B.p2.B  by  sep.1.B.p3.B  ;
+
+					sub  sep.2.A       by  sep.2.A.p3    ;
+					sub  sep.2.B       by  sep.2.B.p3    ;
+					sub  sep.2.A.p2    by  sep.2.A.p3    ;
+					sub  sep.2.B.p2    by  sep.2.B.p3    ;
+					sub  sep.2.A.p2.A  by  sep.2.A.p3.A  ;
+					sub  sep.2.A.p2.B  by  sep.2.A.p3.B  ;
+					sub  sep.2.B.p2.B  by  sep.2.B.p3.B  ;
+
+					sub  sep.3.A       by  sep.3.A.p3    ;
+					sub  sep.3.B       by  sep.3.B.p3    ;
+					sub  sep.3.A.p2    by  sep.3.A.p3    ;
+					sub  sep.3.B.p2    by  sep.3.B.p3    ;
+					sub  sep.3.A.p2.A  by  sep.3.A.p3.A  ;
+					sub  sep.3.A.p2.B  by  sep.3.A.p3.B  ;
+					sub  sep.3.B.p2.B  by  sep.3.B.p3.B  ;
+					
+					sub  sep.4.A       by  sep.4.A.p3    ;
+					sub  sep.4.B       by  sep.4.B.p3    ;
+					sub  sep.4.A.p2    by  sep.4.A.p3    ;
+					sub  sep.4.B.p2    by  sep.4.B.p3    ;
+					sub  sep.4.A.p2.A  by  sep.4.A.p3.A  ;
+					sub  sep.4.A.p2.B  by  sep.4.A.p3.B  ;
+					sub  sep.4.B.p2.B  by  sep.4.B.p3.B  ;
+
+					} sepP3;
+
+
+				lookup sepP4 {
+					lookupflag 0;
+
+					sub  sep.1.A       by  sep.1.A.p4    ;
+					sub  sep.1.B       by  sep.1.B.p4    ;
+					sub  sep.1.A.p3    by  sep.1.A.p4    ;
+					sub  sep.1.B.p3    by  sep.1.B.p4    ;
+					sub  sep.1.A.p3.A  by  sep.1.A.p4.A  ;
+					sub  sep.1.A.p3.B  by  sep.1.A.p4.B  ;
+					sub  sep.1.B.p3.B  by  sep.1.B.p4.B  ;
+
+					sub  sep.2.A       by  sep.2.A.p4    ;
+					sub  sep.2.B       by  sep.2.B.p4    ;
+					sub  sep.2.A.p3    by  sep.2.A.p4    ;
+					sub  sep.2.B.p3    by  sep.2.B.p4    ;
+					sub  sep.2.A.p3.A  by  sep.2.A.p4.A  ;
+					sub  sep.2.A.p3.B  by  sep.2.A.p4.B  ;
+					sub  sep.2.B.p3.B  by  sep.2.B.p4.B  ;
+
+					sub  sep.3.A       by  sep.3.A.p4    ;
+					sub  sep.3.B       by  sep.3.B.p4    ;
+					sub  sep.3.A.p3    by  sep.3.A.p4    ;
+					sub  sep.3.B.p3    by  sep.3.B.p4    ;
+					sub  sep.3.A.p3.A  by  sep.3.A.p4.A  ;
+					sub  sep.3.A.p3.B  by  sep.3.A.p4.B  ;
+					sub  sep.3.B.p3.B  by  sep.3.B.p4.B  ;
+					
+					sub  sep.4.A       by  sep.4.A.p4    ;
+					sub  sep.4.B       by  sep.4.B.p4    ;
+					sub  sep.4.A.p3    by  sep.4.A.p4    ;
+					sub  sep.4.B.p3    by  sep.4.B.p4    ;
+					sub  sep.4.A.p3.A  by  sep.4.A.p4.A  ;
+					sub  sep.4.A.p3.B  by  sep.4.A.p4.B  ;
+					sub  sep.4.B.p3.B  by  sep.4.B.p4.B  ;
+
+					} sepP4;
+
+
+				lookup CALT_countParens {
+					lookupflag 0;
+
+					sub  @sepP1  @parenContent  @parenContent  @sepNoParen' lookup sepP2  ;
+					sub  @sepP2  @parenContent  @parenContent  @sepNoParen' lookup sepP3  ;
+					sub  @sepP3  @parenContent  @parenContent  @sepNoParen' lookup sepP4  ;
+
+					sub  @sepP1                 @parenContent  @sepNoParen' lookup sepP2  ;
+					sub  @sepP2                 @parenContent  @sepNoParen' lookup sepP3  ;
+					sub  @sepP3                 @parenContent  @sepNoParen' lookup sepP4  ;
+
+					sub  @sepP1                                @sepNoParen' lookup sepP2  ;
+					sub  @sepP2                                @sepNoParen' lookup sepP3  ;
+					sub  @sepP3                                @sepNoParen' lookup sepP4  ;
+					
+					} CALT_countParens;
+
+
+			# 6. register column for closing parenthesis
+
+				lookup sepPA {
+				  lookupflag 0;
+					sub sep.2.A.p1 by sep.2.A.p1.A ;
+					sub sep.2.A.p2 by sep.2.A.p2.A ;
+					sub sep.3.A.p1 by sep.3.A.p1.A ;
+					sub sep.3.A.p2 by sep.3.A.p2.A ;
+					sub sep.1.A.p1 by sep.1.A.p1.A ;
+					sub sep.3.A.p3 by sep.3.A.p3.A ;
+					sub sep.4.A.p1 by sep.4.A.p1.A ;
+					sub sep.4.A.p2 by sep.4.A.p2.A ;
+					sub sep.4.A.p3 by sep.4.A.p3.A ;
+					sub sep.4.A.p4 by sep.4.A.p4.A ;
+					} sepPA;
+
+				lookup sepPB {
+				  lookupflag 0;
+					sub sep.1.B.p1 by sep.1.B.p1.B ;
+					sub sep.2.A.p1 by sep.2.A.p1.B ;
+					sub sep.2.B.p1 by sep.2.B.p1.B ;
+					sub sep.2.A.p2 by sep.2.A.p2.B ;
+					sub sep.2.B.p2 by sep.2.B.p2.B ;
+					sub sep.3.A.p1 by sep.3.A.p1.B ;
+					sub sep.3.B.p1 by sep.3.B.p1.B ;
+					sub sep.3.A.p2 by sep.3.A.p2.B ;
+					sub sep.1.A.p1 by sep.1.A.p1.B ;
+					sub sep.3.B.p2 by sep.3.B.p2.B ;
+					sub sep.3.A.p3 by sep.3.A.p3.B ;
+					sub sep.3.B.p3 by sep.3.B.p3.B ;
+					sub sep.4.A.p1 by sep.4.A.p1.B ;
+					sub sep.4.B.p1 by sep.4.B.p1.B ;
+					sub sep.4.A.p2 by sep.4.A.p2.B ;
+					sub sep.4.B.p2 by sep.4.B.p2.B ;
+					sub sep.4.A.p3 by sep.4.A.p3.B ;
+					sub sep.4.B.p3 by sep.4.B.p3.B ;
+					sub sep.4.A.p4 by sep.4.A.p4.B ;
+					sub sep.4.B.p4 by sep.4.B.p4.B ;
+					} sepPB;
+
+				lookup CALT_registerParenColumn {
+					lookupflag 0;
+					
+					sub                                        @sepB' lookup sepPB  ;
+
+					sub  @sepPA  @parenContent  @parenContent  @sepA' lookup sepPA  ;
+					sub  @sepPB  @parenContent  @parenContent  @sepA' lookup sepPB  ;
+
+					sub  @sepPA  @parenContent                 @sepA' lookup sepPA  ;
+					sub  @sepPB  @parenContent                 @sepA' lookup sepPB  ;
+
+					sub  @sepPA                                @sepA' lookup sepPA  ;
+					sub  @sepPB                                @sepA' lookup sepPB  ;
+
+					} CALT_registerParenColumn;
+
+
+			# 7. pass back paren height
+
+				lookup CALT_passBackParenHeight_1stRun {
+					lookupflag 0;
+
+					sub  @sepP1' lookup sepP2  @parenContent  @parenContent  @sepP2  ;
+					sub  @sepP1' lookup sepP2  @parenContent                 @sepP2  ;
+					sub  @sepP1' lookup sepP2                                @sepP2  ;
+
+					sub  @sepP2' lookup sepP3  @parenContent  @parenContent  @sepP3  ;
+					sub  @sepP2' lookup sepP3  @parenContent                 @sepP3  ;
+					sub  @sepP2' lookup sepP3                                @sepP3  ;
+
+					sub  @sepP3' lookup sepP4  @parenContent  @parenContent  @sepP4  ;
+					sub  @sepP3' lookup sepP4  @parenContent                 @sepP4  ;
+					sub  @sepP3' lookup sepP4                                @sepP4  ;
+
+					} CALT_passBackParenHeight_1stRun;
+
+				
+				lookup CALT_passBackParenHeight_2ndRun {
+					lookupflag 0;
+
+					sub  @sepP2' lookup sepP3  @parenContent  @parenContent  @sepP3  ;
+					sub  @sepP2' lookup sepP3  @parenContent                 @sepP3  ;
+					sub  @sepP2' lookup sepP3                                @sepP3  ;
+
+					sub  @sepP3' lookup sepP4  @parenContent  @parenContent  @sepP4  ;
+					sub  @sepP3' lookup sepP4  @parenContent                 @sepP4  ;
+					sub  @sepP3' lookup sepP4                                @sepP4  ;
+
+					} CALT_passBackParenHeight_2ndRun;
+
+
+				lookup CALT_passBackParenHeight_3rdRun {
+					lookupflag 0;
+
+					sub  @sepP3' lookup sepP4  @parenContent  @parenContent  @sepP4  ;
+					sub  @sepP3' lookup sepP4  @parenContent                 @sepP4  ;
+					sub  @sepP3' lookup sepP4                                @sepP4  ;
+
+					} CALT_passBackParenHeight_3rdRun;
+
+
+			# 8. substitute parens
+
+				lookup parenP1 {
+					sub  @paren0  by  @parenP1  ;
+					} parenP1;
+
+				lookup parenP2 {
+					sub  @paren0  by  @parenP2  ;
+					} parenP2;
+
+				lookup parenP3 {
+					sub  @paren0  by  @parenP3  ;
+					} parenP3;
+
+				lookup parenP4 {
+					sub  @paren0  by  @parenP4  ;
+					} parenP4;
+
+
+				lookup CALT_substituteParens {
+					lookupflag 0;
+
+					sub          @paren0' lookup parenP1  @parenContent  @parenContent                           @sepP1  ;
+					sub          @paren0' lookup parenP1  @parenContent                                          @sepP1  ;
+					sub  @sepP1                           @parenContent  @parenContent  @paren0' lookup parenP1          ;
+					sub  @sepP1                                          @parenContent  @paren0' lookup parenP1          ;
+
+					sub          @paren0' lookup parenP2  @parenContent  @parenContent                           @sepP2  ;
+					sub          @paren0' lookup parenP2  @parenContent                                          @sepP2  ;
+					sub  @sepP2                           @parenContent  @parenContent  @paren0' lookup parenP2          ;
+					sub  @sepP2                                          @parenContent  @paren0' lookup parenP2          ;
+
+					sub          @paren0' lookup parenP3  @parenContent  @parenContent                           @sepP3  ;
+					sub          @paren0' lookup parenP3  @parenContent                                          @sepP3  ;
+					sub  @sepP3                           @parenContent  @parenContent  @paren0' lookup parenP3          ;
+					sub  @sepP3                                          @parenContent  @paren0' lookup parenP3          ;
+
+					sub          @paren0' lookup parenP4  @parenContent  @parenContent                           @sepP4  ;
+					sub          @paren0' lookup parenP4  @parenContent                                          @sepP4  ;
+					sub  @sepP4                           @parenContent  @parenContent  @paren0' lookup parenP4          ;
+					sub  @sepP4                                          @parenContent  @paren0' lookup parenP4          ;
+
+					} CALT_substituteParens;
 
 
 # =================================================================================
 # FEATURES
 
-    # 1. LIGATURES ----------------------------------------------------------------
-    
-        feature liga {
+	# 1. LIGATURES ----------------------------------------------------------------
+	
+		feature liga {
 
-            lookup LIGA_figures;
-            lookup LIGA_italicFigures;
-            lookup LIGA_slashedFigures;
-            lookup LIGA_accidentals;
-            lookup LIGA_parenthesizedAccidentals;
+			lookup LIGA_figures;
+			lookup LIGA_italicFigures;
+			lookup LIGA_slashedFigures;
+			lookup LIGA_accidentals;
+			lookup LIGA_parenthesizedAccidentals;
 
-            } liga;
-    
-    # 2. SUBSTITUTIONS ------------------------------------------------------------
-    
-        feature calt {
+			} liga;
+	
+	# 2. SUBSTITUTIONS ------------------------------------------------------------
+	
+		feature calt {
 
-            lookup CALT_addSeparators;
-            lookup CALT_enumerateSeparators;
-            lookup CALT_registerColumnState;
-            lookup CALT_registerOpeningParen;
-            lookup CALT_countParens;
-            lookup CALT_registerParenColumn;
-            lookup CALT_passBackParenHeight_1stRun;
-            lookup CALT_passBackParenHeight_2ndRun;
-            lookup CALT_passBackParenHeight_3rdRun;
-            lookup CALT_substituteParens;
+			lookup CALT_addSeparators;
+			lookup CALT_enumerateSeparators;
+			lookup CALT_registerColumnState;
+			lookup CALT_registerOpeningParen;
+			lookup CALT_countParens;
+			lookup CALT_registerParenColumn;
+			lookup CALT_passBackParenHeight_1stRun;
+			lookup CALT_passBackParenHeight_2ndRun;
+			lookup CALT_passBackParenHeight_3rdRun;
+			lookup CALT_substituteParens;
 
-            } calt;
+			} calt;
