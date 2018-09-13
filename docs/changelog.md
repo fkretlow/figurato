@@ -1,4 +1,4 @@
-- Latest (0.3.1.11)
+- Latest (0.3.1)
 	- The outlines of the italic figures have been overhauled.
 	- Slashed itacic figures have been added.
 	- Accidentals in parentheses do no longer collide with the numbers they modify. Generally improved horizontal positioning of parentheses.
