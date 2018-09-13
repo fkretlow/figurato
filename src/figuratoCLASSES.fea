@@ -10,6 +10,8 @@
 			@figAll = [
 				zero one two three four five six seven eight nine one_zero
 				two_slash four_slash five_slash six_slash seven_slash nine_slash
+				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
+				i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash
 			  	d endash
 				];
 
@@ -25,6 +27,7 @@
 
 			@figSingle = [
 				two_slash four_slash five_slash six_slash seven_slash nine_slash
+				i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash
 			  	d endash
 				];
 

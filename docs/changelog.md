@@ -1,4 +1,7 @@
-- 0.3.0.61
+- Latest (0.3.1.11)
+	- The outlines of the italic figures have been overhauled.
+	- Slashed itacic figures have been added.
+	- Accidentals in parentheses do no longer collide with the numbers they modify. Generally improved horizontal positioning of parentheses.
 	- The kerning tables for up to three accidentals (natural, flat, sharp) in adjacent layers are now complete. As double flat and double sharp are rarely ever used for figured bass I consider working them into the tables not worth the (considerable) effort.
 - 0.3
 	- The stacking order has been inverted. Figures are now automatically stacked top-down. **Figures in documents that were created with a version prior to 0.3 will look different when you install the latest version.**

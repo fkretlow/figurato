@@ -183,29 +183,79 @@
 
 			# 1.3.1 fine tune horizontal position of modifying accidentals
 
-				lookup KERN_modifyingAccidentalsTen {
+				lookup KERN_spaceAroundTen {
 					lookupflag 0;
 					pos  [one_zero i_one_zero]  @acc' < 175 0 0 0>  ;
-					pos  @acc' <-175 0 0 0>  [one_zero i_one_zero]  ; 
-					} KERN_modifyingAccidentalsTen;
+					pos  @acc' <-175 0 0 0>  [one_zero i_one_zero]  ;
+					pos  [one_zero i_one_zero]  @acc  [parenright bracketright]' < 175 0 0 0>  ;
+					pos  [parenleft bracketleft]' <-175 0 0 0>  @acc  [one_zero i_one_zero]  ;
+					} KERN_spaceAroundTen;
 
 				lookup KERN_modifyingAccidentalsRight {
 					lookupflag 0;
-					pos  @figComp               n'  <-10 0 0 0>  ;
-				#   pos  @figComp               b'  <  0 0 0 0>  ;
-				#   pos  @figComp  [numbersign s]'  <  0 0 0 0>  ;
-					pos  @figComp             b_b'  <110 0 0 0>  ;
-				#   pos  @figComp               x'  <  0 0 0 0>  ;
+					pos  @figComp                             n' <-10 0 0 0>  ;
+				#   pos  @figComp                             b' <  0 0 0 0>  ;
+				#   pos  @figComp                [numbersign s]' <  0 0 0 0>  ;
+					pos  @figComp                           b_b' <110 0 0 0>  ;
+				#   pos  @figComp                             x' <  0 0 0 0>  ;
+
+					pos  @figComp        parenleft_n_parenright' <210 0 0 0>  ;
+					pos  @figComp        parenleft_b_parenright' <170 0 0 0>  ;
+					pos  @figComp        parenleft_s_parenright' <210 0 0 0>  ;
+					pos  @figComp      parenleft_b_b_parenright' <260 0 0 0>  ;
+					pos  @figComp        parenleft_x_parenright' <185 0 0 0>  ;
+
+					pos  @figComp    bracketleft_n_bracketright' <220 0 0 0>  ;
+					pos  @figComp    bracketleft_b_bracketright' <200 0 0 0>  ;
+					pos  @figComp    bracketleft_s_bracketright' <205 0 0 0>  ;
+					pos  @figComp  bracketleft_b_b_bracketright' <260 0 0 0>  ;
+					pos  @figComp    bracketleft_x_bracketright' <185 0 0 0>  ;
 					} KERN_modifyingAccidentalsRight;
 
 				lookup KERN_modifyingAccidentalsLeft {
 					lookupflag 0;
-					pos               n' <  10 0 0 0>  @figComp  ;
-				#   pos               b' <   0 0 0 0>  @figComp  ;
-				#   pos  [numbersign s]' <   0 0 0 0>  @figComp  ;
-					pos             b_b' <-100 0 0 0>  @figComp  ;
-				#   pos               x' <   0 0 0 0>  @figComp  ;
+					pos                             n' <  10 0 0 0>  @figComp  ;
+				#   pos                             b' <   0 0 0 0>  @figComp  ;
+				#   pos                [numbersign s]' <   0 0 0 0>  @figComp  ;
+					pos                           b_b' <-100 0 0 0>  @figComp  ;
+				#   pos                             x' <   0 0 0 0>  @figComp  ;
+
+					pos        parenleft_n_parenright' <-210 0 0 0>  @figComp  ;
+					pos        parenleft_b_parenright' <-170 0 0 0>  @figComp  ;
+					pos        parenleft_s_parenright' <-210 0 0 0>  @figComp  ;
+					pos      parenleft_b_b_parenright' <-300 0 0 0>  @figComp  ;
+					pos        parenleft_x_parenright' <-185 0 0 0>  @figComp  ;
+
+					pos    bracketleft_n_bracketright' <-220 0 0 0>  @figComp  ;
+					pos    bracketleft_b_bracketright' <-190 0 0 0>  @figComp  ;
+					pos    bracketleft_s_bracketright' <-205 0 0 0>  @figComp  ;
+					pos  bracketleft_b_b_bracketright' <-280 0 0 0>  @figComp  ;
+					pos    bracketleft_x_bracketright' <-185 0 0 0>  @figComp  ;
 					} KERN_modifyingAccidentalsLeft;
+
+				lookup KERN_parens {
+					lookupflag 0;
+					# parens around one
+					pos                           [parenleft bracketleft]' <  60 0 0 0>  [one i_one]            ;
+					pos            [one i_one]  [parenright bracketright]' < -60 0 0 0>                         ;
+					# parens around ten
+					pos                           [parenleft bracketleft]' <-140 0 0 0>  [one_zero i_one_zero]  ;
+					pos  [one_zero i_one_zero]  [parenright bracketright]' < 140 0 0 0>                         ;
+
+					# parens around accidentals
+					pos  [parenleft bracketleft]' <  50 0 0 0>  n               ;
+					pos  [parenleft bracketleft]' <  40 0 0 0>  b               ;
+					pos  [parenleft bracketleft]' <  40 0 0 0>  [numbersign s]  ;
+					pos  [parenleft bracketleft]' <-140 0 0 0>  b_b             ;
+					pos  [parenleft bracketleft]' <  50 0 0 0>  x               ;
+					
+					pos               n  [parenright bracketright]' < -50 0 0 0>  ;
+					pos               b  [parenright bracketright]' <-100 0 0 0>  ;
+					pos  [numbersign s]  [parenright bracketright]' < -40 0 0 0>  ;
+					pos             b_b  [parenright bracketright]' <  80 0 0 0>  ;
+					pos               x  [parenright bracketright]' < -50 0 0 0>  ;
+
+				} KERN_parens;
 
 			# 1.3.2 single accidentals
 
@@ -631,9 +681,10 @@
 
 		# 2.3 kerning
 
-			lookup KERN_modifyingAccidentalsTen;
+			lookup KERN_spaceAroundTen;
 			lookup KERN_modifyingAccidentalsRight;
 			lookup KERN_modifyingAccidentalsLeft;
+			lookup KERN_parens;
 
 			lookup KERN_singleAccidentals;
 

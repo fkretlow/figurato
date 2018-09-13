@@ -33,18 +33,30 @@
 
 		lookup LIGA_slashedFigures {
 			lookupflag 0;
-			sub  two   slash   by  two_slash    ;
-			sub  two   plus    by  two_slash    ;
-			sub  four  slash   by  four_slash   ;
-			sub  four  plus    by  four_slash   ;
-			sub  five  plus    by  five_slash   ;
-			sub  five  slash   by  five_slash   ;
-			sub  six   plus    by  six_slash    ;
-			sub  six   slash   by  six_slash    ;
-			sub  seven slash   by  seven_slash  ;
-			sub  seven plus    by  seven_slash  ;
-			sub  nine  slash   by  nine_slash   ;
-			sub  nine  plus    by  nine_slash   ;
+			sub    two   slash   by    two_slash    ;
+			sub    two   plus    by    two_slash    ;
+			sub    four  slash   by    four_slash   ;
+			sub    four  plus    by    four_slash   ;
+			sub    five  plus    by    five_slash   ;
+			sub    five  slash   by    five_slash   ;
+			sub    six   plus    by    six_slash    ;
+			sub    six   slash   by    six_slash    ;
+			sub    seven slash   by    seven_slash  ;
+			sub    seven plus    by    seven_slash  ;
+			sub    nine  slash   by    nine_slash   ;
+			sub    nine  plus    by    nine_slash   ;
+			sub  i_two   slash   by  i_two_slash    ;
+			sub  i_two   plus    by  i_two_slash    ;
+			sub  i_four  slash   by  i_four_slash   ;
+			sub  i_four  plus    by  i_four_slash   ;
+			sub  i_five  plus    by  i_five_slash   ;
+			sub  i_five  slash   by  i_five_slash   ;
+			sub  i_six   plus    by  i_six_slash    ;
+			sub  i_six   slash   by  i_six_slash    ;
+			sub  i_seven slash   by  i_seven_slash  ;
+			sub  i_seven plus    by  i_seven_slash  ;
+			sub  i_nine  slash   by  i_nine_slash   ;
+			sub  i_nine  plus    by  i_nine_slash   ;
 			} LIGA_slashedFigures;
 
 
@@ -123,6 +135,12 @@
 				sub six_slash                     by  six_slash                     sep  ;
 				sub seven_slash                   by  seven_slash                   sep  ;
 				sub nine_slash                    by  nine_slash                    sep  ;
+				sub i_two_slash                   by  i_two_slash                   sep  ;
+				sub i_four_slash                  by  i_four_slash                  sep  ;
+				sub i_five_slash                  by  i_five_slash                  sep  ;
+				sub i_six_slash                   by  i_six_slash                   sep  ;
+				sub i_seven_slash                 by  i_seven_slash                 sep  ;
+				sub i_nine_slash                  by  i_nine_slash                  sep  ;
 
 				sub d                             by  d                             sep  ;
 				sub endash                        by  endash                        sep  ;
