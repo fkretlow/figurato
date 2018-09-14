@@ -48,7 +48,7 @@ If you need a dash type `-` (hyphen), `–` (endash) or `d`.  Note that typing a
 <img src="docs/slashed.svg" alt="slashed figures" height="100">
 
 #### Parentheses and Brackets
-There’s limited support for parentheses and brackets. You can put one or more layers in parentheses or brackets. This does not reliably work with accidentals yet.  
+You can put an accidental, a complete layer or even multiple layers in parentheses or brackets. (If there are multiple accidentals they'll probably collide.)  
 <img src="docs/parens.svg" alt="parentheses and brackets" height="100">
 
 #### Italic numbers
