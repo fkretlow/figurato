@@ -147,6 +147,7 @@
 
 				sub parenright                    by  parenright                    sep  ;
 				sub bracketright                  by  bracketright                  sep  ;
+				sub bar                           by  bar                           sep  ;
 
 				sub parenleft_s_parenright        by  parenleft_s_parenright        sep  ;
 				sub parenleft_b_parenright        by  parenleft_b_parenright        sep  ;
