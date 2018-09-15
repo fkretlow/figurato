@@ -1,8 +1,8 @@
 - Latest (0.3.2)
 	- Missing glyphs for parentheses that enclose three or more layers have been added.
-	- Single accidentals in inner layers no longer collide with adjacent layers.
-	- The outlines of the italic figures have been overhauled.
-	- Slashed itacic figures have been added.
+	- Single accidentals in inner layers do no longer collide with numbers in adjacent layers.
+	- The outlines of the italic numbers have been overhauled.
+	- Slashed italic numbers have been added.
 	- Accidentals in parentheses do no longer collide with the numbers they modify.
 	- Parentheses and brackets that enclose up to three layers do now automatically avoid collisions with accidentals and slashed figures in almost all cases.
 	- The kerning tables for accidentals (natural, flat, sharp) in up to three adjacent layers are now complete. As double flat and double sharp are rarely ever used for figured bass I consider working them into the tables not worth the (considerable) effort.
