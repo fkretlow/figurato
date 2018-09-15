@@ -4,7 +4,7 @@ FullName: Figurato
 FamilyName: Figurato
 Weight: Standard
 Copyright: Copyright 2018 Florian Kretlow
-Version: 0.3.2.46
+Version: 0.3.2.47
 ItalicAngle: 0
 UnderlinePosition: -200
 UnderlineWidth: 100
@@ -5590,7 +5590,7 @@ ChainPos2: coverage "KERN_parens contextual 29" 0 0 0 1
 EndFPST
 ChainPos2: coverage "KERN_parens contextual 28" 0 0 0 1
  1 1 0
-  Coverage: 23 parenright bracketright
+  Coverage: 135 parenright parenright.1 parenright.2 parenright.3 parenright.4 bracketright bracketright.1 bracketright.2 bracketright.3 bracketright.4
   BCoverage: 23 five_slash i_five_slash
  1
   SeqLookup: 0 "Single Positioning lookup 77"
@@ -5664,7 +5664,7 @@ ChainPos2: coverage "KERN_parens contextual 22" 0 0 0 1
 EndFPST
 ChainPos2: coverage "KERN_parens contextual 21" 0 0 0 1
  1 1 0
-  Coverage: 23 parenright bracketright
+  Coverage: 135 parenright parenright.1 parenright.2 parenright.3 parenright.4 bracketright bracketright.1 bracketright.2 bracketright.3 bracketright.4
   BCoverage: 23 four_slash i_four_slash
  1
   SeqLookup: 0 "Single Positioning lookup 70"
@@ -5738,7 +5738,7 @@ ChainPos2: coverage "KERN_parens contextual 15" 0 0 0 1
 EndFPST
 ChainPos2: coverage "KERN_parens contextual 14" 0 0 0 1
  1 1 0
-  Coverage: 23 parenright bracketright
+  Coverage: 135 parenright parenright.1 parenright.2 parenright.3 parenright.4 bracketright bracketright.1 bracketright.2 bracketright.3 bracketright.4
   BCoverage: 21 two_slash i_two_slash
  1
   SeqLookup: 0 "Single Positioning lookup 63"
@@ -11158,18 +11158,21 @@ Position2: "Single Positioning lookup 81 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 80 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 79 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 78 subtable" dx=250 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 77 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 76 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 75 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 74 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 73 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 72 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 71 subtable" dx=300 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 70 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 69 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 68 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 67 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 66 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 65 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 64 subtable" dx=330 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 63 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "forward2 subtable" dx=960 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-960 dy=0 dh=0 dv=0
@@ -11339,18 +11342,21 @@ Position2: "Single Positioning lookup 81 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 80 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 79 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 78 subtable" dx=250 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 77 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 76 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 75 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 74 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 73 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 72 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 71 subtable" dx=300 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 70 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 69 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 68 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 67 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 66 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 65 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 64 subtable" dx=330 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 63 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "forward2 subtable" dx=960 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-960 dy=0 dh=0 dv=0
@@ -11520,18 +11526,21 @@ Position2: "Single Positioning lookup 81 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 80 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 79 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 78 subtable" dx=250 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 77 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 76 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 75 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 74 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 73 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 72 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 71 subtable" dx=300 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 70 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 69 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 68 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 67 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 66 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 65 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 64 subtable" dx=330 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 63 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "forward2 subtable" dx=960 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-960 dy=0 dh=0 dv=0
@@ -11701,18 +11710,21 @@ Position2: "Single Positioning lookup 81 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 80 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 79 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 78 subtable" dx=250 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 77 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 76 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 75 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 74 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 73 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 72 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 71 subtable" dx=300 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 70 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 69 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 68 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 67 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 66 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 65 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 64 subtable" dx=330 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 63 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "forward2 subtable" dx=960 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-960 dy=0 dh=0 dv=0
@@ -11885,18 +11897,21 @@ Position2: "Single Positioning lookup 81 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 80 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 79 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 78 subtable" dx=250 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 77 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 76 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 75 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 74 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 73 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 72 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 71 subtable" dx=300 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 70 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 69 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 68 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 67 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 66 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 65 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 64 subtable" dx=330 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 63 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "forward2 subtable" dx=890 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-890 dy=0 dh=0 dv=0
@@ -12069,18 +12084,21 @@ Position2: "Single Positioning lookup 81 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 80 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 79 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 78 subtable" dx=250 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 77 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 76 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 75 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 74 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 73 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 72 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 71 subtable" dx=300 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 70 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 69 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 68 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 67 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 66 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 65 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 64 subtable" dx=330 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 63 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "forward2 subtable" dx=890 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-890 dy=0 dh=0 dv=0
@@ -12253,18 +12271,21 @@ Position2: "Single Positioning lookup 81 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 80 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 79 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 78 subtable" dx=250 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 77 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 76 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 75 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 74 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 73 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 72 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 71 subtable" dx=300 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 70 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 69 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 68 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 67 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 66 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 65 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 64 subtable" dx=330 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 63 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "forward2 subtable" dx=890 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-890 dy=0 dh=0 dv=0
@@ -12437,18 +12458,21 @@ Position2: "Single Positioning lookup 81 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 80 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 79 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 78 subtable" dx=250 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 77 subtable" dx=250 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 76 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 75 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 74 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 73 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 72 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 71 subtable" dx=300 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 70 subtable" dx=300 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 69 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 68 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 67 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 66 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 65 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 64 subtable" dx=330 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 63 subtable" dx=330 dy=0 dh=0 dv=0
 Position2: "forward2 subtable" dx=890 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-890 dy=0 dh=0 dv=0

@@ -231,7 +231,7 @@
 
 					# parens around slashed numbers
 					# slashed two
-					pos    [two_slash i_two_slash]  [parenright bracketright]' <330 0 0 0>  ;
+					pos    [two_slash i_two_slash]  @parenRight' <330 0 0 0>  ;
 
 					pos    [two_slash i_two_slash]  @sep  @sepContent @sepContent  @parenRight' <330 0 0 0>  ;
 					pos    [two_slash i_two_slash]  @sep  @sepContent              @parenRight' <330 0 0 0>  ;
@@ -242,7 +242,7 @@
 					pos    [two_slash i_two_slash]  @sep  @sepContent              @sep  @sepContent              @parenRight' <330 0 0 0>  ;
 
 					# slashed four
-					pos    [four_slash i_four_slash]  [parenright bracketright]' <300 0 0 0>  ;
+					pos    [four_slash i_four_slash]  @parenRight' <300 0 0 0>  ;
 
 					pos    [four_slash i_four_slash]  @sep  @sepContent @sepContent  @parenRight' <300 0 0 0>  ;
 					pos    [four_slash i_four_slash]  @sep  @sepContent              @parenRight' <300 0 0 0>  ;
@@ -253,7 +253,7 @@
 					pos    [four_slash i_four_slash]  @sep  @sepContent              @sep  @sepContent              @parenRight' <300 0 0 0>  ;
 
 					# slashed five
-					pos    [five_slash i_five_slash]  [parenright bracketright]' <250 0 0 0>  ;
+					pos    [five_slash i_five_slash]  @parenRight' <250 0 0 0>  ;
 
 					pos    [five_slash i_five_slash]  @sep  @sepContent @sepContent  @parenRight' <250 0 0 0>  ;
 					pos    [five_slash i_five_slash]  @sep  @sepContent              @parenRight' <250 0 0 0>  ;
