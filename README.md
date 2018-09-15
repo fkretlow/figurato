@@ -36,10 +36,10 @@ Figures are automatically stacked from top to bottom. If you need to skip a laye
 By default accidentals are placed *to the right of the preceding number.* If you want an accidental to be placed to the left of the following number separate it from the preceding number with `,` unless the position is clear from the context.  
 <img src="docs/accidentalsLeftRight.svg" alt="accidentals" height="100">
 
-As you can see accidentals can be placed both to the left and to the right of numbers in one figure. Just type away. If something doesn’t look like you expect your input is probably ambiguous: insert `,` to make things clear.  
+As you can see accidentals can be placed both to the left and to the right of numbers in the same figure. Just type away. If something doesn’t look like you expect your input is probably ambiguous: insert `,` to make things clear.  
 <img src="docs/accidentalsAmbiguity.svg" alt="accidentals" height="100">
 
-If you need a single accidental in the bottommost layer separate it with `,` unless – again – the position is clear from the context.  
+If you need a single accidental separate it with `,` unless – again – the position is clear from the context.  
 <img src="docs/accidentalsSingle.svg" alt="accidentals" height="100">
 
 #### Slashed numbers and dashes

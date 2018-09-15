@@ -494,23 +494,26 @@
 				
 			lookup CALT_passBackOpeningParenColumn1stRun {
 				lookupflag 0;
-				sub  @sepParenNoClosingColumn' lookup sepPA  @acc  @figComp         ;
-				sub  @sepParenNoClosingColumn' lookup sepPA  @parenContent   @sepPA  ;
-				sub  @sepParenNoClosingColumn' lookup sepPA                  @sepPA  ;
+				sub  @sepParenNoClosingColumn' lookup sepPA  @acc          @figComp               ;
+				sub  @sepParenNoClosingColumn' lookup sepPA  @parenContent                @sepPA  ;
+				sub  @sepParenNoClosingColumn' lookup sepPA  @parenContent @parenContent  @sepPA  ;
+				sub  @sepParenNoClosingColumn' lookup sepPA                               @sepPA  ;
 				} CALT_passBackOpeningParenColumn1stRun;
 			
 			lookup CALT_passBackOpeningParenColumn2ndRun {
 				lookupflag 0;
-				sub  @sepParenNoClosingColumn' lookup sepPA  @acc  @figComp         ;
-				sub  @sepParenNoClosingColumn' lookup sepPA  @parenContent   @sepPA  ;
-				sub  @sepParenNoClosingColumn' lookup sepPA                  @sepPA  ;
+				sub  @sepParenNoClosingColumn' lookup sepPA  @acc          @figComp               ;
+				sub  @sepParenNoClosingColumn' lookup sepPA  @parenContent                @sepPA  ;
+				sub  @sepParenNoClosingColumn' lookup sepPA  @parenContent @parenContent  @sepPA  ;
+				sub  @sepParenNoClosingColumn' lookup sepPA                               @sepPA  ;
 				} CALT_passBackOpeningParenColumn2ndRun;
 			
 			lookup CALT_passBackOpeningParenColumn3rdRun {
 				lookupflag 0;
-				sub  @sepParenNoClosingColumn' lookup sepPA  @acc  @figComp         ;
-				sub  @sepParenNoClosingColumn' lookup sepPA  @parenContent   @sepPA  ;
-				sub  @sepParenNoClosingColumn' lookup sepPA                  @sepPA  ;
+				sub  @sepParenNoClosingColumn' lookup sepPA  @acc          @figComp               ;
+				sub  @sepParenNoClosingColumn' lookup sepPA  @parenContent                @sepPA  ;
+				sub  @sepParenNoClosingColumn' lookup sepPA  @parenContent @parenContent  @sepPA  ;
+				sub  @sepParenNoClosingColumn' lookup sepPA                               @sepPA  ;
 				} CALT_passBackOpeningParenColumn3rdRun;
 
 
@@ -646,45 +649,45 @@
 
 		# 2.8 substitute parentheses
 
-				lookup parenP1 {
-					sub  @paren0  by  @parenP1  ;
-					} parenP1;
+				lookup paren1 {
+					sub  @paren0  by  @paren1  ;
+					} paren1;
 
-				lookup parenP2 {
-					sub  @paren0  by  @parenP2  ;
-					} parenP2;
+				lookup paren2 {
+					sub  @paren0  by  @paren2  ;
+					} paren2;
 
-				lookup parenP3 {
-					sub  @paren0  by  @parenP3  ;
-					} parenP3;
+				lookup paren3 {
+					sub  @paren0  by  @paren3  ;
+					} paren3;
 
-				lookup parenP4 {
-					sub  @paren0  by  @parenP4  ;
-					} parenP4;
+				lookup paren4 {
+					sub  @paren0  by  @paren4  ;
+					} paren4;
 
 
 				lookup CALT_substituteParens {
 					lookupflag 0;
 
-					sub          @paren0' lookup parenP1  @parenContent  @parenContent                           @sepP1  ;
-					sub          @paren0' lookup parenP1  @parenContent                                          @sepP1  ;
-					sub  @sepP1                           @parenContent  @parenContent  @paren0' lookup parenP1          ;
-					sub  @sepP1                                          @parenContent  @paren0' lookup parenP1          ;
+					sub          @paren0' lookup paren1  @parenContent  @parenContent                           @sepP1  ;
+					sub          @paren0' lookup paren1  @parenContent                                          @sepP1  ;
+					sub  @sepP1                          @parenContent  @parenContent  @paren0' lookup paren1           ;
+					sub  @sepP1                                         @parenContent  @paren0' lookup paren1           ;
 
-					sub          @paren0' lookup parenP2  @parenContent  @parenContent                           @sepP2  ;
-					sub          @paren0' lookup parenP2  @parenContent                                          @sepP2  ;
-					sub  @sepP2                           @parenContent  @parenContent  @paren0' lookup parenP2          ;
-					sub  @sepP2                                          @parenContent  @paren0' lookup parenP2          ;
+					sub          @paren0' lookup paren2  @parenContent  @parenContent                           @sepP2  ;
+					sub          @paren0' lookup paren2  @parenContent                                          @sepP2  ;
+					sub  @sepP2                          @parenContent  @parenContent  @paren0' lookup paren2           ;
+					sub  @sepP2                                         @parenContent  @paren0' lookup paren2           ;
 
-					sub          @paren0' lookup parenP3  @parenContent  @parenContent                           @sepP3  ;
-					sub          @paren0' lookup parenP3  @parenContent                                          @sepP3  ;
-					sub  @sepP3                           @parenContent  @parenContent  @paren0' lookup parenP3          ;
-					sub  @sepP3                                          @parenContent  @paren0' lookup parenP3          ;
+					sub          @paren0' lookup paren3  @parenContent  @parenContent                           @sepP3  ;
+					sub          @paren0' lookup paren3  @parenContent                                          @sepP3  ;
+					sub  @sepP3                          @parenContent  @parenContent  @paren0' lookup paren3           ;
+					sub  @sepP3                                         @parenContent  @paren0' lookup paren3           ;
 
-					sub          @paren0' lookup parenP4  @parenContent  @parenContent                           @sepP4  ;
-					sub          @paren0' lookup parenP4  @parenContent                                          @sepP4  ;
-					sub  @sepP4                           @parenContent  @parenContent  @paren0' lookup parenP4          ;
-					sub  @sepP4                                          @parenContent  @paren0' lookup parenP4          ;
+					sub          @paren0' lookup paren4  @parenContent  @parenContent                           @sepP4  ;
+					sub          @paren0' lookup paren4  @parenContent                                          @sepP4  ;
+					sub  @sepP4                          @parenContent  @parenContent  @paren0' lookup paren4           ;
+					sub  @sepP4                                         @parenContent  @paren0' lookup paren4           ;
 
 					} CALT_substituteParens;
 
