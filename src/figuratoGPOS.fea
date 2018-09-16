@@ -66,7 +66,7 @@
 				lookupflag 0;
 				pos @parenContent    <-1000 0 0 0>;
 				pos @paren0          <-1000 0 0 0>;
-				pos @parenEnlarged   < -960 0 0 0>;
+				pos @parenEnlarged   < -930 0 0 0>;
 				pos @bracketEnlarged < -890 0 0 0>;
 				} back2;
 
@@ -82,7 +82,7 @@
 				lookupflag 0;
 				pos @parenContent    <1000 0 0 0>;
 				pos @paren0          <1000 0 0 0>;
-				pos @parenEnlarged   < 960 0 0 0>;
+				pos @parenEnlarged   < 930 0 0 0>;
 				pos @bracketEnlarged < 890 0 0 0>;
 				} forward2;
 
@@ -392,13 +392,13 @@
 								pos  @figCompNoTen   n' <140  70 0 0>  @sep @figCompNoTen   b                   @sep @figCompNoTen                b                                            ;
 								pos  @figCompNoTen   n                 @sep @figCompNoTen   b' <170 -30 0 0>    @sep @figCompNoTen                b                                            ;
 								pos  @figCompNoTen   n                 @sep @figCompNoTen   b                   @sep @figCompNoTen                b' <-10   0 0 0>                             ;
-								pos  @figCompNoTen   n                 @sep @figCompNoTen   b                   @sep @figCompNoTen                n                 @parenRight' <170 0 0 0>   ;
+								pos  @figCompNoTen   n                 @sep @figCompNoTen   b                   @sep @figCompNoTen                n                 @parenRight' <200 0 0 0>   ;
 
 								# sharp
 								pos  @figCompNoTen   n' <140  30 0 0>  @sep @figCompNoTen   b                   @sep @figCompNoTen   [numbersign s]                                            ;
 								pos  @figCompNoTen   n                 @sep @figCompNoTen   b' <  0  10 0 0>    @sep @figCompNoTen   [numbersign s]                                            ;
 								pos  @figCompNoTen   n                 @sep @figCompNoTen   b                   @sep @figCompNoTen   [numbersign s]' <120 -10 0 0>                             ;
-								pos  @figCompNoTen   n                 @sep @figCompNoTen   b                   @sep @figCompNoTen   [numbersign s]                 @parenRight' <140 0 0 0>   ;
+								pos  @figCompNoTen   n                 @sep @figCompNoTen   b                   @sep @figCompNoTen   [numbersign s]                 @parenRight' <150 0 0 0>   ;
 		
 		
 							# natural above sharp above...
@@ -438,7 +438,7 @@
 								pos  @figCompNoTen   b' <  0  30 0 0>  @sep @figCompNoTen   n                  @sep @figCompNoTen   [numbersign s]                                            ;
 								pos  @figCompNoTen   b                 @sep @figCompNoTen   n' <220  60 0 0>   @sep @figCompNoTen   [numbersign s]                                            ;
 								pos  @figCompNoTen   b                 @sep @figCompNoTen   n                  @sep @figCompNoTen   [numbersign s]' < 20 -20 0 0>                             ;
-								pos  @figCompNoTen   b                 @sep @figCompNoTen   n                  @sep @figCompNoTen   [numbersign s]                 @parenRight' <220 0 0 0>   ;
+								pos  @figCompNoTen   b                 @sep @figCompNoTen   n                  @sep @figCompNoTen   [numbersign s]                 @parenRight' <200 0 0 0>   ;
 		
 		
 							# flat above flat above...
@@ -446,13 +446,13 @@
 								pos  @figCompNoTen   b' <  0  30 0 0>  @sep @figCompNoTen   b                  @sep @figCompNoTen                n                                            ;
 								pos  @figCompNoTen   b                 @sep @figCompNoTen   b' <230 -20 0 0>   @sep @figCompNoTen                n                                            ;
 								pos  @figCompNoTen   b                 @sep @figCompNoTen   b                  @sep @figCompNoTen                n' < 10   0 0 0>                             ;
-								pos  @figCompNoTen   b                 @sep @figCompNoTen   b                  @sep @figCompNoTen                n                 @parenRight' <230 0 0 0>   ;
+								pos  @figCompNoTen   b                 @sep @figCompNoTen   b                  @sep @figCompNoTen                n                 @parenRight' <210 0 0 0>   ;
 		
 								# flat
 								pos  @figCompNoTen   b' <  0  30 0 0>  @sep @figCompNoTen   b                  @sep @figCompNoTen                b                                            ;
 								pos  @figCompNoTen   b                 @sep @figCompNoTen   b' <190 -20 0 0>   @sep @figCompNoTen                b                                            ;
 								pos  @figCompNoTen   b                 @sep @figCompNoTen   b                  @sep @figCompNoTen                b' <  0   0 0 0>                             ;
-								pos  @figCompNoTen   b                 @sep @figCompNoTen   b                  @sep @figCompNoTen                b                 @parenRight' <190 0 0 0>   ;
+								pos  @figCompNoTen   b                 @sep @figCompNoTen   b                  @sep @figCompNoTen                b                 @parenRight' <170 0 0 0>   ;
 		
 								# sharp
 								pos  @figCompNoTen   b' <150   0 0 0>  @sep @figCompNoTen   b                  @sep @figCompNoTen   [numbersign s]                                            ;
@@ -498,7 +498,7 @@
 								pos  @figCompNoTen   [numbersign s]' <  0  20 0 0>  @sep @figCompNoTen   n                  @sep @figCompNoTen   [numbersign s]                                            ;
 								pos  @figCompNoTen   [numbersign s]                 @sep @figCompNoTen   n' <380   0 0 0>   @sep @figCompNoTen   [numbersign s]                                            ;
 								pos  @figCompNoTen   [numbersign s]                 @sep @figCompNoTen   n                  @sep @figCompNoTen   [numbersign s]' <  0 -20 0 0>                             ; 
-								pos  @figCompNoTen   [numbersign s]                 @sep @figCompNoTen   n                  @sep @figCompNoTen   [numbersign s]                 @parenRight' <420 0 0 0>   ; 
+								pos  @figCompNoTen   [numbersign s]                 @sep @figCompNoTen   n                  @sep @figCompNoTen   [numbersign s]                 @parenRight' <370 0 0 0>   ; 
 								
 		
 							# sharp above flat above...
@@ -525,19 +525,19 @@
 								pos  @figCompNoTen   [numbersign s]' <  0   0 0 0>  @sep @figCompNoTen   [numbersign s]                  @sep @figCompNoTen                n                                            ;
 								pos  @figCompNoTen   [numbersign s]                 @sep @figCompNoTen   [numbersign s]' <310   0 0 0>   @sep @figCompNoTen                n                                            ;
 								pos  @figCompNoTen   [numbersign s]                 @sep @figCompNoTen   [numbersign s]                  @sep @figCompNoTen                n' < 40   0 0 0>                             ;
-								pos  @figCompNoTen   [numbersign s]                 @sep @figCompNoTen   [numbersign s]                  @sep @figCompNoTen                n                 @parenRight' <350 0 0 0>   ;
+								pos  @figCompNoTen   [numbersign s]                 @sep @figCompNoTen   [numbersign s]                  @sep @figCompNoTen                n                 @parenRight' <310 0 0 0>   ;
 		
 								# flat
 								pos  @figCompNoTen   [numbersign s]' <  0  20 0 0>  @sep @figCompNoTen   [numbersign s]                  @sep @figCompNoTen                b                                            ;
 								pos  @figCompNoTen   [numbersign s]                 @sep @figCompNoTen   [numbersign s]' <310  00 0 0>   @sep @figCompNoTen                b                                            ;
 								pos  @figCompNoTen   [numbersign s]                 @sep @figCompNoTen   [numbersign s]                  @sep @figCompNoTen                b' < 30   0 0 0>                             ;
-								pos  @figCompNoTen   [numbersign s]                 @sep @figCompNoTen   [numbersign s]                  @sep @figCompNoTen                b                 @parenRight' <350 0 0 0>   ;
+								pos  @figCompNoTen   [numbersign s]                 @sep @figCompNoTen   [numbersign s]                  @sep @figCompNoTen                b                 @parenRight' <310 0 0 0>   ;
 		
 								# sharp
 								pos  @figCompNoTen   [numbersign s]' <  0  30 0 0>  @sep @figCompNoTen   [numbersign s]                  @sep @figCompNoTen   [numbersign s]                                            ;
 								pos  @figCompNoTen   [numbersign s]                 @sep @figCompNoTen   [numbersign s]' <310   0 0 0>   @sep @figCompNoTen   [numbersign s]                                            ;
 								pos  @figCompNoTen   [numbersign s]                 @sep @figCompNoTen   [numbersign s]                  @sep @figCompNoTen   [numbersign s]' <  0 -30 0 0>                             ;
-								pos  @figCompNoTen   [numbersign s]                 @sep @figCompNoTen   [numbersign s]                  @sep @figCompNoTen   [numbersign s]                 @parenRight' <350 0 0 0>   ;    
+								pos  @figCompNoTen   [numbersign s]                 @sep @figCompNoTen   [numbersign s]                  @sep @figCompNoTen   [numbersign s]                 @parenRight' <310 0 0 0>   ;    
 
 
 						# 1.3.3.1.2 two accidentals
@@ -566,15 +566,15 @@
 								# natural
 								pos  @figCompNoTen               b' <180  0 0 0>  @sep @figCompNoTen               n                                                                        ;
 								pos  @figCompNoTen               b                @sep @figCompNoTen               n' <-10   0 0 0>                                                         ;
-								pos  @figCompNoTen               b                @sep @figCompNoTen               n                                              @parenRight' <180 0 0 0>  ;
-								pos  @figCompNoTen               b                @sep @figCompNoTen               n                             @sep @sepContent @parenRight' <180 0 0 0>  ;
-								pos  @figCompNoTen               b                @sep @figCompNoTen               n                 @sep @sepContent @sepContent @parenRight' <180 0 0 0>  ;
+								pos  @figCompNoTen               b                @sep @figCompNoTen               n                                              @parenRight' <160 0 0 0>  ;
+								pos  @figCompNoTen               b                @sep @figCompNoTen               n                             @sep @sepContent @parenRight' <160 0 0 0>  ;
+								pos  @figCompNoTen               b                @sep @figCompNoTen               n                 @sep @sepContent @sepContent @parenRight' <160 0 0 0>  ;
 								# flat
 								pos  @figCompNoTen               b' <150  0 0 0>  @sep @figCompNoTen               b                                                                        ;
 								pos  @figCompNoTen               b                @sep @figCompNoTen               b' <-10   0 0 0>                                                         ;
-								pos  @figCompNoTen               b                @sep @figCompNoTen               b                                              @parenRight' <150 0 0 0>  ;
-								pos  @figCompNoTen               b                @sep @figCompNoTen               b                             @sep @sepContent @parenRight' <150 0 0 0>  ;
-								pos  @figCompNoTen               b                @sep @figCompNoTen               b                 @sep @sepContent @sepContent @parenRight' <150 0 0 0>  ;
+								pos  @figCompNoTen               b                @sep @figCompNoTen               b                                              @parenRight' <140 0 0 0>  ;
+								pos  @figCompNoTen               b                @sep @figCompNoTen               b                             @sep @sepContent @parenRight' <140 0 0 0>  ;
+								pos  @figCompNoTen               b                @sep @figCompNoTen               b                 @sep @sepContent @sepContent @parenRight' <140 0 0 0>  ;
 								# sharp
 								pos  @figCompNoTen               b' <  0 10 0 0>  @sep @figCompNoTen  [numbersign s]                                                                        ;
 								pos  @figCompNoTen               b                @sep @figCompNoTen  [numbersign s]' <120 -10 0 0>                                                         ;
@@ -602,7 +602,7 @@
 								pos  @figCompNoTen  [numbersign s]                @sep @figCompNoTen  [numbersign s]                             @sep @sepContent @parenRight' <310 0 0 0>  ;
 								pos  @figCompNoTen  [numbersign s]                @sep @figCompNoTen  [numbersign s]                 @sep @sepContent @sepContent @parenRight' <310 0 0 0>  ;
 
-					} KERN_accidentalsRight;
+							} KERN_accidentalsRight;
 
 
 
@@ -853,7 +853,7 @@
 								pos                                                              [numbersign s]' <   0 15 0 0>  @figCompNoTen @sep  [numbersign s]                  @figCompNoTen   ;
 								pos                                                              [numbersign s]                 @figCompNoTen @sep  [numbersign s]' <-330 -15 0 0>  @figCompNoTen   ;
 
-					} KERN_accidentalsLeft;
+							} KERN_accidentalsLeft;
 
 
 	# 2. APPLY LOOKUPS ------------------------------------------------------------
@@ -868,9 +868,6 @@
 		# 2.2 horizontal positioning
 
 			lookup KERN_horizontalPosition;
-			# lookup KERN_horizontalPositionA;
-			# lookup KERN_horizontalPositionB;
-			# lookup KERN_horizontalPositionC;
 
 		# 2.3 kerning
 

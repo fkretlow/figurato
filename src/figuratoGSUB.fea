@@ -220,36 +220,56 @@
 
 			lookup sep1 {
 				lookupflag 0;
-				sub comma by sep.1;
-				sub sep   by sep.1;
+				sub comma by sep.1  ;
+				sub sep   by sep.1  ;
+				sub sep.2 by sep.1  ;
+				sub sep.3 by sep.1  ;
+				sub sep.4 by sep.1  ;
+				sub sep.5 by sep.1  ;
 				} sep1;
 
 
 			lookup sep2 {
 				lookupflag 0;
-				sub comma by sep.2;
-				sub sep   by sep.2;
+				sub comma by sep.2  ;
+				sub sep   by sep.2  ;
+				sub sep.1 by sep.2  ;
+				sub sep.3 by sep.2  ;
+				sub sep.4 by sep.2  ;
+				sub sep.5 by sep.2  ;
 				} sep2;
 
 
 			lookup sep3 {
 				lookupflag 0;
-				sub comma by sep.3;
-				sub sep   by sep.3;
+				sub comma by sep.3  ;
+				sub sep   by sep.3  ;
+				sub sep.1 by sep.3  ;
+				sub sep.2 by sep.3  ;
+				sub sep.4 by sep.3  ;
+				sub sep.5 by sep.3  ;
 				} sep3;
 
 
 			lookup sep4 {
 				lookupflag 0;
-				sub comma by sep.4;
-				sub sep   by sep.4;
+				sub comma by sep.4  ;
+				sub sep   by sep.4  ;
+				sub sep.1 by sep.4  ;
+				sub sep.2 by sep.4  ;
+				sub sep.3 by sep.4  ;
+				sub sep.5 by sep.4  ;
 				} sep4;
 
 
 			lookup sep5 {
 				lookupflag 0;
-				sub comma by sep.5;
-				sub sep   by sep.5;
+				sub comma by sep.5  ;
+				sub sep   by sep.5  ;
+				sub sep.1 by sep.5  ;
+				sub sep.2 by sep.5  ;
+				sub sep.3 by sep.5  ;
+				sub sep.4 by sep.5  ;
 				} sep5;
 
 
@@ -294,6 +314,7 @@
 				sub sep.2 by sep.2.1  ;
 				sub sep.3 by sep.3.1  ;
 				sub sep.4 by sep.4.1  ;
+				sub sep.5 by sep.5.1  ;
 				} sepP1;
 
 
@@ -318,11 +339,13 @@
 				sub  sep.2    by  sep.2.2   ;
 				sub  sep.3    by  sep.3.2   ;
 				sub  sep.4    by  sep.4.2   ;
+				sub  sep.5    by  sep.5.2   ;
 				
 				sub  sep.1.1  by  sep.1.2   ;
 				sub  sep.2.1  by  sep.2.2   ;
 				sub  sep.3.1  by  sep.3.2   ;
 				sub  sep.4.1  by  sep.4.2   ;
+				sub  sep.5.1  by  sep.5.2   ;
 				} sepP2;
 
 
@@ -332,11 +355,13 @@
 				sub  sep.2    by  sep.2.3   ;
 				sub  sep.3    by  sep.3.3   ;
 				sub  sep.4    by  sep.4.3   ;
+				sub  sep.5    by  sep.5.3   ;
 				
 				sub  sep.1.2  by  sep.1.3   ;
 				sub  sep.2.2  by  sep.2.3   ;
 				sub  sep.3.2  by  sep.3.3   ;
 				sub  sep.4.2  by  sep.4.3   ;
+				sub  sep.5.2  by  sep.5.3   ;
 				} sepP3;
 
 
@@ -346,11 +371,13 @@
 				sub  sep.2    by  sep.2.4   ;
 				sub  sep.3    by  sep.3.4   ;
 				sub  sep.4    by  sep.4.4   ;
+				sub  sep.5    by  sep.5.4   ;
 				
 				sub  sep.1.3  by  sep.1.4   ;
 				sub  sep.2.3  by  sep.2.4   ;
 				sub  sep.3.3  by  sep.3.4   ;
 				sub  sep.4.3  by  sep.4.4   ;
+				sub  sep.5.3  by  sep.5.4   ;
 				} sepP4;
 
 
@@ -436,6 +463,10 @@
 				sub  sep.4.2    by  sep.4.2.A  ;
 				sub  sep.4.3    by  sep.4.3.A  ;
 				sub  sep.4.4    by  sep.4.4.A  ;
+				sub  sep.5.1    by  sep.5.1.A  ;
+				sub  sep.5.2    by  sep.5.2.A  ;
+				sub  sep.5.3    by  sep.5.3.A  ;
+				sub  sep.5.4    by  sep.5.4.A  ;
 
 				sub  sep.1.1.B  by  sep.1.1.A  ;
 				sub  sep.1.2.B  by  sep.1.2.A  ;
@@ -453,6 +484,10 @@
 				sub  sep.4.2.B  by  sep.4.2.A  ;
 				sub  sep.4.3.B  by  sep.4.3.A  ;
 				sub  sep.4.4.B  by  sep.4.4.A  ;
+				sub  sep.5.1.B  by  sep.5.1.A  ;
+				sub  sep.5.2.B  by  sep.5.2.A  ;
+				sub  sep.5.3.B  by  sep.5.3.A  ;
+				sub  sep.5.4.B  by  sep.5.4.A  ;
 				} sepPA;
 
 			lookup sepPB {
@@ -473,6 +508,10 @@
 				sub  sep.4.2  by  sep.4.2.B  ;
 				sub  sep.4.3  by  sep.4.3.B  ;
 				sub  sep.4.4  by  sep.4.4.B  ;
+				sub  sep.5.1  by  sep.5.1.B  ;
+				sub  sep.5.2  by  sep.5.2.B  ;
+				sub  sep.5.3  by  sep.5.3.B  ;
+				sub  sep.5.4  by  sep.5.4.B  ;
 				} sepPB;
 
 
@@ -539,6 +578,10 @@
 				sub  sep.4.2.A  by  sep.4.2.A.D  ;
 				sub  sep.4.3.A  by  sep.4.3.A.D  ;
 				sub  sep.4.4.A  by  sep.4.4.A.D  ;
+				sub  sep.5.1.A  by  sep.5.1.A.D  ;
+				sub  sep.5.2.A  by  sep.5.2.A.D  ;
+				sub  sep.5.3.A  by  sep.5.3.A.D  ;
+				sub  sep.5.4.A  by  sep.5.4.A.D  ;
 				
 				sub  sep.1.1.B  by  sep.1.1.B.D  ;
 				sub  sep.1.2.B  by  sep.1.2.B.D  ;
@@ -556,6 +599,10 @@
 				sub  sep.4.2.B  by  sep.4.2.B.D  ;
 				sub  sep.4.3.B  by  sep.4.3.B.D  ;
 				sub  sep.4.4.B  by  sep.4.4.B.D  ;
+				sub  sep.5.1.B  by  sep.5.1.B.D  ;
+				sub  sep.5.2.B  by  sep.5.2.B.D  ;
+				sub  sep.5.3.B  by  sep.5.3.B.D  ;
+				sub  sep.5.4.B  by  sep.5.4.B.D  ;
 				} sepPD;
 
 			lookup sepPE {
@@ -576,6 +623,10 @@
 				sub  sep.4.2.A  by  sep.4.2.A.E  ;
 				sub  sep.4.3.A  by  sep.4.3.A.E  ;
 				sub  sep.4.4.A  by  sep.4.4.A.E  ;
+				sub  sep.5.1.A  by  sep.5.1.A.E  ;
+				sub  sep.5.2.A  by  sep.5.2.A.E  ;
+				sub  sep.5.3.A  by  sep.5.3.A.E  ;
+				sub  sep.5.4.A  by  sep.5.4.A.E  ;
 
 				sub  sep.1.1.B  by  sep.1.1.B.E  ;
 				sub  sep.1.2.B  by  sep.1.2.B.E  ;
@@ -593,6 +644,10 @@
 				sub  sep.4.2.B  by  sep.4.2.B.E  ;
 				sub  sep.4.3.B  by  sep.4.3.B.E  ;
 				sub  sep.4.4.B  by  sep.4.4.B.E  ;
+				sub  sep.5.1.B  by  sep.5.1.B.E  ;
+				sub  sep.5.2.B  by  sep.5.2.B.E  ;
+				sub  sep.5.3.B  by  sep.5.3.B.E  ;
+				sub  sep.5.4.B  by  sep.5.4.B.E  ;
 
 				sub  sep.1.1.A.D  by  sep.1.1.A.E  ;
 				sub  sep.1.2.A.D  by  sep.1.2.A.E  ;
@@ -610,6 +665,10 @@
 				sub  sep.4.2.A.D  by  sep.4.2.A.E  ;
 				sub  sep.4.3.A.D  by  sep.4.3.A.E  ;
 				sub  sep.4.4.A.D  by  sep.4.4.A.E  ;
+				sub  sep.5.1.A.D  by  sep.5.1.A.E  ;
+				sub  sep.5.2.A.D  by  sep.5.2.A.E  ;
+				sub  sep.5.3.A.D  by  sep.5.3.A.E  ;
+				sub  sep.5.4.A.D  by  sep.5.4.A.E  ;
 				
 				sub  sep.1.1.B.D  by  sep.1.1.B.E  ;
 				sub  sep.1.2.B.D  by  sep.1.2.B.E  ;
@@ -627,6 +686,10 @@
 				sub  sep.4.2.B.D  by  sep.4.2.B.E  ;
 				sub  sep.4.3.B.D  by  sep.4.3.B.E  ;
 				sub  sep.4.4.B.D  by  sep.4.4.B.E  ;
+				sub  sep.5.1.B.D  by  sep.5.1.B.E  ;
+				sub  sep.5.2.B.D  by  sep.5.2.B.E  ;
+				sub  sep.5.3.B.D  by  sep.5.3.B.E  ;
+				sub  sep.5.4.B.D  by  sep.5.4.B.E  ;
 				
 				} sepPE;
 
