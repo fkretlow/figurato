@@ -4,7 +4,7 @@ FullName: Figurato
 FamilyName: Figurato
 Weight: Standard
 Copyright: Copyright 2018 Florian Kretlow
-Version: 0.3.2.56
+Version: 0.3.2.58
 ItalicAngle: 0
 UnderlinePosition: -200
 UnderlineWidth: 100
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1324930714
-ModificationTime: 1537910199
+ModificationTime: 1537952772
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -7387,7 +7387,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 57390 10 7
+WinInfo: 57350 10 7
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -9118,43 +9118,74 @@ StartChar: two_slash
 Encoding: 57344 57344 27
 Width: 0
 VWidth: 0
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 4
 Fore
-Refer: 26 43 N 1 0 0 1 386 -113 2
-Refer: 2 50 N 1 0 0 1 0 0 2
+SplineSet
+613 361 m 1
+ 659 361 l 1
+ 659 164 l 1
+ 856 164 l 1
+ 856 118 l 1
+ 659 118 l 1
+ 659 -79 l 1
+ 613 -79 l 1
+ 613 118 l 1
+ 449 118 l 1
+ 440 49 403 -8 336 -8 c 0
+ 264 -8 208 56 148 56 c 0
+ 110 56 94 36 80 0 c 1
+ 40 0 l 1
+ 48 84 134 182 204 230 c 0
+ 305 306 333 358 333 418 c 0
+ 333 492 295 526 239 526 c 0
+ 183 526 148 497 148 470 c 0
+ 148 447 177 439 177 396 c 0
+ 177 367 156 344 121 344 c 0
+ 82 344 57 370 57 413 c 0
+ 57 477 127 570 251 570 c 0
+ 359 570 447 506 447 414 c 0
+ 447 318 370 280 296 235 c 0
+ 276 222 192 180 146 110 c 1
+ 236 110 254 90 328 90 c 0
+ 378 90 402 114 416 164 c 1
+ 613 164 l 1
+ 613 361 l 1
+EndSplineSet
 Layer: 2
 SplineSet
-462 158 m 1
- 462 72 426 -8 346 -8 c 0
- 274 -8 218 56 158 56 c 0
- 120 56 104 36 90 0 c 1
- 50 0 l 1
- 58 84 142 190 214 236 c 0
- 318 308 348 358 348 418 c 0
- 348 492 310 526 254 526 c 0
- 198 526 164 500 164 472 c 0
- 164 448 194 440 194 396 c 0
- 194 366 172 342 136 342 c 0
- 96 342 70 370 70 414 c 0
- 70 480 142 570 266 570 c 0
- 374 570 462 506 462 414 c 0
- 462 318 382 280 306 238 c 0
- 286 226 202 180 156 110 c 1
- 246 110 264 90 338 90 c 0
- 388 90 412 114 426 164 c 1
- 462 158 l 1
-846 164 m 1xe4
- 846 118 l 1
- 426 118 l 1
- 426 164 l 1
- 846 164 l 1xe4
-666 -70 m 1xe4
- 620 -70 l 1
- 620 350 l 1
- 666 350 l 1
- 666 -70 l 1xe4
+452 158 m 5
+ 452 72 416 -8 336 -8 c 4
+ 264 -8 208 56 148 56 c 4
+ 110 56 94 36 80 0 c 5
+ 40 0 l 5
+ 48 84 134 182 204 230 c 4
+ 305 306 333 358 333 418 c 4
+ 333 492 295 526 239 526 c 4
+ 183 526 148 497 148 470 c 4
+ 148 447 177 439 177 396 c 4
+ 177 367 156 344 121 344 c 4
+ 82 344 57 370 57 413 c 4
+ 57 477 127 570 251 570 c 4
+ 359 570 447 506 447 414 c 4
+ 447 318 370 280 296 235 c 4
+ 276 222 192 180 146 110 c 5
+ 236 110 254 90 328 90 c 4
+ 378 90 402 114 416 164 c 5
+ 452 158 l 5
+613 361 m 5
+ 659 361 l 5
+ 659 164 l 5
+ 856 164 l 5
+ 856 118 l 5
+ 659 118 l 5
+ 659 -79 l 5
+ 613 -79 l 5
+ 613 118 l 5
+ 416 118 l 5
+ 416 164 l 5
+ 613 164 l 5
+ 613 361 l 5
 EndSplineSet
 Position2: "forward2 subtable" dx=1000 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
@@ -9171,47 +9202,82 @@ Position2: "layer2 subtable" dx=0 dy=-730 dh=0 dv=0
 MultipleSubs2: "addSepRight subtable" two_slash sep
 Ligature2: "LIGA_slashedFigures subtable" two plus
 Ligature2: "LIGA_slashedFigures subtable" two slash
-LCarets2: 1 0
 EndChar
 
 StartChar: four_slash
 Encoding: 57345 57345 28
 Width: 0
 VWidth: 0
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 4
 Fore
-Refer: 26 43 N 1 0 0 1 355 -65 2
-Refer: 4 52 N 1 0 0 1 0 0 2
+SplineSet
+582 409 m 1
+ 628 409 l 1
+ 628 212 l 1
+ 825 212 l 1
+ 825 166 l 1
+ 628 166 l 1
+ 628 -31 l 1
+ 582 -31 l 1
+ 582 166 l 1
+ 378 166 l 1
+ 378 96 l 2
+ 378 52 414 40 453 40 c 1
+ 453 0 l 1
+ 201 0 l 1
+ 201 40 l 1
+ 221 40 l 2
+ 249 40 286 54 286 96 c 2
+ 286 166 l 1
+ 24 166 l 1
+ 24 206 l 1
+ 94 322 135 430 169 562 c 1
+ 302 562 l 1
+ 238 432 186 364 84 212 c 1
+ 286 212 l 1
+ 286 324 l 1
+ 378 422 l 1
+ 378 212 l 1
+ 582 212 l 1
+ 582 409 l 1
+EndSplineSet
 Layer: 2
 SplineSet
-628 -14 m 5xe4
- 582 -14 l 5
- 582 406 l 5
- 628 406 l 5
- 628 -14 l 5xe4
 378 166 m 5
  378 96 l 6
- 378 58 418 40 446 40 c 5
- 446 0 l 5
- 194 0 l 5
- 194 40 l 5
- 214 40 l 6
- 242 40 286 54 286 96 c 6
+ 378 52 414 40 453 40 c 5
+ 453 0 l 5
+ 201 0 l 5
+ 201 40 l 5
+ 221 40 l 6
+ 249 40 286 54 286 96 c 6
  286 166 l 5
  24 166 l 5
  24 206 l 5
- 94 322 130 430 164 562 c 5
- 306 562 l 5
- 242 432 186 364 84 212 c 5
+ 94 322 135 430 169 562 c 5
+ 302 562 l 5
+ 238 432 186 364 84 212 c 5
  286 212 l 5
  286 324 l 5
  378 422 l 5
  378 212 l 5
- 800 212 l 5
- 800 166 l 5
+ 470 212 l 5
+ 470 166 l 5
  378 166 l 5
+582 409 m 5
+ 628 409 l 5
+ 628 212 l 5
+ 825 212 l 5
+ 825 166 l 5
+ 628 166 l 5
+ 628 -31 l 5
+ 582 -31 l 5
+ 582 166 l 5
+ 385 166 l 5
+ 385 212 l 5
+ 582 212 l 5
+ 582 409 l 5
 EndSplineSet
 Position2: "forward2 subtable" dx=1000 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
@@ -9228,7 +9294,6 @@ Position2: "layer2 subtable" dx=0 dy=-730 dh=0 dv=0
 MultipleSubs2: "addSepRight subtable" four_slash sep
 Ligature2: "LIGA_slashedFigures subtable" four plus
 Ligature2: "LIGA_slashedFigures subtable" four slash
-LCarets2: 1 0
 EndChar
 
 StartChar: five_slash
@@ -9321,7 +9386,6 @@ Position2: "layer2 subtable" dx=0 dy=-730 dh=0 dv=0
 MultipleSubs2: "addSepRight subtable" five_slash sep
 Ligature2: "LIGA_slashedFigures subtable" five slash
 Ligature2: "LIGA_slashedFigures subtable" five plus
-LCarets2: 1 0
 EndChar
 
 StartChar: six_slash
@@ -12566,12 +12630,75 @@ StartChar: i_two_slash
 Encoding: 57391 57391 79
 Width: 0
 VWidth: 0
-UnlinkRmOvrlpSave: 1
-Flags: W
+Flags: HW
 LayerCount: 4
 Fore
-Refer: 26 43 S 1 0 0 1 348 -119 2
-Refer: 52 57382 N 1 0 0 1 0 0 2
+SplineSet
+575 355 m 1
+ 621 355 l 1
+ 621 158 l 1
+ 818 158 l 1
+ 818 112 l 1
+ 621 112 l 1
+ 621 -85 l 1
+ 575 -85 l 1
+ 575 112 l 1
+ 409 112 l 1
+ 397 44 361 -11 296 -11 c 0
+ 219 -11 167 60 102 60 c 0
+ 67 60 51 41 36 6 c 1
+ -4 7 l 1
+ 17 92 118 182 194 224 c 0
+ 314 297 356 347 356 432 c 0
+ 356 493 323 524 267 524 c 0
+ 221 524 187 500 187 471 c 0
+ 187 453 205 441 205 411 c 0
+ 205 375 182 350 147 350 c 0
+ 109 350 87 375 87 411 c 0
+ 87 485 166 568 277 568 c 0
+ 386 568 468 497 468 409 c 0
+ 468 302 368 259 286 219 c 0
+ 264 208 185 182 122 114 c 1
+ 203 110 221 87 292 87 c 0
+ 339 87 362 110 378 158 c 1
+ 575 158 l 1
+ 575 355 l 1
+EndSplineSet
+Layer: 2
+SplineSet
+122 114 m 5
+ 203 110 221 87 292 87 c 4
+ 339 87 362 110 378 158 c 5
+ 413 151 l 5
+ 410 66 373 -11 296 -11 c 4
+ 219 -11 167 60 102 60 c 4
+ 67 60 51 41 36 6 c 5
+ -4 7 l 5
+ 17 92 118 182 194 224 c 4
+ 314 297 356 347 356 432 c 4
+ 356 493 323 524 267 524 c 4
+ 221 524 187 500 187 471 c 4
+ 187 453 205 441 205 411 c 4
+ 205 375 182 350 147 350 c 4
+ 109 350 87 375 87 411 c 4
+ 87 485 166 568 277 568 c 4
+ 386 568 468 497 468 409 c 4
+ 468 302 368 259 286 219 c 4
+ 264 208 185 182 122 114 c 5
+575 355 m 5
+ 621 355 l 5
+ 621 158 l 5
+ 818 158 l 5
+ 818 112 l 5
+ 621 112 l 5
+ 621 -85 l 5
+ 575 -85 l 5
+ 575 112 l 5
+ 378 112 l 5
+ 378 158 l 5
+ 575 158 l 5
+ 575 355 l 5
+EndSplineSet
 Position2: "forward2 subtable" dx=1000 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-1000 dy=0 dh=0 dv=0
@@ -12593,12 +12720,79 @@ StartChar: i_four_slash
 Encoding: 57392 57392 80
 Width: 0
 VWidth: 0
-UnlinkRmOvrlpSave: 1
-Flags: W
+Flags: HW
 LayerCount: 4
 Fore
-Refer: 26 43 N 1 0 0 1 358 -65 2
-Refer: 54 57384 N 1 0 0 1 0 0 2
+SplineSet
+585 409 m 1
+ 631 409 l 1
+ 631 212 l 1
+ 828 212 l 1
+ 828 166 l 1
+ 631 166 l 1
+ 631 -31 l 1
+ 585 -31 l 1
+ 585 166 l 1
+ 363 166 l 1
+ 345 96 l 2
+ 343 90 343 85 343 80 c 0
+ 343 49 375 40 409 40 c 1
+ 403 0 l 1
+ 151 0 l 1
+ 157 40 l 1
+ 173 40 l 2
+ 201 40 241 54 253 96 c 1
+ 271 166 l 1
+ 14 166 l 1
+ 20 206 l 1
+ 121 322 187 420 256 552 c 1
+ 390 552 l 1
+ 291 422 225 364 82 212 c 1
+ 284 212 l 1
+ 313 320 l 1
+ 431 418 l 1
+ 376 212 l 1
+ 585 212 l 1
+ 585 409 l 1
+EndSplineSet
+Layer: 2
+SplineSet
+363 166 m 5
+ 345 96 l 6
+ 343 90 343 85 343 80 c 4
+ 343 49 375 40 409 40 c 5
+ 403 0 l 5
+ 151 0 l 5
+ 157 40 l 5
+ 173 40 l 6
+ 201 40 241 54 253 96 c 5
+ 271 166 l 5
+ 14 166 l 5
+ 20 206 l 5
+ 121 322 187 420 256 552 c 5
+ 390 552 l 5
+ 291 422 225 364 82 212 c 5
+ 284 212 l 5
+ 313 320 l 5
+ 431 418 l 5
+ 376 212 l 5
+ 468 212 l 5
+ 460 166 l 5
+ 363 166 l 5
+585 409 m 5
+ 631 409 l 5
+ 631 212 l 5
+ 828 212 l 5
+ 828 166 l 5
+ 631 166 l 5
+ 631 -31 l 5
+ 585 -31 l 5
+ 585 166 l 5
+ 388 166 l 5
+ 388 212 l 5
+ 585 212 l 5
+ 585 409 l 5
+EndSplineSet
 Position2: "forward2 subtable" dx=1000 dy=0 dh=0 dv=0
 Position2: "forward1 subtable" dx=500 dy=0 dh=0 dv=0
 Position2: "back2 subtable" dx=-1000 dy=0 dh=0 dv=0
