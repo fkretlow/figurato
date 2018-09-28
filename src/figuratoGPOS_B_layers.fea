@@ -1,0 +1,29 @@
+# GPOS
+
+
+# =================================================================================
+# LOOKUP DEFINITIONS
+
+	# 1. vertical positioning -----------------------------------------------------
+
+		# 1.1 layers
+
+			lookup layer2 {
+				lookupflag 0;
+				pos @sepContent <0 730 0 0>;
+				} layer2;
+
+			lookup layer3 {
+				lookupflag 0;
+				pos @sepContent <0 1460 0 0>;
+				} layer3;
+
+			lookup layer4 {
+				lookupflag 0;
+				pos @sepContent <0 2190 0 0>;
+				} layer4;
+
+			lookup layer5 {
+				lookupflag 0;
+				pos @sepContent <0 2920 0 0>;
+				} layer5;

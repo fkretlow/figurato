@@ -1,4 +1,6 @@
-- Latest (0.3.2)
+- Latest (0.4)
+	- Another version of the font, FiguratoB, has been added for figured bass indications above the staff. It works in the same way as Figurato, except that the figures are vertically aligned to the bottommost row.
+- 0.3.2
 	- Missing glyphs for parentheses that enclose three or more layers have been added.
 	- Single accidentals in inner layers do no longer collide with numbers in adjacent layers.
 	- The outlines of the italic numbers have been overhauled.

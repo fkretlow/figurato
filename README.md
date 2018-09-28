@@ -4,7 +4,7 @@ Figurato is a figured bass font for music notation software. It allows for easy 
 ![sample](docs/example.svg)
 
 ## Recent changes
-- The stacking order has been inverted. Figures are now automatically stacked top-down. Figures in documents that were created with a version prior to 0.3 will look different when you install the latest version.  
+- Another version of the font, FiguratoB, has been added for figured bass indications above the staff. It works in the same way as Figurato, except that the figures are vertically aligned to the bottommost row.  
 [Full changelog](docs/changelog.md)
 
 ## Mac users, please read this:

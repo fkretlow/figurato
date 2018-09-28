@@ -1,0 +1,11 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+include(figuratoCLASSES.fea);
+
+include(figuratoGSUB.fea);
+include(figuratoGSUB_B_invertLayerIndexes.fea);
+include(figuratoGSUB_B_features.fea);
+
+include(figuratoGPOS_B_layers.fea);
+include(figuratoGPOS.fea);

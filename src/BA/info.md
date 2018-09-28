@@ -1,1 +1,0 @@
-I plan on creating another version of Figurato with figures where the bottommost layer is vertically aligned for use above the staff. It already works as intended when the feature files in this folder are applied to the font. Some minor adjustments need to be done though before I release a ready-for-use otf binary. For now, this is just a backup.

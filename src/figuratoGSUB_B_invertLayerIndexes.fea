@@ -1,0 +1,120 @@
+			lookup CALT_passBackFigureHeight1stRun {
+				lookupflag 0;
+
+				sub  @sep1' lookup sep2  @sepContent  @sepContent  @sepContent  @sepContent  @sep2  ;
+				sub  @sep2' lookup sep3  @sepContent  @sepContent  @sepContent  @sepContent  @sep3  ;
+				sub  @sep3' lookup sep4  @sepContent  @sepContent  @sepContent  @sepContent  @sep4  ;
+				sub  @sep4' lookup sep5  @sepContent  @sepContent  @sepContent  @sepContent  @sep5  ;
+
+				sub  @sep1' lookup sep2               @sepContent  @sepContent  @sepContent  @sep2  ;
+				sub  @sep2' lookup sep3               @sepContent  @sepContent  @sepContent  @sep3  ;
+				sub  @sep3' lookup sep4               @sepContent  @sepContent  @sepContent  @sep4  ;
+				sub  @sep4' lookup sep5               @sepContent  @sepContent  @sepContent  @sep5  ;
+
+				sub  @sep1' lookup sep2                            @sepContent  @sepContent  @sep2  ;
+				sub  @sep2' lookup sep3                            @sepContent  @sepContent  @sep3  ;
+				sub  @sep3' lookup sep4                            @sepContent  @sepContent  @sep4  ;
+				sub  @sep4' lookup sep5                            @sepContent  @sepContent  @sep5  ;
+
+				sub  @sep1' lookup sep2                                         @sepContent  @sep2  ;
+				sub  @sep2' lookup sep3                                         @sepContent  @sep3  ;
+				sub  @sep3' lookup sep4                                         @sepContent  @sep4  ;
+				sub  @sep4' lookup sep5                                         @sepContent  @sep5  ;
+
+				sub  @sep1' lookup sep2                                                      @sep2  ;
+				sub  @sep2' lookup sep3                                                      @sep3  ;
+				sub  @sep3' lookup sep4                                                      @sep4  ;
+				sub  @sep4' lookup sep5                                                      @sep5  ;
+
+				} CALT_passBackFigureHeight1stRun;
+
+			lookup CALT_passBackFigureHeight2ndRun {
+				lookupflag 0;
+
+				sub  @sep2' lookup sep3  @sepContent  @sepContent  @sepContent  @sepContent  @sep3  ;
+				sub  @sep3' lookup sep4  @sepContent  @sepContent  @sepContent  @sepContent  @sep4  ;
+				sub  @sep4' lookup sep5  @sepContent  @sepContent  @sepContent  @sepContent  @sep5  ;
+
+				sub  @sep2' lookup sep3               @sepContent  @sepContent  @sepContent  @sep3  ;
+				sub  @sep3' lookup sep4               @sepContent  @sepContent  @sepContent  @sep4  ;
+				sub  @sep4' lookup sep5               @sepContent  @sepContent  @sepContent  @sep5  ;
+
+				sub  @sep2' lookup sep3                            @sepContent  @sepContent  @sep3  ;
+				sub  @sep3' lookup sep4                            @sepContent  @sepContent  @sep4  ;
+				sub  @sep4' lookup sep5                            @sepContent  @sepContent  @sep5  ;
+
+				sub  @sep2' lookup sep3                                         @sepContent  @sep3  ;
+				sub  @sep3' lookup sep4                                         @sepContent  @sep4  ;
+				sub  @sep4' lookup sep5                                         @sepContent  @sep5  ;
+
+				sub  @sep2' lookup sep3                                                      @sep3  ;
+				sub  @sep3' lookup sep4                                                      @sep4  ;
+				sub  @sep4' lookup sep5                                                      @sep5  ;
+
+				} CALT_passBackFigureHeight2ndRun;
+
+			lookup CALT_passBackFigureHeight3rdRun {
+				lookupflag 0;
+
+				sub  @sep3' lookup sep4  @sepContent  @sepContent  @sepContent  @sepContent  @sep4  ;
+				sub  @sep4' lookup sep5  @sepContent  @sepContent  @sepContent  @sepContent  @sep5  ;
+
+				sub  @sep3' lookup sep4               @sepContent  @sepContent  @sepContent  @sep4  ;
+				sub  @sep4' lookup sep5               @sepContent  @sepContent  @sepContent  @sep5  ;
+
+				sub  @sep3' lookup sep4                            @sepContent  @sepContent  @sep4  ;
+				sub  @sep4' lookup sep5                            @sepContent  @sepContent  @sep5  ;
+
+				sub  @sep3' lookup sep4                                         @sepContent  @sep4  ;
+				sub  @sep4' lookup sep5                                         @sepContent  @sep5  ;
+
+				sub  @sep3' lookup sep4                                                      @sep4  ;
+				sub  @sep4' lookup sep5                                                      @sep5  ;
+
+				} CALT_passBackFigureHeight3rdRun;
+
+			lookup CALT_passBackFigureHeight4thRun {
+				lookupflag 0;
+
+				sub  @sep4' lookup sep5  @sepContent  @sepContent  @sepContent  @sepContent  @sep5  ;
+
+				sub  @sep4' lookup sep5               @sepContent  @sepContent  @sepContent  @sep5  ;
+
+				sub  @sep4' lookup sep5                            @sepContent  @sepContent  @sep5  ;
+
+				sub  @sep4' lookup sep5                                         @sepContent  @sep5  ;
+
+				sub  @sep4' lookup sep5                                                      @sep5  ;
+
+				} CALT_passBackFigureHeight4thRun;
+
+
+			lookup CALT_enumerateSeparatorsBackwards {
+				lookupflag 0;
+
+				sub  @sep5  @sepContent  @sepContent  @sepContent  @sepContent  @sepLayer' lookup sep4  ;
+				sub  @sep4  @sepContent  @sepContent  @sepContent  @sepContent  @sepLayer' lookup sep3  ;
+				sub  @sep3  @sepContent  @sepContent  @sepContent  @sepContent  @sepLayer' lookup sep2  ;
+				sub  @sep2  @sepContent  @sepContent  @sepContent  @sepContent  @sepLayer' lookup sep1  ;
+
+				sub  @sep5               @sepContent  @sepContent  @sepContent  @sepLayer' lookup sep4  ;
+				sub  @sep4               @sepContent  @sepContent  @sepContent  @sepLayer' lookup sep3  ;
+				sub  @sep3               @sepContent  @sepContent  @sepContent  @sepLayer' lookup sep2  ;
+				sub  @sep2               @sepContent  @sepContent  @sepContent  @sepLayer' lookup sep1  ;
+
+				sub  @sep5                            @sepContent  @sepContent  @sepLayer' lookup sep4  ;
+				sub  @sep4                            @sepContent  @sepContent  @sepLayer' lookup sep3  ;
+				sub  @sep3                            @sepContent  @sepContent  @sepLayer' lookup sep2  ;
+				sub  @sep2                            @sepContent  @sepContent  @sepLayer' lookup sep1  ;
+
+				sub  @sep5                                         @sepContent  @sepLayer' lookup sep4  ;
+				sub  @sep4                                         @sepContent  @sepLayer' lookup sep3  ;
+				sub  @sep3                                         @sepContent  @sepLayer' lookup sep2  ;
+				sub  @sep2                                         @sepContent  @sepLayer' lookup sep1  ;
+
+				sub  @sep5                                                      @sepLayer' lookup sep4  ;
+				sub  @sep4                                                      @sepLayer' lookup sep3  ;
+				sub  @sep3                                                      @sepLayer' lookup sep2  ;
+				sub  @sep2                                                      @sepLayer' lookup sep1  ;
+
+				} CALT_enumerateSeparatorsBackwards;
