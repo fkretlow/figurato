@@ -55,6 +55,9 @@
 				bracketleft
 				bracketright
 
+				parenleft.invisible
+				parenright.invisible
+
 				parenleft.1
 				parenright.1
 				bracketleft.1
@@ -110,6 +113,7 @@
 
 			@parenLeft = [
 				parenleft
+				parenleft.invisible
 				parenleft.1
 				parenleft.2
 				parenleft.3
@@ -122,6 +126,7 @@
 				];
 			@parenRight = [
 				parenright
+				parenright.invisible
 				parenright.1
 				parenright.2
 				parenright.3
@@ -178,7 +183,7 @@
 				n b s numbersign b_b x plus hyphen
 				parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright
 				bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
-				parenleft parenright bracketleft bracketright
+				parenleft parenright bracketleft bracketright parenleft.invisible parenright.invisible
 				parenleft.1 parenright.1 bracketleft.1 bracketright.1
 				parenleft.2 parenright.2 bracketleft.2 bracketright.2
 				parenleft.3 parenright.3 bracketleft.3 bracketright.3

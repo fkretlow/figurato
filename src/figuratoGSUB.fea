@@ -88,7 +88,46 @@
 
 	# 2. SUBSTITUTIONS ------------------------------------------------------------
 
-		# 2.1 add separators
+		# 2.1 substitute invisible parentheses
+
+			lookup replaceBarLeft {
+				lookupflag 0;
+				sub  bar  by  parenleft.invisible  ;
+				} replaceBarLeft;
+			
+			lookup replaceBarRight {
+				lookupflag 0;
+				sub  bar  by  parenright.invisible  ;
+				} replaceBarRight;
+
+			lookup CALT_invisibleParens {
+				lookupflag 0;
+
+				sub  bar' lookup replaceBarLeft  @allNoParens  @parenRight  ;
+				sub  bar' lookup replaceBarLeft  @allNoParens  @allNoParens  @parenRight  ;
+				sub  bar' lookup replaceBarLeft  @allNoParens  @allNoParens  @allNoParens  @parenRight  ;
+				sub  bar' lookup replaceBarLeft  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @parenRight  ;
+				sub  bar' lookup replaceBarLeft  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @parenRight  ;
+				sub  bar' lookup replaceBarLeft  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @parenRight  ;
+				sub  bar' lookup replaceBarLeft  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @parenRight  ;
+				sub  bar' lookup replaceBarLeft  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @parenRight  ;
+				sub  bar' lookup replaceBarLeft  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @parenRight  ;
+				sub  bar' lookup replaceBarLeft  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @parenRight  ;
+
+				sub  @parenLeft  @allNoParens  bar' lookup replaceBarRight  ;
+				sub  @parenLeft  @allNoParens  @allNoParens  bar' lookup replaceBarRight  ;
+				sub  @parenLeft  @allNoParens  @allNoParens  @allNoParens  bar' lookup replaceBarRight  ;
+				sub  @parenLeft  @allNoParens  @allNoParens  @allNoParens  @allNoParens  bar' lookup replaceBarRight  ;
+				sub  @parenLeft  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  bar' lookup replaceBarRight  ;
+				sub  @parenLeft  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  bar' lookup replaceBarRight  ;
+				sub  @parenLeft  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  bar' lookup replaceBarRight  ;
+				sub  @parenLeft  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  bar' lookup replaceBarRight  ;
+				sub  @parenLeft  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  bar' lookup replaceBarRight  ;
+				sub  @parenLeft  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  @allNoParens  bar' lookup replaceBarRight  ;
+
+				} CALT_invisibleParens;
+
+		# 2.2 add separators
 
 			lookup addSepRight {
 				lookupflag 0;
@@ -145,7 +184,7 @@
 
 				sub parenright                    by  parenright                    sep  ;
 				sub bracketright                  by  bracketright                  sep  ;
-				sub bar                           by  bar                           sep  ;
+				sub parenright.invisible          by  parenright.invisible          sep  ;
 
 				sub parenleft_s_parenright        by  parenleft_s_parenright        sep  ;
 				sub parenleft_b_parenright        by  parenleft_b_parenright        sep  ;
@@ -214,7 +253,7 @@
 				} CALT_addSeparators;
 
 
-		# 2.2 enumerate separators
+		# 2.3 enumerate separators
 
 			lookup sep1 {
 				lookupflag 0;
@@ -304,7 +343,7 @@
 				} CALT_enumerateSeparators;
 
 
-		# 2.3 register opening parenthesis
+		# 2.4 register opening parenthesis
 
 			lookup sepP1 {
 				lookupflag 0;
@@ -329,7 +368,7 @@
 				} CALT_registerOpeningParen;
 
 
-		# 2.4 count parentheses
+		# 2.5 count parentheses
 
 			lookup sepP2 {
 				lookupflag 0;
@@ -397,7 +436,7 @@
 				} CALT_countParens;
 
 
-		# 2.5 pass back paren height
+		# 2.6 pass back paren height
 
 			lookup CALT_passBackParenHeight_1stRun {
 				lookupflag 0;
@@ -441,7 +480,7 @@
 				} CALT_passBackParenHeight_3rdRun;
 
 
-		# 2.6 register and propagate column for opening parenthesis
+		# 2.7 register and propagate column for opening parenthesis
 
 			lookup sepPA {
 				lookupflag 0;
@@ -555,7 +594,7 @@
 				} CALT_passBackOpeningParenColumn3rdRun;
 
 
-		# 2.7 register and propagate column for closing parenthesis
+		# 2.8 register and propagate column for closing parenthesis
 
 
 			lookup sepPD {
@@ -705,11 +744,12 @@
 				sub  @sepPE  @parenContent   @sepParenNoClosingColumn' lookup sepPE  ;
 				sub          @parenContent   @sepParenNoClosingColumn' lookup sepPD  ;
 				sub  @sepPE                  @sepParenNoClosingColumn' lookup sepPE  ;
-				sub                          @sepParenNoClosingColumn' lookup sepPE  ;
+				sub                          @sepParenNoClosingColumn' lookup sepPD  ;  # new version
+				# sub                          @sepParenNoClosingColumn' lookup sepPE  ;  # old version: why PE??
 				} CALT_forwardClosingParenColumn;
 
 
-		# 2.8 substitute parentheses
+		# 2.9 substitute parentheses
 
 				lookup paren1 {
 					sub  @paren0  by  @paren1  ;
@@ -772,6 +812,8 @@
 	# 2. SUBSTITUTIONS ------------------------------------------------------------
 
 		feature calt {
+
+			lookup CALT_invisibleParens;
 
 			lookup CALT_addSeparators;
 			lookup CALT_enumerateSeparators;
