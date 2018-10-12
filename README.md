@@ -4,8 +4,8 @@ Figurato is a figured bass font for music notation software. It allows for easy 
 ![sample](docs/example.svg)
 
 ## Recent changes
-- Typing `|` (bar) registers an invisible opening or closing parenthesis or bracket.
-- Another version of the font, FiguratoB, has been added for figured bass indications above the staff. It works in the same way as Figurato, except that the figures are vertically aligned to the bottommost row.
+- Typing `|` (bar) registers an [invisible opening or closing parenthesis or bracket](#parentheses-and-brackets).
+- Another version of the font, [FiguratoB](#Layers), has been added for figured bass indications above the staff. It works in the same way as Figurato, except that the figures are vertically aligned to the bottommost row.
 
 [Full changelog](docs/changelog.md)
 
@@ -34,6 +34,9 @@ i | modifier for [italic numbers](#italic-numbers)
 Figures are automatically stacked from top to bottom. If you need to skip a layer type `,`.  
 <img src="docs/layers.svg" alt="layers" height="100">
 
+There are two versions of the font, Figurato and FiguratoB. They work identically except for the vertical alignment of the figures. In figures that are set with Figurato the topmost lines are vertically aligned, whereas with FiguratoB the bottommost lines are vertically aligned. Figurato is suited for figured bass indications below the staff, whereas FiguratoB works best for indications above the staff.  
+<img src="docs/FiguratoB.svg" alt="layers" height="150">
+
 #### Accidentals
 By default accidentals are placed *to the right of the preceding number.* If you want an accidental to be placed to the left of the following number separate it from the preceding number with `,` unless the position is clear from the context.  
 <img src="docs/accidentalsLeftRight.svg" alt="accidentals" height="100">
@@ -51,8 +54,9 @@ If you need a dash type `-` (hyphen), `–` (endash) or `d`.  Note that typing a
 
 #### Parentheses and Brackets
 You can put an accidental, a complete layer or even multiple layers in parentheses or brackets.  
+If you need to put more than one figure in parentheses you still need to input two parentheses per figure. Replace the one that you don't want to see with `|`.  
 <img src="docs/parens.svg" alt="parentheses and brackets" height="100">
 
 #### Italic numbers
 Numbers preceded by `i` are printed in italics.  
-<img src="docs/italics.svg" alt="italic numbers" height="100">
+<img src="docs/italics.svg" alt="italic numbers" height="85">
