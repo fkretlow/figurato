@@ -3,8 +3,7 @@ languagesystem latn dflt;
 
 include(figuratoCLASSES.fea);
 
-include(figuratoGSUB.fea);
-include(figuratoGSUB_T_features.fea);
+include(figuratoGSUB_T.fea);
 
 include(figuratoGPOS_T_layers.fea);
 include(figuratoGPOS.fea);

@@ -5,7 +5,7 @@ Figurato is a figured bass font for music notation software. It allows for easy 
 
 ## Recent changes
 - Typing `|` (bar) registers an invisible opening or closing parenthesis or bracket.
-- Another version of the font, FiguratoB, has been added for figured bass indications above the staff. It works in the same way as Figurato, except that the figures are vertically aligned to the bottommost row. (Support for parentheses is currently broken in FiguratoB.)
+- Another version of the font, FiguratoB, has been added for figured bass indications above the staff. It works in the same way as Figurato, except that the figures are vertically aligned to the bottommost row.
 
 [Full changelog](docs/changelog.md)
 
