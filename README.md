@@ -17,16 +17,17 @@ Figurato was developed with Dorico’s lyrics popover in mind. It can be used in
 The font works in any software that supports OpenType features (ligatures, contextual alternates, kerning), including Finale 25.
 
 #### Characters
-key | character
+key | character  
 :---|:---
-0–9,10 | numbers
+0–9, 10 | numbers  
 n | natural  
 b | flat  
 \#, s | sharp  
 bb | double flat  
 x | double sharp  
--, –, d | dash  
-, | separator
+-, –, d | [dash](#slashed-numbers-and-dashes)  
+, | [separator](#layers)  
+( ), [ ], \| | [parentheses and brackets](#parentheses-and-brackets)
 /, + | [combining slash](#slashed-numbers-and-dashes)
 i | modifier for [italic numbers](#italic-numbers)
 
