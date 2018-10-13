@@ -138,10 +138,16 @@
 				pos                         @acc'        lookup back1      @figComp                            ;
 				pos         @figComp        @acc'        lookup forward1                                       ;
 
+				pos                         @parenLeft'  lookup back1                                  @sepPB  ;
+				pos                         @parenLeft'  lookup back2                                  @sepPA  ;
+
 				pos                         @parenLeft'  lookup back2      @parenContent @parenContent @sepPA  ;
 				pos                         @parenLeft'  lookup back2      @acc @figComp                       ;
 				pos                         @parenLeft'  lookup back2      @parenContent               @sepPA  ;
 				pos                         @parenLeft'  lookup back1      @parenContent                       ;
+
+				pos  @sepPE                 @parenRight' lookup forward2                                       ;
+				pos  @sepPD                 @parenRight' lookup forward1                                       ;
 
 				pos  @sepPE @acc @figComp   @parenRight' lookup forward2                                       ;
 				pos  @sepPE @parenContent   @parenRight' lookup forward2                                       ;

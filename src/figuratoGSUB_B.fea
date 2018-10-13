@@ -481,6 +481,7 @@
 				lookupflag 0;
 
 				# register opening parenthesis with different layer contents
+				sub  @parenLeft                        @sepNoParen' lookup sepP1  ;
 				sub  @parenLeft  @acc  @figComp        @sepNoParen' lookup sepP1  ;
 				sub  @parenLeft        @figComp  @acc  @sepNoParen' lookup sepP1  ;
 				sub  @parenLeft        @figComp        @sepNoParen' lookup sepP1  ;
@@ -677,6 +678,7 @@
 
 			lookup CALT_registerOpeningParenColumn {
 				lookupflag 0;
+				sub  @parenLeft      @sepParenNoColumn' lookup sepPB  ;
 				sub  @acc  @figComp  @sepParenNoColumn' lookup sepPA  ;
 				sub  @figComp  @acc  @sepParenNoColumn' lookup sepPB  ;
 				sub  @parenContent   @sepParenNoColumn' lookup sepPB  ;
@@ -895,23 +897,31 @@
 
 					sub          @paren0' lookup paren1  @parenContent  @parenContent                           @sepP1  ;
 					sub          @paren0' lookup paren1  @parenContent                                          @sepP1  ;
+					sub          @paren0' lookup paren1                                                         @sepP1  ;
 					sub  @sepP1                          @parenContent  @parenContent  @paren0' lookup paren1           ;
 					sub  @sepP1                                         @parenContent  @paren0' lookup paren1           ;
+					sub  @sepP1                                                        @paren0' lookup paren1           ;
 
 					sub          @paren0' lookup paren2  @parenContent  @parenContent                           @sepP2  ;
 					sub          @paren0' lookup paren2  @parenContent                                          @sepP2  ;
+					sub          @paren0' lookup paren2                                                         @sepP2  ;
 					sub  @sepP2                          @parenContent  @parenContent  @paren0' lookup paren2           ;
 					sub  @sepP2                                         @parenContent  @paren0' lookup paren2           ;
+					sub  @sepP2                                                        @paren0' lookup paren2           ;
 
 					sub          @paren0' lookup paren3  @parenContent  @parenContent                           @sepP3  ;
 					sub          @paren0' lookup paren3  @parenContent                                          @sepP3  ;
+					sub          @paren0' lookup paren3                                                         @sepP3  ;
 					sub  @sepP3                          @parenContent  @parenContent  @paren0' lookup paren3           ;
 					sub  @sepP3                                         @parenContent  @paren0' lookup paren3           ;
+					sub  @sepP3                                                        @paren0' lookup paren3           ;
 
 					sub          @paren0' lookup paren4  @parenContent  @parenContent                           @sepP4  ;
 					sub          @paren0' lookup paren4  @parenContent                                          @sepP4  ;
+					sub          @paren0' lookup paren4                                                         @sepP4  ;
 					sub  @sepP4                          @parenContent  @parenContent  @paren0' lookup paren4           ;
 					sub  @sepP4                                         @parenContent  @paren0' lookup paren4           ;
+					sub  @sepP4                                                        @paren0' lookup paren4           ;
 
 					} CALT_substituteParens;
 

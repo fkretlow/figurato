@@ -4,7 +4,7 @@ FullName: Figurato
 FamilyName: Figurato
 Weight: Standard
 Copyright: Copyright 2018 Florian Kretlow
-Version: 0.4.0.15
+Version: 0.4.0.20
 ItalicAngle: 0
 UnderlinePosition: -200
 UnderlineWidth: 100
@@ -59,7 +59,7 @@ Lookup: 1 0 0 "sep4" { "sep4 subtable"  } []
 Lookup: 1 0 0 "sep5" { "sep5 subtable"  } []
 Lookup: 6 0 0 "CALT_enumerateSeparators" { "CALT_enumerateSeparators contextual 0"  "CALT_enumerateSeparators contextual 1"  "CALT_enumerateSeparators contextual 2"  "CALT_enumerateSeparators contextual 3"  "CALT_enumerateSeparators contextual 4"  "CALT_enumerateSeparators contextual 5"  "CALT_enumerateSeparators contextual 6"  "CALT_enumerateSeparators contextual 7"  "CALT_enumerateSeparators contextual 8"  "CALT_enumerateSeparators contextual 9"  "CALT_enumerateSeparators contextual 10"  "CALT_enumerateSeparators contextual 11"  "CALT_enumerateSeparators contextual 12"  "CALT_enumerateSeparators contextual 13"  "CALT_enumerateSeparators contextual 14"  "CALT_enumerateSeparators contextual 15"  "CALT_enumerateSeparators contextual 16"  "CALT_enumerateSeparators contextual 17"  "CALT_enumerateSeparators contextual 18"  "CALT_enumerateSeparators contextual 19"  "CALT_enumerateSeparators contextual 20"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "sepP1" { "sepP1 subtable"  } []
-Lookup: 6 0 0 "CALT_registerOpeningParen" { "CALT_registerOpeningParen contextual 0"  "CALT_registerOpeningParen contextual 1"  "CALT_registerOpeningParen contextual 2"  "CALT_registerOpeningParen contextual 3"  "CALT_registerOpeningParen contextual 4"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "CALT_registerOpeningParen" { "CALT_registerOpeningParen contextual 0"  "CALT_registerOpeningParen contextual 1"  "CALT_registerOpeningParen contextual 2"  "CALT_registerOpeningParen contextual 3"  "CALT_registerOpeningParen contextual 4"  "CALT_registerOpeningParen contextual 5"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "sepP2" { "sepP2 subtable"  } []
 Lookup: 1 0 0 "sepP3" { "sepP3 subtable"  } []
 Lookup: 1 0 0 "sepP4" { "sepP4 subtable"  } []
@@ -69,7 +69,7 @@ Lookup: 6 0 0 "CALT_passBackParenHeight_2ndRun" { "CALT_passBackParenHeight_2ndR
 Lookup: 6 0 0 "CALT_passBackParenHeight_3rdRun" { "CALT_passBackParenHeight_3rdRun contextual 0"  "CALT_passBackParenHeight_3rdRun contextual 1"  "CALT_passBackParenHeight_3rdRun contextual 2"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "sepPA" { "sepPA subtable"  } []
 Lookup: 1 0 0 "sepPB" { "sepPB subtable"  } []
-Lookup: 6 0 0 "CALT_registerOpeningParenColumn" { "CALT_registerOpeningParenColumn contextual 0"  "CALT_registerOpeningParenColumn contextual 1"  "CALT_registerOpeningParenColumn contextual 2"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "CALT_registerOpeningParenColumn" { "CALT_registerOpeningParenColumn contextual 0"  "CALT_registerOpeningParenColumn contextual 1"  "CALT_registerOpeningParenColumn contextual 2"  "CALT_registerOpeningParenColumn contextual 3"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 6 0 0 "CALT_forwardOpeningParenColumn" { "CALT_forwardOpeningParenColumn contextual 0"  "CALT_forwardOpeningParenColumn contextual 1"  "CALT_forwardOpeningParenColumn contextual 2"  "CALT_forwardOpeningParenColumn contextual 3"  "CALT_forwardOpeningParenColumn contextual 4"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 6 0 0 "CALT_passBackOpeningParenColumn1stRun" { "CALT_passBackOpeningParenColumn1stRun contextual 0"  "CALT_passBackOpeningParenColumn1stRun contextual 1"  "CALT_passBackOpeningParenColumn1stRun contextual 2"  "CALT_passBackOpeningParenColumn1stRun contextual 3"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 6 0 0 "CALT_passBackOpeningParenColumn2ndRun" { "CALT_passBackOpeningParenColumn2ndRun contextual 0"  "CALT_passBackOpeningParenColumn2ndRun contextual 1"  "CALT_passBackOpeningParenColumn2ndRun contextual 2"  "CALT_passBackOpeningParenColumn2ndRun contextual 3"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
@@ -82,7 +82,7 @@ Lookup: 1 0 0 "paren1" { "paren1 subtable"  } []
 Lookup: 1 0 0 "paren2" { "paren2 subtable"  } []
 Lookup: 1 0 0 "paren3" { "paren3 subtable"  } []
 Lookup: 1 0 0 "paren4" { "paren4 subtable"  } []
-Lookup: 6 0 0 "CALT_substituteParens" { "CALT_substituteParens contextual 0"  "CALT_substituteParens contextual 1"  "CALT_substituteParens contextual 2"  "CALT_substituteParens contextual 3"  "CALT_substituteParens contextual 4"  "CALT_substituteParens contextual 5"  "CALT_substituteParens contextual 6"  "CALT_substituteParens contextual 7"  "CALT_substituteParens contextual 8"  "CALT_substituteParens contextual 9"  "CALT_substituteParens contextual 10"  "CALT_substituteParens contextual 11"  "CALT_substituteParens contextual 12"  "CALT_substituteParens contextual 13"  "CALT_substituteParens contextual 14"  "CALT_substituteParens contextual 15"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "CALT_substituteParens" { "CALT_substituteParens contextual 0"  "CALT_substituteParens contextual 1"  "CALT_substituteParens contextual 2"  "CALT_substituteParens contextual 3"  "CALT_substituteParens contextual 4"  "CALT_substituteParens contextual 5"  "CALT_substituteParens contextual 6"  "CALT_substituteParens contextual 7"  "CALT_substituteParens contextual 8"  "CALT_substituteParens contextual 9"  "CALT_substituteParens contextual 10"  "CALT_substituteParens contextual 11"  "CALT_substituteParens contextual 12"  "CALT_substituteParens contextual 13"  "CALT_substituteParens contextual 14"  "CALT_substituteParens contextual 15"  "CALT_substituteParens contextual 16"  "CALT_substituteParens contextual 17"  "CALT_substituteParens contextual 18"  "CALT_substituteParens contextual 19"  "CALT_substituteParens contextual 20"  "CALT_substituteParens contextual 21"  "CALT_substituteParens contextual 22"  "CALT_substituteParens contextual 23"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 257 0 0 "layer2" { "layer2 subtable"  } []
 Lookup: 257 0 0 "layer3" { "layer3 subtable"  } []
 Lookup: 257 0 0 "layer4" { "layer4 subtable"  } []
@@ -99,7 +99,7 @@ Lookup: 264 0 0 "KERN_verticalPositionLayer2" { "KERN_verticalPositionLayer2 con
 Lookup: 264 0 0 "KERN_verticalPositionLayer3" { "KERN_verticalPositionLayer3 contextual 0"  "KERN_verticalPositionLayer3 contextual 1"  "KERN_verticalPositionLayer3 contextual 2"  "KERN_verticalPositionLayer3 contextual 3"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 264 0 0 "KERN_verticalPositionLayer4" { "KERN_verticalPositionLayer4 contextual 0"  "KERN_verticalPositionLayer4 contextual 1"  "KERN_verticalPositionLayer4 contextual 2"  "KERN_verticalPositionLayer4 contextual 3"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 264 0 0 "KERN_verticalPositionLayer5" { "KERN_verticalPositionLayer5 contextual 0"  "KERN_verticalPositionLayer5 contextual 1"  "KERN_verticalPositionLayer5 contextual 2"  "KERN_verticalPositionLayer5 contextual 3"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 264 0 0 "KERN_horizontalPosition" { "KERN_horizontalPosition contextual 0"  "KERN_horizontalPosition contextual 1"  "KERN_horizontalPosition contextual 2"  "KERN_horizontalPosition contextual 3"  "KERN_horizontalPosition contextual 4"  "KERN_horizontalPosition contextual 5"  "KERN_horizontalPosition contextual 6"  "KERN_horizontalPosition contextual 7"  "KERN_horizontalPosition contextual 8"  "KERN_horizontalPosition contextual 9"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 264 0 0 "KERN_horizontalPosition" { "KERN_horizontalPosition contextual 0"  "KERN_horizontalPosition contextual 1"  "KERN_horizontalPosition contextual 2"  "KERN_horizontalPosition contextual 3"  "KERN_horizontalPosition contextual 4"  "KERN_horizontalPosition contextual 5"  "KERN_horizontalPosition contextual 6"  "KERN_horizontalPosition contextual 7"  "KERN_horizontalPosition contextual 8"  "KERN_horizontalPosition contextual 9"  "KERN_horizontalPosition contextual 10"  "KERN_horizontalPosition contextual 11"  "KERN_horizontalPosition contextual 12"  "KERN_horizontalPosition contextual 13"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 264 0 0 "KERN_spaceAroundTen" { "KERN_spaceAroundTen contextual 0"  "KERN_spaceAroundTen contextual 1"  "KERN_spaceAroundTen contextual 2"  "KERN_spaceAroundTen contextual 3"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 257 0 0 "Single Positioning lookup 18" { "Single Positioning lookup 18 subtable"  } []
 Lookup: 257 0 0 "Single Positioning lookup 19" { "Single Positioning lookup 19 subtable"  } []
@@ -6117,14 +6117,14 @@ ChainPos2: coverage "KERN_spaceAroundTen contextual 0" 0 0 0 1
  1
   SeqLookup: 0 "Single Positioning lookup 18"
 EndFPST
-ChainPos2: coverage "KERN_horizontalPosition contextual 9" 0 0 0 1
+ChainPos2: coverage "KERN_horizontalPosition contextual 13" 0 0 0 1
  1 1 0
   Coverage: 156 parenright parenright.invisible parenright.1 parenright.2 parenright.3 parenright.4 bracketright bracketright.1 bracketright.2 bracketright.3 bracketright.4
   BCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
  1
   SeqLookup: 0 "forward1"
 EndFPST
-ChainPos2: coverage "KERN_horizontalPosition contextual 8" 0 0 0 1
+ChainPos2: coverage "KERN_horizontalPosition contextual 12" 0 0 0 1
  1 2 0
   Coverage: 156 parenright parenright.invisible parenright.1 parenright.2 parenright.3 parenright.4 bracketright bracketright.1 bracketright.2 bracketright.3 bracketright.4
   BCoverage: 288 n b s numbersign b_b x plus hyphen parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
@@ -6132,7 +6132,7 @@ ChainPos2: coverage "KERN_horizontalPosition contextual 8" 0 0 0 1
  1
   SeqLookup: 0 "forward2"
 EndFPST
-ChainPos2: coverage "KERN_horizontalPosition contextual 7" 0 0 0 1
+ChainPos2: coverage "KERN_horizontalPosition contextual 11" 0 0 0 1
  1 2 0
   Coverage: 156 parenright parenright.invisible parenright.1 parenright.2 parenright.3 parenright.4 bracketright bracketright.1 bracketright.2 bracketright.3 bracketright.4
   BCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
@@ -6140,7 +6140,7 @@ ChainPos2: coverage "KERN_horizontalPosition contextual 7" 0 0 0 1
  1
   SeqLookup: 0 "forward2"
 EndFPST
-ChainPos2: coverage "KERN_horizontalPosition contextual 6" 0 0 0 1
+ChainPos2: coverage "KERN_horizontalPosition contextual 10" 0 0 0 1
  1 3 0
   Coverage: 156 parenright parenright.invisible parenright.1 parenright.2 parenright.3 parenright.4 bracketright bracketright.1 bracketright.2 bracketright.3 bracketright.4
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
@@ -6149,14 +6149,28 @@ ChainPos2: coverage "KERN_horizontalPosition contextual 6" 0 0 0 1
  1
   SeqLookup: 0 "forward2"
 EndFPST
-ChainPos2: coverage "KERN_horizontalPosition contextual 5" 0 0 0 1
+ChainPos2: coverage "KERN_horizontalPosition contextual 9" 0 0 0 1
+ 1 1 0
+  Coverage: 156 parenright parenright.invisible parenright.1 parenright.2 parenright.3 parenright.4 bracketright bracketright.1 bracketright.2 bracketright.3 bracketright.4
+  BCoverage: 479 sep.1.1.A.D sep.1.1.B.D sep.1.2.A.D sep.1.2.B.D sep.1.3.A.D sep.1.3.B.D sep.1.4.A.D sep.1.4.B.D sep.2.1.A.D sep.2.1.B.D sep.2.2.A.D sep.2.2.B.D sep.2.3.A.D sep.2.3.B.D sep.2.4.A.D sep.2.4.B.D sep.3.1.A.D sep.3.1.B.D sep.3.2.A.D sep.3.2.B.D sep.3.3.A.D sep.3.3.B.D sep.3.4.A.D sep.3.4.B.D sep.4.1.A.D sep.4.1.B.D sep.4.2.A.D sep.4.2.B.D sep.4.3.A.D sep.4.3.B.D sep.4.4.A.D sep.4.4.B.D sep.5.1.A.D sep.5.1.B.D sep.5.2.A.D sep.5.2.B.D sep.5.3.A.D sep.5.3.B.D sep.5.4.A.D sep.5.4.B.D
+ 1
+  SeqLookup: 0 "forward1"
+EndFPST
+ChainPos2: coverage "KERN_horizontalPosition contextual 8" 0 0 0 1
+ 1 1 0
+  Coverage: 156 parenright parenright.invisible parenright.1 parenright.2 parenright.3 parenright.4 bracketright bracketright.1 bracketright.2 bracketright.3 bracketright.4
+  BCoverage: 479 sep.1.1.A.E sep.1.1.B.E sep.1.2.A.E sep.1.2.B.E sep.1.3.A.E sep.1.3.B.E sep.1.4.A.E sep.1.4.B.E sep.2.1.A.E sep.2.1.B.E sep.2.2.A.E sep.2.2.B.E sep.2.3.A.E sep.2.3.B.E sep.2.4.A.E sep.2.4.B.E sep.3.1.A.E sep.3.1.B.E sep.3.2.A.E sep.3.2.B.E sep.3.3.A.E sep.3.3.B.E sep.3.4.A.E sep.3.4.B.E sep.4.1.A.E sep.4.1.B.E sep.4.2.A.E sep.4.2.B.E sep.4.3.A.E sep.4.3.B.E sep.4.4.A.E sep.4.4.B.E sep.5.1.A.E sep.5.1.B.E sep.5.2.A.E sep.5.2.B.E sep.5.3.A.E sep.5.3.B.E sep.5.4.A.E sep.5.4.B.E
+ 1
+  SeqLookup: 0 "forward2"
+EndFPST
+ChainPos2: coverage "KERN_horizontalPosition contextual 7" 0 0 0 1
  1 0 1
   Coverage: 145 parenleft parenleft.invisible parenleft.1 parenleft.2 parenleft.3 parenleft.4 bracketleft bracketleft.1 bracketleft.2 bracketleft.3 bracketleft.4
   FCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
  1
   SeqLookup: 0 "back1"
 EndFPST
-ChainPos2: coverage "KERN_horizontalPosition contextual 4" 0 0 0 1
+ChainPos2: coverage "KERN_horizontalPosition contextual 6" 0 0 0 1
  1 0 2
   Coverage: 145 parenleft parenleft.invisible parenleft.1 parenleft.2 parenleft.3 parenleft.4 bracketleft bracketleft.1 bracketleft.2 bracketleft.3 bracketleft.4
   FCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
@@ -6164,7 +6178,7 @@ ChainPos2: coverage "KERN_horizontalPosition contextual 4" 0 0 0 1
  1
   SeqLookup: 0 "back2"
 EndFPST
-ChainPos2: coverage "KERN_horizontalPosition contextual 3" 0 0 0 1
+ChainPos2: coverage "KERN_horizontalPosition contextual 5" 0 0 0 1
  1 0 2
   Coverage: 145 parenleft parenleft.invisible parenleft.1 parenleft.2 parenleft.3 parenleft.4 bracketleft bracketleft.1 bracketleft.2 bracketleft.3 bracketleft.4
   FCoverage: 288 n b s numbersign b_b x plus hyphen parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
@@ -6172,7 +6186,7 @@ ChainPos2: coverage "KERN_horizontalPosition contextual 3" 0 0 0 1
  1
   SeqLookup: 0 "back2"
 EndFPST
-ChainPos2: coverage "KERN_horizontalPosition contextual 2" 0 0 0 1
+ChainPos2: coverage "KERN_horizontalPosition contextual 4" 0 0 0 1
  1 0 3
   Coverage: 145 parenleft parenleft.invisible parenleft.1 parenleft.2 parenleft.3 parenleft.4 bracketleft bracketleft.1 bracketleft.2 bracketleft.3 bracketleft.4
   FCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
@@ -6180,6 +6194,20 @@ ChainPos2: coverage "KERN_horizontalPosition contextual 2" 0 0 0 1
   FCoverage: 679 sep.1.1.A sep.1.2.A sep.1.3.A sep.1.4.A sep.2.1.A sep.2.2.A sep.2.3.A sep.2.4.A sep.3.1.A sep.3.2.A sep.3.3.A sep.3.4.A sep.4.1.A sep.4.2.A sep.4.3.A sep.4.4.A sep.5.1.A sep.5.2.A sep.5.3.A sep.5.4.A sep.1.1.A.D sep.1.1.A.E sep.1.2.A.D sep.1.2.A.E sep.1.3.A.D sep.1.3.A.E sep.1.4.A.D sep.1.4.A.E sep.2.1.A.D sep.2.1.A.E sep.2.2.A.D sep.2.2.A.E sep.2.3.A.D sep.2.3.A.E sep.2.4.A.D sep.2.4.A.E sep.3.1.A.D sep.3.1.A.E sep.3.2.A.D sep.3.2.A.E sep.3.3.A.D sep.3.3.A.E sep.3.4.A.D sep.3.4.A.E sep.4.1.A.D sep.4.1.A.E sep.4.2.A.D sep.4.2.A.E sep.4.3.A.D sep.4.3.A.E sep.4.4.A.D sep.4.4.A.E sep.5.1.A.D sep.5.1.A.E sep.5.2.A.D sep.5.2.A.E sep.5.3.A.D sep.5.3.A.E sep.5.4.A.D sep.5.4.A.E
  1
   SeqLookup: 0 "back2"
+EndFPST
+ChainPos2: coverage "KERN_horizontalPosition contextual 3" 0 0 0 1
+ 1 0 1
+  Coverage: 145 parenleft parenleft.invisible parenleft.1 parenleft.2 parenleft.3 parenleft.4 bracketleft bracketleft.1 bracketleft.2 bracketleft.3 bracketleft.4
+  FCoverage: 679 sep.1.1.A sep.1.2.A sep.1.3.A sep.1.4.A sep.2.1.A sep.2.2.A sep.2.3.A sep.2.4.A sep.3.1.A sep.3.2.A sep.3.3.A sep.3.4.A sep.4.1.A sep.4.2.A sep.4.3.A sep.4.4.A sep.5.1.A sep.5.2.A sep.5.3.A sep.5.4.A sep.1.1.A.D sep.1.1.A.E sep.1.2.A.D sep.1.2.A.E sep.1.3.A.D sep.1.3.A.E sep.1.4.A.D sep.1.4.A.E sep.2.1.A.D sep.2.1.A.E sep.2.2.A.D sep.2.2.A.E sep.2.3.A.D sep.2.3.A.E sep.2.4.A.D sep.2.4.A.E sep.3.1.A.D sep.3.1.A.E sep.3.2.A.D sep.3.2.A.E sep.3.3.A.D sep.3.3.A.E sep.3.4.A.D sep.3.4.A.E sep.4.1.A.D sep.4.1.A.E sep.4.2.A.D sep.4.2.A.E sep.4.3.A.D sep.4.3.A.E sep.4.4.A.D sep.4.4.A.E sep.5.1.A.D sep.5.1.A.E sep.5.2.A.D sep.5.2.A.E sep.5.3.A.D sep.5.3.A.E sep.5.4.A.D sep.5.4.A.E
+ 1
+  SeqLookup: 0 "back2"
+EndFPST
+ChainPos2: coverage "KERN_horizontalPosition contextual 2" 0 0 0 1
+ 1 0 1
+  Coverage: 145 parenleft parenleft.invisible parenleft.1 parenleft.2 parenleft.3 parenleft.4 bracketleft bracketleft.1 bracketleft.2 bracketleft.3 bracketleft.4
+  FCoverage: 679 sep.1.1.B sep.1.2.B sep.1.3.B sep.1.4.B sep.2.1.B sep.2.2.B sep.2.3.B sep.2.4.B sep.3.1.B sep.3.2.B sep.3.3.B sep.3.4.B sep.4.1.B sep.4.2.B sep.4.3.B sep.4.4.B sep.5.1.B sep.5.2.B sep.5.3.B sep.5.4.B sep.1.1.B.D sep.1.1.B.E sep.1.2.B.D sep.1.2.B.E sep.1.3.B.D sep.1.3.B.E sep.1.4.B.D sep.1.4.B.E sep.2.1.B.D sep.2.1.B.E sep.2.2.B.D sep.2.2.B.E sep.2.3.B.D sep.2.3.B.E sep.2.4.B.D sep.2.4.B.E sep.3.1.B.D sep.3.1.B.E sep.3.2.B.D sep.3.2.B.E sep.3.3.B.D sep.3.3.B.E sep.3.4.B.D sep.3.4.B.E sep.4.1.B.D sep.4.1.B.E sep.4.2.B.D sep.4.2.B.E sep.4.3.B.D sep.4.3.B.E sep.4.4.B.D sep.4.4.B.E sep.5.1.B.D sep.5.1.B.E sep.5.2.B.D sep.5.2.B.E sep.5.3.B.D sep.5.3.B.E sep.5.4.B.D sep.5.4.B.E
+ 1
+  SeqLookup: 0 "back1"
 EndFPST
 ChainPos2: coverage "KERN_horizontalPosition contextual 1" 0 0 0 1
  1 1 0
@@ -6331,7 +6359,14 @@ ChainPos2: coverage "KERN_verticalPositionLayer2 contextual 0" 0 0 0 1
  1
   SeqLookup: 0 "layer2"
 EndFPST
-ChainSub2: coverage "CALT_substituteParens contextual 15" 0 0 0 1
+ChainSub2: coverage "CALT_substituteParens contextual 23" 0 0 0 1
+ 1 1 0
+  Coverage: 45 parenleft parenright bracketleft bracketright
+  BCoverage: 351 sep.1.4 sep.2.4 sep.3.4 sep.4.4 sep.1.4.A sep.1.4.B sep.2.4.A sep.2.4.B sep.3.4.A sep.3.4.B sep.4.4.A sep.4.4.B sep.1.4.A.D sep.1.4.A.E sep.1.4.B.D sep.1.4.B.E sep.2.4.A.D sep.2.4.A.E sep.2.4.B.D sep.2.4.B.E sep.3.4.A.D sep.3.4.A.E sep.3.4.B.D sep.3.4.B.E sep.4.4.A.D sep.4.4.A.E sep.4.4.B.D sep.4.4.B.E sep.5.4.A.D sep.5.4.A.E sep.5.4.B.D sep.5.4.B.E
+ 1
+  SeqLookup: 0 "paren4"
+EndFPST
+ChainSub2: coverage "CALT_substituteParens contextual 22" 0 0 0 1
  1 2 0
   Coverage: 45 parenleft parenright bracketleft bracketright
   BCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
@@ -6339,7 +6374,7 @@ ChainSub2: coverage "CALT_substituteParens contextual 15" 0 0 0 1
  1
   SeqLookup: 0 "paren4"
 EndFPST
-ChainSub2: coverage "CALT_substituteParens contextual 14" 0 0 0 1
+ChainSub2: coverage "CALT_substituteParens contextual 21" 0 0 0 1
  1 3 0
   Coverage: 45 parenleft parenright bracketleft bracketright
   BCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
@@ -6348,83 +6383,118 @@ ChainSub2: coverage "CALT_substituteParens contextual 14" 0 0 0 1
  1
   SeqLookup: 0 "paren4"
 EndFPST
-ChainSub2: coverage "CALT_substituteParens contextual 13" 0 0 0 1
+ChainSub2: coverage "CALT_substituteParens contextual 20" 0 0 0 1
+ 1 0 1
+  Coverage: 45 parenleft parenright bracketleft bracketright
+  FCoverage: 351 sep.1.4 sep.2.4 sep.3.4 sep.4.4 sep.1.4.A sep.1.4.B sep.2.4.A sep.2.4.B sep.3.4.A sep.3.4.B sep.4.4.A sep.4.4.B sep.1.4.A.D sep.1.4.A.E sep.1.4.B.D sep.1.4.B.E sep.2.4.A.D sep.2.4.A.E sep.2.4.B.D sep.2.4.B.E sep.3.4.A.D sep.3.4.A.E sep.3.4.B.D sep.3.4.B.E sep.4.4.A.D sep.4.4.A.E sep.4.4.B.D sep.4.4.B.E sep.5.4.A.D sep.5.4.A.E sep.5.4.B.D sep.5.4.B.E
+ 1
+  SeqLookup: 0 "paren4"
+EndFPST
+ChainSub2: coverage "CALT_substituteParens contextual 19" 0 0 0 1
  1 0 2
   Coverage: 45 parenleft parenright bracketleft bracketright
   FCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
   FCoverage: 351 sep.1.4 sep.2.4 sep.3.4 sep.4.4 sep.1.4.A sep.1.4.B sep.2.4.A sep.2.4.B sep.3.4.A sep.3.4.B sep.4.4.A sep.4.4.B sep.1.4.A.D sep.1.4.A.E sep.1.4.B.D sep.1.4.B.E sep.2.4.A.D sep.2.4.A.E sep.2.4.B.D sep.2.4.B.E sep.3.4.A.D sep.3.4.A.E sep.3.4.B.D sep.3.4.B.E sep.4.4.A.D sep.4.4.A.E sep.4.4.B.D sep.4.4.B.E sep.5.4.A.D sep.5.4.A.E sep.5.4.B.D sep.5.4.B.E
  1
   SeqLookup: 0 "paren4"
+EndFPST
+ChainSub2: coverage "CALT_substituteParens contextual 18" 0 0 0 1
+ 1 0 3
+  Coverage: 45 parenleft parenright bracketleft bracketright
+  FCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
+  FCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
+  FCoverage: 351 sep.1.4 sep.2.4 sep.3.4 sep.4.4 sep.1.4.A sep.1.4.B sep.2.4.A sep.2.4.B sep.3.4.A sep.3.4.B sep.4.4.A sep.4.4.B sep.1.4.A.D sep.1.4.A.E sep.1.4.B.D sep.1.4.B.E sep.2.4.A.D sep.2.4.A.E sep.2.4.B.D sep.2.4.B.E sep.3.4.A.D sep.3.4.A.E sep.3.4.B.D sep.3.4.B.E sep.4.4.A.D sep.4.4.A.E sep.4.4.B.D sep.4.4.B.E sep.5.4.A.D sep.5.4.A.E sep.5.4.B.D sep.5.4.B.E
+ 1
+  SeqLookup: 0 "paren4"
+EndFPST
+ChainSub2: coverage "CALT_substituteParens contextual 17" 0 0 0 1
+ 1 1 0
+  Coverage: 45 parenleft parenright bracketleft bracketright
+  BCoverage: 351 sep.1.3 sep.2.3 sep.3.3 sep.4.3 sep.1.3.A sep.1.3.B sep.2.3.A sep.2.3.B sep.3.3.A sep.3.3.B sep.4.3.A sep.4.3.B sep.1.3.A.D sep.1.3.A.E sep.1.3.B.D sep.1.3.B.E sep.2.3.A.D sep.2.3.A.E sep.2.3.B.D sep.2.3.B.E sep.3.3.A.D sep.3.3.A.E sep.3.3.B.D sep.3.3.B.E sep.4.3.A.D sep.4.3.A.E sep.4.3.B.D sep.4.3.B.E sep.5.3.A.D sep.5.3.A.E sep.5.3.B.D sep.5.3.B.E
+ 1
+  SeqLookup: 0 "paren3"
+EndFPST
+ChainSub2: coverage "CALT_substituteParens contextual 16" 0 0 0 1
+ 1 2 0
+  Coverage: 45 parenleft parenright bracketleft bracketright
+  BCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
+  BCoverage: 351 sep.1.3 sep.2.3 sep.3.3 sep.4.3 sep.1.3.A sep.1.3.B sep.2.3.A sep.2.3.B sep.3.3.A sep.3.3.B sep.4.3.A sep.4.3.B sep.1.3.A.D sep.1.3.A.E sep.1.3.B.D sep.1.3.B.E sep.2.3.A.D sep.2.3.A.E sep.2.3.B.D sep.2.3.B.E sep.3.3.A.D sep.3.3.A.E sep.3.3.B.D sep.3.3.B.E sep.4.3.A.D sep.4.3.A.E sep.4.3.B.D sep.4.3.B.E sep.5.3.A.D sep.5.3.A.E sep.5.3.B.D sep.5.3.B.E
+ 1
+  SeqLookup: 0 "paren3"
+EndFPST
+ChainSub2: coverage "CALT_substituteParens contextual 15" 0 0 0 1
+ 1 3 0
+  Coverage: 45 parenleft parenright bracketleft bracketright
+  BCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
+  BCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
+  BCoverage: 351 sep.1.3 sep.2.3 sep.3.3 sep.4.3 sep.1.3.A sep.1.3.B sep.2.3.A sep.2.3.B sep.3.3.A sep.3.3.B sep.4.3.A sep.4.3.B sep.1.3.A.D sep.1.3.A.E sep.1.3.B.D sep.1.3.B.E sep.2.3.A.D sep.2.3.A.E sep.2.3.B.D sep.2.3.B.E sep.3.3.A.D sep.3.3.A.E sep.3.3.B.D sep.3.3.B.E sep.4.3.A.D sep.4.3.A.E sep.4.3.B.D sep.4.3.B.E sep.5.3.A.D sep.5.3.A.E sep.5.3.B.D sep.5.3.B.E
+ 1
+  SeqLookup: 0 "paren3"
+EndFPST
+ChainSub2: coverage "CALT_substituteParens contextual 14" 0 0 0 1
+ 1 0 1
+  Coverage: 45 parenleft parenright bracketleft bracketright
+  FCoverage: 351 sep.1.3 sep.2.3 sep.3.3 sep.4.3 sep.1.3.A sep.1.3.B sep.2.3.A sep.2.3.B sep.3.3.A sep.3.3.B sep.4.3.A sep.4.3.B sep.1.3.A.D sep.1.3.A.E sep.1.3.B.D sep.1.3.B.E sep.2.3.A.D sep.2.3.A.E sep.2.3.B.D sep.2.3.B.E sep.3.3.A.D sep.3.3.A.E sep.3.3.B.D sep.3.3.B.E sep.4.3.A.D sep.4.3.A.E sep.4.3.B.D sep.4.3.B.E sep.5.3.A.D sep.5.3.A.E sep.5.3.B.D sep.5.3.B.E
+ 1
+  SeqLookup: 0 "paren3"
+EndFPST
+ChainSub2: coverage "CALT_substituteParens contextual 13" 0 0 0 1
+ 1 0 2
+  Coverage: 45 parenleft parenright bracketleft bracketright
+  FCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
+  FCoverage: 351 sep.1.3 sep.2.3 sep.3.3 sep.4.3 sep.1.3.A sep.1.3.B sep.2.3.A sep.2.3.B sep.3.3.A sep.3.3.B sep.4.3.A sep.4.3.B sep.1.3.A.D sep.1.3.A.E sep.1.3.B.D sep.1.3.B.E sep.2.3.A.D sep.2.3.A.E sep.2.3.B.D sep.2.3.B.E sep.3.3.A.D sep.3.3.A.E sep.3.3.B.D sep.3.3.B.E sep.4.3.A.D sep.4.3.A.E sep.4.3.B.D sep.4.3.B.E sep.5.3.A.D sep.5.3.A.E sep.5.3.B.D sep.5.3.B.E
+ 1
+  SeqLookup: 0 "paren3"
 EndFPST
 ChainSub2: coverage "CALT_substituteParens contextual 12" 0 0 0 1
  1 0 3
   Coverage: 45 parenleft parenright bracketleft bracketright
   FCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
   FCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
-  FCoverage: 351 sep.1.4 sep.2.4 sep.3.4 sep.4.4 sep.1.4.A sep.1.4.B sep.2.4.A sep.2.4.B sep.3.4.A sep.3.4.B sep.4.4.A sep.4.4.B sep.1.4.A.D sep.1.4.A.E sep.1.4.B.D sep.1.4.B.E sep.2.4.A.D sep.2.4.A.E sep.2.4.B.D sep.2.4.B.E sep.3.4.A.D sep.3.4.A.E sep.3.4.B.D sep.3.4.B.E sep.4.4.A.D sep.4.4.A.E sep.4.4.B.D sep.4.4.B.E sep.5.4.A.D sep.5.4.A.E sep.5.4.B.D sep.5.4.B.E
+  FCoverage: 351 sep.1.3 sep.2.3 sep.3.3 sep.4.3 sep.1.3.A sep.1.3.B sep.2.3.A sep.2.3.B sep.3.3.A sep.3.3.B sep.4.3.A sep.4.3.B sep.1.3.A.D sep.1.3.A.E sep.1.3.B.D sep.1.3.B.E sep.2.3.A.D sep.2.3.A.E sep.2.3.B.D sep.2.3.B.E sep.3.3.A.D sep.3.3.A.E sep.3.3.B.D sep.3.3.B.E sep.4.3.A.D sep.4.3.A.E sep.4.3.B.D sep.4.3.B.E sep.5.3.A.D sep.5.3.A.E sep.5.3.B.D sep.5.3.B.E
  1
-  SeqLookup: 0 "paren4"
+  SeqLookup: 0 "paren3"
 EndFPST
 ChainSub2: coverage "CALT_substituteParens contextual 11" 0 0 0 1
- 1 2 0
+ 1 1 0
   Coverage: 45 parenleft parenright bracketleft bracketright
-  BCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
-  BCoverage: 351 sep.1.3 sep.2.3 sep.3.3 sep.4.3 sep.1.3.A sep.1.3.B sep.2.3.A sep.2.3.B sep.3.3.A sep.3.3.B sep.4.3.A sep.4.3.B sep.1.3.A.D sep.1.3.A.E sep.1.3.B.D sep.1.3.B.E sep.2.3.A.D sep.2.3.A.E sep.2.3.B.D sep.2.3.B.E sep.3.3.A.D sep.3.3.A.E sep.3.3.B.D sep.3.3.B.E sep.4.3.A.D sep.4.3.A.E sep.4.3.B.D sep.4.3.B.E sep.5.3.A.D sep.5.3.A.E sep.5.3.B.D sep.5.3.B.E
+  BCoverage: 351 sep.1.2 sep.2.2 sep.3.2 sep.4.2 sep.1.2.A sep.1.2.B sep.2.2.A sep.2.2.B sep.3.2.A sep.3.2.B sep.4.2.A sep.4.2.B sep.1.2.A.D sep.1.2.A.E sep.1.2.B.D sep.1.2.B.E sep.2.2.A.D sep.2.2.A.E sep.2.2.B.D sep.2.2.B.E sep.3.2.A.D sep.3.2.A.E sep.3.2.B.D sep.3.2.B.E sep.4.2.A.D sep.4.2.A.E sep.4.2.B.D sep.4.2.B.E sep.5.2.A.D sep.5.2.A.E sep.5.2.B.D sep.5.2.B.E
  1
-  SeqLookup: 0 "paren3"
+  SeqLookup: 0 "paren2"
 EndFPST
 ChainSub2: coverage "CALT_substituteParens contextual 10" 0 0 0 1
- 1 3 0
-  Coverage: 45 parenleft parenright bracketleft bracketright
-  BCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
-  BCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
-  BCoverage: 351 sep.1.3 sep.2.3 sep.3.3 sep.4.3 sep.1.3.A sep.1.3.B sep.2.3.A sep.2.3.B sep.3.3.A sep.3.3.B sep.4.3.A sep.4.3.B sep.1.3.A.D sep.1.3.A.E sep.1.3.B.D sep.1.3.B.E sep.2.3.A.D sep.2.3.A.E sep.2.3.B.D sep.2.3.B.E sep.3.3.A.D sep.3.3.A.E sep.3.3.B.D sep.3.3.B.E sep.4.3.A.D sep.4.3.A.E sep.4.3.B.D sep.4.3.B.E sep.5.3.A.D sep.5.3.A.E sep.5.3.B.D sep.5.3.B.E
- 1
-  SeqLookup: 0 "paren3"
-EndFPST
-ChainSub2: coverage "CALT_substituteParens contextual 9" 0 0 0 1
- 1 0 2
-  Coverage: 45 parenleft parenright bracketleft bracketright
-  FCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
-  FCoverage: 351 sep.1.3 sep.2.3 sep.3.3 sep.4.3 sep.1.3.A sep.1.3.B sep.2.3.A sep.2.3.B sep.3.3.A sep.3.3.B sep.4.3.A sep.4.3.B sep.1.3.A.D sep.1.3.A.E sep.1.3.B.D sep.1.3.B.E sep.2.3.A.D sep.2.3.A.E sep.2.3.B.D sep.2.3.B.E sep.3.3.A.D sep.3.3.A.E sep.3.3.B.D sep.3.3.B.E sep.4.3.A.D sep.4.3.A.E sep.4.3.B.D sep.4.3.B.E sep.5.3.A.D sep.5.3.A.E sep.5.3.B.D sep.5.3.B.E
- 1
-  SeqLookup: 0 "paren3"
-EndFPST
-ChainSub2: coverage "CALT_substituteParens contextual 8" 0 0 0 1
- 1 0 3
-  Coverage: 45 parenleft parenright bracketleft bracketright
-  FCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
-  FCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
-  FCoverage: 351 sep.1.3 sep.2.3 sep.3.3 sep.4.3 sep.1.3.A sep.1.3.B sep.2.3.A sep.2.3.B sep.3.3.A sep.3.3.B sep.4.3.A sep.4.3.B sep.1.3.A.D sep.1.3.A.E sep.1.3.B.D sep.1.3.B.E sep.2.3.A.D sep.2.3.A.E sep.2.3.B.D sep.2.3.B.E sep.3.3.A.D sep.3.3.A.E sep.3.3.B.D sep.3.3.B.E sep.4.3.A.D sep.4.3.A.E sep.4.3.B.D sep.4.3.B.E sep.5.3.A.D sep.5.3.A.E sep.5.3.B.D sep.5.3.B.E
- 1
-  SeqLookup: 0 "paren3"
-EndFPST
-ChainSub2: coverage "CALT_substituteParens contextual 7" 0 0 0 1
  1 2 0
   Coverage: 45 parenleft parenright bracketleft bracketright
   BCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
   BCoverage: 351 sep.1.2 sep.2.2 sep.3.2 sep.4.2 sep.1.2.A sep.1.2.B sep.2.2.A sep.2.2.B sep.3.2.A sep.3.2.B sep.4.2.A sep.4.2.B sep.1.2.A.D sep.1.2.A.E sep.1.2.B.D sep.1.2.B.E sep.2.2.A.D sep.2.2.A.E sep.2.2.B.D sep.2.2.B.E sep.3.2.A.D sep.3.2.A.E sep.3.2.B.D sep.3.2.B.E sep.4.2.A.D sep.4.2.A.E sep.4.2.B.D sep.4.2.B.E sep.5.2.A.D sep.5.2.A.E sep.5.2.B.D sep.5.2.B.E
+ 1
+  SeqLookup: 0 "paren2"
+EndFPST
+ChainSub2: coverage "CALT_substituteParens contextual 9" 0 0 0 1
+ 1 3 0
+  Coverage: 45 parenleft parenright bracketleft bracketright
+  BCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
+  BCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
+  BCoverage: 351 sep.1.2 sep.2.2 sep.3.2 sep.4.2 sep.1.2.A sep.1.2.B sep.2.2.A sep.2.2.B sep.3.2.A sep.3.2.B sep.4.2.A sep.4.2.B sep.1.2.A.D sep.1.2.A.E sep.1.2.B.D sep.1.2.B.E sep.2.2.A.D sep.2.2.A.E sep.2.2.B.D sep.2.2.B.E sep.3.2.A.D sep.3.2.A.E sep.3.2.B.D sep.3.2.B.E sep.4.2.A.D sep.4.2.A.E sep.4.2.B.D sep.4.2.B.E sep.5.2.A.D sep.5.2.A.E sep.5.2.B.D sep.5.2.B.E
+ 1
+  SeqLookup: 0 "paren2"
+EndFPST
+ChainSub2: coverage "CALT_substituteParens contextual 8" 0 0 0 1
+ 1 0 1
+  Coverage: 45 parenleft parenright bracketleft bracketright
+  FCoverage: 351 sep.1.2 sep.2.2 sep.3.2 sep.4.2 sep.1.2.A sep.1.2.B sep.2.2.A sep.2.2.B sep.3.2.A sep.3.2.B sep.4.2.A sep.4.2.B sep.1.2.A.D sep.1.2.A.E sep.1.2.B.D sep.1.2.B.E sep.2.2.A.D sep.2.2.A.E sep.2.2.B.D sep.2.2.B.E sep.3.2.A.D sep.3.2.A.E sep.3.2.B.D sep.3.2.B.E sep.4.2.A.D sep.4.2.A.E sep.4.2.B.D sep.4.2.B.E sep.5.2.A.D sep.5.2.A.E sep.5.2.B.D sep.5.2.B.E
+ 1
+  SeqLookup: 0 "paren2"
+EndFPST
+ChainSub2: coverage "CALT_substituteParens contextual 7" 0 0 0 1
+ 1 0 2
+  Coverage: 45 parenleft parenright bracketleft bracketright
+  FCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
+  FCoverage: 351 sep.1.2 sep.2.2 sep.3.2 sep.4.2 sep.1.2.A sep.1.2.B sep.2.2.A sep.2.2.B sep.3.2.A sep.3.2.B sep.4.2.A sep.4.2.B sep.1.2.A.D sep.1.2.A.E sep.1.2.B.D sep.1.2.B.E sep.2.2.A.D sep.2.2.A.E sep.2.2.B.D sep.2.2.B.E sep.3.2.A.D sep.3.2.A.E sep.3.2.B.D sep.3.2.B.E sep.4.2.A.D sep.4.2.A.E sep.4.2.B.D sep.4.2.B.E sep.5.2.A.D sep.5.2.A.E sep.5.2.B.D sep.5.2.B.E
  1
   SeqLookup: 0 "paren2"
 EndFPST
 ChainSub2: coverage "CALT_substituteParens contextual 6" 0 0 0 1
- 1 3 0
-  Coverage: 45 parenleft parenright bracketleft bracketright
-  BCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
-  BCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
-  BCoverage: 351 sep.1.2 sep.2.2 sep.3.2 sep.4.2 sep.1.2.A sep.1.2.B sep.2.2.A sep.2.2.B sep.3.2.A sep.3.2.B sep.4.2.A sep.4.2.B sep.1.2.A.D sep.1.2.A.E sep.1.2.B.D sep.1.2.B.E sep.2.2.A.D sep.2.2.A.E sep.2.2.B.D sep.2.2.B.E sep.3.2.A.D sep.3.2.A.E sep.3.2.B.D sep.3.2.B.E sep.4.2.A.D sep.4.2.A.E sep.4.2.B.D sep.4.2.B.E sep.5.2.A.D sep.5.2.A.E sep.5.2.B.D sep.5.2.B.E
- 1
-  SeqLookup: 0 "paren2"
-EndFPST
-ChainSub2: coverage "CALT_substituteParens contextual 5" 0 0 0 1
- 1 0 2
-  Coverage: 45 parenleft parenright bracketleft bracketright
-  FCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
-  FCoverage: 351 sep.1.2 sep.2.2 sep.3.2 sep.4.2 sep.1.2.A sep.1.2.B sep.2.2.A sep.2.2.B sep.3.2.A sep.3.2.B sep.4.2.A sep.4.2.B sep.1.2.A.D sep.1.2.A.E sep.1.2.B.D sep.1.2.B.E sep.2.2.A.D sep.2.2.A.E sep.2.2.B.D sep.2.2.B.E sep.3.2.A.D sep.3.2.A.E sep.3.2.B.D sep.3.2.B.E sep.4.2.A.D sep.4.2.A.E sep.4.2.B.D sep.4.2.B.E sep.5.2.A.D sep.5.2.A.E sep.5.2.B.D sep.5.2.B.E
- 1
-  SeqLookup: 0 "paren2"
-EndFPST
-ChainSub2: coverage "CALT_substituteParens contextual 4" 0 0 0 1
  1 0 3
   Coverage: 45 parenleft parenright bracketleft bracketright
   FCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
@@ -6433,7 +6503,14 @@ ChainSub2: coverage "CALT_substituteParens contextual 4" 0 0 0 1
  1
   SeqLookup: 0 "paren2"
 EndFPST
-ChainSub2: coverage "CALT_substituteParens contextual 3" 0 0 0 1
+ChainSub2: coverage "CALT_substituteParens contextual 5" 0 0 0 1
+ 1 1 0
+  Coverage: 45 parenleft parenright bracketleft bracketright
+  BCoverage: 351 sep.1.1 sep.2.1 sep.3.1 sep.4.1 sep.1.1.A sep.1.1.B sep.2.1.A sep.2.1.B sep.3.1.A sep.3.1.B sep.4.1.A sep.4.1.B sep.1.1.A.D sep.1.1.A.E sep.1.1.B.D sep.1.1.B.E sep.2.1.A.D sep.2.1.A.E sep.2.1.B.D sep.2.1.B.E sep.3.1.A.D sep.3.1.A.E sep.3.1.B.D sep.3.1.B.E sep.4.1.A.D sep.4.1.A.E sep.4.1.B.D sep.4.1.B.E sep.5.1.A.D sep.5.1.A.E sep.5.1.B.D sep.5.1.B.E
+ 1
+  SeqLookup: 0 "paren1"
+EndFPST
+ChainSub2: coverage "CALT_substituteParens contextual 4" 0 0 0 1
  1 2 0
   Coverage: 45 parenleft parenright bracketleft bracketright
   BCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
@@ -6441,12 +6518,19 @@ ChainSub2: coverage "CALT_substituteParens contextual 3" 0 0 0 1
  1
   SeqLookup: 0 "paren1"
 EndFPST
-ChainSub2: coverage "CALT_substituteParens contextual 2" 0 0 0 1
+ChainSub2: coverage "CALT_substituteParens contextual 3" 0 0 0 1
  1 3 0
   Coverage: 45 parenleft parenright bracketleft bracketright
   BCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
   BCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
   BCoverage: 351 sep.1.1 sep.2.1 sep.3.1 sep.4.1 sep.1.1.A sep.1.1.B sep.2.1.A sep.2.1.B sep.3.1.A sep.3.1.B sep.4.1.A sep.4.1.B sep.1.1.A.D sep.1.1.A.E sep.1.1.B.D sep.1.1.B.E sep.2.1.A.D sep.2.1.A.E sep.2.1.B.D sep.2.1.B.E sep.3.1.A.D sep.3.1.A.E sep.3.1.B.D sep.3.1.B.E sep.4.1.A.D sep.4.1.A.E sep.4.1.B.D sep.4.1.B.E sep.5.1.A.D sep.5.1.A.E sep.5.1.B.D sep.5.1.B.E
+ 1
+  SeqLookup: 0 "paren1"
+EndFPST
+ChainSub2: coverage "CALT_substituteParens contextual 2" 0 0 0 1
+ 1 0 1
+  Coverage: 45 parenleft parenright bracketleft bracketright
+  FCoverage: 351 sep.1.1 sep.2.1 sep.3.1 sep.4.1 sep.1.1.A sep.1.1.B sep.2.1.A sep.2.1.B sep.3.1.A sep.3.1.B sep.4.1.A sep.4.1.B sep.1.1.A.D sep.1.1.A.E sep.1.1.B.D sep.1.1.B.E sep.2.1.A.D sep.2.1.A.E sep.2.1.B.D sep.2.1.B.E sep.3.1.A.D sep.3.1.A.E sep.3.1.B.D sep.3.1.B.E sep.4.1.A.D sep.4.1.A.E sep.4.1.B.D sep.4.1.B.E sep.5.1.A.D sep.5.1.A.E sep.5.1.B.D sep.5.1.B.E
  1
   SeqLookup: 0 "paren1"
 EndFPST
@@ -6654,14 +6738,14 @@ ChainSub2: coverage "CALT_forwardOpeningParenColumn contextual 0" 0 0 0 1
  1
   SeqLookup: 0 "sepPA"
 EndFPST
-ChainSub2: coverage "CALT_registerOpeningParenColumn contextual 2" 0 0 0 1
+ChainSub2: coverage "CALT_registerOpeningParenColumn contextual 3" 0 0 0 1
  1 1 0
   Coverage: 159 sep.1.1 sep.2.1 sep.3.1 sep.4.1 sep.5.1 sep.1.2 sep.2.2 sep.3.2 sep.4.2 sep.5.2 sep.1.3 sep.2.3 sep.3.3 sep.4.3 sep.5.3 sep.1.4 sep.2.4 sep.3.4 sep.4.4 sep.5.4
   BCoverage: 574 zero one two three four five six seven eight nine one_zero two_slash four_slash five_slash six_slash seven_slash nine_slash i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash hyphen n b s numbersign b_b x parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
  1
   SeqLookup: 0 "sepPB"
 EndFPST
-ChainSub2: coverage "CALT_registerOpeningParenColumn contextual 1" 0 0 0 1
+ChainSub2: coverage "CALT_registerOpeningParenColumn contextual 2" 0 0 0 1
  1 2 0
   Coverage: 159 sep.1.1 sep.2.1 sep.3.1 sep.4.1 sep.5.1 sep.1.2 sep.2.2 sep.3.2 sep.4.2 sep.5.2 sep.1.3 sep.2.3 sep.3.3 sep.4.3 sep.5.3 sep.1.4 sep.2.4 sep.3.4 sep.4.4 sep.5.4
   BCoverage: 288 n b s numbersign b_b x plus hyphen parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
@@ -6669,13 +6753,20 @@ ChainSub2: coverage "CALT_registerOpeningParenColumn contextual 1" 0 0 0 1
  1
   SeqLookup: 0 "sepPB"
 EndFPST
-ChainSub2: coverage "CALT_registerOpeningParenColumn contextual 0" 0 0 0 1
+ChainSub2: coverage "CALT_registerOpeningParenColumn contextual 1" 0 0 0 1
  1 2 0
   Coverage: 159 sep.1.1 sep.2.1 sep.3.1 sep.4.1 sep.5.1 sep.1.2 sep.2.2 sep.3.2 sep.4.2 sep.5.2 sep.1.3 sep.2.3 sep.3.3 sep.4.3 sep.5.3 sep.1.4 sep.2.4 sep.3.4 sep.4.4 sep.5.4
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   BCoverage: 288 n b s numbersign b_b x plus hyphen parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
  1
   SeqLookup: 0 "sepPA"
+EndFPST
+ChainSub2: coverage "CALT_registerOpeningParenColumn contextual 0" 0 0 0 1
+ 1 1 0
+  Coverage: 159 sep.1.1 sep.2.1 sep.3.1 sep.4.1 sep.5.1 sep.1.2 sep.2.2 sep.3.2 sep.4.2 sep.5.2 sep.1.3 sep.2.3 sep.3.3 sep.4.3 sep.5.3 sep.1.4 sep.2.4 sep.3.4 sep.4.4 sep.5.4
+  BCoverage: 145 parenleft parenleft.invisible parenleft.1 parenleft.2 parenleft.3 parenleft.4 bracketleft bracketleft.1 bracketleft.2 bracketleft.3 bracketleft.4
+ 1
+  SeqLookup: 0 "sepPB"
 EndFPST
 ChainSub2: coverage "CALT_passBackParenHeight_3rdRun contextual 2" 0 0 0 1
  1 0 1
@@ -6893,7 +6984,7 @@ ChainSub2: coverage "CALT_countParens contextual 0" 0 0 0 1
  1
   SeqLookup: 0 "sepP2"
 EndFPST
-ChainSub2: coverage "CALT_registerOpeningParen contextual 4" 0 0 0 1
+ChainSub2: coverage "CALT_registerOpeningParen contextual 5" 0 0 0 1
  1 2 0
   Coverage: 39 comma sep sep.1 sep.2 sep.3 sep.4 sep.5
   BCoverage: 150 two_slash four_slash five_slash six_slash seven_slash nine_slash i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash d endash
@@ -6901,7 +6992,7 @@ ChainSub2: coverage "CALT_registerOpeningParen contextual 4" 0 0 0 1
  1
   SeqLookup: 0 "sepP1"
 EndFPST
-ChainSub2: coverage "CALT_registerOpeningParen contextual 3" 0 0 0 1
+ChainSub2: coverage "CALT_registerOpeningParen contextual 4" 0 0 0 1
  1 2 0
   Coverage: 39 comma sep sep.1 sep.2 sep.3 sep.4 sep.5
   BCoverage: 288 n b s numbersign b_b x plus hyphen parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
@@ -6909,9 +7000,18 @@ ChainSub2: coverage "CALT_registerOpeningParen contextual 3" 0 0 0 1
  1
   SeqLookup: 0 "sepP1"
 EndFPST
-ChainSub2: coverage "CALT_registerOpeningParen contextual 2" 0 0 0 1
+ChainSub2: coverage "CALT_registerOpeningParen contextual 3" 0 0 0 1
  1 2 0
   Coverage: 39 comma sep sep.1 sep.2 sep.3 sep.4 sep.5
+  BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
+  BCoverage: 145 parenleft parenleft.invisible parenleft.1 parenleft.2 parenleft.3 parenleft.4 bracketleft bracketleft.1 bracketleft.2 bracketleft.3 bracketleft.4
+ 1
+  SeqLookup: 0 "sepP1"
+EndFPST
+ChainSub2: coverage "CALT_registerOpeningParen contextual 2" 0 0 0 1
+ 1 3 0
+  Coverage: 39 comma sep sep.1 sep.2 sep.3 sep.4 sep.5
+  BCoverage: 288 n b s numbersign b_b x plus hyphen parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
   BCoverage: 145 parenleft parenleft.invisible parenleft.1 parenleft.2 parenleft.3 parenleft.4 bracketleft bracketleft.1 bracketleft.2 bracketleft.3 bracketleft.4
  1
@@ -6920,17 +7020,15 @@ EndFPST
 ChainSub2: coverage "CALT_registerOpeningParen contextual 1" 0 0 0 1
  1 3 0
   Coverage: 39 comma sep sep.1 sep.2 sep.3 sep.4 sep.5
-  BCoverage: 288 n b s numbersign b_b x plus hyphen parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
   BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
+  BCoverage: 288 n b s numbersign b_b x plus hyphen parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
   BCoverage: 145 parenleft parenleft.invisible parenleft.1 parenleft.2 parenleft.3 parenleft.4 bracketleft bracketleft.1 bracketleft.2 bracketleft.3 bracketleft.4
  1
   SeqLookup: 0 "sepP1"
 EndFPST
 ChainSub2: coverage "CALT_registerOpeningParen contextual 0" 0 0 0 1
- 1 3 0
+ 1 1 0
   Coverage: 39 comma sep sep.1 sep.2 sep.3 sep.4 sep.5
-  BCoverage: 139 zero one two three four five six seven eight nine one_zero i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
-  BCoverage: 288 n b s numbersign b_b x plus hyphen parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
   BCoverage: 145 parenleft parenleft.invisible parenleft.1 parenleft.2 parenleft.3 parenleft.4 bracketleft bracketleft.1 bracketleft.2 bracketleft.3 bracketleft.4
  1
   SeqLookup: 0 "sepP1"
