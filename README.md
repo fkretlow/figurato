@@ -4,6 +4,7 @@ Figurato is a figured bass font for music notation software. It allows for easy 
 ![sample](docs/example.svg)
 
 ## Recent changes
+- Added support for the numbers 11 and 12.
 - Typing `|` (bar) registers an [invisible opening or closing parenthesis or bracket](#parentheses-and-brackets).
 - Another version of the font, [FiguratoB](#Layers), has been added for figured bass indications above the staff. It works in the same way as Figurato, except that the figures are vertically aligned to the bottommost row.
 
@@ -19,7 +20,7 @@ The font works in any software that supports OpenType features (ligatures, conte
 #### Characters
 key | character  
 :---|:---
-0–9, 10 | numbers  
+0–12 | numbers  
 n | natural  
 b | flat  
 \#, s | sharp  

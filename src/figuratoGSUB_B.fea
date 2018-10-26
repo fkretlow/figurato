@@ -9,6 +9,8 @@
 		lookup LIGA_figures {
 			lookupflag 0;
 			sub  one zero  by  one_zero  ;
+			sub  one one   by  one_one   ;
+			sub  one two   by  one_two   ;
 			} LIGA_figures;
 
 
@@ -16,6 +18,10 @@
 			lookupflag 0;
 			sub  i one zero  by  i_one_zero  ;
 			sub  i one_zero  by  i_one_zero  ;
+			sub  i one one   by  i_one_one   ;
+			sub  i one_one   by  i_one_one   ;
+			sub  i one two   by  i_one_two   ;
+			sub  i one_two   by  i_one_two   ;
 			sub  i zero      by  i_zero      ;
 			sub  i one       by  i_one       ;
 			sub  i two       by  i_two       ;
@@ -143,6 +149,8 @@
 				sub eight                         by  eight                         sep  ;
 				sub nine                          by  nine                          sep  ;
 				sub one_zero                      by  one_zero                      sep  ;
+				sub one_one                       by  one_one                       sep  ;
+				sub one_two                       by  one_two                       sep  ;
 
 				sub i_zero                        by  i_zero                        sep  ;
 				sub i_one                         by  i_one                         sep  ;
@@ -155,6 +163,8 @@
 				sub i_eight                       by  i_eight                       sep  ;
 				sub i_nine                        by  i_nine                        sep  ;
 				sub i_one_zero                    by  i_one_zero                    sep  ;
+				sub i_one_one                     by  i_one_one                     sep  ;
+				sub i_one_two                     by  i_one_two                     sep  ;
 
 				sub b                             by  b                             sep  ;
 				sub n                             by  n                             sep  ;

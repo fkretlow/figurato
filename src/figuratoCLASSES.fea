@@ -6,21 +6,26 @@
 		# 1.1 figures
 
 			@figAll = [
-				zero one two three four five six seven eight nine one_zero
+				zero one two three four five six seven eight nine one_zero one_one one_two
 				two_slash four_slash five_slash six_slash seven_slash nine_slash
-				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
+				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_one_one i_one_two
 				i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash
 				d endash
 				];
 
 			@figComp = [
-				zero one two three four five six seven eight nine one_zero
-				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
+				zero one two three four five six seven eight nine one_zero one_one one_two
+				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_one_one i_one_two
 				];
 
-			@figCompNoTen = [
+			@figCompOneDigit = [ # originally figCompNoTen
 				zero one two three four five six seven eight nine
 				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine
+				];
+
+			@figCompTwoDigits = [
+				one_zero one_one one_two
+				i_one_zero i_one_one i_one_two
 				];
 
 			@figSingle = [
@@ -164,9 +169,9 @@
 		# 1.4 content subgroups
 
 			@parenContent = [
-				zero one two three four five six seven eight nine one_zero
+				zero one two three four five six seven eight nine one_zero one_one one_two
 				two_slash four_slash five_slash six_slash seven_slash nine_slash
-				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
+				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_one_one i_one_two
 				i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash
 				d endash hyphen
 				n b s numbersign b_b x
@@ -175,9 +180,9 @@
 				];
 
 			@sepContent = [
-				zero one two three four five six seven eight nine one_zero
+				zero one two three four five six seven eight nine one_zero one_one one_two
 				two_slash four_slash five_slash six_slash seven_slash nine_slash
-				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
+				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_one_one i_one_two
 				i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash
 				d endash hyphen
 				n b s numbersign b_b x plus hyphen
@@ -954,9 +959,9 @@
 	# 3. ALL ----------------------------------------------------------------------
 
 			@all = [
-				zero one two three four five six seven eight nine one_zero
+				zero one two three four five six seven eight nine one_zero one_one one_two
 				two_slash four_slash five_slash six_slash seven_slash nine_slash
-				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
+				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_one_one i_one_two
 				i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash
 				d endash hyphen
 				n b s numbersign b_b x plus hyphen
@@ -1121,9 +1126,9 @@
 				];
 
 				@allNoParens = [
-				zero one two three four five six seven eight nine one_zero
+				zero one two three four five six seven eight nine one_zero one_one one_two
 				two_slash four_slash five_slash six_slash seven_slash nine_slash
-				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero
+				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_one_one i_one_two
 				i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash
 				d endash hyphen
 				n b s numbersign b_b x plus hyphen
