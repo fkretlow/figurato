@@ -1,4 +1,6 @@
-- Latest (0.4)
+- Latest (0.5)
+    - Added **FiguratoMac**, a version of the font that bypasses the OpenType bug in Dorico on Mac by using precomposed figures instead of positioning rules.
+- 0.4
     - Added support for the numbers 11 and 12.
     - Typing `|` (bar) registers an invisible opening or closing parenthesis or bracket.
     - Another version of the font, FiguratoB, has been added for figured bass indications above the staff. It works in the same way as Figurato, except that the figures are vertically aligned to the bottommost row.

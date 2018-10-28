@@ -4,6 +4,7 @@ Figurato is a figured bass font for music notation software. It allows for easy 
 ![sample](docs/example.svg)
 
 ## Recent changes
+- Added **FiguratoMac**, a version of the font that bypasses the OpenType bug in Dorico on Mac by using precomposed figures instead of positioning rules.
 - Added support for the numbers 11 and 12.
 - Typing `|` (bar) registers an [invisible opening or closing parenthesis or bracket](#parentheses-and-brackets).
 - Another version of the font, [FiguratoB](#Layers), has been added for figured bass indications above the staff. It works in the same way as Figurato, except that the figures are vertically aligned to the bottommost row.
@@ -11,7 +12,7 @@ Figurato is a figured bass font for music notation software. It allows for easy 
 [Full changelog](docs/changelog.md)
 
 ## Mac users, please read this:
-There is [a bug in the underlying Qt framework](https://bugreports.qt.io/browse/QTBUG-69803) that affects the automatic positioning **in Dorico on Mac.** Do be aware that if you print your score or export it as pdf the positioning of the figures will be turned upside down in the printout. This is likely to cause collisions for pretty much every figure that consists of more than one layer. Long story short: Don’t use Figurato with Dorico on Mac.
+Due to [a bug in the Qt framework](https://bugreports.qt.io/browse/QTBUG-69803) that Dorico is built upon, you can't use the normal version of the font **with Dorico on Mac**. Please use **FiguratoMac** instead. For limitations and notes about portability see [here](docs/FiguratoMac.md).
 
 ## How to use
 Figurato was developed with Dorico’s lyrics popover in mind. It can be used in normal text objects and playing techniques too.  
@@ -33,24 +34,29 @@ x | double sharp
 i | modifier for [italic numbers](#italic-numbers)
 
 #### Layers
-Figures are automatically stacked from top to bottom. If you need to skip a layer type `,`.  
+Figures are automatically stacked from top to bottom, following these rules:  
+- Each layer/row can contain at most one number and one quality (accidental/slash).
+- If a character doesn’t fit into the current row, it’s automatically placed in the next row.
+- If you need to advance to the next layer although the next character would still fit into the current row, type `,`.
+
 <img src="docs/layers.svg" alt="layers" height="100">
 
+#### Vertical alignment
 There are two versions of the font, Figurato and FiguratoB. They work identically except for the vertical alignment of the figures. In figures that are set with Figurato the topmost lines are vertically aligned, whereas with FiguratoB the bottommost lines are vertically aligned. Figurato is suited for figured bass indications below the staff, whereas FiguratoB works best for indications above the staff.  
 <img src="docs/FiguratoB.svg" alt="layers" height="150">
 
 #### Accidentals
-By default accidentals are placed *to the right of the preceding number.* If you want an accidental to be placed to the left of the following number separate it from the preceding number with `,` unless the position is clear from the context.  
+By default accidentals are placed *to the right of the preceding number.* If you want an accidental to be placed to the left of the following number separate it from the preceding number with `,` unless the preceding row is full anyway.  
 <img src="docs/accidentalsLeftRight.svg" alt="accidentals" height="100">
 
 As you can see accidentals can be placed both to the left and to the right of numbers in the same figure. Just type away. If something doesn’t look like you expect your input is probably ambiguous: insert `,` to make things clear.  
 <img src="docs/accidentalsAmbiguity.svg" alt="accidentals" height="100">
 
-If you need a single accidental separate it with `,` unless – again – the position is clear from the context.  
+If you need a single accidental separate it with `,` unless – again – the preceding row is full anyway.  
 <img src="docs/accidentalsSingle.svg" alt="accidentals" height="100">
 
 #### Slashed numbers and dashes
-If you need a slashed number, type `/` or `+` after the number.  
+If you need a slashed number, type `/` or `+` after the number. Both `/` and `+` work with all slasheable numbers (2, 4, 5, 6, 7 and 9).
 If you need a dash type `-` (hyphen), `–` (endash) or `d`.  Note that typing a hyphen will advance the position during lyric input in Dorico and Finale.  
 <img src="docs/slashed.svg" alt="slashed figures" height="100">
 

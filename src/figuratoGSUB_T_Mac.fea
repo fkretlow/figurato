@@ -1,0 +1,111 @@
+# GSUB
+
+
+# =================================================================================
+# LOOKUP DEFINITIONS
+
+	# 1. LIGATURES ----------------------------------------------------------------
+
+		lookup LIGA_figures {
+			lookupflag 0;
+			sub  one zero  by  one_zero  ;
+			sub  one one   by  one_one   ;
+			sub  one two   by  one_two   ;
+			} LIGA_figures;
+
+
+		lookup LIGA_italicFigures {
+			lookupflag 0;
+			sub  i one zero  by  i_one_zero  ;
+			sub  i one_zero  by  i_one_zero  ;
+			sub  i one one   by  i_one_one   ;
+			sub  i one_one   by  i_one_one   ;
+			sub  i one two   by  i_one_two   ;
+			sub  i one_two   by  i_one_two   ;
+			sub  i zero      by  i_zero      ;
+			sub  i one       by  i_one       ;
+			sub  i two       by  i_two       ;
+			sub  i three     by  i_three     ;
+			sub  i four      by  i_four      ;
+			sub  i five      by  i_five      ;
+			sub  i six       by  i_six       ;
+			sub  i seven     by  i_seven     ;
+			sub  i eight     by  i_eight     ;
+			sub  i nine      by  i_nine      ;
+			} LIGA_italicFigures;
+
+
+		lookup LIGA_slashedFigures {
+			lookupflag 0;
+			sub    two   slash   by    two_slash    ;
+			sub    two   plus    by    two_slash    ;
+			sub    four  slash   by    four_slash   ;
+			sub    four  plus    by    four_slash   ;
+			sub    five  plus    by    five_slash   ;
+			sub    five  slash   by    five_slash   ;
+			sub    six   plus    by    six_slash    ;
+			sub    six   slash   by    six_slash    ;
+			sub    seven slash   by    seven_slash  ;
+			sub    seven plus    by    seven_slash  ;
+			sub    nine  slash   by    nine_slash   ;
+			sub    nine  plus    by    nine_slash   ;
+			sub  i_two   slash   by  i_two_slash    ;
+			sub  i_two   plus    by  i_two_slash    ;
+			sub  i_four  slash   by  i_four_slash   ;
+			sub  i_four  plus    by  i_four_slash   ;
+			sub  i_five  plus    by  i_five_slash   ;
+			sub  i_five  slash   by  i_five_slash   ;
+			sub  i_six   plus    by  i_six_slash    ;
+			sub  i_six   slash   by  i_six_slash    ;
+			sub  i_seven slash   by  i_seven_slash  ;
+			sub  i_seven plus    by  i_seven_slash  ;
+			sub  i_nine  slash   by  i_nine_slash   ;
+			sub  i_nine  plus    by  i_nine_slash   ;
+			} LIGA_slashedFigures;
+
+
+		lookup LIGA_accidentals {
+			lookupflag 0;
+			sub  b b  by  b_b  ;
+			} LIGA_accidentals;
+
+
+		lookup LIGA_parenthesizedAccidentals {
+			lookupflag 0;
+
+			sub  parenleft   numbersign  parenright    by  parenleft_s_parenright        ;
+			sub  parenleft   s           parenright    by  parenleft_s_parenright        ;
+			sub  parenleft   b           parenright    by  parenleft_b_parenright        ;
+			sub  parenleft   n           parenright    by  parenleft_n_parenright        ;
+			sub  parenleft   x           parenright    by  parenleft_x_parenright        ;
+			sub  parenleft   b b         parenright    by  parenleft_b_b_parenright      ;
+			sub  parenleft   b_b         parenright    by  parenleft_b_b_parenright      ;
+
+			sub  bracketleft s           bracketright  by  bracketleft_s_bracketright    ;
+			sub  bracketleft numbersign  bracketright  by  bracketleft_s_bracketright    ;
+			sub  bracketleft b           bracketright  by  bracketleft_b_bracketright    ;
+			sub  bracketleft n           bracketright  by  bracketleft_n_bracketright    ;
+			sub  bracketleft x           bracketright  by  bracketleft_x_bracketright    ;
+			sub  bracketleft b b         bracketright  by  bracketleft_b_b_bracketright  ;
+			sub  bracketleft b_b         bracketright  by  bracketleft_b_b_bracketright  ;
+
+			} LIGA_parenthesizedAccidentals;
+
+
+
+# =================================================================================
+# FEATURES
+
+	# 1. LIGATURES ----------------------------------------------------------------
+
+		feature liga {
+
+			lookup LIGA_precomposedFigures1;
+			lookup LIGA_precomposedFigures2;
+			lookup LIGA_figures;
+			lookup LIGA_italicFigures;
+			lookup LIGA_slashedFigures;
+			lookup LIGA_accidentals;
+			lookup LIGA_parenthesizedAccidentals;
+
+			} liga;
