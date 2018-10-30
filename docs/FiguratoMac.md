@@ -2,13 +2,15 @@
 FiguratoMac uses precomposed figures instead of OpenType positioning features to bypass [a bug in the Qt framework](https://bugreports.qt.io/browse/QTBUG-69803) that Dorico is built upon. That bug prevents the positioning code of the normal version from working correctly. **Don't use Figurato or FiguratoB with Dorico on Mac. Do use FiguratoMac instead.**
 
 #### Portability
-As for how to input figures, FiguratoMac works exactly like Figurato. Therefore Dorico projects that were created with FiguratoMac will look the same on Windows if you replace FiguratoMac with Figurato (which you don't need to do because FiguratoMac works on Windows). The reverse is not completely true, because FiguratoMac comes with a few limitations:
+As for how to input figures, FiguratoMac works exactly like Figurato. Therefore Dorico projects that were created with FiguratoMac will look the same on Windows if you replace FiguratoMac with Figurato (which you don't need to do because FiguratoMac works on Windows).
+
+The reverse is not completely true, because FiguratoMac comes with a few limitations:
 
 - Parentheses and brackets are not supported.
 - Italic figures are not supported.
 - A vast, but limited number of figures is supported.
 
-Dorico projects that were created with Figurato on Windows will look the same on Mac if you replace Figurato with FiguratoMac, except for figures that contain italic numbers, parentheses, or brackets, and for figures that are not yet added as ligatures in FiguratoMac.
+Dorico projects that were created with Figurato on Windows will look the same on Mac if you replace Figurato with FiguratoMac, except for figures that contain italic numbers, parentheses, or brackets, and for figures that have not been added as ligatures in FiguratoMac yet.
 
 *If you want to be sure right from the start, there's no reason not to use FiguratoMac with Dorico on Windows in projects that must be accessible on both platforms.*
 
