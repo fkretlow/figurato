@@ -1,22 +1,20 @@
 # Figurato
 Figurato is a figured bass font for music notation software. It allows for easy input of multiple stacked numbers and accidentals.
 
-![sample](docs/example.svg)
+<!-- ![sample](docs/example.svg) -->
+![input](docs/input.gif)
 
-## Recent changes
-- Added **FiguratoMac**, a version of the font that bypasses the OpenType bug in Dorico on Mac by using precomposed figures instead of positioning rules.
-- Added support for the numbers 11 and 12.
-- Typing `|` (bar) registers an [invisible opening or closing parenthesis or bracket](#parentheses-and-brackets).
-- Another version of the font, [FiguratoB](#Layers), has been added for figured bass indications above the staff. It works in the same way as Figurato, except that the figures are vertically aligned to the bottommost row.
+#### Recent changes  
+- Added [FiguratoMac](docs/FiguratoMac.md), a version of the font that bypasses the OpenType bug in Dorico on Mac by using precomposed figures instead of positioning rules.
 
 [Full changelog](docs/changelog.md)
-
-## Mac users, please read this:
-Due to [a bug in the Qt framework](https://bugreports.qt.io/browse/QTBUG-69803) that Dorico is built upon, you can't use the normal version of the font **with Dorico on Mac**. Please use **FiguratoMac** instead. For limitations and notes about portability see [here](docs/FiguratoMac.md).
 
 ## How to use
 Figurato was developed with Dorico’s lyrics popover in mind. It can be used in normal text objects and playing techniques too.  
 The font works in any software that supports OpenType features (ligatures, contextual alternates, kerning), including Finale 25.
+
+>**Mac users, please read this:** Due to [a bug in the Qt framework](https://bugreports.qt.io/browse/QTBUG-69803) that Dorico is built upon, you can't use the normal version of the font with Dorico on Mac. **Don't use Figurato or FiguratoB with Dorico on Mac. Do use FiguratoMac instead.** For limitations and notes about portability see [here](docs/FiguratoMac.md).
+
 
 #### Characters
 key | character  
