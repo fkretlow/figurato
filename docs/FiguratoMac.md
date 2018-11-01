@@ -15,9 +15,4 @@ Dorico projects that were created with Figurato on Windows will look the same on
 *If you want to be sure right from the start, there's no reason not to use FiguratoMac with Dorico on Windows in projects that must be accessible on both platforms.*
 
 #### Supported figures
-<<<<<<< HEAD
 The initial version of FiguratoMac contains about 2900 precomposed ligatures. Most of the commonly used figures should be supported. If you come across a figure that does not work as expected, please do notify me so I can add it. You can open an issue here in the repository. If you came here by following a link on the Dorico user forum, you could also post a request in that thread or shoot me a P.M.
-=======
-The initial version of FiguratoMac contains about 2900 precomposed ligatures. Most of the commonly used figures should be supported. If you come across a figure that does not work as expected, please do notify me so I can add it. You can open an issue here in the repository. If you came here by following a link on the Dorico user forum, you could also post a request in that thread or shoot me a P.M.  
-(At some point I might upload the bundle of python scripts that I use to generate the composites so you can easily fork this repository and add figures yourself.)
->>>>>>> cb2327651fa7099b827de45888107c55b23a03e1
