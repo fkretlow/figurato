@@ -11,17 +11,18 @@
 			sub  one zero  by  one_zero  ;
 			sub  one one   by  one_one   ;
 			sub  one two   by  one_two   ;
+			sub  one three by  one_three ;
+			sub  one four  by  one_four  ;
 			} LIGA_figures;
 
 
 		lookup LIGA_italicFigures {
 			lookupflag 0;
-			sub  i one zero  by  i_one_zero  ;
 			sub  i one_zero  by  i_one_zero  ;
-			sub  i one one   by  i_one_one   ;
 			sub  i one_one   by  i_one_one   ;
-			sub  i one two   by  i_one_two   ;
 			sub  i one_two   by  i_one_two   ;
+			sub  i one_three by  i_one_three ;
+			sub  i one_four  by  i_one_four  ;
 			sub  i zero      by  i_zero      ;
 			sub  i one       by  i_one       ;
 			sub  i two       by  i_two       ;
@@ -78,16 +79,16 @@
 			sub  parenleft   b           parenright    by  parenleft_b_parenright        ;
 			sub  parenleft   n           parenright    by  parenleft_n_parenright        ;
 			sub  parenleft   x           parenright    by  parenleft_x_parenright        ;
-			sub  parenleft   b b         parenright    by  parenleft_b_b_parenright      ;
 			sub  parenleft   b_b         parenright    by  parenleft_b_b_parenright      ;
+			sub  parenleft   X           parenright    by  parenleft_X_parenright        ;
 
 			sub  bracketleft s           bracketright  by  bracketleft_s_bracketright    ;
 			sub  bracketleft numbersign  bracketright  by  bracketleft_s_bracketright    ;
 			sub  bracketleft b           bracketright  by  bracketleft_b_bracketright    ;
 			sub  bracketleft n           bracketright  by  bracketleft_n_bracketright    ;
 			sub  bracketleft x           bracketright  by  bracketleft_x_bracketright    ;
-			sub  bracketleft b b         bracketright  by  bracketleft_b_b_bracketright  ;
 			sub  bracketleft b_b         bracketright  by  bracketleft_b_b_bracketright  ;
+			sub  bracketleft X           bracketright  by  bracketleft_X_bracketright    ;
 
 			} LIGA_parenthesizedAccidentals;
 

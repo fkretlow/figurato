@@ -1,0 +1,5 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+include(figuratoGSUB_T_Mac_precomposedFigures.fea);
+include(figuratoGSUB_T_Mac.fea);

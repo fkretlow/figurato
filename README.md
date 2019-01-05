@@ -11,9 +11,10 @@ Figurato is a figured bass font for music notation software. It allows for easy 
 
 ## How to use
 Figurato was developed with Dorico’s lyrics popover in mind. It can be used in normal text objects and playing techniques too.  
-The font works in any software that supports OpenType features (ligatures, contextual alternates, kerning), including Finale 25.
+The font works in any software that supports OpenType features (ligatures, contextual alternates, kerning), including Finale (tested with version 25) and Sibelius (greater than 2018.11).
 
->**Mac users, please read this:** Due to [a bug in the Qt framework](https://bugreports.qt.io/browse/QTBUG-69803) that Dorico is built upon, you can't use the normal version of the font with Dorico on Mac. **Don't use Figurato or FiguratoB with Dorico on Mac. Do use FiguratoMac instead.** For limitations and notes about portability see [here](docs/FiguratoMac.md).
+>**Mac users, please read this:** Due to [a bug in the Qt framework](https://bugreports.qt.io/browse/QTBUG-69803) that Dorico is built upon, you can't use the normal version of the font with Dorico on Mac. **Don't use Figurato or FiguratoB with Dorico on Mac. Do use FiguratoMac instead.** For limitations and notes about portability see [here](docs/FiguratoMac.md).  
+Note that there is no need to use FiguratoMac with Finale or Sibelius (greater than 2018.11) on Mac.
 
 
 #### Characters

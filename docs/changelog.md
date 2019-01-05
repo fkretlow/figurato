@@ -1,4 +1,6 @@
-- Latest (0.5)
+- Latest (0.5.0.2)
+    - Added 72 and modified combinations to FiguratoMac.
+- 0.5
     - Added **FiguratoMac**, a version of the font that bypasses the OpenType bug in Dorico on Mac by using precomposed figures instead of positioning rules.
 - 0.4
     - Added support for the numbers 11 and 12.

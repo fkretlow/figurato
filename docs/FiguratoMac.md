@@ -1,5 +1,8 @@
 ## FiguratoMac
-FiguratoMac uses precomposed figures instead of OpenType positioning features to bypass [a bug in the Qt framework](https://bugreports.qt.io/browse/QTBUG-69803) that Dorico is built upon. That bug prevents the positioning code of the normal version from working correctly. **Don't use Figurato or FiguratoB with Dorico on Mac. Do use FiguratoMac instead.**
+FiguratoMac uses precomposed figures instead of OpenType positioning features to bypass [a bug in the Qt framework](https://bugreports.qt.io/browse/QTBUG-69803) that Dorico is built upon. That bug prevents the positioning code of the normal version from working correctly. **Don't use Figurato or FiguratoB with Dorico on Mac. Do use FiguratoMac instead.**  
+_Meanwhile the bug has been fixed by the Qt developers, but the fix won’t be ported into Dorico until the next major release (probably 3.0 in mid 2019)._
+
+Note that there is no need to use FiguratoMac with Finale or Sibelius (greater than 2018.11) on Mac.
 
 #### Portability
 As for how to input figures, FiguratoMac works exactly like Figurato. Therefore Dorico projects that were created with FiguratoMac will look the same on Windows if you replace FiguratoMac with Figurato (which you don't need to do because FiguratoMac works on Windows).
@@ -15,4 +18,4 @@ Dorico projects that were created with Figurato on Windows will look the same on
 *If you want to be sure right from the start, there's no reason not to use FiguratoMac with Dorico on Windows in projects that must be accessible on both platforms.*
 
 #### Supported figures
-The initial version of FiguratoMac contains about 2900 precomposed ligatures. Most of the commonly used figures should be supported. If you come across a figure that does not work as expected, please do notify me so I can add it. You can open an issue here in the repository. If you came here by following a link on the Dorico user forum, you could also post a request in that thread or shoot me a P.M.
+The initial version of FiguratoMac contains about 3.000 precomposed ligatures. Most of the commonly used figures should be supported. If you come across a figure that does not work as expected, please do notify me so I can add it. You can open an issue here in the repository. If you came here by following a link on the Dorico user forum, you could also post a request in that thread or shoot me a P.M.
