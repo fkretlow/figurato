@@ -67,3 +67,7 @@ If you need to put more than one figure in parentheses you still need to input t
 #### Italic numbers
 Numbers preceded by `i` are printed in italics.  
 <img src="docs/italics.svg" alt="italic numbers" height="85">
+
+## Donations
+Figurato is licensed under the SIL Open Font License. That means that it is free to use.  
+Developing fonts does take time and effort though. If you find the font useful, please consider supporting me with a donation via [paypal.](https://paypal.me/floriankretlow)
