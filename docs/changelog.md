@@ -1,7 +1,18 @@
-- Latest (0.5.0.3)
-    - Added 72, 432 and modified combinations to FiguratoMac.
+## Figurato
+
+#### Changelog
+
+- Latest (0.6)
+    - **Warning! Not fully backwards compatible:** cleaned up and finally consistent key bindings for modified numbers:
+        - slashed numbers: `2/` and `2//`
+        - "ticked" numbers: `2'` and `2''`
+        - ligatures with plus: `2+`
+    - Added two sets of dashed numbers.
+    - The italic set is now complete.
+    - Better outlines for parentheses.
+    - Much work on spacing between parentheses, accidentals, modified numbers and brackets.
 - 0.5
-    - Added **FiguratoMac**, a version of the font that bypasses the OpenType bug in Dorico on Mac by using precomposed figures instead of positioning rules.
+    - Added FiguratoMac, a version of the font that bypasses the OpenType bug in Dorico on Mac by using precomposed figures instead of positioning rules.
 - 0.4
     - Added support for the numbers 11 and 12.
     - Typing `|` (bar) registers an invisible opening or closing parenthesis or bracket.

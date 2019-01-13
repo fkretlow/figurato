@@ -4,7 +4,7 @@ FullName: FiguratoMac
 FamilyName: FiguratoMac
 Weight: Standard
 Copyright: Copyright 2018 Florian Kretlow
-Version: 0.5.0.2
+Version: 0.5.0.3
 ItalicAngle: 0
 UnderlinePosition: -200
 UnderlineWidth: 100
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1324930714
-ModificationTime: 1546726080
+ModificationTime: 1546959596
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5

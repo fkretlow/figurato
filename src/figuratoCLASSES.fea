@@ -6,16 +6,26 @@
 		# 1.1 figures
 
 			@figAll = [
-				zero one two three four five six seven eight nine one_zero one_one one_two
-				two_slash four_slash five_slash six_slash seven_slash nine_slash
-				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_one_one i_one_two
-				i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash
+				zero one two three four five six seven eight nine one_zero one_one one_two one_three one_four
+				two_plus four_plus five_plus
+				two_slash three_slash four_slash five_slash six_slash seven_slash nine_slash
+				two_slash.alt three_slash.alt four_slash.alt five_slash.alt six_slash.alt seven_slash.alt nine_slash.alt
+				two_tick two_tick.alt four_tick five_tick five_tick.alt six_tick six_tick.alt seven_tick nine_tick
+				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_one_one i_one_two i_one_three i_one_four
+				i_two_slash i_two_slash.alt i_two_tick i_two_tick.alt i_two_plus
+				i_three_slash i_three_slash.alt
+				i_four_slash i_four_slash.alt i_four_tick i_four_plus
+				i_five_slash i_five_slash.alt i_five_tick i_five_tick.alt i_five_plus
+				i_six_slash i_six_slash.alt i_six_tick i_six_tick.alt
+				i_seven_slash i_seven_slash.alt i_seven_tick
+				i_nine_slash i_nine_slash.alt i_nine_tick
 				d endash
+				stop
 				];
 
 			@figComp = [
-				zero one two three four five six seven eight nine one_zero one_one one_two
-				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_one_one i_one_two
+				zero one two three four five six seven eight nine one_zero one_one one_two one_three one_four
+				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_one_one i_one_two i_one_three i_one_four
 				];
 
 			@figCompOneDigit = [ # originally figCompNoTen
@@ -24,32 +34,55 @@
 				];
 
 			@figCompTwoDigits = [
-				one_zero one_one one_two
-				i_one_zero i_one_one i_one_two
+				one_zero one_one one_two one_three one_four
+				i_one_zero i_one_one i_one_two i_one_three i_one_four
 				];
 
 			@figSingle = [
-				two_slash four_slash five_slash six_slash seven_slash nine_slash
-				i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash
+				two_plus four_plus five_plus
+				two_slash three_slash four_slash five_slash six_slash seven_slash nine_slash
+				two_slash.alt three_slash.alt four_slash.alt five_slash.alt six_slash.alt seven_slash.alt nine_slash.alt
+				two_tick two_tick.alt four_tick five_tick five_tick.alt six_tick six_tick.alt seven_tick nine_tick
+				i_two_slash i_two_slash.alt i_two_tick i_two_tick.alt i_two_plus
+				i_three_slash i_three_slash.alt
+				i_four_slash i_four_slash.alt i_four_tick i_four_plus
+				i_five_slash i_five_slash.alt i_five_tick i_five_tick.alt i_five_plus
+				i_six_slash i_six_slash.alt i_six_tick i_six_tick.alt
+				i_seven_slash i_seven_slash.alt i_seven_tick
+				i_nine_slash i_nine_slash.alt i_nine_tick
 				d endash
+				stop
 				];
 
 
 		# 1.2 accidentals
 
 			@acc = [
-				n b s numbersign b_b x plus hyphen
-				parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright
-				bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
+				n b s numbersign b_b x X plus hyphen p m
+				parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright parenleft_p_parenright parenleft_m_parenright parenleft_X_parenright
+				bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright bracketleft_p_bracketright bracketleft_m_bracketright bracketleft_X_bracketright
+				];
+
+			# accidentals that need vertical kerning when appearing as single accidental in a row
+			@accSingleDown = [
+				n b s numbersign b_b
+				parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright
+				bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright
+				];
+
+			@accSingleUp = [
+				x parenleft_x_parenright bracketleft_x_bracketright
 				];
 
 			# flat is treated separately while adding separators (GSUB: lookup CALTaddSeparators) because occasionally the ligature b_b needs to be prevented with comma
+			# parenthesized flats??
 			@accNoFlat = [
-				n s numbersign b_b x plus hyphen
-				parenleft_n_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright
-				bracketleft_n_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright  bracketleft_x_bracketright
+				n s numbersign b_b x X plus hyphen p m
+				parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright parenleft_p_parenright parenleft_m_parenright parenleft_X_parenright
+				bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright bracketleft_p_bracketright bracketleft_m_bracketright bracketleft_X_bracketright
 				];
-			@flat = [b parenleft_b_parenright bracketleft_b_bracketright];
+			# parenthesized flats??	
+			@flat = [b]; #parenleft_b_parenright bracketleft_b_bracketright];
 
 
 		# 1.3 parentheses
@@ -129,6 +162,22 @@
 				bracketleft.3
 				bracketleft.4
 				];
+			@parenRoundLeft = [
+				parenleft
+				parenleft.invisible
+				parenleft.1
+				parenleft.2
+				parenleft.3
+				parenleft.4
+				];
+			@parenSquareLeft = [
+				bracketleft
+				bracketleft.1
+				bracketleft.2
+				bracketleft.3
+				bracketleft.4
+				];
+
 			@parenRight = [
 				parenright
 				parenright.invisible
@@ -142,8 +191,23 @@
 				bracketright.3
 				bracketright.4
 				];
+			@parenRoundRight = [
+				parenright
+				parenright.invisible
+				parenright.1
+				parenright.2
+				parenright.3
+				parenright.4
+				];
+			@parenSquareRight = [
+				bracketright
+				bracketright.1
+				bracketright.2
+				bracketright.3
+				bracketright.4
+				];
 
-			@parenEnlarged = [
+			@parenRoundEnlarged = [
 				parenleft.1
 				parenleft.2
 				parenleft.3
@@ -153,8 +217,7 @@
 				parenright.3
 				parenright.4
 				];
-
-			@bracketEnlarged = [
+			@parenSquareEnlarged = [
 				bracketleft.1
 				bracketleft.2
 				bracketleft.3
@@ -169,25 +232,45 @@
 		# 1.4 content subgroups
 
 			@parenContent = [
-				zero one two three four five six seven eight nine one_zero one_one one_two
-				two_slash four_slash five_slash six_slash seven_slash nine_slash
-				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_one_one i_one_two
-				i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash
-				d endash hyphen
-				n b s numbersign b_b x
-				parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright
-				bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
+				zero one two three four five six seven eight nine one_zero one_one one_two one_three one_four
+				two_plus four_plus five_plus
+				two_slash three_slash four_slash five_slash six_slash seven_slash nine_slash
+				two_slash.alt three_slash.alt four_slash.alt five_slash.alt six_slash.alt seven_slash.alt nine_slash.alt
+				two_tick two_tick.alt four_tick five_tick five_tick.alt six_tick six_tick.alt seven_tick nine_tick
+				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_one_one i_one_two i_one_three i_one_four
+				i_two_slash i_two_slash.alt i_two_tick i_two_tick.alt i_two_plus
+				i_three_slash i_three_slash.alt
+				i_four_slash i_four_slash.alt i_four_tick i_four_plus
+				i_five_slash i_five_slash.alt i_five_tick i_five_tick.alt i_five_plus
+				i_six_slash i_six_slash.alt i_six_tick i_six_tick.alt
+				i_seven_slash i_seven_slash.alt i_seven_tick
+				i_nine_slash i_nine_slash.alt i_nine_tick
+				d endash
+				stop
+				n b s numbersign b_b x X plus hyphen p m
+				parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright parenleft_p_parenright parenleft_m_parenright parenleft_X_parenright
+				bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright bracketleft_p_bracketright bracketleft_m_bracketright bracketleft_X_bracketright
 				];
 
 			@sepContent = [
-				zero one two three four five six seven eight nine one_zero one_one one_two
-				two_slash four_slash five_slash six_slash seven_slash nine_slash
-				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_one_one i_one_two
-				i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash
-				d endash hyphen
-				n b s numbersign b_b x plus hyphen
-				parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright
-				bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
+				zero one two three four five six seven eight nine one_zero one_one one_two one_three one_four
+				two_plus four_plus five_plus
+				two_slash three_slash four_slash five_slash six_slash seven_slash nine_slash
+				two_slash.alt three_slash.alt four_slash.alt five_slash.alt six_slash.alt seven_slash.alt nine_slash.alt
+				two_tick two_tick.alt four_tick five_tick five_tick.alt six_tick six_tick.alt seven_tick nine_tick
+				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_one_one i_one_two i_one_three i_one_four
+				i_two_slash i_two_slash.alt i_two_tick i_two_tick.alt i_two_plus
+				i_three_slash i_three_slash.alt
+				i_four_slash i_four_slash.alt i_four_tick i_four_plus
+				i_five_slash i_five_slash.alt i_five_tick i_five_tick.alt i_five_plus
+				i_six_slash i_six_slash.alt i_six_tick i_six_tick.alt
+				i_seven_slash i_seven_slash.alt i_seven_tick
+				i_nine_slash i_nine_slash.alt i_nine_tick
+				d endash
+				stop
+				n b s numbersign b_b x X plus hyphen p m
+				parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright parenleft_p_parenright parenleft_m_parenright parenleft_X_parenright
+				bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright bracketleft_p_bracketright bracketleft_m_bracketright bracketleft_X_bracketright
 				parenleft parenright bracketleft bracketright parenleft.invisible parenright.invisible
 				parenleft.1 parenright.1 bracketleft.1 bracketright.1
 				parenleft.2 parenright.2 bracketleft.2 bracketright.2
@@ -959,14 +1042,24 @@
 	# 3. ALL ----------------------------------------------------------------------
 
 			@all = [
-				zero one two three four five six seven eight nine one_zero one_one one_two
-				two_slash four_slash five_slash six_slash seven_slash nine_slash
-				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_one_one i_one_two
-				i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash
-				d endash hyphen
-				n b s numbersign b_b x plus hyphen
-				parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright
-				bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
+				zero one two three four five six seven eight nine one_zero one_one one_two one_three one_four
+				two_plus four_plus five_plus
+				two_slash three_slash four_slash five_slash six_slash seven_slash nine_slash
+				two_slash.alt three_slash.alt four_slash.alt five_slash.alt six_slash.alt seven_slash.alt nine_slash.alt
+				two_tick two_tick.alt four_tick five_tick five_tick.alt six_tick six_tick.alt seven_tick nine_tick
+				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_one_one i_one_two i_one_three i_one_four
+				i_two_slash i_two_slash.alt i_two_tick i_two_tick.alt i_two_plus
+				i_three_slash i_three_slash.alt
+				i_four_slash i_four_slash.alt i_four_tick i_four_plus
+				i_five_slash i_five_slash.alt i_five_tick i_five_tick.alt i_five_plus
+				i_six_slash i_six_slash.alt i_six_tick i_six_tick.alt
+				i_seven_slash i_seven_slash.alt i_seven_tick
+				i_nine_slash i_nine_slash.alt i_nine_tick
+				d endash
+				stop
+				n b s numbersign b_b x X plus hyphen p m
+				parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright parenleft_p_parenright parenleft_m_parenright parenleft_X_parenright
+				bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright bracketleft_p_bracketright bracketleft_m_bracketright bracketleft_X_bracketright
 				parenleft parenright bracketleft bracketright
 				parenleft.1 parenright.1 bracketleft.1 bracketright.1
 				parenleft.2 parenright.2 bracketleft.2 bracketright.2
@@ -1126,14 +1219,24 @@
 				];
 
 				@allNoParens = [
-				zero one two three four five six seven eight nine one_zero one_one one_two
-				two_slash four_slash five_slash six_slash seven_slash nine_slash
-				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_one_one i_one_two
-				i_two_slash i_four_slash i_five_slash i_six_slash i_seven_slash i_nine_slash
-				d endash hyphen
-				n b s numbersign b_b x plus hyphen
-				parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright
-				bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright
+				zero one two three four five six seven eight nine one_zero one_one one_two one_three one_four
+				two_plus four_plus five_plus
+				two_slash three_slash four_slash five_slash six_slash seven_slash nine_slash
+				two_slash.alt three_slash.alt four_slash.alt five_slash.alt six_slash.alt seven_slash.alt nine_slash.alt
+				two_tick two_tick.alt four_tick five_tick five_tick.alt six_tick six_tick.alt seven_tick nine_tick
+				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_one_one i_one_two i_one_three i_one_four
+				i_two_slash i_two_slash.alt i_two_tick i_two_tick.alt i_two_plus
+				i_three_slash i_three_slash.alt
+				i_four_slash i_four_slash.alt i_four_tick i_four_plus
+				i_five_slash i_five_slash.alt i_five_tick i_five_tick.alt i_five_plus
+				i_six_slash i_six_slash.alt i_six_tick i_six_tick.alt
+				i_seven_slash i_seven_slash.alt i_seven_tick
+				i_nine_slash i_nine_slash.alt i_nine_tick
+				d endash
+				stop
+				n b s numbersign b_b x X plus hyphen p m
+				parenleft_n_parenright parenleft_b_parenright parenleft_s_parenright parenleft_b_b_parenright parenleft_x_parenright parenleft_p_parenright parenleft_m_parenright parenleft_X_parenright
+				bracketleft_n_bracketright bracketleft_b_bracketright bracketleft_s_bracketright bracketleft_b_b_bracketright bracketleft_x_bracketright bracketleft_p_bracketright bracketleft_m_bracketright bracketleft_X_bracketright
 				# parenleft parenright bracketleft bracketright
 				# parenleft.1 parenright.1 bracketleft.1 bracketright.1
 				# parenleft.2 parenright.2 bracketleft.2 bracketright.2
