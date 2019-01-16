@@ -4,9 +4,10 @@
 
 - Latest (0.6)
     - **Warning! Not fully backwards compatible:** cleaned up and finally consistent key bindings for modified numbers:
-        - slashed numbers: `2/` and `2//`
+        - dashed numbers: `2/` and `2//`
         - "ticked" numbers: `2'` and `2''`
         - ligatures with plus: `2+`
+    - Added support for the numbers 13 and 14.
     - Added two sets of dashed numbers.
     - The italic set is now complete.
     - Better outlines for parentheses.
