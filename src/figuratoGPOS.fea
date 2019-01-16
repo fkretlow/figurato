@@ -237,6 +237,10 @@
 					# parens around one
 					pos                           [parenleft bracketleft]' <  60 0 0 0>  [one i_one]    ;
 					pos            [one i_one]  [parenright bracketright]' < -60 0 0 0>                 ;
+
+					# parens around a single number
+					pos  @parenLeft' <50 0 0 0>  @figCompOneDigit  @parenRight               ;
+					pos  @parenLeft              @figCompOneDigit  @parenRight' <-50 0 0 0>  ;
 					
 					# parens around numbers with two digits
 					pos                       [parenleft bracketleft]' <-140 0 0 0>  @figCompTwoDigits  ;
