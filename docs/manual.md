@@ -12,11 +12,13 @@ Figurato automatically detects the individual rows of a figured bass indication 
 
 #### Special characters
 _Accidentals_  
-Self-explanatory. Double flat is built as a ligature of two bs. Type uppercase `X` for a superscript x.
+Self-explanatory. Double flat is built as a ligature of two `b`s. Type uppercase `X` for a superscript x.
 <img src="2_accidentals.svg" alt="accidentals" height="90">
 
 _Modified numbers_  
-Number with additional elements that indicate an alteration are accessible as ligatures.
+Numbers with additional elements that indicate an alteration are accessible as ligatures.
+
+
 There are two sets of slashed numbers. The numbers in the first set are dashed rather steeply, with individual angles. In the second set the slope of the dashes is the same for all numbers.  
 <img src="3_slashedNumbers.svg" alt="slashed numbers" height="90">
 
