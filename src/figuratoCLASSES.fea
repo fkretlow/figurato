@@ -11,12 +11,13 @@
 				two_slash three_slash four_slash five_slash six_slash seven_slash nine_slash
 				two_slash.alt three_slash.alt four_slash.alt five_slash.alt six_slash.alt seven_slash.alt nine_slash.alt
 				two_tick two_tick.alt four_tick five_tick five_tick.alt six_tick six_tick.alt seven_tick nine_tick
+				six_backslash
 				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_one_one i_one_two i_one_three i_one_four
 				i_two_slash i_two_slash.alt i_two_tick i_two_tick.alt i_two_plus
 				i_three_slash i_three_slash.alt
 				i_four_slash i_four_slash.alt i_four_tick i_four_plus
 				i_five_slash i_five_slash.alt i_five_tick i_five_tick.alt i_five_plus
-				i_six_slash i_six_slash.alt i_six_tick i_six_tick.alt
+				i_six_slash i_six_slash.alt i_six_tick i_six_tick.alt i_six_backslash
 				i_seven_slash i_seven_slash.alt i_seven_tick
 				i_nine_slash i_nine_slash.alt i_nine_tick
 				d endash
@@ -43,11 +44,12 @@
 				two_slash three_slash four_slash five_slash six_slash seven_slash nine_slash
 				two_slash.alt three_slash.alt four_slash.alt five_slash.alt six_slash.alt seven_slash.alt nine_slash.alt
 				two_tick two_tick.alt four_tick five_tick five_tick.alt six_tick six_tick.alt seven_tick nine_tick
+				six_backslash
 				i_two_slash i_two_slash.alt i_two_tick i_two_tick.alt i_two_plus
 				i_three_slash i_three_slash.alt
 				i_four_slash i_four_slash.alt i_four_tick i_four_plus
 				i_five_slash i_five_slash.alt i_five_tick i_five_tick.alt i_five_plus
-				i_six_slash i_six_slash.alt i_six_tick i_six_tick.alt
+				i_six_slash i_six_slash.alt i_six_tick i_six_tick.alt i_six_backslash
 				i_seven_slash i_seven_slash.alt i_seven_tick
 				i_nine_slash i_nine_slash.alt i_nine_tick
 				d endash
@@ -237,12 +239,13 @@
 				two_slash three_slash four_slash five_slash six_slash seven_slash nine_slash
 				two_slash.alt three_slash.alt four_slash.alt five_slash.alt six_slash.alt seven_slash.alt nine_slash.alt
 				two_tick two_tick.alt four_tick five_tick five_tick.alt six_tick six_tick.alt seven_tick nine_tick
+				six_backslash
 				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_one_one i_one_two i_one_three i_one_four
 				i_two_slash i_two_slash.alt i_two_tick i_two_tick.alt i_two_plus
 				i_three_slash i_three_slash.alt
 				i_four_slash i_four_slash.alt i_four_tick i_four_plus
 				i_five_slash i_five_slash.alt i_five_tick i_five_tick.alt i_five_plus
-				i_six_slash i_six_slash.alt i_six_tick i_six_tick.alt
+				i_six_slash i_six_slash.alt i_six_tick i_six_tick.alt i_six_backslash
 				i_seven_slash i_seven_slash.alt i_seven_tick
 				i_nine_slash i_nine_slash.alt i_nine_tick
 				d endash
@@ -258,12 +261,13 @@
 				two_slash three_slash four_slash five_slash six_slash seven_slash nine_slash
 				two_slash.alt three_slash.alt four_slash.alt five_slash.alt six_slash.alt seven_slash.alt nine_slash.alt
 				two_tick two_tick.alt four_tick five_tick five_tick.alt six_tick six_tick.alt seven_tick nine_tick
+				six_backslash
 				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_one_one i_one_two i_one_three i_one_four
 				i_two_slash i_two_slash.alt i_two_tick i_two_tick.alt i_two_plus
 				i_three_slash i_three_slash.alt
 				i_four_slash i_four_slash.alt i_four_tick i_four_plus
 				i_five_slash i_five_slash.alt i_five_tick i_five_tick.alt i_five_plus
-				i_six_slash i_six_slash.alt i_six_tick i_six_tick.alt
+				i_six_slash i_six_slash.alt i_six_tick i_six_tick.alt i_six_backslash
 				i_seven_slash i_seven_slash.alt i_seven_tick
 				i_nine_slash i_nine_slash.alt i_nine_tick
 				d endash
@@ -1047,12 +1051,13 @@
 				two_slash three_slash four_slash five_slash six_slash seven_slash nine_slash
 				two_slash.alt three_slash.alt four_slash.alt five_slash.alt six_slash.alt seven_slash.alt nine_slash.alt
 				two_tick two_tick.alt four_tick five_tick five_tick.alt six_tick six_tick.alt seven_tick nine_tick
+				six_backslash
 				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_one_one i_one_two i_one_three i_one_four
 				i_two_slash i_two_slash.alt i_two_tick i_two_tick.alt i_two_plus
 				i_three_slash i_three_slash.alt
 				i_four_slash i_four_slash.alt i_four_tick i_four_plus
 				i_five_slash i_five_slash.alt i_five_tick i_five_tick.alt i_five_plus
-				i_six_slash i_six_slash.alt i_six_tick i_six_tick.alt
+				i_six_slash i_six_slash.alt i_six_tick i_six_tick.alt i_six_backslash
 				i_seven_slash i_seven_slash.alt i_seven_tick
 				i_nine_slash i_nine_slash.alt i_nine_tick
 				d endash
@@ -1224,12 +1229,13 @@
 				two_slash three_slash four_slash five_slash six_slash seven_slash nine_slash
 				two_slash.alt three_slash.alt four_slash.alt five_slash.alt six_slash.alt seven_slash.alt nine_slash.alt
 				two_tick two_tick.alt four_tick five_tick five_tick.alt six_tick six_tick.alt seven_tick nine_tick
+				six_backslash
 				i_zero i_one i_two i_three i_four i_five i_six i_seven i_eight i_nine i_one_zero i_one_one i_one_two i_one_three i_one_four
 				i_two_slash i_two_slash.alt i_two_tick i_two_tick.alt i_two_plus
 				i_three_slash i_three_slash.alt
 				i_four_slash i_four_slash.alt i_four_tick i_four_plus
 				i_five_slash i_five_slash.alt i_five_tick i_five_tick.alt i_five_plus
-				i_six_slash i_six_slash.alt i_six_tick i_six_tick.alt
+				i_six_slash i_six_slash.alt i_six_tick i_six_tick.alt i_six_backslash
 				i_seven_slash i_seven_slash.alt i_seven_tick
 				i_nine_slash i_nine_slash.alt i_nine_tick
 				d endash

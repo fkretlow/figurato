@@ -44,13 +44,20 @@
 			sub   seven slash  slash          by   seven_slash.alt  ;
 			sub   nine  slash  slash          by   nine_slash.alt   ;
 
-			sub   two   slash  slash  slash   by   stop  ;
-			sub   three slash  slash  slash   by   stop  ;
-			sub   four  slash  slash  slash   by   stop  ;
-			sub   five  slash  slash  slash   by   stop  ;
-			sub   six   slash  slash  slash   by   stop  ;
-			sub   seven slash  slash  slash   by   stop  ;
-			sub   nine  slash  slash  slash   by   stop  ;
+			sub   six   slash  slash  slash   by   six_backslash  ;
+			sub   six   backslash             by   six_backslash  ;
+			sub   seven backslash             by   seven_slash    ;
+
+			sub   two   slash  slash  slash          by   stop  ;
+			sub   three slash  slash  slash          by   stop  ;
+			sub   four  slash  slash  slash          by   stop  ;
+			sub   five  slash  slash  slash          by   stop  ;
+			sub   six   slash  slash  slash  slash   by   stop  ;
+			sub   seven slash  slash  slash          by   stop  ;
+			sub   nine  slash  slash  slash          by   stop  ;
+
+			sub   six   backslash  backslash         by   stop  ;
+			sub   seven backslash  backslash         by   stop  ;
 
 			sub   one        slash   by   stop  ;
 			sub   eight      slash   by   stop  ;
@@ -105,13 +112,13 @@
 			sub   nine  quotesingle                           by   nine_tick       ;
 			sub   nine  quotesingle quotesingle               by   stop            ;
 
-			sub   one  quotesingle                            by   stop            ;
-			sub   three  quotesingle                          by   stop            ;
-			sub   eight  quotesingle                          by   stop            ;
-			sub   one_zero  quotesingle                       by   stop            ;
-			sub   one_two  quotesingle                        by   stop            ;
+			sub   one        quotesingle                      by   stop            ;
+			sub   three      quotesingle                      by   stop            ;
+			sub   eight      quotesingle                      by   stop            ;
+			sub   one_zero   quotesingle                      by   stop            ;
+			sub   one_two    quotesingle                      by   stop            ;
 			sub   one_three  quotesingle                      by   stop            ;
-			sub   one_four  quotesingle                       by   stop            ;
+			sub   one_four   quotesingle                      by   stop            ;
 
 			} LIGA_tickedFigures;
 
@@ -162,6 +169,7 @@
 			sub  i six_slash.alt     by  i_six_slash.alt   ;
 			sub  i six_tick          by  i_six_tick        ;
 			sub  i six_tick.alt      by  i_six_tick.alt    ;
+			sub  i six_backslash     by  i_six_backslash   ;
 
 			sub  i seven_slash       by  i_seven_slash     ;
 			sub  i seven_slash.alt   by  i_seven_slash.alt ;
@@ -332,6 +340,8 @@
 				sub seven_tick                    by  seven_tick                    sep  ;
 				sub nine_tick                     by  nine_tick                     sep  ;
 
+				sub six_backslash                 by  six_backslash                 sep  ;
+
 				sub i_two_slash                   by  i_two_slash                   sep  ;
 				sub i_two_slash.alt               by  i_two_slash.alt               sep  ;
 				sub i_two_tick                    by  i_two_tick                    sep  ;
@@ -356,6 +366,7 @@
 				sub i_six_slash.alt               by  i_six_slash.alt               sep  ;
 				sub i_six_tick                    by  i_six_tick                    sep  ;
 				sub i_six_tick.alt                by  i_six_tick.alt                sep  ;
+				sub i_six_backslash               by  i_six_backslash               sep  ;
 
 				sub i_seven_slash                 by  i_seven_slash                 sep  ;
 				sub i_seven_slash.alt             by  i_seven_slash.alt             sep  ;

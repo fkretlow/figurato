@@ -2,7 +2,9 @@
 
 #### Changelog
 
-- Latest (0.6)
+- Latest (0.6.1)
+    - Added 6\ and i6\  
+- 0.6
     - **Warning! Not fully backwards compatible:** cleaned up and finally consistent key bindings for modified numbers:
         - dashed numbers: `2/` and `2//`
         - "ticked" numbers: `2'` and `2''`
