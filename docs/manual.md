@@ -12,7 +12,7 @@ Figurato automatically detects the individual rows of a figured bass indication 
 
 #### Special characters
 _Accidentals_  
-Self-explanatory. Double flat is built as a ligature of two `b`s. Type uppercase `X` for a superscript x.
+Self-explanatory. Double flat is built as a ligature of two `b`s. Type uppercase `X` for a superscript x.  
 <img src="2_accidentals.svg" alt="accidentals" height="90">
 
 _Modified numbers_  
