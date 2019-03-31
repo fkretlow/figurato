@@ -1,6 +1,8 @@
 ## Figurato
 
-### How to use
+Please read the specific instructions for your notation software too: [Dorico](dorico.md), [Finale](finale.md)
+
+### Inputting figures
 
 Figurato automatically detects the individual rows of a figured bass indication and positions all symbols accordingly. You do not need to type carriage returns. Figures are automatically stacked from top to bottom, following these rules:  
 - Each row can contain at most one number and one quality indication (i.e. either one number and one accidental, or one modified number).
@@ -12,7 +14,7 @@ Figurato automatically detects the individual rows of a figured bass indication 
 
 #### Special characters
 _Accidentals_  
-Self-explanatory. Double flat is built as a ligature of two `b`s. Type uppercase `X` for a superscript x.  
+Self-explanatory. Double flat is built as a ligature of two `b`s. Type uppercase `X` for a superscript x.
 <img src="2_accidentals.svg" alt="accidentals" height="90">
 
 _Modified numbers_  
@@ -46,3 +48,5 @@ If you need to put more than one figure in parentheses you still need to input t
 #### Vertical alignment
 There are two versions of the font, Figurato and FiguratoB. They work identically except for the vertical alignment of the figures. In figures that are set with Figurato the topmost lines are vertically aligned, whereas with FiguratoB the bottommost lines are vertically aligned. Figurato is suited for figured bass indications below the staff, whereas FiguratoB works best for indications above the staff.  
 <img src="9_FiguratoB.svg" alt="vertical alignment" height="140">
+
+[Back to the README](../README.md)
