@@ -1,5 +1,7 @@
 ## Figurato
 
+[Figurato](../README.md) > [Manual](manual.md) > [Dorico](dorico.md)  > FiguratoMac  
+
 ### FiguratoMac
 
 **Don't use Figurato or FiguratoB with Dorico on Mac. Do use FiguratoMac instead.**  
@@ -25,4 +27,4 @@ If you want to be sure right from the start, there's no reason not to use Figura
 #### Supported figures
 FiguratoMac contains about 3.000 precomposed ligatures. Most of the commonly used figures should be supported. If you come across a figure that does not work as expected, please do notify me so I can add it. You can open an issue here in the repository. If you came here by following a link on the Dorico user forum, you could also post a request in that thread or shoot me a P.M.
 
-[Back to the main manual](manual.md)
+[Back to the top](FiguratoMac.md#figurato)

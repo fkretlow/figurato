@@ -1,5 +1,7 @@
 ## Figurato
 
+[Figurato](../README.md) > [Manual](manual.md) > Finale  
+
 ### How to use Figurato in Finale
 
 There are basically two ways to create figured bass indications with Figurato in Finale.
@@ -19,4 +21,4 @@ If you only need a few standard figures you can also define a new category for t
 
 From a semantical point of view the chord tool may seem like the best choice, but it isn’t. You can select Figurato in the chord tool, but you’d have to position all the numbers yourself, and you can’t access any special characters.
 
-[Back to the main manual](manual.md)
+[Back to the top](finale.md#figurato)

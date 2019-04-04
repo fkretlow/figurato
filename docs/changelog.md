@@ -1,5 +1,7 @@
 ## Figurato
 
+[Figurato](../README.md) > Changelog  
+
 #### Changelog
 
 - Latest (0.6.1)
@@ -35,4 +37,6 @@
     - Minor enhancements to the glyph outlines.
 
 - 0.2.1
-    - The line height has been reduced. Change the font size in documents that were created with a version prior to 0.2.1 to 50%.
+    - The line height has been reduced. Change the font size in documents that were created with a version prior to 0.2.1 to 50%.  
+
+[Back to the top](changelog.md#figurato)

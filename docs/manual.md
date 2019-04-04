@@ -1,6 +1,11 @@
 ## Figurato
 
-Please read the specific instructions for your notation software too: [Dorico](dorico.md), [Finale](finale.md)
+[Figurato](../README.md) > Manual  
+
+Please read the specific instructions for your notation software too:  
+
+- [Dorico](dorico.md)  
+- [Finale](finale.md)  
 
 ### Inputting figures
 
@@ -49,4 +54,4 @@ If you need to put more than one figure in parentheses you still need to input t
 There are two versions of the font, Figurato and FiguratoB. They work identically except for the vertical alignment of the figures. In figures that are set with Figurato the topmost lines are vertically aligned, whereas with FiguratoB the bottommost lines are vertically aligned. Figurato is suited for figured bass indications below the staff, whereas FiguratoB works best for indications above the staff.  
 <img src="9_FiguratoB.svg" alt="vertical alignment" height="140">
 
-[Back to the README](../README.md)
+[Back to the top](manual.md#figurato)

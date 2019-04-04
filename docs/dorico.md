@@ -1,5 +1,7 @@
 ## Figurato
 
+[Figurato](../README.md) > [Manual](manual.md) > Dorico
+
 ### How to use Figurato in Dorico
 
 **[Mac users please read this!!](FiguratoMac.md)**
@@ -23,4 +25,4 @@ Another method for this would be to exit lyric input, activate the caret by pres
 - As of now Dorico does not allow us to move indivdual lyric syllables up or down. I therefore tend to use generic text objects for figures above or below notes that reach far out of the system. It’s equally possible to use playing techniques for this.  
 - It’s not really feasible to use Dorico’s lyric extension lines for figured bass with Figurato. You can mimick extension lines with dashes and spaces from inside the font, but this is complicated and requires a fair amount of trial and error (refer to the [main manual](manual.md#special-characters) for an example – note that you’d need to input non-breaking spaces (**Alt-Shift-Space**) in the lyrics popover for this).
 
-[Back to the main manual](manual.md)
+[Back to the top](dorico.md#figurato)
