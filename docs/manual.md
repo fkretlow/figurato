@@ -40,7 +40,7 @@ Italic variants of all numbers and modified numbers are accessible as ligatures 
 <img src="6_italics.svg" alt="italics" height="120">
 
 _Dashes and spaces_  
-Type `d` or `–` (endash!) for a horizontal dash. Each row can only contain one dash and nothing else. Together with the space character they can also be used to mimick extension lines if the notation software does not offer a tool to draw generic lines. (Note that all characters in Figurato except for the space character have zero width.)  
+Type `d` or `–` (endash!) for a horizontal dash. Each row can only contain one dash and nothing else. Together with the space character they can also be used to mimick extension lines if the notation software does not offer a tool to draw generic lines. Use non-breaking space characters (U+00A0) with Dorico’s and Finale’s lyrics tool. (Note that all characters in Figurato except for the space characters have zero width.)  
 <img src="7_dashes.svg" alt="dashes" height="120">
 
 

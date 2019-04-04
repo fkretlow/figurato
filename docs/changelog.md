@@ -4,15 +4,16 @@
 
 #### Changelog
 
-- Latest (0.6.1)
-    - Added 6\ and i6\  
-- 0.6
+- Latest (1.0)
+    - Added non-breaking space.
+- 0.6.1
     - **Warning! Not fully backwards compatible:** cleaned up and finally consistent key bindings for modified numbers:
         - dashed numbers: `2/` and `2//`
         - "ticked" numbers: `2'` and `2''`
         - ligatures with plus: `2+`
     - Added support for the numbers 13 and 14.
     - Added two sets of dashed numbers.
+    - Added `6\`, `i6\` and `7\`, `i7\`.
     - The italic set is now complete.
     - Better outlines for parentheses.
     - Much work on spacing between parentheses, accidentals, modified numbers and brackets.
