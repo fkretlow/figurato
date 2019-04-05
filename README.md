@@ -4,7 +4,8 @@ Figurato is a figured bass font for music notation software. It allows for easy 
 
 [Manual](docs/manual.md)  
 [Changelog](docs/changelog.md)  
-[Mac users read this](docs/FiguratoMac.md)
+
+[Use FiguratoMac **only** with Dorico on Mac.](docs/FiguratoMac.md)
 
 ![example](docs/example.svg)
 
