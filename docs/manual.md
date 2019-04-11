@@ -5,6 +5,7 @@
 Please read the specific instructions for your notation software too:  
 
 - [Dorico](dorico.md)  
+- [Sibelius](sibelius.md)
 - [Finale](finale.md)  
 
 ### Inputting figures
