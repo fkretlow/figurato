@@ -4,14 +4,17 @@
 
 ### How to use Figurato in Finale
 
-There are basically two ways to create figured bass indications with Figurato in Finale.
+There are two ways to create figured bass indications with Figurato in Finale.
 
 #### Lyrics
 
-1. On the Fonts page of the Document Options dialog set one of the lyric fonts to Figurato. (Finale’s font selection can be a real pain. Be sure to input just ‘Figurato’, even if the list wants you to choose ‘Figurato Standard’.)  
+1. On the Fonts page of the Document Options dialog set one of the lyric fonts to Figurato.  
 2. Switch to the lyrics tool and select the lyric type you just configured for Figurato via the menu.
-3. Type the figures directly into your score. Don’t despair if the figures look terrible while you’re typing – Finale’s rendering engine was state-of-the-art in the nineties. It will eventually sort everything out.
-4. You’ll need to remove unwanted extender lines one by one and reposition a few figures manually.
+3. Type the figures directly into your score. Don’t despair if the figures look terrible while you’re typing – Finale’s rendering engine will it out eventually.  
+4. You’ll need to remove unwanted extender lines one by one and reposition a few figures manually.  
+
+The process is basically the same as described in [this section of the Finale manual](https://usermanuals.finalemusic.com/FinaleMac/Content/Finale/ht-figured-bass.htm), except that we use Figurato instead of the FinaleNumerics font.
+
 
 #### Text expressions
 

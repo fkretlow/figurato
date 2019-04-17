@@ -4,7 +4,8 @@
 
 #### Changelog
 
-- Latest (1.0)
+- Latest (1.0.1)
+    - Fixed bugs in the font metadata that caused problems with font selection in Finale. Thanks to Jan Angermüller for pointing these out.
     - Added non-breaking space.
 - 0.6.1
     - **Warning! Not fully backwards compatible:** cleaned up and finally consistent key bindings for modified numbers:

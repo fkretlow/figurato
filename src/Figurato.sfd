@@ -2,9 +2,9 @@ SplineFontDB: 3.0
 FontName: Figurato
 FullName: Figurato
 FamilyName: Figurato
-Weight: Standard
-Copyright: Copyright 2018 Florian Kretlow
-Version: 0.6.1
+Weight: Book
+Copyright: Copyright 2019 Florian Kretlow
+Version: 1.0.1
 ItalicAngle: 0
 UnderlinePosition: -200
 UnderlineWidth: 100
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1324930714
-ModificationTime: 1548328131
+ModificationTime: 1555522160
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -44,14 +44,14 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033
+LangName: 1033 "" "" "Regular"
 Encoding: UnicodeFull
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 80 10 8
+WinInfo: 150 25 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -64,7 +64,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 262144 131072 87381 190841 1048576 87381 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "chainleft"""  "chain"""  "acc""" 
-BeginChars: 1114258 298
+BeginChars: 1114258 299
 
 StartChar: zero
 Encoding: 48 48 0
@@ -8149,6 +8149,14 @@ EndChar
 StartChar: backslash
 Encoding: 92 92 297
 Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 4
+EndChar
+
+StartChar: uni00A0
+Encoding: 160 160 298
+Width: 125
 VWidth: 0
 Flags: HW
 LayerCount: 4

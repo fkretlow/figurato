@@ -2748,6 +2748,11 @@
 		sub four b comma b two by fig_1543 ;
 		sub four b comma b two by fig_1544 ;
 		sub four b comma b three by fig_1545 ;
+		} LIGA_precomposedFigures1;
+
+	lookup LIGA_precomposedFigures2 {
+		lookupflag 0;
+
 		sub four b three two slash by fig_1546 ;
 		sub four b three two plus by fig_1546 ;
 		sub four b three two b by fig_1547 ;
@@ -2998,12 +3003,6 @@
 		sub six four numbersign b two by fig_1683 ;
 		sub six four s b two by fig_1683 ;
 		sub six four numbersign b three by fig_1684 ;
-		
-	} LIGA_precomposedFigures1;
-
-	lookup LIGA_precomposedFigures2 {
-		lookupflag 0;
-
 		sub six four s b three by fig_1684 ;
 		sub six four numbersign n two by fig_1685 ;
 		sub six four s n two by fig_1685 ;
@@ -6037,4 +6036,4 @@
 		sub endash seven by fig_3534 ;
 		sub d nine by fig_3535 ;
 		sub endash nine by fig_3535 ;
-	} LIGA_precomposedFigures2;
+		} LIGA_precomposedFigures2;

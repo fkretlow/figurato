@@ -2,9 +2,9 @@ SplineFontDB: 3.0
 FontName: FiguratoMac
 FullName: FiguratoMac
 FamilyName: FiguratoMac
-Weight: Standard
+Weight: Book
 Copyright: Copyright 2018 Florian Kretlow
-Version: 0.5.0.4
+Version: 0.5.1
 ItalicAngle: 0
 UnderlinePosition: -200
 UnderlineWidth: 100
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1324930714
-ModificationTime: 1554888222
+ModificationTime: 1555522817
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -44,14 +44,14 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033
+LangName: 1033 "" "" "Regular"
 Encoding: UnicodeFull
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1114040 10 8
+WinInfo: 90 10 8
 BeginPrivate: 0
 EndPrivate
 Grid
