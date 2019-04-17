@@ -18,7 +18,7 @@ The process is basically the same as described in [this section of the Finale ma
 
 #### Text expressions
 
-If you only need a few standard figures you can also define a new category for text expressions and create a single expression for every figure. (Same here, make sure you set the font to ‘Figurato’, not ‘Figurato Standard’.)
+If you only need a few standard figures you can also define a new category for text expressions and create a single expression for every figure.  
 
 #### Chords
 
