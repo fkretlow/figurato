@@ -1,16 +1,16 @@
 ## Figurato
 
-[Figurato](../README.md) > [Manual](manual.md) > [Dorico](dorico.md)  > FiguratoMac  
+[Figurato](../README.md) > [Manual](manual.md) > [Dorico](dorico.md)  > FiguratoMac
 
 ### FiguratoMac
 
-**Don't use Figurato or FiguratoB with Dorico on Mac. Do use FiguratoMac instead.**  
-There is no need to use FiguratoMac with Finale or Sibelius (greater than 2018.11) on Mac.
+**Don't use Figurato or FiguratoB with Dorico 1 or 2 on Mac. Use FiguratoMac instead.**
+There is no need to use FiguratoMac with Dorico 3, Finale or Sibelius (greater than 2018.11).
 
-FiguratoMac uses precomposed figures instead of OpenType positioning features to bypass [a bug in the Qt framework](https://bugreports.qt.io/browse/QTBUG-69803) that Dorico is built upon. That bug prevents the positioning code of the normal version from working correctly. Meanwhile the bug has been fixed by the Qt developers, but the fix won’t be ported into Dorico until the next major release (probably 3.0 in mid 2019).
+FiguratoMac uses precomposed figures instead of OpenType positioning features to bypass [a bug in the Qt framework](https://bugreports.qt.io/browse/QTBUG-69803) that Dorico is built upon. That bug prevents the positioning code of the normal version from working correctly in Dorico versions prior to 3. **The bug is fixed in Dorico 3.**
 
 #### Limitations
-**Additions to Figurato after version 0.5 (see [changelog](changelog.md)) have not been and will not be ported to FiguratoMac.** 
+**Additions to Figurato after version 0.5 (see [changelog](changelog.md)) have not been and will not be ported to FiguratoMac.**
 
 - Don’t refer to the Special Characters section of the main manual. FiguratoMac only contains one variant of each augmented figure (2, 4, 5, 6, 7 and 9), accessible by typinng `/` or `+` after the number.
 - Parentheses and brackets are not supported.

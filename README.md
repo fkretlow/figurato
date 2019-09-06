@@ -3,9 +3,9 @@
 Figurato is a figured bass font for music notation software. It allows for easy input of multiple stacked numbers and accidentals.
 
 [Manual](docs/manual.md)  
-[Changelog](docs/changelog.md)  
+[Changelog](docs/changelog.md)
 
-[Use FiguratoMac **only** with Dorico on Mac.](docs/FiguratoMac.md)
+[Use FiguratoMac **only** with Dorico 1 or 2 on Mac.](docs/FiguratoMac.md)
 
 ![example](docs/example.svg)
 
