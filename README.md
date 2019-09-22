@@ -9,5 +9,4 @@ Figurato is a figured bass font for music notation software. It allows for easy 
 
 ![example](docs/example.svg)
 
-Figurato is licensed under the SIL Open Font License. However, developing fonts takes considerable time and effort, so here’s an appeal to your fairness:  
-If you use this font regularly for commercial work or if you want to sell a derivative of this font (on its own or as part of a larger work or collection), please consider supporting me with a donation [via paypal.](https://paypal.me/floriankretlow)
+*Figurato is licensed under the SIL Open Font License. That means that it is free to use. However, developing fonts takes considerable time and effort, so if you regularly earn money with this font (by using it for commercial work or by selling a derivative of it on its own or as part of a larger work or collection), please consider supporting me with a donation [via paypal.](https://paypal.me/floriankretlow)*
