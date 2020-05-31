@@ -3,8 +3,8 @@ FontName: Figurato
 FullName: Figurato
 FamilyName: Figurato
 Weight: Book
-Copyright: Copyright 2019 Florian Kretlow
-Version: 1.0.1
+Copyright: Copyright 2019-2020 Florian Kretlow
+Version: 1.1
 ItalicAngle: 0
 UnderlinePosition: -200
 UnderlineWidth: 100
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1324930714
-ModificationTime: 1590927054
+ModificationTime: 1590934108
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
