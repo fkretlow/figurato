@@ -3,4 +3,4 @@ all: clean
 
 clean:
 	@echo "removing previous versions"
-	@rm -f ./redist/FiguratoB.otf ./redist/FiguratoT.otf
+	@rm -f ./redist/FiguratoB.otf ./redist/Figurato.otf

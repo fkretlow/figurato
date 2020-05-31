@@ -13,8 +13,8 @@ def generateWithFeatures(font, fea, dest):
 if __name__ == "__main__":
     f = fontforge.open("./src/Figurato.sfd")
 
-    print("generating FiguratoT.otf")
-    generateWithFeatures(f, "./src/figurato_T.fea", "./redist/FiguratoT.otf")
+    print("generating Figurato.otf")
+    generateWithFeatures(f, "./src/figurato_T.fea", "./redist/Figurato.otf")
     print("generating FiguratoB.otf")
     generateWithFeatures(f, "./src/figurato_B.fea", "./redist/FiguratoB.otf")
 
