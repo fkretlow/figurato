@@ -6,7 +6,7 @@
 
 As of version 3.5 Dorico supports figured bass natively. Just substitute Figurato for the Figured Bass font style in **Engrave > Font Styles**. If you need to create figures that Dorico cannot yet produce, you can still use the old workarounds described below.
 
-Note that (1) the glyph size does not match the glyphs in the default music font Bravura so you'll want to choose a smaller point size; and (2) Figurato's accidentals are larger than in Bravura and Dorico cannot (yet) kern them well, so you’ll need to scale them down in **Engraving Options** for now.
+Note that (1) the font metrics are different than in the default music font Bravura so you'll want to choose a smaller point size; and (2) Figurato's accidentals are larger than in Bravura and Dorico cannot (yet) kern them well, so you’ll need to scale them down in **Engraving Options** for now.
 
 **[If you are using Dorico 1 or 2 on a Mac, please read this!!](FiguratoMac.md)**
 
