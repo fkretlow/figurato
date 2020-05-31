@@ -7,44 +7,20 @@
 #
 # 	# 1. vertical positioning -----------------------------------------------------
 #
-# 		# 1.1 layers
-#
-# 			lookup layer2 {
-# 				lookupflag 0;
-# 				pos @sepContent <0 -730 0 0>;
-# 				} layer2;
-#
-# 			lookup layer3 {
-# 				lookupflag 0;
-# 				pos @sepContent <0 -1460 0 0>;
-# 				} layer3;
-#
-# 			lookup layer4 {
-# 				lookupflag 0;
-# 				pos @sepContent <0 -2190 0 0>;
-# 				} layer4;
-#
-# 			lookup layer5 {
-# 				lookupflag 0;
-# 				pos @sepContent <0 -2920 0 0>;
-# 				} layer5;
+        lookup nudgeUp1 {
+            lookupflag 0;
+            pos @sepContent <0 100 0 0>;
+            } nudgeUp1;
 
-		# 1.2 single accidentals correction
+        lookup nudgeDown1 {
+            lookupflag 0;
+            pos @sepContent <0 -100 0 0>;
+            } nudgeDown1;
 
-			lookup nudgeUp1 {
-				lookupflag 0;
-				pos @sepContent <0 100 0 0>;
-				} nudgeUp1;
-
-			lookup nudgeDown1 {
-				lookupflag 0;
-				pos @sepContent <0 -100 0 0>;
-				} nudgeDown1;
-
-			lookup nudgeDown2 {
-				lookupflag 0;
-				pos @sepContent <0 -200 0 0>;
-				} nudgeDown2;
+        lookup nudgeDown2 {
+            lookupflag 0;
+            pos @sepContent <0 -200 0 0>;
+            } nudgeDown2;
 
 
 	# 2. horizontal positioning ---------------------------------------------------
@@ -170,7 +146,7 @@
 
 					pos  @figComp                             n' < -50 0 0 0>  ;
 				    pos  @figComp                             b' < -40 0 0 0>  ;
-				    pos  @figComp                [numbersign s]' <   0 0 0 0>  ; # -40
+				    pos  @figComp                [numbersign s]' <   0 0 0 0>  ;
 					pos  @figComp                           b_b' <  70 0 0 0>  ;
 				    pos  @figComp                             x' < -10 0 0 0>  ;
 				    pos  @figComp                             X' < -55 0 0 0>  ;
@@ -203,7 +179,7 @@
 
 					pos                             n' <  50 0 0 0>  @figComp  ;
 				    pos                             b' <  40 0 0 0>  @figComp  ;
-				    pos                [numbersign s]' <   0 0 0 0>  @figComp  ; # 40
+				    pos                [numbersign s]' <   0 0 0 0>  @figComp  ;
 					pos                           b_b' < -60 0 0 0>  @figComp  ;
 				    pos                             x' <  10 0 0 0>  @figComp  ;
 				    pos                             X' <  55 0 0 0>  @figComp  ;
@@ -233,7 +209,7 @@
 
 				lookup KERN_parens {
 					lookupflag 0;
-					
+
 					# parens around one
 					pos                           [parenleft bracketleft]' <  60 0 0 0>  [one i_one]    ;
 					pos            [one i_one]  [parenright bracketright]' < -60 0 0 0>                 ;
@@ -241,7 +217,7 @@
 					# parens around a single number
 					pos  @parenLeft' <50 0 0 0>  @figCompOneDigit  @parenRight               ;
 					pos  @parenLeft              @figCompOneDigit  @parenRight' <-50 0 0 0>  ;
-					
+
 					# parens around numbers with two digits
 					pos                       [parenleft bracketleft]' <-140 0 0 0>  @figCompTwoDigits  ;
 					pos  @figCompTwoDigits  [parenright bracketright]' < 140 0 0 0>                     ;
@@ -249,13 +225,13 @@
 					# parens around accidentals
 					pos  [parenleft bracketleft]' <  90 0 0 0>  n               ;
 					pos  [parenleft bracketleft]' <  80 0 0 0>  b               ;
-					pos  [parenleft bracketleft]' <  40 0 0 0>  [numbersign s]  ; # 80
+					pos  [parenleft bracketleft]' <  40 0 0 0>  [numbersign s]  ;
 					pos  [parenleft bracketleft]' <-100 0 0 0>  b_b             ;
 					pos  [parenleft bracketleft]' <  90 0 0 0>  x               ;
 
 					pos               n  [parenright bracketright]' < -90 0 0 0>  ;
 					pos               b  [parenright bracketright]' <-140 0 0 0>  ;
-					pos  [numbersign s]  [parenright bracketright]' < -40 0 0 0>  ; # -80
+					pos  [numbersign s]  [parenright bracketright]' < -40 0 0 0>  ;
 					pos             b_b  [parenright bracketright]' <  40 0 0 0>  ;
 					pos               x  [parenright bracketright]' < -90 0 0 0>  ;
 
@@ -270,7 +246,7 @@
 					pos   @parenLeft   @parenContent   @sep   @figComp @acc   @sep   @parenContent   parenright.2' <-120 0 0 0>  ;
 
 					# parens around modified numbers
-					
+
 					ignore pos   @sepPE  [two_plus i_two_plus four_plus i_four_plus four_tick i_four_tick five_plus i_five_plus]  @parenRight' ;
 
 					# two_plus
@@ -406,7 +382,7 @@
 					pos  @sepContent  @sep             @accSingleDown' lookup nudgeDown1  @parenAll  @sep  ;
 					pos  @sepContent  @sep  @parenAll  @accSingleDown' lookup nudgeDown1             @sep  ;
 					pos  @sepContent  @sep             @accSingleDown' lookup nudgeDown1             @sep  ;
-					
+
 					pos  @sepContent  @sep             @accSingleUp'   lookup nudgeUp1    @parenAll  @sep  ;
 					pos  @sepContent  @sep  @parenAll  @accSingleUp'   lookup nudgeUp1               @sep  ;
 					pos  @sepContent  @sep             @accSingleUp'   lookup nudgeUp1               @sep  ;
@@ -415,14 +391,6 @@
 					ignore pos            @accSingleDown'                    @figComp   @sep               ;
 					pos                   @accSingleDown' lookup nudgeUp1               @sep  @sepContent  ;
 
-					# before taking out x
-					# pos  @sepContent  @sep             @acc' lookup nudgeDown1  @parenAll  @sep               ;
-					# pos  @sepContent  @sep  @parenAll  @acc' lookup nudgeDown1             @sep               ;
-					# pos  @sepContent  @sep             @acc' lookup nudgeDown1             @sep               ;
-
-					# ignore pos  @figComp  @acc'                               @sep               ;
-					# ignore pos            @acc'                    @figComp   @sep               ;
-					# pos                   @acc' lookup nudgeUp1               @sep  @sepContent  ;
 
 					pos  @sepContent  @sep             @flat  @parenAll  @sep                                                                                                                                                            @allNoParens' lookup nudgeDown1  ;
 					pos  @sepContent  @sep  @parenAll  @flat             @sep                                                                                                                                                            @allNoParens' lookup nudgeDown1  ;
@@ -525,7 +493,7 @@
 								# sharp
 								pos  @figCompOneDigit   n' <340  90 0 0>  @sep @figCompOneDigit   n                   @sep @figCompOneDigit   [numbersign s]                                            ;
 								pos  @figCompOneDigit   n                 @sep @figCompOneDigit   n' <190  60 0 0>    @sep @figCompOneDigit   [numbersign s]                                            ;
-								pos  @figCompOneDigit   n                 @sep @figCompOneDigit   n                   @sep @figCompOneDigit   [numbersign s]' <-40 -20 0 0>                             ; # 0
+								pos  @figCompOneDigit   n                 @sep @figCompOneDigit   n                   @sep @figCompOneDigit   [numbersign s]' <-40 -20 0 0>                             ;
 								pos  @figCompOneDigit   n                 @sep @figCompOneDigit   n                   @sep @figCompOneDigit   [numbersign s]                 @parenRight' <340 0 0 0>   ;
 
 
@@ -545,27 +513,27 @@
 								# sharp
 								pos  @figCompOneDigit   n' <140  30 0 0>  @sep @figCompOneDigit   b                   @sep @figCompOneDigit   [numbersign s]                                            ;
 								pos  @figCompOneDigit   n                 @sep @figCompOneDigit   b' <  0  10 0 0>    @sep @figCompOneDigit   [numbersign s]                                            ;
-								pos  @figCompOneDigit   n                 @sep @figCompOneDigit   b                   @sep @figCompOneDigit   [numbersign s]' < 80 -10 0 0>                             ; # 120
+								pos  @figCompOneDigit   n                 @sep @figCompOneDigit   b                   @sep @figCompOneDigit   [numbersign s]' < 80 -10 0 0>                             ;
 								pos  @figCompOneDigit   n                 @sep @figCompOneDigit   b                   @sep @figCompOneDigit   [numbersign s]                 @parenRight' <150 0 0 0>   ;
 
 
 							# natural above sharp above...
 								# natural
 								pos  @figCompOneDigit   n' <360  90 0 0>  @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit                n                                            ;
-								pos  @figCompOneDigit   n                 @sep @figCompOneDigit   [numbersign s]' <120   0 0 0>   @sep @figCompOneDigit                n                                            ; # 160
+								pos  @figCompOneDigit   n                 @sep @figCompOneDigit   [numbersign s]' <120   0 0 0>   @sep @figCompOneDigit                n                                            ;
 								pos  @figCompOneDigit   n                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit                n' <-10 -50 0 0>                             ;
 								pos  @figCompOneDigit   n                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit                n                 @parenRight' <360 0 0 0>   ;
 
 								# flat
 								pos  @figCompOneDigit   n' <380  90 0 0>  @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit                b                                            ;
-								pos  @figCompOneDigit   n                 @sep @figCompOneDigit   [numbersign s]' <130   0 0 0>   @sep @figCompOneDigit                b                                            ; # 170
+								pos  @figCompOneDigit   n                 @sep @figCompOneDigit   [numbersign s]' <130   0 0 0>   @sep @figCompOneDigit                b                                            ;
 								pos  @figCompOneDigit   n                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit                b' <-10   0 0 0>                             ;
 								pos  @figCompOneDigit   n                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit                b                 @parenRight' <380 0 0 0>   ;
 
 								# sharp
 								pos  @figCompOneDigit   n' <190  60 0 0>  @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit   [numbersign s]                                            ;
-								pos  @figCompOneDigit   n                 @sep @figCompOneDigit   [numbersign s]' <  0 -60 0 0>   @sep @figCompOneDigit   [numbersign s]                                            ; # -20
-								pos  @figCompOneDigit   n                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit   [numbersign s]' <290   0 0 0>                             ; # 330
+								pos  @figCompOneDigit   n                 @sep @figCompOneDigit   [numbersign s]' <  0 -60 0 0>   @sep @figCompOneDigit   [numbersign s]                                            ;
+								pos  @figCompOneDigit   n                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit   [numbersign s]' <290   0 0 0>                             ;
 								pos  @figCompOneDigit   n                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit   [numbersign s]                 @parenRight' <330 0 0 0>   ;
 
 
@@ -574,22 +542,22 @@
 								pos  @figCompOneDigit   b' <  0  20 0 0>  @sep @figCompOneDigit   n                  @sep @figCompOneDigit                n                                                  ;
 								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   n' <150   0 0 0>   @sep @figCompOneDigit                n                                                  ;
 								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   n                  @sep @figCompOneDigit                n' < 10 -15 0 0>                                   ;
-								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   n                  @sep @figCompOneDigit                n                 @parenRoundRight'  < 60 0 0 0>   ; 
-								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   n                  @sep @figCompOneDigit                n                 @parenSquareRight' <120 0 0 0>   ; #150
+								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   n                  @sep @figCompOneDigit                n                 @parenRoundRight'  < 60 0 0 0>   ;
+								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   n                  @sep @figCompOneDigit                n                 @parenSquareRight' <120 0 0 0>   ;
 
 								# flat
 								pos  @figCompOneDigit   b' <  0  20 0 0>  @sep @figCompOneDigit   n                  @sep @figCompOneDigit                b                                                  ;
 								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   n' <150 -20 0 0>   @sep @figCompOneDigit                b                                                  ;
 								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   n                  @sep @figCompOneDigit                b' <  0 -20 0 0>                                   ;
 								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   n                  @sep @figCompOneDigit                b                 @parenRoundRight'  < 40 0 0 0>   ;
-								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   n                  @sep @figCompOneDigit                b                 @parenSquareRight' <120 0 0 0>   ; #150
+								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   n                  @sep @figCompOneDigit                b                 @parenSquareRight' <120 0 0 0>   ;
 
 								# sharp
 								pos  @figCompOneDigit   b' <  0  30 0 0>  @sep @figCompOneDigit   n                  @sep @figCompOneDigit   [numbersign s]                                                  ;
 								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   n' <220  60 0 0>   @sep @figCompOneDigit   [numbersign s]                                                  ;
-								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   n                  @sep @figCompOneDigit   [numbersign s]' <-20 -20 0 0>                                   ; # 20
+								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   n                  @sep @figCompOneDigit   [numbersign s]' <-20 -20 0 0>                                   ;
 								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   n                  @sep @figCompOneDigit   [numbersign s]                 @parenRoundRight'  <120 0 0 0>   ;
-								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   n                  @sep @figCompOneDigit   [numbersign s]                 @parenSquareRight' <160 0 0 0>   ; #200
+								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   n                  @sep @figCompOneDigit   [numbersign s]                 @parenSquareRight' <160 0 0 0>   ;
 
 
 							# flat above flat above...
@@ -598,105 +566,105 @@
 								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   b' <230 -20 0 0>   @sep @figCompOneDigit                n                                                  ;
 								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   b                  @sep @figCompOneDigit                n' < 10   0 0 0>                                   ;
 								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   b                  @sep @figCompOneDigit                n                 @parenRoundRight'  <110 0 0 0>   ;
-								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   b                  @sep @figCompOneDigit                n                 @parenSquareRight' <190 0 0 0>   ; #210
+								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   b                  @sep @figCompOneDigit                n                 @parenSquareRight' <190 0 0 0>   ;
 
 								# flat
 								pos  @figCompOneDigit   b' <  0  30 0 0>  @sep @figCompOneDigit   b                  @sep @figCompOneDigit                b                                                  ;
 								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   b' <190 -20 0 0>   @sep @figCompOneDigit                b                                                  ;
 								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   b                  @sep @figCompOneDigit                b' <  0   0 0 0>                                   ;
 								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   b                  @sep @figCompOneDigit                b                 @parenRoundRight'  < 70 0 0 0>   ;
-								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   b                  @sep @figCompOneDigit                b                 @parenSquareRight' <150 0 0 0>   ; #170
+								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   b                  @sep @figCompOneDigit                b                 @parenSquareRight' <150 0 0 0>   ;
 
 								# sharp
 								pos  @figCompOneDigit   b' <150   0 0 0>  @sep @figCompOneDigit   b                  @sep @figCompOneDigit   [numbersign s]                                            ;
 								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   b' <  0  10 0 0>   @sep @figCompOneDigit   [numbersign s]                                            ;
-								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   b                  @sep @figCompOneDigit   [numbersign s]' < 80 -10 0 0>                             ; # 120
+								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   b                  @sep @figCompOneDigit   [numbersign s]' < 80 -10 0 0>                             ;
 								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   b                  @sep @figCompOneDigit   [numbersign s]                 @parenRight' <150 0 0 0>   ;
 
 
 							# flat above sharp above...
 								# natural
 								pos  @figCompOneDigit   b' <  0  10 0 0>  @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit                n                                                  ;
-								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   [numbersign s]' <120  20 0 0>   @sep @figCompOneDigit                n                                                  ; # 160
+								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   [numbersign s]' <120  20 0 0>   @sep @figCompOneDigit                n                                                  ;
 								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit                n' <-10 -40 0 0>                                   ;
 								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit                n                 @parenRoundRight'  < 90 0 0 0>   ;
-								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit                n                 @parenSquareRight' <150 0 0 0>   ; #160
+								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit                n                 @parenSquareRight' <150 0 0 0>   ;
 
 								# flat
 								pos  @figCompOneDigit   b' <  0  10 0 0>  @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit                b                                                  ;
-								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   [numbersign s]' <130   0 0 0>   @sep @figCompOneDigit                b                                                  ; # 170
+								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   [numbersign s]' <130   0 0 0>   @sep @figCompOneDigit                b                                                  ;
 								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit                b' <-10   0 0 0>                                   ;
 								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit                b                 @parenRoundRight'  <120 0 0 0>   ;
 								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit                b                 @parenSquareRight' <170 0 0 0>   ;
 
 								# sharp
 								pos  @figCompOneDigit   b' <  0  10 0 0>  @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit   [numbersign s]                                            ;
-								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   [numbersign s]' < 80   0 0 0>   @sep @figCompOneDigit   [numbersign s]                                            ; # 120
-								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit   [numbersign s]' <390   0 0 0>                             ; # 430
+								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   [numbersign s]' < 80   0 0 0>   @sep @figCompOneDigit   [numbersign s]                                            ;
+								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit   [numbersign s]' <390   0 0 0>                             ;
 								pos  @figCompOneDigit   b                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit   [numbersign s]                 @parenRight' <430 0 0 0>   ;
 
 
 							# sharp above natural above...
 								# natural
-								pos  @figCompOneDigit   [numbersign s]' <270 100 0 0>  @sep @figCompOneDigit   n                  @sep @figCompOneDigit                n                                            ; # 310
+								pos  @figCompOneDigit   [numbersign s]' <270 100 0 0>  @sep @figCompOneDigit   n                  @sep @figCompOneDigit                n                                            ;
 								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   n' <130  20 0 0>   @sep @figCompOneDigit                n                                            ;
 								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   n                  @sep @figCompOneDigit                n' < 10 -30 0 0>                             ;
 								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   n                  @sep @figCompOneDigit                n                 @parenRight' <340 0 0 0>   ;
 
 								# flat
-								pos  @figCompOneDigit   [numbersign s]' <190 100 0 0>  @sep @figCompOneDigit   n                  @sep @figCompOneDigit                b                                            ; # 230
+								pos  @figCompOneDigit   [numbersign s]' <190 100 0 0>  @sep @figCompOneDigit   n                  @sep @figCompOneDigit                b                                            ;
 								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   n' < 60  40 0 0>   @sep @figCompOneDigit                b                                            ;
 								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   n                  @sep @figCompOneDigit                b' <  0 -40 0 0>                             ;
 								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   n                  @sep @figCompOneDigit                b                 @parenRight' <270 0 0 0>   ;
 
 								# sharp
-								pos  @figCompOneDigit   [numbersign s]' <-40  20 0 0>  @sep @figCompOneDigit   n                  @sep @figCompOneDigit   [numbersign s]                                                  ; # 0
+								pos  @figCompOneDigit   [numbersign s]' <-40  20 0 0>  @sep @figCompOneDigit   n                  @sep @figCompOneDigit   [numbersign s]                                                  ;
 								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   n' <380   0 0 0>   @sep @figCompOneDigit   [numbersign s]                                                  ;
-								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   n                  @sep @figCompOneDigit   [numbersign s]' <-40 -20 0 0>                                   ; # 0
+								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   n                  @sep @figCompOneDigit   [numbersign s]' <-40 -20 0 0>                                   ;
 								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   n                  @sep @figCompOneDigit   [numbersign s]                 @parenRoundRight'  <280 0 0 0>   ;
-								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   n                  @sep @figCompOneDigit   [numbersign s]                 @parenSquareRight' <340 0 0 0>   ; #370
+								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   n                  @sep @figCompOneDigit   [numbersign s]                 @parenSquareRight' <340 0 0 0>   ;
 
 
 							# sharp above flat above...
 								# natural
-								pos  @figCompOneDigit   [numbersign s]' <320 100 0 0>  @sep @figCompOneDigit   b                  @sep @figCompOneDigit                n                                            ; # 360
+								pos  @figCompOneDigit   [numbersign s]' <320 100 0 0>  @sep @figCompOneDigit   b                  @sep @figCompOneDigit                n                                            ;
 								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   b' <180   0 0 0>   @sep @figCompOneDigit                n                                            ;
 								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   b                  @sep @figCompOneDigit                n' < 10 -20 0 0>                             ;
 								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   b                  @sep @figCompOneDigit                n                 @parenRight' <400 0 0 0>   ;
 
 								# flat
-								pos  @figCompOneDigit   [numbersign s]' <130   0 0 0>  @sep @figCompOneDigit   b                  @sep @figCompOneDigit                b                                            ; # 170
+								pos  @figCompOneDigit   [numbersign s]' <130   0 0 0>  @sep @figCompOneDigit   b                  @sep @figCompOneDigit                b                                            ;
 								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   b' <-10  20 0 0>   @sep @figCompOneDigit                b                                            ;
 								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   b                  @sep @figCompOneDigit                b' <200 -30 0 0>                             ;
 								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   b                  @sep @figCompOneDigit                b                 @parenRight' <240 0 0 0>   ;
 
 								# sharp
-								pos  @figCompOneDigit   [numbersign s]' <140  20 0 0>  @sep @figCompOneDigit   b                  @sep @figCompOneDigit   [numbersign s]                                            ; # 180
+								pos  @figCompOneDigit   [numbersign s]' <140  20 0 0>  @sep @figCompOneDigit   b                  @sep @figCompOneDigit   [numbersign s]                                            ;
 								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   b' <  0  10 0 0>   @sep @figCompOneDigit   [numbersign s]                                            ;
-								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   b                  @sep @figCompOneDigit   [numbersign s]' < 80 -10 0 0>                             ; # 120
+								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   b                  @sep @figCompOneDigit   [numbersign s]' < 80 -10 0 0>                             ;
 								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   b                  @sep @figCompOneDigit   [numbersign s]                 @parenRight' <220 0 0 0>   ;
 
 							# sharp above sharp above...
 								# natural
-								pos  @figCompOneDigit   [numbersign s]' <-40   0 0 0>  @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit                n                                                  ; # 0
-								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   [numbersign s]' <270   0 0 0>   @sep @figCompOneDigit                n                                                  ; # 310
+								pos  @figCompOneDigit   [numbersign s]' <-40   0 0 0>  @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit                n                                                  ;
+								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   [numbersign s]' <270   0 0 0>   @sep @figCompOneDigit                n                                                  ;
 								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit                n' < 40   0 0 0>                                   ;
 								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit                n                 @parenRoundRight'  <200 0 0 0>   ;
 								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit                n                 @parenSquareRight' <310 0 0 0>   ;
 
 								# flat
-								pos  @figCompOneDigit   [numbersign s]' <-40  20 0 0>  @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit                b                                                  ; # 0
-								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   [numbersign s]' <270   0 0 0>   @sep @figCompOneDigit                b                                                  ; # 310
+								pos  @figCompOneDigit   [numbersign s]' <-40  20 0 0>  @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit                b                                                  ;
+								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   [numbersign s]' <270   0 0 0>   @sep @figCompOneDigit                b                                                  ;
 								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit                b' < 30   0 0 0>                                   ;
 								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit                b                 @parenRoundRight'  <200 0 0 0>   ;
 								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit                b                 @parenSquareRight' <310 0 0 0>   ;
 
 								# sharp
-								pos  @figCompOneDigit   [numbersign s]' <-40  30 0 0>  @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit   [numbersign s]                                                  ; # 0
-								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   [numbersign s]' <270   0 0 0>   @sep @figCompOneDigit   [numbersign s]                                                  ; # 310
-								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit   [numbersign s]' <-40 -30 0 0>                                   ; # 0
+								pos  @figCompOneDigit   [numbersign s]' <-40  30 0 0>  @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit   [numbersign s]                                                  ;
+								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   [numbersign s]' <270   0 0 0>   @sep @figCompOneDigit   [numbersign s]                                                  ;
+								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit   [numbersign s]' <-40 -30 0 0>                                   ;
 								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit   [numbersign s]                 @parenRoundRight'  <210 0 0 0>   ;
-								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit   [numbersign s]                 @parenSquareRight' <300 0 0 0>   ; #310
+								pos  @figCompOneDigit   [numbersign s]                 @sep @figCompOneDigit   [numbersign s]                  @sep @figCompOneDigit   [numbersign s]                 @parenSquareRight' <300 0 0 0>   ;
 
 
 						# 1.3.3.1.2 two accidentals
@@ -721,7 +689,7 @@
 								pos  @figCompOneDigit               n                @sep @figCompOneDigit               b                 @sep @sepContent @sepContent @parenSquareRight' <140 0 0 0>  ;
 								# sharp
 								pos  @figCompOneDigit               n' <190 60 0 0>  @sep @figCompOneDigit  [numbersign s]                                                                              ;
-								pos  @figCompOneDigit               n                @sep @figCompOneDigit  [numbersign s]' <-40 -20 0 0>                                                               ; # 0
+								pos  @figCompOneDigit               n                @sep @figCompOneDigit  [numbersign s]' <-40 -20 0 0>                                                               ;
 								pos  @figCompOneDigit               n                @sep @figCompOneDigit  [numbersign s]                                              parenright.2'      < 80 0 0 0>  ;
 								pos  @figCompOneDigit               n                @sep @figCompOneDigit  [numbersign s]                                              @parenRoundRight'  <170 0 0 0>  ;
 								pos  @figCompOneDigit               n                @sep @figCompOneDigit  [numbersign s]                                              @parenSquareRight' <190 0 0 0>  ;
@@ -753,7 +721,7 @@
 								pos  @figCompOneDigit               b                @sep @figCompOneDigit               b                 @sep @sepContent @sepContent @parenSquareRight' <140 0 0 0>  ;
 								# sharp
 								pos  @figCompOneDigit               b' <  0 10 0 0>  @sep @figCompOneDigit  [numbersign s]                                                                              ;
-								pos  @figCompOneDigit               b                @sep @figCompOneDigit  [numbersign s]' < 80 -10 0 0>                                                               ; # 120
+								pos  @figCompOneDigit               b                @sep @figCompOneDigit  [numbersign s]' < 80 -10 0 0>                                                               ;
 								pos  @figCompOneDigit               b                @sep @figCompOneDigit  [numbersign s]                                              @parenRight'       <120 0 0 0>  ;
 								pos  @figCompOneDigit               b                @sep @figCompOneDigit  [numbersign s]                             @sep @sepContent @parenRoundRight'  < 20 0 0 0>  ;
 								pos  @figCompOneDigit               b                @sep @figCompOneDigit  [numbersign s]                             @sep @sepContent @parenSquareRight' <120 0 0 0>  ;
@@ -762,22 +730,22 @@
 
 							# sharp above...
 								# natural
-								pos  @figCompOneDigit  [numbersign s]' <120 50 0 0>  @sep @figCompOneDigit               n                                                                         ; # 160
+								pos  @figCompOneDigit  [numbersign s]' <120 50 0 0>  @sep @figCompOneDigit               n                                                                         ;
 								pos  @figCompOneDigit  [numbersign s]                @sep @figCompOneDigit               n' <-10 -10 0 0>                                                          ;
 								pos  @figCompOneDigit  [numbersign s]                @sep @figCompOneDigit               n                                              parenright.2' < 70 0 0 0>  ;
 								pos  @figCompOneDigit  [numbersign s]                @sep @figCompOneDigit               n                                              @parenRight'  <160 0 0 0>  ;
 								pos  @figCompOneDigit  [numbersign s]                @sep @figCompOneDigit               n                             @sep @sepContent @parenRight'  <160 0 0 0>  ;
 								pos  @figCompOneDigit  [numbersign s]                @sep @figCompOneDigit               n                 @sep @sepContent @sepContent @parenRight'  <160 0 0 0>  ;
 								# flat
-								pos  @figCompOneDigit  [numbersign s]' <130  0 0 0>  @sep @figCompOneDigit               b                                                                         ; # 170
+								pos  @figCompOneDigit  [numbersign s]' <130  0 0 0>  @sep @figCompOneDigit               b                                                                         ;
 								pos  @figCompOneDigit  [numbersign s]                @sep @figCompOneDigit               b' <-10   0 0 0>                                                          ;
 								pos  @figCompOneDigit  [numbersign s]                @sep @figCompOneDigit               b                                              parenright.2' < 70 0 0 0>  ;
 								pos  @figCompOneDigit  [numbersign s]                @sep @figCompOneDigit               b                                              @parenRight'  <170 0 0 0>  ;
 								pos  @figCompOneDigit  [numbersign s]                @sep @figCompOneDigit               b                             @sep @sepContent @parenRight'  <170 0 0 0>  ;
 								pos  @figCompOneDigit  [numbersign s]                @sep @figCompOneDigit               b                 @sep @sepContent @sepContent @parenRight'  <170 0 0 0>  ;
 								# sharp
-								pos  @figCompOneDigit  [numbersign s]' <-40  0 0 0>  @sep @figCompOneDigit  [numbersign s]                                                                              ; # 0
-								pos  @figCompOneDigit  [numbersign s]                @sep @figCompOneDigit  [numbersign s]' <270   0 0 0>                                                               ; # 310
+								pos  @figCompOneDigit  [numbersign s]' <-40  0 0 0>  @sep @figCompOneDigit  [numbersign s]                                                                              ;
+								pos  @figCompOneDigit  [numbersign s]                @sep @figCompOneDigit  [numbersign s]' <270   0 0 0>                                                               ;
 								pos  @figCompOneDigit  [numbersign s]                @sep @figCompOneDigit  [numbersign s]                                              @parenRight'       <310 0 0 0>  ;
 								pos  @figCompOneDigit  [numbersign s]                @sep @figCompOneDigit  [numbersign s]                             @sep @sepContent @parenRoundRight'  <180 0 0 0>  ;
 								pos  @figCompOneDigit  [numbersign s]                @sep @figCompOneDigit  [numbersign s]                             @sep @sepContent @parenSquareRight' <310 0 0 0>  ;
@@ -797,7 +765,7 @@
 
 							# natural above natural above...
 								# natural
-								pos  @parenLeft' <-280 0 0 0>  n                  @figCompOneDigit @sep   n                   @figCompOneDigit @sep                n                   @figCompOneDigit   ; # -300 // -290
+								pos  @parenLeft' <-280 0 0 0>  n                  @figCompOneDigit @sep   n                   @figCompOneDigit @sep                n                   @figCompOneDigit   ;
 								pos                            n' < 10  40 0 0>   @figCompOneDigit @sep   n                   @figCompOneDigit @sep                n                   @figCompOneDigit   ;
 								pos                            n                  @figCompOneDigit @sep   n' <-150  10 0 0>   @figCompOneDigit @sep                n                   @figCompOneDigit   ;
 								pos                            n                  @figCompOneDigit @sep   n                   @figCompOneDigit @sep                n' <-300 -20 0 0>   @figCompOneDigit   ;
@@ -812,13 +780,13 @@
 								pos  @parenLeft' <-330 0 0 0>  n                  @figCompOneDigit @sep   n                   @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ;
 								pos                            n' < 10  60 0 0>   @figCompOneDigit @sep   n                   @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ;
 								pos                            n                  @figCompOneDigit @sep   n' <-150  40 0 0>   @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ;
-								pos                            n                  @figCompOneDigit @sep   n                   @figCompOneDigit @sep   [numbersign s]' <-290 -50 0 0>   @figCompOneDigit   ; # -330
+								pos                            n                  @figCompOneDigit @sep   n                   @figCompOneDigit @sep   [numbersign s]' <-290 -50 0 0>   @figCompOneDigit   ;
 
 
 							# natural above flat above...
 								# natural
 								pos  @parenRoundLeft'  < -60 0 0 0>  n                  @figCompOneDigit @sep   b                   @figCompOneDigit @sep                n                   @figCompOneDigit   ;
-								pos  @parenSquareLeft' <-140 0 0 0>  n                  @figCompOneDigit @sep   b                   @figCompOneDigit @sep                n                   @figCompOneDigit   ; # -150
+								pos  @parenSquareLeft' <-140 0 0 0>  n                  @figCompOneDigit @sep   b                   @figCompOneDigit @sep                n                   @figCompOneDigit   ;
 								pos                                  n' <  0   0 0 0>   @figCompOneDigit @sep   b                   @figCompOneDigit @sep                n                   @figCompOneDigit   ;
 								pos                                  n                  @figCompOneDigit @sep   b' <-150   0 0 0>   @figCompOneDigit @sep                n                   @figCompOneDigit   ;
 								pos                                  n                  @figCompOneDigit @sep   b                   @figCompOneDigit @sep                n' <  0 -20 0 0>    @figCompOneDigit   ;
@@ -827,7 +795,7 @@
 								pos  @parenRoundLeft'  < -70 0 0 0>  n                  @figCompOneDigit @sep   b                   @figCompOneDigit @sep                b                   @figCompOneDigit   ;
 								pos  @parenSquareLeft' <-150 0 0 0>  n                  @figCompOneDigit @sep   b                   @figCompOneDigit @sep                b                   @figCompOneDigit   ;
 								pos                                  n' <  0   0 0 0>   @figCompOneDigit @sep   b                   @figCompOneDigit @sep                b                   @figCompOneDigit   ;
-								pos                                  n                  @figCompOneDigit @sep   b' <-155   5 0 0>   @figCompOneDigit @sep                b                   @figCompOneDigit   ; # -150 0
+								pos                                  n                  @figCompOneDigit @sep   b' <-155   5 0 0>   @figCompOneDigit @sep                b                   @figCompOneDigit   ;
 								pos                                  n                  @figCompOneDigit @sep   b                   @figCompOneDigit @sep                b' <  0 -30 0 0>    @figCompOneDigit   ;
 
 								# sharp
@@ -835,35 +803,35 @@
 								pos  @parenSquareLeft' <-150 0 0 0>  n                  @figCompOneDigit @sep   b                   @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ;
 								pos                                  n' <  0   0 0 0>   @figCompOneDigit @sep   b                   @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ;
 								pos                                  n                  @figCompOneDigit @sep   b' <-150   0 0 0>   @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ;
-								pos                                  n                  @figCompOneDigit @sep   b                   @figCompOneDigit @sep   [numbersign s]' < 40   0 0 0>    @figCompOneDigit   ; # 0
+								pos                                  n                  @figCompOneDigit @sep   b                   @figCompOneDigit @sep   [numbersign s]' < 40   0 0 0>    @figCompOneDigit   ;
 
 
 							# natural above sharp above...
 								# natural
 								pos  @parenRoundLeft'  <-130 0 0 0>  n                  @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep                n                    @figCompOneDigit   ;
-								pos  @parenSquareLeft' <-260 0 0 0>  n                  @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep                n                    @figCompOneDigit   ; # -270
+								pos  @parenSquareLeft' <-260 0 0 0>  n                  @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep                n                    @figCompOneDigit   ;
 								pos                                  n' <-20  60 0 0>   @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep                n                    @figCompOneDigit   ;
-								pos                                  n                  @figCompOneDigit @sep   [numbersign s]' <-230  10 0 0>   @figCompOneDigit @sep                n                    @figCompOneDigit   ; # -270
+								pos                                  n                  @figCompOneDigit @sep   [numbersign s]' <-230  10 0 0>   @figCompOneDigit @sep                n                    @figCompOneDigit   ;
 								pos                                  n                  @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep                n' <  30 -30 0 0>    @figCompOneDigit   ;
 
 								# flat
 								pos        @parenLeft' <-330 0 0 0>  n                  @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep                b                    @figCompOneDigit   ;
 								pos                                  n' < 20  40 0 0>   @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep                b                    @figCompOneDigit   ;
-								pos                                  n                  @figCompOneDigit @sep   [numbersign s]' <-110 -40 0 0>   @figCompOneDigit @sep                b                    @figCompOneDigit   ; # -150
+								pos                                  n                  @figCompOneDigit @sep   [numbersign s]' <-110 -40 0 0>   @figCompOneDigit @sep                b                    @figCompOneDigit   ;
 								pos                                  n                  @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep                b' <-330 -40 0 0>    @figCompOneDigit   ;
 
 								# sharp
 								pos  @parenRoundLeft'  <-170 0 0 0>  n                  @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep   [numbersign s]                    @figCompOneDigit   ;
-								pos  @parenSquareLeft' <-290 0 0 0>  n                  @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep   [numbersign s]                    @figCompOneDigit   ; # -310
+								pos  @parenSquareLeft' <-290 0 0 0>  n                  @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep   [numbersign s]                    @figCompOneDigit   ;
 								pos                                  n' <  0  30 0 0>   @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep   [numbersign s]                    @figCompOneDigit   ;
-								pos                                  n                  @figCompOneDigit @sep   [numbersign s]' <-270  10 0 0>   @figCompOneDigit @sep   [numbersign s]                    @figCompOneDigit   ; # -310
-								pos                                  n                  @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep   [numbersign s]' <  50 -20 0 0>    @figCompOneDigit   ; # 10
+								pos                                  n                  @figCompOneDigit @sep   [numbersign s]' <-270  10 0 0>   @figCompOneDigit @sep   [numbersign s]                    @figCompOneDigit   ;
+								pos                                  n                  @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep   [numbersign s]' <  50 -20 0 0>    @figCompOneDigit   ;
 
 
 							# flat above natural above...
 								# natural
 								pos  @parenRoundLeft'  <-170 0 0 0>  b                  @figCompOneDigit @sep   n                    @figCompOneDigit @sep                n                    @figCompOneDigit   ;
-								pos  @parenSquareLeft' <-190 0 0 0>  b                  @figCompOneDigit @sep   n                    @figCompOneDigit @sep                n                    @figCompOneDigit   ; # -200
+								pos  @parenSquareLeft' <-190 0 0 0>  b                  @figCompOneDigit @sep   n                    @figCompOneDigit @sep                n                    @figCompOneDigit   ;
 								pos                                  b' < 10  10 0 0>   @figCompOneDigit @sep   n                    @figCompOneDigit @sep                n                    @figCompOneDigit   ;
 								pos                                  b                  @figCompOneDigit @sep   n' <-200  50 0 0>    @figCompOneDigit @sep                n                    @figCompOneDigit   ;
 								pos                                  b                  @figCompOneDigit @sep   n                    @figCompOneDigit @sep                n' <-190 -30 0 0>    @figCompOneDigit   ;
@@ -879,116 +847,116 @@
 								pos  @parenLeft' <-320 0 0 0>  b                  @figCompOneDigit @sep   n                    @figCompOneDigit @sep   [numbersign s]                    @figCompOneDigit   ;
 								pos                            b' < 10   0 0 0>   @figCompOneDigit @sep   n                    @figCompOneDigit @sep   [numbersign s]                    @figCompOneDigit   ;
 								pos                            b                  @figCompOneDigit @sep   n' <-200  40 0 0>    @figCompOneDigit @sep   [numbersign s]                    @figCompOneDigit   ;
-								pos                            b                  @figCompOneDigit @sep   n                    @figCompOneDigit @sep   [numbersign s]' <-280 -40 0 0>    @figCompOneDigit   ; # -320
+								pos                            b                  @figCompOneDigit @sep   n                    @figCompOneDigit @sep   [numbersign s]' <-280 -40 0 0>    @figCompOneDigit   ;
 
 
 							# flat above flat above...
 								# natural
 								pos  @parenRoundLeft'  < -80 0 0 0>  b                  @figCompOneDigit @sep   b                    @figCompOneDigit @sep                n                   @figCompOneDigit   ;
-								pos  @parenSquareLeft' <-150 0 0 0>  b                  @figCompOneDigit @sep   b                    @figCompOneDigit @sep                n                   @figCompOneDigit   ; # -160
+								pos  @parenSquareLeft' <-150 0 0 0>  b                  @figCompOneDigit @sep   b                    @figCompOneDigit @sep                n                   @figCompOneDigit   ;
 								pos                                  b' < 10   0 0 0>   @figCompOneDigit @sep   b                    @figCompOneDigit @sep                n                   @figCompOneDigit   ;
 								pos                                  b                  @figCompOneDigit @sep   b' <-160   0 0 0>    @figCompOneDigit @sep                n                   @figCompOneDigit   ;
 								pos                                  b                  @figCompOneDigit @sep   b                    @figCompOneDigit @sep                n' < 10 -10 0 0>    @figCompOneDigit   ;
 
 								# flat
 								pos  @parenRoundLeft'  < -90 0 0 0>  b                  @figCompOneDigit @sep   b                    @figCompOneDigit @sep                b                   @figCompOneDigit   ;
-								pos  @parenSquareLeft' <-160 0 0 0>  b                  @figCompOneDigit @sep   b                    @figCompOneDigit @sep                b                   @figCompOneDigit   ; # -170
+								pos  @parenSquareLeft' <-160 0 0 0>  b                  @figCompOneDigit @sep   b                    @figCompOneDigit @sep                b                   @figCompOneDigit   ;
 								pos                                  b' < 10   0 0 0>   @figCompOneDigit @sep   b                    @figCompOneDigit @sep                b                   @figCompOneDigit   ;
 								pos                                  b                  @figCompOneDigit @sep   b' <-170  20 0 0>    @figCompOneDigit @sep                b                   @figCompOneDigit   ;
 								pos                                  b                  @figCompOneDigit @sep   b                    @figCompOneDigit @sep                b' < 10 -10 0 0>    @figCompOneDigit   ;
 
 								# sharp
 								pos  @parenRoundLeft'  < -80 0 0 0>  b                  @figCompOneDigit @sep   b                    @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ;
-								pos  @parenSquareLeft' <-140 0 0 0>  b                  @figCompOneDigit @sep   b                    @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ; # -150
+								pos  @parenSquareLeft' <-140 0 0 0>  b                  @figCompOneDigit @sep   b                    @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ;
 								pos                                  b' < 10   0 0 0>   @figCompOneDigit @sep   b                    @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ;
 								pos                                  b                  @figCompOneDigit @sep   b' <-150   0 0 0>    @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ;
-								pos                                  b                  @figCompOneDigit @sep   b                    @figCompOneDigit @sep   [numbersign s]' < 40   0 0 0>    @figCompOneDigit   ; # 0
+								pos                                  b                  @figCompOneDigit @sep   b                    @figCompOneDigit @sep   [numbersign s]' < 40   0 0 0>    @figCompOneDigit   ;
 
 
 							# flat above sharp above...
 								# natural
-								pos  @parenLeft' <-200 0 0 0>  b                   @figCompOneDigit @sep   [numbersign s]                  @figCompOneDigit @sep                n                    @figCompOneDigit   ; # -210
+								pos  @parenLeft' <-200 0 0 0>  b                   @figCompOneDigit @sep   [numbersign s]                  @figCompOneDigit @sep                n                    @figCompOneDigit   ;
 								pos                            b' <-110  20 0 0>   @figCompOneDigit @sep   [numbersign s]                  @figCompOneDigit @sep                n                    @figCompOneDigit   ;
-								pos                            b                   @figCompOneDigit @sep   [numbersign s]' < 50   0 0 0>   @figCompOneDigit @sep                n                    @figCompOneDigit   ; # 10
+								pos                            b                   @figCompOneDigit @sep   [numbersign s]' < 50   0 0 0>   @figCompOneDigit @sep                n                    @figCompOneDigit   ;
 								pos                            b                   @figCompOneDigit @sep   [numbersign s]                  @figCompOneDigit @sep                n' <-210 -40 0 0>    @figCompOneDigit   ;
 
 								# flat
 								pos  @parenLeft' <-170 0 0 0>  b                   @figCompOneDigit @sep   [numbersign s]                  @figCompOneDigit @sep                b                    @figCompOneDigit   ;
 								pos                            b' <-110  10 0 0>   @figCompOneDigit @sep   [numbersign s]                  @figCompOneDigit @sep                b                    @figCompOneDigit   ;
-								pos                            b                   @figCompOneDigit @sep   [numbersign s]' < 50 -10 0 0>   @figCompOneDigit @sep                b                    @figCompOneDigit   ; # 10
+								pos                            b                   @figCompOneDigit @sep   [numbersign s]' < 50 -10 0 0>   @figCompOneDigit @sep                b                    @figCompOneDigit   ;
 								pos                            b                   @figCompOneDigit @sep   [numbersign s]                  @figCompOneDigit @sep                b' <-170 -10 0 0>    @figCompOneDigit   ;
 
 								# sharp
 								pos  @parenLeft' <-330 0 0 0>  b                   @figCompOneDigit @sep   [numbersign s]                  @figCompOneDigit @sep   [numbersign s]                    @figCompOneDigit   ;
 								pos                            b' <-110  10 0 0>   @figCompOneDigit @sep   [numbersign s]                  @figCompOneDigit @sep   [numbersign s]                    @figCompOneDigit   ;
-								pos                            b                   @figCompOneDigit @sep   [numbersign s]' < 50   0 0 0>   @figCompOneDigit @sep   [numbersign s]                    @figCompOneDigit   ; # 10
-								pos                            b                   @figCompOneDigit @sep   [numbersign s]                  @figCompOneDigit @sep   [numbersign s]' <-290 -15 0 0>    @figCompOneDigit   ; # -330
+								pos                            b                   @figCompOneDigit @sep   [numbersign s]' < 50   0 0 0>   @figCompOneDigit @sep   [numbersign s]                    @figCompOneDigit   ;
+								pos                            b                   @figCompOneDigit @sep   [numbersign s]                  @figCompOneDigit @sep   [numbersign s]' <-290 -15 0 0>    @figCompOneDigit   ;
 
 
 							# sharp above natural above...
 								# natural
 								pos  @parenRoundLeft'  <-200 0 0 0>  [numbersign s]                 @figCompOneDigit @sep   n                    @figCompOneDigit @sep                n                   @figCompOneDigit   ;
-								pos  @parenSquareLeft' <-220 0 0 0>  [numbersign s]                 @figCompOneDigit @sep   n                    @figCompOneDigit @sep                n                   @figCompOneDigit   ; # -230
-								pos                                  [numbersign s]' < 40  50 0 0>  @figCompOneDigit @sep   n                    @figCompOneDigit @sep                n                   @figCompOneDigit   ; # 0
+								pos  @parenSquareLeft' <-220 0 0 0>  [numbersign s]                 @figCompOneDigit @sep   n                    @figCompOneDigit @sep                n                   @figCompOneDigit   ;
+								pos                                  [numbersign s]' < 40  50 0 0>  @figCompOneDigit @sep   n                    @figCompOneDigit @sep                n                   @figCompOneDigit   ;
 								pos                                  [numbersign s]                 @figCompOneDigit @sep   n' <-190  20 0 0>    @figCompOneDigit @sep                n                   @figCompOneDigit   ;
 								pos                                  [numbersign s]                 @figCompOneDigit @sep   n                    @figCompOneDigit @sep                n' <-230 -30 0 0>   @figCompOneDigit   ;
 
 								# flat
 								pos        @parenLeft' <-210 0 0 0>  [numbersign s]                 @figCompOneDigit @sep   n                    @figCompOneDigit @sep                b                   @figCompOneDigit   ;
-								pos                                  [numbersign s]' < 40  50 0 0>  @figCompOneDigit @sep   n                    @figCompOneDigit @sep                b                   @figCompOneDigit   ; # 0
+								pos                                  [numbersign s]' < 40  50 0 0>  @figCompOneDigit @sep   n                    @figCompOneDigit @sep                b                   @figCompOneDigit   ;
 								pos                                  [numbersign s]                 @figCompOneDigit @sep   n' <-190  10 0 0>    @figCompOneDigit @sep                b                   @figCompOneDigit   ;
 								pos                                  [numbersign s]                 @figCompOneDigit @sep   n                    @figCompOneDigit @sep                b' <-220 -40 0 0>   @figCompOneDigit   ;
 
 								# sharp
 								pos        @parenLeft' <-340 0 0 0>  [numbersign s]                 @figCompOneDigit @sep   n                    @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ;
-								pos                                  [numbersign s]' < 40  50 0 0>  @figCompOneDigit @sep   n                    @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ; # 0
-								pos                                  [numbersign s]                 @figCompOneDigit @sep   n' <-185  20 0 0>    @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ; # -185 0
-								pos                                  [numbersign s]                 @figCompOneDigit @sep   n                    @figCompOneDigit @sep   [numbersign s]' <-310 -30 0 0>   @figCompOneDigit   ; # -350
+								pos                                  [numbersign s]' < 40  50 0 0>  @figCompOneDigit @sep   n                    @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ;
+								pos                                  [numbersign s]                 @figCompOneDigit @sep   n' <-185  20 0 0>    @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ;
+								pos                                  [numbersign s]                 @figCompOneDigit @sep   n                    @figCompOneDigit @sep   [numbersign s]' <-310 -30 0 0>   @figCompOneDigit   ;
 
 
 							# sharp above flat above...
 								# natural
 								pos  @parenRoundLeft'  <-100 0 0 0>  [numbersign s]                 @figCompOneDigit @sep   b                   @figCompOneDigit @sep                n                   @figCompOneDigit   ;
-								pos  @parenSquareLeft' <-170 0 0 0>  [numbersign s]                 @figCompOneDigit @sep   b                   @figCompOneDigit @sep                n                   @figCompOneDigit   ; # -180
-								pos                                  [numbersign s]' < 40   0 0 0>  @figCompOneDigit @sep   b                   @figCompOneDigit @sep                n                   @figCompOneDigit   ; # 0
+								pos  @parenSquareLeft' <-170 0 0 0>  [numbersign s]                 @figCompOneDigit @sep   b                   @figCompOneDigit @sep                n                   @figCompOneDigit   ;
+								pos                                  [numbersign s]' < 40   0 0 0>  @figCompOneDigit @sep   b                   @figCompOneDigit @sep                n                   @figCompOneDigit   ;
 								pos                                  [numbersign s]                 @figCompOneDigit @sep   b' <-180   0 0 0>   @figCompOneDigit @sep                n                   @figCompOneDigit   ;
 								pos                                  [numbersign s]                 @figCompOneDigit @sep   b                   @figCompOneDigit @sep                n' < 10 -20 0 0>    @figCompOneDigit   ;
 
 								# flat
 								pos  @parenRoundLeft'  <-110 0 0 0>  [numbersign s]                 @figCompOneDigit @sep   b                   @figCompOneDigit @sep                b                   @figCompOneDigit   ;
-								pos  @parenSquareLeft' <-180 0 0 0>  [numbersign s]                 @figCompOneDigit @sep   b                   @figCompOneDigit @sep                b                   @figCompOneDigit   ; # -190
-								pos                                  [numbersign s]' < 40  10 0 0>  @figCompOneDigit @sep   b                   @figCompOneDigit @sep                b                   @figCompOneDigit   ; # 0
+								pos  @parenSquareLeft' <-180 0 0 0>  [numbersign s]                 @figCompOneDigit @sep   b                   @figCompOneDigit @sep                b                   @figCompOneDigit   ;
+								pos                                  [numbersign s]' < 40  10 0 0>  @figCompOneDigit @sep   b                   @figCompOneDigit @sep                b                   @figCompOneDigit   ;
 								pos                                  [numbersign s]                 @figCompOneDigit @sep   b' <-190  20 0 0>   @figCompOneDigit @sep                b                   @figCompOneDigit   ;
 								pos                                  [numbersign s]                 @figCompOneDigit @sep   b                   @figCompOneDigit @sep                b' < 10 -30 0 0>    @figCompOneDigit   ;
 
 								# sharp
 								pos  @parenRoundLeft'  <-100 0 0 0>  [numbersign s]                 @figCompOneDigit @sep   b                   @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ;
-								pos  @parenSquareLeft' <-170 0 0 0>  [numbersign s]                 @figCompOneDigit @sep   b                   @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ; # -180
-								pos                                  [numbersign s]' < 40   0 0 0>  @figCompOneDigit @sep   b                   @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ; # 0
+								pos  @parenSquareLeft' <-170 0 0 0>  [numbersign s]                 @figCompOneDigit @sep   b                   @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ;
+								pos                                  [numbersign s]' < 40   0 0 0>  @figCompOneDigit @sep   b                   @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ;
 								pos                                  [numbersign s]                 @figCompOneDigit @sep   b' <-180 -20 0 0>   @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ;
-								pos                                  [numbersign s]                 @figCompOneDigit @sep   b                   @figCompOneDigit @sep   [numbersign s]' < 40   0 0 0>    @figCompOneDigit   ; # 0
+								pos                                  [numbersign s]                 @figCompOneDigit @sep   b                   @figCompOneDigit @sep   [numbersign s]' < 40   0 0 0>    @figCompOneDigit   ;
 
 							# sharp above sharp above...
 								# natural
 								pos  @parenRoundLeft'  <-210 0 0 0>  [numbersign s]                 @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep                n                   @figCompOneDigit   ;
-								pos  @parenSquareLeft' <-310 0 0 0>  [numbersign s]                 @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep                n                   @figCompOneDigit   ; # -330
-								pos                                  [numbersign s]' < 40  15 0 0>  @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep                n                   @figCompOneDigit   ; # 0
-								pos                                  [numbersign s]                 @figCompOneDigit @sep   [numbersign s]' <-290 -15 0 0>   @figCompOneDigit @sep                n                   @figCompOneDigit   ; # -330
+								pos  @parenSquareLeft' <-310 0 0 0>  [numbersign s]                 @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep                n                   @figCompOneDigit   ;
+								pos                                  [numbersign s]' < 40  15 0 0>  @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep                n                   @figCompOneDigit   ;
+								pos                                  [numbersign s]                 @figCompOneDigit @sep   [numbersign s]' <-290 -15 0 0>   @figCompOneDigit @sep                n                   @figCompOneDigit   ;
 								pos                                  [numbersign s]                 @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep                n' < 20   0 0 0>    @figCompOneDigit   ;
 
 								# flat
 								pos  @parenRoundLeft'  <-210 0 0 0>  [numbersign s]                 @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep                b                   @figCompOneDigit   ;
-								pos  @parenSquareLeft' <-310 0 0 0>  [numbersign s]                 @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep                b                   @figCompOneDigit   ; # -330
-								pos                                  [numbersign s]' < 40  15 0 0>  @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep                b                   @figCompOneDigit   ; # 0
-								pos                                  [numbersign s]                 @figCompOneDigit @sep   [numbersign s]' <-290 -15 0 0>   @figCompOneDigit @sep                b                   @figCompOneDigit   ; # -330
+								pos  @parenSquareLeft' <-310 0 0 0>  [numbersign s]                 @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep                b                   @figCompOneDigit   ;
+								pos                                  [numbersign s]' < 40  15 0 0>  @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep                b                   @figCompOneDigit   ;
+								pos                                  [numbersign s]                 @figCompOneDigit @sep   [numbersign s]' <-290 -15 0 0>   @figCompOneDigit @sep                b                   @figCompOneDigit   ;
 								pos                                  [numbersign s]                 @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep                b' < 20   0 0 0>    @figCompOneDigit   ;
 
 								# sharp
 								pos  @parenRoundLeft'  <-210 0 0 0>  [numbersign s]                 @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ;
-								pos  @parenSquareLeft' <-310 0 0 0>  [numbersign s]                 @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ; # -330
-								pos                                  [numbersign s]' < 40  20 0 0>  @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ; # 0
-								pos                                  [numbersign s]                 @figCompOneDigit @sep   [numbersign s]' <-290   0 0 0>   @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ; # -330
-								pos                                  [numbersign s]                 @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep   [numbersign s]' < 40 -20 0 0>    @figCompOneDigit   ; # 0
+								pos  @parenSquareLeft' <-310 0 0 0>  [numbersign s]                 @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ;
+								pos                                  [numbersign s]' < 40  20 0 0>  @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ;
+								pos                                  [numbersign s]                 @figCompOneDigit @sep   [numbersign s]' <-290   0 0 0>   @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit   ;
+								pos                                  [numbersign s]                 @figCompOneDigit @sep   [numbersign s]                   @figCompOneDigit @sep   [numbersign s]' < 40 -20 0 0>    @figCompOneDigit   ;
 
 						# 1.3.3.2.2 two accidentals
 
@@ -1013,7 +981,7 @@
 								pos  parenleft.2' < -70 0 0 0>                                    n                 @figCompOneDigit @sep  [numbersign s]                  @figCompOneDigit   ;
 								pos  @parenLeft'  <-170 0 0 0>                                    n                 @figCompOneDigit @sep  [numbersign s]                  @figCompOneDigit   ;
 								pos                                                               n' <   0 40 0 0>  @figCompOneDigit @sep  [numbersign s]                  @figCompOneDigit   ;
-								pos                                                               n                 @figCompOneDigit @sep  [numbersign s]' <-130 -40 0 0>  @figCompOneDigit   ; # -170
+								pos                                                               n                 @figCompOneDigit @sep  [numbersign s]' <-130 -40 0 0>  @figCompOneDigit   ;
 
 							# flat above...
 								# natural
@@ -1037,7 +1005,7 @@
 								pos  @parenLeft'  <-110 0 0 0>                @parenContent @sep  b                 @figCompOneDigit @sep  [numbersign s]                  @figCompOneDigit   ;
 								pos  @parenLeft'  <-110 0 0 0>                                    b                 @figCompOneDigit @sep  [numbersign s]                  @figCompOneDigit   ;
 								pos                                                               b' <-110 10 0 0>  @figCompOneDigit @sep  [numbersign s]                  @figCompOneDigit   ;
-								pos                                                               b                 @figCompOneDigit @sep  [numbersign s]' <  50 -10 0 0>  @figCompOneDigit   ; # 10
+								pos                                                               b                 @figCompOneDigit @sep  [numbersign s]' <  50 -10 0 0>  @figCompOneDigit   ;
 
 							# sharp above...
 								# natural
@@ -1045,22 +1013,22 @@
 								pos  @parenLeft'  <-180 0 0 0>                @parenContent @sep  [numbersign s]                 @figCompOneDigit @sep               n                  @figCompOneDigit   ;
 								pos  parenleft.2' <-110 0 0 0>                                    [numbersign s]                 @figCompOneDigit @sep               n                  @figCompOneDigit   ;
 								pos  @parenLeft'  <-180 0 0 0>                                    [numbersign s]                 @figCompOneDigit @sep               n                  @figCompOneDigit   ;
-								pos                                                               [numbersign s]' <  40 50 0 0>  @figCompOneDigit @sep               n                  @figCompOneDigit   ; # 0
+								pos                                                               [numbersign s]' <  40 50 0 0>  @figCompOneDigit @sep               n                  @figCompOneDigit   ;
 								pos                                                               [numbersign s]                 @figCompOneDigit @sep               n' <-210   0 0 0>  @figCompOneDigit   ;
 								# flat
 								pos  @parenLeft'  <-180 0 0 0>  @parenContent @parenContent @sep  [numbersign s]                 @figCompOneDigit @sep               b                  @figCompOneDigit   ;
 								pos  @parenLeft'  <-180 0 0 0>                @parenContent @sep  [numbersign s]                 @figCompOneDigit @sep               b                  @figCompOneDigit   ;
 								pos  parenleft.2' < -90 0 0 0>                                    [numbersign s]                 @figCompOneDigit @sep               b                  @figCompOneDigit   ;
 								pos  @parenLeft'  <-180 0 0 0>                                    [numbersign s]                 @figCompOneDigit @sep               b                  @figCompOneDigit   ;
-								pos                                                               [numbersign s]' <  40  0 0 0>  @figCompOneDigit @sep               b                  @figCompOneDigit   ; # 0
+								pos                                                               [numbersign s]' <  40  0 0 0>  @figCompOneDigit @sep               b                  @figCompOneDigit   ;
 								pos                                                               [numbersign s]                 @figCompOneDigit @sep               b' <-180   0 0 0>  @figCompOneDigit   ;
 								# sharp
 								pos  @parenLeft'  <-330 0 0 0>  @parenContent @parenContent @sep  [numbersign s]                 @figCompOneDigit @sep  [numbersign s]                  @figCompOneDigit   ;
 								pos  @parenLeft'  <-330 0 0 0>                @parenContent @sep  [numbersign s]                 @figCompOneDigit @sep  [numbersign s]                  @figCompOneDigit   ;
 								pos  parenleft.2' <-210 0 0 0>                                    [numbersign s]                 @figCompOneDigit @sep  [numbersign s]                  @figCompOneDigit   ;
 								pos  @parenLeft'  <-330 0 0 0>                                    [numbersign s]                 @figCompOneDigit @sep  [numbersign s]                  @figCompOneDigit   ;
-								pos                                                               [numbersign s]' <  40 15 0 0>  @figCompOneDigit @sep  [numbersign s]                  @figCompOneDigit   ; # 0
-								pos                                                               [numbersign s]                 @figCompOneDigit @sep  [numbersign s]' <-290 -15 0 0>  @figCompOneDigit   ; # -330
+								pos                                                               [numbersign s]' <  40 15 0 0>  @figCompOneDigit @sep  [numbersign s]                  @figCompOneDigit   ;
+								pos                                                               [numbersign s]                 @figCompOneDigit @sep  [numbersign s]' <-290 -15 0 0>  @figCompOneDigit   ;
 
 							} KERN_accidentalsLeft;
 
@@ -1103,7 +1071,7 @@
 							pos    four_plus  @sep  @figCompOneDigit  [numbersign s]                @parenRight' <120 0 0 0>  ;
 							pos  i_four_plus  @sep  @figCompOneDigit  [numbersign s]' <120  0 0 0>                            ;
 							pos  i_four_plus  @sep  @figCompOneDigit  [numbersign s]                @parenRight' <120 0 0 0>  ;
-						
+
 						# five_plus
 							# natural
 							pos  @figCompOneDigit               n' < 80   0 0 0>  @sep    five_plus                                                               ;

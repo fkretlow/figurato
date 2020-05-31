@@ -5,12 +5,12 @@
 # LOOKUP DEFINITIONS
 
 	# 0. PREFATORY SUBSTITUTIONS --------------------------------------------------
-		
+
 		lookup CALT_singleSubstitutions {
 			lookupflag 0;
 			sub  quoteright  by  quotesingle;
 			sub  quoteleft   by  quotesingle;
-		
+
 			} CALT_singleSubstitutions;
 
 
@@ -76,14 +76,6 @@
 			sub   six    plus   by   six_tick     ;
 			sub   seven  plus   by   seven_tick   ;
 			sub   nine   plus   by   nine_tick    ;
-
-			# sub   one        plus   by   stop   ;
-			# sub   three      plus   by   stop   ;
-			# sub   eight      plus   by   stop   ;
-			# sub   one_zero   plus   by   stop   ;
-			# sub   one_two    plus   by   stop   ;
-			# sub   one_three  plus   by   stop   ;
-			# sub   one_four   plus   by   stop   ;
 			} LIGA_figuresPlus;
 
 
@@ -98,9 +90,9 @@
 			sub   four  quotesingle                           by   four_tick       ;
 			sub   four  quotesingle quotesingle               by   stop            ;
 
-			sub   five  quotesingle                           by   five_tick        ;
-			sub   five  quotesingle quotesingle               by   five_tick.alt    ;
-			sub   five  quotesingle quotesingle quotesingle   by   stop             ;
+			sub   five  quotesingle                           by   five_tick       ;
+			sub   five  quotesingle quotesingle               by   five_tick.alt   ;
+			sub   five  quotesingle quotesingle quotesingle   by   stop            ;
 
 			sub   six  quotesingle                            by   six_tick        ;
 			sub   six  quotesingle quotesingle                by   six_tick.alt    ;
@@ -122,14 +114,11 @@
 
 			} LIGA_tickedFigures;
 
-		
+
 		lookup LIGA_italicFigures {
 			lookupflag 0;
-			# sub  i one zero  by  i_one_zero  ;
 			sub  i one_zero  by  i_one_zero  ;
-			# sub  i one one   by  i_one_one   ;
 			sub  i one_one   by  i_one_one   ;
-			# sub  i one two   by  i_one_two   ;
 			sub  i one_two   by  i_one_two   ;
 			sub  i one_three by  i_one_three ;
 			sub  i one_four  by  i_one_four  ;
@@ -227,7 +216,7 @@
 				lookupflag 0;
 				sub  bar  by  parenleft.invisible  ;
 				} replaceBarLeft;
-			
+
 			lookup replaceBarRight {
 				lookupflag 0;
 				sub  bar  by  parenright.invisible  ;
@@ -402,7 +391,7 @@
 				sub bracketleft_X_bracketright    by  bracketleft_X_bracketright    sep  ;
 
 				sub comma                         by  comma                         sep  ;
-				
+
 				sub stop                          by  stop                          sep  ;
 
 				} addSepRight;
@@ -420,10 +409,6 @@
 				ignore sub   @accNoFlat    @figComp'                         @parenRight             ;
 				ignore sub   @flat         @figComp'                         @parenRight             ;
 				ignore sub                 @flat'                            @comma @flat @figComp   ;
-				#ignore sub                 @figComp'                         @accNoFlat              ; # new
-				#ignore sub                 @figComp'                         @flat                   ; # new
-				#ignore sub                 @figComp'                         @parenRight             ; # new
-				#ignore sub                 @figComp'                         @comma                  ; # new
 					   sub                 @figComp'    lookup addSepRight   @figComp                ;
 					   sub   @accNoFlat    @figComp'    lookup addSepRight                           ;
 					   sub   @flat         @figComp'    lookup addSepRight                           ;
@@ -446,15 +431,15 @@
 					   sub   @figSingle    @comma'      lookup addSepRight   @figComp                ;
 					   sub   @figComp      @comma'      lookup addSepRight   @figComp                ;
 					   sub   @figComp      @comma'      lookup addSepRight   @figSingle              ;
-				ignore sub                 @figComp'                         @sepContent             ; # new
-				ignore sub                 @figComp'                         @sep                    ; # new
-					   sub                 @figComp'    lookup addSepRight                           ; # new
-				ignore sub                 @accNoFlat'                       @sepContent             ; # new
-				ignore sub                 @flat'                            @sepContent             ; # new
-				ignore sub                 @accNoFlat'                       @sep                    ; # new
-				ignore sub                 @flat'                            @sep                    ; # new
-					   sub                 @accNoFlat'  lookup addSepRight                           ; # new
-					   sub                 @flat'       lookup addSepRight                           ; # new
+				ignore sub                 @figComp'                         @sepContent             ;
+				ignore sub                 @figComp'                         @sep                    ;
+					   sub                 @figComp'    lookup addSepRight                           ;
+				ignore sub                 @accNoFlat'                       @sepContent             ;
+				ignore sub                 @flat'                            @sepContent             ;
+				ignore sub                 @accNoFlat'                       @sep                    ;
+				ignore sub                 @flat'                            @sep                    ;
+					   sub                 @accNoFlat'  lookup addSepRight                           ;
+					   sub                 @flat'       lookup addSepRight                           ;
 
 				} CALT_addSeparators;
 
@@ -952,8 +937,7 @@
 				sub  @sepPE  @parenContent   @sepParenNoClosingColumn' lookup sepPE  ;
 				sub          @parenContent   @sepParenNoClosingColumn' lookup sepPD  ;
 				sub  @sepPE                  @sepParenNoClosingColumn' lookup sepPE  ;
-				sub                          @sepParenNoClosingColumn' lookup sepPD  ;  # new version
-				# sub                          @sepParenNoClosingColumn' lookup sepPE  ;  # old version: why PE??
+				sub                          @sepParenNoClosingColumn' lookup sepPD  ;
 				} CALT_forwardClosingParenColumn;
 
 
