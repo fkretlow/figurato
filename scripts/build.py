@@ -3,9 +3,9 @@ import fontforge
 def generateWithFeatures(font, fea, name, dest="./redist/"):
     # make sure no old lookups remain
     for l in font.gpos_lookups:
-        f.removeLookup(l)
+        font.removeLookup(l)
     for l in font.gsub_lookups:
-        f.removeLookup(l)
+        font.removeLookup(l)
     font.mergeFeature(fea)
     font.familyname = name
     font.fontname = name
