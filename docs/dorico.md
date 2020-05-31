@@ -4,7 +4,11 @@
 
 ### How to use Figurato in Dorico
 
+As of version 3.5 Dorico supports figured bass natively. Just substitute Figurato for the Figured Bass font style in **Engrave > Font Styles**. If you need to create figures that Dorico cannot yet produce, you can still use the old workarounds described below. Note that Figurato's accidentals are larger than in the default music font Bravura and Dorico cannot yet kern them well, so you’ll need to scale them down in **Engraving Options** for now.
+
 **[If you are using Dorico 1 or 2 on a Mac, please read this!!](FiguratoMac.md)**
+
+#### The old workarounds
 
 It is possible to almost get the impression of a native figured bass feature when you use Figurato with the lyrics popover. In fact, Figurato was specifically developed for this way to use it.
 
