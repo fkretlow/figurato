@@ -9,6 +9,8 @@ def generateWithFeatures(font, fea, name, dest="./redist/"):
     font.mergeFeature(fea)
     font.familyname = name
     font.fontname = name
+    font.appendSFNTName("English (US)", "Family", name)
+    font.appendSFNTName("English (US)", "Fullname", name)
     font.generate(dest + name + ".otf")
 
 
